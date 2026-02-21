@@ -1,0 +1,26 @@
+{
+  "reference": "SC01672951",
+  "subject": "1200032381919",
+  "escalation_level": "",
+  "from": "GETW - Utilita - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200032381919",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "joshwood@utilita.co.uk",
+      "timestamp": "04 Feb 2026 11:47",
+      "content": "Hi, please see below and reply. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nikisusanszki@utilita.co.uk",
+      "timestamp": "03 Dec 2025 11:26",
+      "content": "Hello Team,\nCan you please provide us with 2 back up reads for 22P8230420. Thank you"
+    }
+  ],
+  "communication_id": "1672951",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200032381919",
+  "bucket": "Current"
+}

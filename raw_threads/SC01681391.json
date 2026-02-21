@@ -1,0 +1,20 @@
+{
+  "reference": "SC01681391",
+  "subject": "Estimate initial read",
+  "escalation_level": "First Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "BERM - British Energy - Supplier",
+  "meter_point_number": "1460001827875",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "elena.liberti@fuseenergy.com",
+      "timestamp": "11 Dec 2025 16:23",
+      "content": "Hi team, apologies if this is misdirected but we have a customer from Tomato Energy that is raising a formal complain due to an estimated initial read and resulted in a high bill. Please come back to us with data or direct me to the right team\n\nRead by Tomato: 25,979 kWh (we believe is too low)"
+    }
+  ],
+  "communication_id": "1681391",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1460001827875",
+  "bucket": "Current"
+}

@@ -1,0 +1,122 @@
+{
+  "reference": "SC01691247",
+  "subject": "3980443307",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3980443307",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "17 Feb 2026 11:14",
+      "content": "any update?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "10 Feb 2026 16:06",
+      "content": "Okay sure. Let us know if you have received any confirmation on this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 10:17",
+      "content": "yes will do"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "09 Feb 2026 07:43",
+      "content": "ok we will be waiting kindly keep us posted"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 16:46",
+      "content": "We are still chasing a response for this customer."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "02 Feb 2026 23:41",
+      "content": "Once you receive the meter picture response please inform and share to us so we can validate the details."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 20:05",
+      "content": "still waiting"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "29 Jan 2026 19:35",
+      "content": "Hi, Okay sure. We will wait for your further response and confirmation. Kindly keep us updated."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 14:59",
+      "content": "Hi team, still awaiting response unfortunately"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "26 Jan 2026 21:01",
+      "content": "We will wait for the response from your end regarding meter picture."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "25 Jan 2026 14:06",
+      "content": "Hi team, I have reached out to the customer once again. Will send photo as soon as obtained"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "25 Jan 2026 12:46",
+      "content": "Hi, we will wait for the meter photo to confirm the meter. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "22 Jan 2026 20:44",
+      "content": "Hi team, unfortunately the customer has not provided us with a meter photo. We will chase them up for this."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "22 Jan 2026 15:25",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Maya.Ruidas@edfenergy.com",
+      "timestamp": "08 Jan 2026 10:07",
+      "content": "Hi team, any update meter photo regarding? and you are received meter photo so please kindly provide us.\nRegards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "29 Dec 2025 16:34",
+      "content": "Hi, we will wait for the further response from your end so kindly keep us updated. regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ashcan.askari@fuseenergy.com2026-02-05 16:06:12",
+      "timestamp": "28 Dec 2025 18:20",
+      "content": "Hi team, we have not completed a MEX so we can't provide an ONJOB. We only have 1 MSN - G4P03108201600 on record. We will request a photo of meter from customer to confirm and update once we have confirmation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "23 Dec 2025 12:23",
+      "content": "We received the Alternative flow from your end - 42 for cos date 1st Sep 2025, MSN- G4P03108201600. however we hold two MSN- G4P03108201600 and E6S13362502562 in system, but we have no MEX details or ONJOB. SO please provide ONJOB if there has been MEX , to validate correct MSN used on site for cos date."
+    }
+  ],
+  "communication_id": "1691247",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3980443307",
+  "bucket": "Current"
+}

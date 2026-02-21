@@ -1,0 +1,38 @@
+{
+  "reference": "SC01713094",
+  "subject": "2000024685682",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000024685682",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "22 Jan 2026 16:06",
+      "content": "Hi team,\nWrong flow received from your end, R flow received istead of proposal flow, however your read is acceptable, so kindly send correct flow, so we can send y flow.\nRegards."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "neil.bouguerra@fuseenergy.com",
+      "timestamp": "20 Jan 2026 12:23",
+      "content": "Dispute Inbox Fuse Energy (1).jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "neil.bouguerra@fuseenergy.com",
+      "timestamp": "20 Jan 2026 12:21",
+      "content": "Hi, here is a photo of the electricity readings."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Debdeep.Kayet@edfenergy.com",
+      "timestamp": "15 Jan 2026 11:51",
+      "content": "Hi team kindly issue the d0086 read over the agreed read 10602.0"
+    }
+  ],
+  "communication_id": "1713094",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000024685682",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01744893",
+  "subject": "2200015573850",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200015573850",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Subhajit.Dey@edfenergy.com",
+      "timestamp": "13 Feb 2026 12:08",
+      "content": "Hi team,alternative proposal received ,rejection sent as per that we received cos read-34484.0,,,Identifier: D769362139,196|2200015573850|V|\n197|D13D32818|C|\n198|S|20260128000000|34484.0||0|T|N|,hence we closed the case ,sticking Cos read communication  archived.\nRegards,"
+    }
+  ],
+  "communication_id": "1744893",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200015573850",
+  "bucket": "Current"
+}

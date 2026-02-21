@@ -1,0 +1,32 @@
+{
+  "reference": "SC01740096",
+  "subject": "1100040095090",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "BNRG - Utility Warehouse - Supplier",
+  "meter_point_number": "1100040095090",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "18 Feb 2026 17:08",
+      "content": "Hi team, please respond to the below communication. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "11 Feb 2026 15:19",
+      "content": "Hi team, please note that we hold backups 29/02/2024 D1633 N358 and 30/03/2024 D1835 N395. These are smart meter readings. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "siddharth.shewale@fuseenergy.com",
+      "timestamp": "10 Feb 2026 01:22",
+      "content": "Do you have more information about customer readings? Opening read was R1: 2233 kWh and R2: 0 kWh. We were provided R1: 2463 kWh and R2: 529 kWh."
+    }
+  ],
+  "communication_id": "1740096",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100040095090",
+  "bucket": "Current"
+}

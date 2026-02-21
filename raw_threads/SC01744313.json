@@ -1,0 +1,20 @@
+{
+  "reference": "SC01744313",
+  "subject": "1100021079420",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100021079420",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mausam.Kumari@edfenergy.com",
+      "timestamp": "13 Feb 2026 06:03",
+      "content": "This is Elective HHS Eligible account so sticking with acceptance read-4414.2 close the dispute."
+    }
+  ],
+  "communication_id": "1744313",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100021079420",
+  "bucket": "Current"
+}

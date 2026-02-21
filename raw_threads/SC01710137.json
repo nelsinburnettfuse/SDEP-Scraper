@@ -1,0 +1,68 @@
+{
+  "reference": "SC01710137",
+  "subject": "1618190006",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1618190006",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "17 Feb 2026 12:29",
+      "content": "Hi team, the COS read is missing for the COS date 1st Oct 2025, we hold dot date SM read 529 for the MSN E6S18091722361, kindly validate and do the agreement if you have updated the MSN, backups 26th Sep 2025\u2007\u2007525.4 / 26th Aug 2025\u2007\u2007507.2, regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "10 Feb 2026 18:29",
+      "content": "Hi Team, we do not hold the GT read for this cos date so please share us the Gt read with raw file , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 12:57",
+      "content": "the onjob is being rejected due to not passing tolerance checks please advise"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "09 Feb 2026 12:44",
+      "content": "Hi team,\n\nWe are waiting for your response."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 18:13",
+      "content": "We have sent JOB should update in GES soon."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "02 Feb 2026 18:32",
+      "content": "Hi Team, MTD shared with you so please validate and update from your end , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 19:46",
+      "content": "what is the map id for this meter"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "30 Jan 2026 06:29",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "13 Jan 2026 11:31",
+      "content": "Hi team We have received proposal over wrong MSN, so rejection sent and sharing ONJOB file, kindly validate and response to us. Raw file: \"\"TRANS\"\",\"\"1jd14fckbtme\"\",\"\"\"\",\"\"\"\",\"\"EXCHG\"\",\"\"\"\",\"\"\"\",\"\"\"\",\"\"COMLT\"\",\"\"\"\",\"\"D\"\",,\"\"OAMI\"\",\"\"194483\"\",, \"\"MTPNT\"\",\"\"\"\",1618190006,\"\"\"\",\"\"\"\",\"\"\"\",\"\"\"\",\"\"\"\",1.022640,20241216, \"\"ASSET\"\",\"\"\"\",\"\"REMVE\"\",\"\"METER\"\",\"\"\"\",\"\"\"\",\"\"\"\",\"\"\"\",,\"\"G4A04698490101\"\",\"\"\"\",\"\"\"\",\"\"RE\"\" \"\"REGST\"\",\"\"\"\",\"\"METER\"\",,\"\"\"\", \"\"READG\"\",20241216,0,\"\"36534\"\" \"\"ASSET\"\",\"\"\"\",\"\"INSTL\"\",\"\"METER\"\",\"\"\"\",\"\"CR\"\",\"\"E6VG470\"\",\"\"LPG\"\",2023,\"\"E6S18091722361\"\",\"\"02\"\",\"\"\"\",\"\"LI\"\" \"\"METER\"\",\"\"\"\",\"\"U\"\",\"\"S2\"\",6.0000,\"\"\"\",\"\"\"\",,\"\"S\"\",, \"\"REGST\"\",\"\"\"\",\"\"METER\"\",5,\"\"SCMH\"\",1.000 \"\"READG\"\",20241216,0,\"\"00000\"\" \"\"APPNT\"\",\"\"\"\",20241216,,\"\"\"\",\"\"080000\"\",\"\"160000\"\" Regards. \""
+    }
+  ],
+  "communication_id": "1710137",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1618190006",
+  "bucket": "Current"
+}

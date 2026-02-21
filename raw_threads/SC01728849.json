@@ -1,0 +1,26 @@
+{
+  "reference": "SC01728849",
+  "subject": "MPRN - 2423785506 MX BEFORE SWITCH AWAY",
+  "escalation_level": "",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2423785506",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jaden.januarie@uw.co.uk",
+      "timestamp": "30 Jan 2026 11:28",
+      "content": "\"TRANS\",\"LBOR00001264867\",\"\",\"LBGAELMAM1\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"532806\",,\n\"MTPNT\",\"UPDTE\",2423785506,\"\",\"\",\"03\",\"\",\"Please call customer 30min before arrival on 07950567970. Customer on PSR. Also reposition elec meter at the same time.\",,20251210,\n\"ASSET\",\"UPDTE\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"5195063\",\"03\",\"\",\"RE\"\n\"METER\",\"\",\"\",\"\",,\"\",\"\",20251210,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20251210,,\"00448\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2025,\"E6S11505212562\",\"03\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20251210,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20251210,,\"00000\"\n\"MKPRT\",\"ASSPR\",\"MFG\"\n\"APPNT\",\"\",20251210,20251210,\"\",\"120000\",\"160000\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jaden.januarie@uw.co.uk",
+      "timestamp": "30 Jan 2026 11:27",
+      "content": "Hi Fuse, we carried out an meter exchange on the 10/12/2025 , attempted to update xoserve with upd and was rejected. \n\nMsn removed - 5195063\ncmr - 0448\nmsn installed - E6S11505212562\nomr - 0 \n\nsmart reading from change of supply on Bol - 00131\n\nPlease update xoserve with the new meter details and also update your own systems to omr of reading 00131 to align with smart reads."
+    }
+  ],
+  "communication_id": "1728849",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2423785506",
+  "bucket": "Current"
+}

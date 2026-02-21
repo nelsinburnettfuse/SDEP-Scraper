@@ -1,0 +1,38 @@
+{
+  "reference": "SC01722517",
+  "subject": "Reads for 1300008593678",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1300008593678",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "29 Jan 2026 14:43",
+      "content": "Hi team,\n\nWe do not have the D86 \nRegards"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "alexander.weinerhurriaga@fuseenergy.com",
+      "timestamp": "25 Jan 2026 09:33",
+      "content": "Screenshot 2026-01-25 at 09.32.07.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "alexander.weinerhurriaga@fuseenergy.com",
+      "timestamp": "25 Jan 2026 09:32",
+      "content": "Screenshot 2026-01-25 at 09.31.56.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alexander.weinerhurriaga@fuseenergy.com",
+      "timestamp": "25 Jan 2026 09:32",
+      "content": "Customer cannot withdraw credit from Octopus account due to final reads not agreed.\nGas: 21354\nElectricity: 33870\nImages for the opening reads on the 17th January provided."
+    }
+  ],
+  "communication_id": "1722517",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300008593678",
+  "bucket": "Current"
+}

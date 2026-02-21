@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745934",
+  "subject": "MPRN -927218903",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "927218903",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Vinay.Kumar@ovo.com",
+      "timestamp": "16 Feb 2026 08:34",
+      "content": "Hi, We are unable to raise dispute due to MEX so we are proposing installed read 0 for cos 24 Dec 2025 with MSN-E6F32666682300. Please find ONJOB details-MAM:ECA\nSUP:OVO\nINSTL\nEXCHG-NEWCN-COMLT\nLI\nE6F32666682300\nU-CR-1-5-M\nG4-6UDZV-2\nS2\nFLN\n6\n2023\n23 Dec 2025\n0\nPN380533\n30 Dec 2025, 18:45:54\nMAM:ECA\nSUP:OVO\nREMVE\nEXCHG-NEWCN-COMLT\nLI\nG4KS0126807161\nS-CR-1-5-M\nBK-G4E\nS1\nELM\n6\n2016\n23 Dec 2025\n0\nPN380533\n30 Dec 2025, 18:45:54\nSHIP:OVG. Validate and do the verbal agreement. Thanks"
+    }
+  ],
+  "communication_id": "1745934",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "927218903",
+  "bucket": "Current"
+}

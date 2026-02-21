@@ -1,0 +1,38 @@
+{
+  "reference": "SC01681274",
+  "subject": "2531966300",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2531966300",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "01 Feb 2026 10:09",
+      "content": "Hi team, We have received  proposal 9495   which is within tolerance with our cos read 9507.0, hence sticking to our cos read and closed the dispute.\nRegards\n\"M03\",\"EDSX2531966300X20230914S1\",\"F\",20251021,\"0235688S\",2531966300,,\"N\",1,\"FINT\",\"E\",\"        9507\",4,\"\",,\"\",,\"U\",\"U\",\"U\",\"\",\"I\",1.022640,,1.000,\"0\",\"\",\"256334847\",0,150,\"\",0,\"U6 R5\",\"\",\"CR\",,\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Suman.Adhikari@edfenergy.com",
+      "timestamp": "17 Dec 2025 19:12",
+      "content": "Hi Team,\nWe have yet not received the new proposal flow from your side. Can we do verbal agreement on read 9495 for cos date 21st Oct 2025 for MSN 0235688S. Actual backup is 3rd Oct 2025\t9499.0 & 1st Jul 2025\t9494.0. Please validate and confirm us.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "12 Dec 2025 10:21",
+      "content": "Sent new flow. Please accept."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "11 Dec 2025 15:26",
+      "content": "Hi team,\nWe hold 4 dial meter as per the ONUPD, we have attached it kindly validate.\nRaw file:\n\n\"TRANS\",\"Q8O9EA1FJRFD0DC\",\"\",\"100124001\",\"APPNT\",\"COS\",\"\",\"\",\"\",\"\",\"D\",,\"\",\"\",20230916,\n\"MTPNT\",\"\",2531966300,\"F\",\"LI\",\"\",\"\",\"\",1.022640,,\n\"ADDRS\",\"MTRPT\",\"\",\"\",\"46\",\"\",\"CLARENCE STREET\",\"\",\"\",\"STOKE-ON-TRENT\",\"\",\"ST4 2LA\",,,,\"\"\n\"ASSET\",\"\",\"APPNT\",\"METER\",\"\",\"CR\",\"U6 R5\",\"SCH\",1996,\"0235688S\",\"00\",\"\",\"LI\"\n\"METER\",\"\",\"S\",\"CR\",212.000,\"\",\"\",,\"T\",,\n\"REGST\",\"\",\"METER\",4,\"SCFH\",1.000\nRegards."
+    }
+  ],
+  "communication_id": "1681274",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2531966300",
+  "bucket": "Current"
+}

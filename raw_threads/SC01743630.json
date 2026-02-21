@@ -1,0 +1,20 @@
+{
+  "reference": "SC01743630",
+  "subject": "Missed MEX",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7471098604",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mansi.Dandekar@ovo.com",
+      "timestamp": "12 Feb 2026 12:38",
+      "content": "Hi, we request you to install the MSN E6S22607432161 on the agreed read of 02713 and share a screenshot from Xoserve. This will enable us to raise an RFA to adjust the volume at our end.. Thank you."
+    }
+  ],
+  "communication_id": "1743630",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7471098604",
+  "bucket": "Current"
+}

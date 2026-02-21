@@ -1,0 +1,20 @@
+{
+  "reference": "SC01736526",
+  "subject": "1200035481323",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "OVOE - OVO Energy - Supplier",
+  "meter_point_number": "1200035481323",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "05 Feb 2026 15:17",
+      "content": "Please accept read of 11365 kWh. Back ups of 11601 kWh on 1 Nov and 11816 kWh on 1 Dec"
+    }
+  ],
+  "communication_id": "1736526",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200035481323",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01686634",
+  "subject": "Secondary MPAN",
+  "escalation_level": "First Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "IMPO - SSE Energy Supply - Supplier",
+  "meter_point_number": "2000012375603",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "tracey-leigh.walter@sse.com",
+      "timestamp": "18 Dec 2025 15:38",
+      "content": "Hi, SSE IMPO were the previous supplier. Please raise your request to Distribution (SSE) SOUT who would most likely request D381 to be issued on 2000012375603\n1A POTTERS WALK, HIGH STREET, ROYAL WOOTTON BASSETT, SWINDON, SN4 7AY"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nathan.rees@fuseenergy.com",
+      "timestamp": "17 Dec 2025 17:24",
+      "content": "Hi team, it seems that you have incorrectly assigned the secondary MPAN: 2000012375603 to 5 potters walk which belongs to 1a potters walk. Please can you remove this to only include primary MPAN: 2000012375612. Thanks"
+    }
+  ],
+  "communication_id": "1686634",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000012375603",
+  "bucket": "Current"
+}

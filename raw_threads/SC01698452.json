@@ -1,0 +1,50 @@
+{
+  "reference": "SC01698452",
+  "subject": "2200031879834",
+  "escalation_level": "Final Escalation",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200031879834",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "14 Jan 2026 14:33",
+      "content": "thank you.\n\nbest regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "14 Jan 2026 14:12",
+      "content": "Thanks or these, we will use them to get the D86 issued."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vittorio@fuseenergy.com",
+      "timestamp": "09 Jan 2026 17:24",
+      "content": "Hi team, we have remote reads from customer's smart meter:\n- 8801 kWh on 14th Sept\n- 8785 kWh on 13th Sept\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "09 Jan 2026 09:02",
+      "content": "Hi, please can we have a response. Thanks"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "09 Jan 2026 09:01",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "02 Jan 2026 12:27",
+      "content": "Hi, please can we have a response to the SDEP SC01634103 requesting any actual reads you can share from before the COS. Thanks"
+    }
+  ],
+  "communication_id": "1698452",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200031879834",
+  "bucket": "Archived"
+}

@@ -1,0 +1,38 @@
+{
+  "reference": "SC01750624",
+  "subject": "Missing COS",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900012336444",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 09:26",
+      "content": "Hi Team, we have accepted your propose read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonny.midwinter-turner@octoenergy.com",
+      "timestamp": "20 Feb 2026 07:49",
+      "content": "Hi team,\n\nWe did send over back up readings in the D300 but please see below readings we have that back up our proposal : 36489 22nd Aug 2025 36349 for 24th July 2025 36190 for 21st June 2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rajushaan.kirubakaran@fuseenergy.com",
+      "timestamp": "19 Feb 2026 16:17",
+      "content": "This reading is much lower do you have other reads to back this up"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zama.mbhele@octoenergy.com",
+      "timestamp": "19 Feb 2026 10:35",
+      "content": "Hi,\nWe sent a proposal on the 9th of February providing backup reading however failed to receive any feedback.\nPleased advise if you accept our proposal or require more information.\nRegards,\nNaren"
+    }
+  ],
+  "communication_id": "1750624",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900012336444",
+  "bucket": "Archived"
+}

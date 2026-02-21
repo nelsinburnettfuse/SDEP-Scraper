@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1700052568936",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEOctopus Energy - SupplierMRCYea15ddd4-792f-48e3-92df-cf126217a822.jpgnermina.huricbicer@octoenergy.com20 Feb 2026 12:40Hi team,\nThe current D86 reading that we hold is 4433.6, so we have raised a dispute with Cor on Cos proposal of 3116.0, supported by the final MEX meter reading of 3543.0. Please see the attached photo. Please send Y flow. Thanks,nermina.huricbicer@octoenergy.com20 Feb 2026 12:40Hi team, we received a opening read from your of 3116, is this an actual reading from the customer? Thank you.isha.pawar@fuseenergy.com19 Feb 2026 14:57"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEOctopus Energy - SupplierMRCYea15ddd4-792f-48e3-92df-cf126217a822.jpgnermina.huricbicer@octoenergy.com20 Feb 2026 12:40Hi team,\nThe current D86 reading that we hold is 4433.6, so we have raised a dispute with Cor on Cos proposal of 3116.0, supported by the final MEX meter reading of 3543.0. Please see the attached photo. Please send Y flow. Thanks,nermina.huricbicer@octoenergy.com20 Feb 2026 12:40Hi team, we received a opening read from your of 3116, is this an actual reading from the customer? Thank you.isha.pawar@fuseenergy.com19 Feb 2026 14:57"
+    }
+  ],
+  "communication_id": "1751264",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1700052568936"
+}

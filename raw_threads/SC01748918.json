@@ -1,0 +1,20 @@
+{
+  "reference": "SC01748918",
+  "subject": "ET response escalation",
+  "escalation_level": "First Escalation",
+  "from": "SPOW - ScottishPower - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3200000558427",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jvaron@scottishpower.com",
+      "timestamp": "18 Feb 2026 08:57",
+      "content": "Please see the below MPXN that we have previously sent an ET request for, but we have not received a valid response yet. Please respond as soon as possible to prevent further escalation. We do not require an acknowledgement via SDEP that flow has been sent as we will receive it directly on our system."
+    }
+  ],
+  "communication_id": "1748918",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "3200000558427",
+  "bucket": "Current"
+}

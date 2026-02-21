@@ -1,0 +1,32 @@
+{
+  "reference": "SC01704359",
+  "subject": "MPAN: 1610031956932",
+  "escalation_level": "First Escalation",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1610031956932",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "07 Jan 2026 09:59",
+      "content": "Hi, I've just requested to our DC to have a new D86 issued. We will update you once received."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "07 Jan 2026 09:49",
+      "content": "Hi team, I have reissued that D86 with the correct MSN now, please accept."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "libby.partridge@octopus.energy",
+      "timestamp": "07 Jan 2026 09:28",
+      "content": "Hi Team, \nThe D86 received does not match the MSN, would you be able to re-send the correct D86? Proposed read 8918.0 MSN: 21E5229541\nBest wishes, Octopus Energy"
+    }
+  ],
+  "communication_id": "1704359",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610031956932",
+  "bucket": "Current"
+}

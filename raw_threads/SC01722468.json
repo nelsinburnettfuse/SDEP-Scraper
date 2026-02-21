@@ -1,0 +1,26 @@
+{
+  "reference": "SC01722468",
+  "subject": "7876370109 - MTD update",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "7876370109",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Deepshikha.Bhat@centrica.com",
+      "timestamp": "05 Feb 2026 08:23",
+      "content": "Hi\nWe are not the suppliers for the given MPRN.\nPlease check Xo-serve.\n\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "24 Jan 2026 16:14",
+      "content": "Dear team, please update customer MTD details on national database please for MPRN: 7876370109. \nDetails currently blank on GES and customer supplied by us with electricity wanting to switch for gas. \nCustomer has sent photos confirming details have not been updated post meter exchange. \nPlease update asap."
+    }
+  ],
+  "communication_id": "1722468",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7876370109",
+  "bucket": "Current"
+}

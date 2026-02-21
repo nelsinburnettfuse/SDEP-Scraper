@@ -1,0 +1,26 @@
+{
+  "reference": "SC01736836",
+  "subject": "1591038329545",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1591038329545",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Subhajit.Dey@edfenergy.com",
+      "timestamp": "12 Feb 2026 16:16",
+      "content": "Hi team, in this account ,proposal received your end ,proposal raed-62160.0,cos date-20th Jan 2026,rejection sent our end ,comment-The Cos read values in this flow are not correct.\" ,hence we closed the case sticking cos read ,because cos read and proposal read are same ,so we sticking our cos read .Archived.\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dhruv.Jha@edfenergy.com",
+      "timestamp": "05 Feb 2026 21:35",
+      "content": "Hi team , we received a proposal  62160.0 without cos read , so rejection sent , but our cos read is similer as proposed read d86 flat file share , kindly check and validate. Raw file:\n\n196|1591038329545|V|\n197|D03L86781|A|\n198|A1|20260120000000|62160.0||0|T|N|regards"
+    }
+  ],
+  "communication_id": "1736836",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1591038329545",
+  "bucket": "Current"
+}

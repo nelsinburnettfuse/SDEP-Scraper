@@ -1,0 +1,68 @@
+{
+  "reference": "SC01722538",
+  "subject": "7617155609",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "7617155609",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "laura.hariton@octoenergy.com",
+      "timestamp": "02 Feb 2026 15:54",
+      "content": "Hi team , it appears this is a SMETS register issue as we were receiving different smart reads from the same meter . Would you be willing to DMEX the account ? we have multiple validated highier reads so a DMEX would be needed anyway as we cannot replace them all ,  Kind Regards,\nLaura"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "29 Jan 2026 14:08",
+      "content": "Screenshot 2026-01-29 at 2.06.28?pm.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "29 Jan 2026 14:07",
+      "content": "Please find backup read as well on 05/01/26"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "29 Jan 2026 14:00",
+      "content": "Hi team, we have incorectly sent Y flow. Our evidence is an actual read of the meter. Yours is just a screenshot of your backend. Please accept dispute before escalation"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "28 Jan 2026 17:18",
+      "content": "Screenshot 2026-01-28 at 17.18.25.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "28 Jan 2026 17:18",
+      "content": "Hello, we wish to stick to GT read as per backups"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "26 Jan 2026 21:24",
+      "content": "Hi team, following up here"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "25 Jan 2026 21:07",
+      "content": "d224cf69-7e11-4df5-be3c-68112e19454d.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "25 Jan 2026 21:07",
+      "content": "Please accept our opening read of 1163. Photo attached."
+    }
+  ],
+  "communication_id": "1722538",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7617155609",
+  "bucket": "Current"
+}

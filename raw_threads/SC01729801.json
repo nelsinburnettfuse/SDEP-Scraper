@@ -1,0 +1,26 @@
+{
+  "reference": "SC01729801",
+  "subject": "2500020714960",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "2500020714960",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "kiegan.mantta@octoenergy.com",
+      "timestamp": "05 Feb 2026 16:16",
+      "content": "Hi team, We're enquiring about ESME 00-1D-24-02-01-18-FF-BA. It is attached to your MPAN 2500020714757 when we supply the meter. Do you have a meter supplied by us for MPAN 2500020714960?\n\nHello, the ESME 00-1D-24-02-01-18-FF-BA is on our mpan but for the electricity meter 20M1199983. Please raise a CMC case to have this investigated further"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "malintha.batage@fuseenergy.com",
+      "timestamp": "31 Jan 2026 17:12",
+      "content": "Hi team,\n\nWe're enquiring about ESME 00-1D-24-02-01-18-FF-BA. It is attached to your MPAN 2500020714757 when we supply the meter. Do you have a meter supplied by us for MPAN 2500020714960?"
+    }
+  ],
+  "communication_id": "1729801",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2500020714960",
+  "bucket": "Current"
+}

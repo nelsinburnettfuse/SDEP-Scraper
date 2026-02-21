@@ -1,0 +1,20 @@
+{
+  "reference": "SC01738356",
+  "subject": "2198765278132",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "OVOE - OVO Energy - Supplier",
+  "meter_point_number": "2198765278132",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "benjamin.roth@fuseenergy.com",
+      "timestamp": "07 Feb 2026 19:07",
+      "content": "Hi team,\n\nWe don't have an opening read for this customer.\n\nDo you please happen to have a closing read close to their switch date (31/12/25)?\n\nThanks"
+    }
+  ],
+  "communication_id": "1738356",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2198765278132",
+  "bucket": "Current"
+}

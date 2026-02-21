@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1200060989010",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)E.ON - SupplierEONDFuse Energy Supply - SupplierFUSEHello, we've been made aware of possibly multiple crossed meter issues for the meters on the 4th Floor at Ceram Court, 10 Sevensea Gardens, London E3 3GW. Please can you advise your customer that we will be carrying out a site visit on 11th March 2026 between 8am and 12pm to confirm which meters are supplying which Flats. If they aren't available for this visit, please kindly ask that they carry out their own loads test to confirm which meter is supplying them. Many Thanks, HayleyHayley.McMenemy@eonnext.com20 Feb 2026 15:30"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "E.ON - SupplierEONDFuse Energy Supply - SupplierFUSEHello, we've been made aware of possibly multiple crossed meter issues for the meters on the 4th Floor at Ceram Court, 10 Sevensea Gardens, London E3 3GW. Please can you advise your customer that we will be carrying out a site visit on 11th March 2026 between 8am and 12pm to confirm which meters are supplying which Flats. If they aren't available for this visit, please kindly ask that they carry out their own loads test to confirm which meter is supplying them. Many Thanks, HayleyHayley.McMenemy@eonnext.com20 Feb 2026 15:30"
+    }
+  ],
+  "communication_id": "1752900",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200060989010"
+}

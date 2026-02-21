@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750103",
+  "subject": "603467006",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "603467006",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "18 Feb 2026 17:38",
+      "content": "Hi team,\nWe have received Y flow from your end whihc is for incorrect MSN- 974 as this MSN is Deactivated 2nd Oct 2025, kindly find the attached ONJOB.\nRaw file:\n\n\"TRANS\",\"603335\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",603467006,\"\",\"\",\"32\",\"\",\"\",1.022640,20251002,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"974\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20251002,0,\"1356\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS68B\",\"EDM\",2025,\"E6E17187492543\",\"32\",\"NTM\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20251002,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20251002,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20251002,20251002,\"\",\"080000\",\"120000\"\nRegards."
+    }
+  ],
+  "communication_id": "1750103",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "603467006",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01752734",
+  "subject": "711942900",
+  "escalation_level": "First Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "711942900",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "20 Feb 2026 14:14",
+      "content": "Hi team, kindly respond to our SAR flow sent on 16-01-2026. Original Close Read - 17217; Proposed Close Read - 17570. Backup Read 1: 16817, 18-01-2025; Backup Read 2: 17459, 03-09-2025. Regards, the UW Team."
+    }
+  ],
+  "communication_id": "1752734",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "711942900",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01752980",
+  "subject": "Loss dispute",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2600003689740",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Priya.Patel@octoenergy.com",
+      "timestamp": "20 Feb 2026 16:17",
+      "content": "Hi for loss ssd 7th Jan 2026 we have smart read 5825.9 can we agree to this read as we have smart read back ups 5778.4 on 06/01/2026 and 6th Dec 2025 4647.1 and 16th Dec 2025- 4956.2. Please get back ?"
+    }
+  ],
+  "communication_id": "1752980",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2600003689740",
+  "bucket": "Current"
+}

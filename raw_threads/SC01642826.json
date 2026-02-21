@@ -1,0 +1,146 @@
+{
+  "reference": "SC01642826",
+  "subject": "Awaiting response",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9104253108",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "bharti.bharti@ovo.com",
+      "timestamp": "19 Feb 2026 12:10",
+      "content": "Hi Team, any update please response we will wait for your response. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "12 Feb 2026 08:46",
+      "content": "Hi team, ok we will wait for your next response, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 19:27",
+      "content": "Seems like ONJOB was never recorded in GES. We will send and wait for Xoserve to update."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 15:51",
+      "content": "thank you. we are still awaiting a response."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "05 Feb 2026 10:15",
+      "content": "Hi, ok we will wait for your response regarding meter photo. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "29 Jan 2026 08:58",
+      "content": "Hi team, we hold remote read 538.683 m3 on SSD. We would only be able to propose this value. We have reached out to customer for meter photo to confirm msn."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "29 Jan 2026 07:44",
+      "content": "Hi, we have no ONJOB details. we have already attached you CSR so please you verbally agree our proposal or provide us meter photo. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "23 Jan 2026 13:54",
+      "content": "Hi team, we hold different MSN. appears mex was not registered. please send mtds so we can update and proceed with resolving COS read"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "22 Jan 2026 07:33",
+      "content": "Screenshot_22-1-2026_13145_prod.oot.ovotech.org.uk.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "22 Jan 2026 07:33",
+      "content": "Hi, please see attached attachment of CSR. so please see and sent verbal acceptance our proposal with new MSN or provide us meter photo or can we close the dispute own read. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "15 Jan 2026 09:24",
+      "content": "Hi team, please share photo of customer submitted read - we do not see any attachments."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "15 Jan 2026 08:43",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "15 Jan 2026 08:43",
+      "content": "Hi, we have not received any response from your side so please response on our below communication. If we do not receive a response within a week, we will look to resolve this dispute internally and inform the customer that we have been unable to reach an agreement with yourselves. Thanks, The OVO Energy Team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "06 Jan 2026 09:31",
+      "content": "Hi, please response on our below communication. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "30 Dec 2025 10:35",
+      "content": "Hi, we have no photo, but we hold CSR please see attached \n30/08/2025\n\nE6E13148372423\t534\tCustomerSubmittedReading\t30/08/2025 17:49\n04/07/2025\n\nE6E13148372423\t529\tCustomerSubmittedReading\t04/07/2025 23:24\n18/05/2025\n\nE6E13148372423\t524\tCustomerSubmittedReading\t18/05/2025 18:48\n03/05/2025\n\nE6E13148372423\t523\tCustomerSubmittedReading\t03/05/2025 02:46\nso please you verbally agree our proposal, or can we close the dispute own read? please response. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "24 Dec 2025 23:10",
+      "content": "Hi team, we hold MSN G4P10440351700 but do not have a photo. Do you have a photo of the MSN on your end?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "23 Dec 2025 12:30",
+      "content": "Hi, please response on our below communication. Our MRH showing different MSN so can you please provide meter picture or verbally agree our proposal with MSN- E6E13148372423. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vinay.Kumar@ovo.com",
+      "timestamp": "10 Dec 2025 11:36",
+      "content": "Hi, Our MRH showing different MSN so can you please provide meter picture. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Dec 2025 19:47",
+      "content": "we hold msn G4P10440351700"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "03 Dec 2025 12:59",
+      "content": "Hi, apologies we have raised dispute incorrect MSN we hold MSN- \tE6E13148372423. so please you verbally agree our proposal. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nathan.rees@fuseenergy.com",
+      "timestamp": "23 Nov 2025 20:59",
+      "content": "Hi team, accepted on 13/11/25. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Anchal.Anchal@ovo.com",
+      "timestamp": "04 Nov 2025 08:01",
+      "content": "Good day, We sent a dispute Proposing estimated reading 536 backed by 529.0 2025/07/04 and 534.0 2025/08/30 but have yet to receive a response. Please can you take a look and respond to our proposal. Thanks!"
+    }
+  ],
+  "communication_id": "1642826",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9104253108",
+  "bucket": "Current"
+}

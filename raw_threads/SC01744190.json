@@ -1,0 +1,20 @@
+{
+  "reference": "SC01744190",
+  "subject": "1012688275454",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012688275454",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mausam.Kumari@edfenergy.com",
+      "timestamp": "12 Feb 2026 18:30",
+      "content": "This is Elective HHS Eligible account so sticking with acceptance read -9603.2,COS DATE-6th Jan 2026,close the dispute."
+    }
+  ],
+  "communication_id": "1744190",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012688275454",
+  "bucket": "Current"
+}

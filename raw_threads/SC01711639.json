@@ -1,0 +1,26 @@
+{
+  "reference": "SC01711639",
+  "subject": "Erroneous transfer",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "2700010115870",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sophie.merciawhite@octoenergy.com",
+      "timestamp": "14 Jan 2026 13:38",
+      "content": "We'll look into this, thank you!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "14 Jan 2026 11:52",
+      "content": "Contacting to see if MRCY will internally change addresses of this ET case and resolve billing before informing customers of correct meter and allowing switch out for 14 Tile Twist Av (which is registered with the meter of 16 Tile Twist Av)\n\nPlease advise"
+    }
+  ],
+  "communication_id": "1711639",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2700010115870",
+  "bucket": "Current"
+}

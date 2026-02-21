@@ -1,0 +1,38 @@
+{
+  "reference": "SC01722739",
+  "subject": "Missing Loss D86  escalation - SC01696123",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200022337781",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "trevor@fuseenergy.com",
+      "timestamp": "10 Feb 2026 12:15",
+      "content": "Hello,\n\nPlease find the flat file below:\n\n196|1200022337781|V| 197|Z12N144904|C| 198|1|20250902000000|32227.0|||T|N|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "contract_manager@octoenergy.com",
+      "timestamp": "10 Feb 2026 10:25",
+      "content": "email escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "contract_manager@octoenergy.com",
+      "timestamp": "03 Feb 2026 09:15",
+      "content": "Morning please can I get a response if you have the flat file I can accept that"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "contract_manager@octoenergy.com",
+      "timestamp": "26 Jan 2026 09:46",
+      "content": "Morning,   We accepted a dispute on the 20/10/2025 for SED 2/9/2025, but haven't yet had any D86, can you send it over or provide the flat file please."
+    }
+  ],
+  "communication_id": "1722739",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200022337781",
+  "bucket": "Current"
+}

@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "607214603",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURHi Team, we have sent a 6744 and agreed on this readmahdi.mohamed@fuseenergy.com20 Feb 2026 10:58Proposal read-6744,alternative sent our end ,proposal read-7015 ,backup-20250519 6922.0 20250510 6916.0 ,cos date-7th Oct 2025. Kindly validate and respond to us at the earliest.Shubhodeep.Basu@edfenergy.com20 Feb 2026 00:30Communication escalated to:Final EscalationShubhodeep.Basu@edfenergy.com20 Feb 2026 00:29Hi team,proposal received proposal read-6744,alternative sent our end ,proposal read-7015 ,backup-20250519 6922.0 20250510 6916.0 ,cos date-7th Oct 2025,as per now new proposal received same as ptreviously mentioned comment-BU 01/12/25: 6922 Cust sent photo of read\",we sent alternative comment-Kindly provide us meter photo\",rejection received your end comment- Please agree on the read\",hence kindly validate and response on it . Regards,Shraboni.Sarkar@edfenergy.com06 Feb 2026 14:32"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURHi Team, we have sent a 6744 and agreed on this readmahdi.mohamed@fuseenergy.com20 Feb 2026 10:58Proposal read-6744,alternative sent our end ,proposal read-7015 ,backup-20250519 6922.0 20250510 6916.0 ,cos date-7th Oct 2025. Kindly validate and respond to us at the earliest.Shubhodeep.Basu@edfenergy.com20 Feb 2026 00:30Communication escalated to:Final EscalationShubhodeep.Basu@edfenergy.com20 Feb 2026 00:29Hi team,proposal received proposal read-6744,alternative sent our end ,proposal read-7015 ,backup-20250519 6922.0 20250510 6916.0 ,cos date-7th Oct 2025,as per now new proposal received same as ptreviously mentioned comment-BU 01/12/25: 6922 Cust sent photo of read\",we sent alternative comment-Kindly provide us meter photo\",rejection received your end comment- Please agree on the read\",hence kindly validate and response on it . Regards,Shraboni.Sarkar@edfenergy.com06 Feb 2026 14:32"
+    }
+  ],
+  "communication_id": "1737829",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "607214603"
+}

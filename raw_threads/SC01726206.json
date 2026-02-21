@@ -1,0 +1,26 @@
+{
+  "reference": "SC01726206",
+  "subject": "Erroneous Transfer",
+  "escalation_level": "First Escalation",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "537742505",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Prerna.Kadam@centrica.com",
+      "timestamp": "07 Feb 2026 12:37",
+      "content": "Hi team, you will have to raise an et so that the supply is back to selves, kindly do the needful and we will investigate the same"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harry.hammick@fuseenergy.com",
+      "timestamp": "28 Jan 2026 14:40",
+      "content": "Hi, please transfer customer's gas supply back to Fuse, this is at customer's request and they have contacted you today."
+    }
+  ],
+  "communication_id": "1726206",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "537742505",
+  "bucket": "Current"
+}

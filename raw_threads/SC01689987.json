@@ -1,0 +1,38 @@
+{
+  "reference": "SC01689987",
+  "subject": "7741047500",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "AEL - Utility Warehouse - Supplier",
+  "meter_point_number": "7741047500",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "23 Jan 2026 10:18",
+      "content": "Thanks!"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "bcockett@utilitywarehouse.co.uk",
+      "timestamp": "23 Dec 2025 10:01",
+      "content": "A - XOSERVE 23-12-2025 004.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bcockett@utilitywarehouse.co.uk",
+      "timestamp": "23 Dec 2025 10:01",
+      "content": "hi team attaching Xoserve snip - MSN E6E03000141907 - installed 25/03/2022 on zero - GT read 9085 is in line with Actual 9046 on 24/10/2025. Hope that helps?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "faraz.zaman@fuseenergy.com",
+      "timestamp": "22 Dec 2025 12:17",
+      "content": "Hi Team, \n\nCan you please share the back up reads for the MPRN 7741047500 as we have no reads since they switched in with us"
+    }
+  ],
+  "communication_id": "1689987",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7741047500",
+  "bucket": "Current"
+}

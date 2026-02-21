@@ -1,0 +1,26 @@
+{
+  "reference": "SC01694850",
+  "subject": "2199993886240",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Saikat.Chatterjee@edfenergy.com",
+      "timestamp": "04 Jan 2026 09:14",
+      "content": "HI team, D0086 read issued over the cos date 03.11.2025,\n196|2199993886240|V|\n197|24L3249493|R|\n198|1|20251104000000|4651.7||0|T|N|, regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "29 Dec 2025 14:34",
+      "content": "Hi team,\n\nCustomer with mpan: 2199993886240, got in touch with us regarding us not sending you the opening read. D86 issued on 07/11/2025. Can you update accordingly?\n\nBest,\n\nAnna"
+    }
+  ],
+  "communication_id": "1694850",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

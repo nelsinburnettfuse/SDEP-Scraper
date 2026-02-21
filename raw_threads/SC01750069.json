@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750069",
+  "subject": "Read dispute",
+  "escalation_level": "First Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200042232065",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "shankar.mehta@ovo.com",
+      "timestamp": "18 Feb 2026 16:46",
+      "content": "HI Team, we accepted proposal read of 13852 but still we did not get revised D0086 of this read so kindly chase your DC for revised D0086 and send to us so that we can close the account. Thanks"
+    }
+  ],
+  "communication_id": "1750069",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200042232065",
+  "bucket": "Current"
+}

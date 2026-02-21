@@ -1,0 +1,38 @@
+{
+  "reference": "SC01739803",
+  "subject": "1300004455111",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1300004455111",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "lauren.brace@octoenergy.com",
+      "timestamp": "09 Feb 2026 15:50",
+      "content": "Hello, we hold customer reads of Day: 22101 / Night: 22119 on 2nd Feb 2026, Day: 21976 / Night: 22001 on 24th Jan 2026, Day: 19820 / Night: 19834 on 10th July 2025. Kind regards,"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "siddharth.shewale@fuseenergy.com",
+      "timestamp": "09 Feb 2026 15:38",
+      "content": "Screenshot 2026-02-09 at 15.38.09.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "siddharth.shewale@fuseenergy.com",
+      "timestamp": "09 Feb 2026 15:38",
+      "content": "Screenshot 2026-02-09 at 15.37.59.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "siddharth.shewale@fuseenergy.com",
+      "timestamp": "09 Feb 2026 15:38",
+      "content": "Can you confirm back up readings for your D0311 of R1: 21976 kWh and R2: 22001?"
+    }
+  ],
+  "communication_id": "1739803",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300004455111",
+  "bucket": "Current"
+}

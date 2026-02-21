@@ -1,0 +1,32 @@
+{
+  "reference": "SC01736180",
+  "subject": "MPAN 1012647950700",
+  "escalation_level": "Final Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012647950700",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "Rinki.Rinki@ovo.com",
+      "timestamp": "20 Feb 2026 10:44",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Rinki.Rinki@ovo.com",
+      "timestamp": "20 Feb 2026 10:44",
+      "content": "Hi Team kindly response on our below communication.Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Devender.Kumar@ovoenergy.com",
+      "timestamp": "05 Feb 2026 12:25",
+      "content": "Hi team, please provide the revised valid d86 for the agreed read 118236/ 36163 or the raw file for it. thanks"
+    }
+  ],
+  "communication_id": "1736180",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012647950700",
+  "bucket": "Current"
+}

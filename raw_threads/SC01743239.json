@@ -1,0 +1,26 @@
+{
+  "reference": "SC01743239",
+  "subject": "Revised URN",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4212657005",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Haldavanekar@ovoenergy.com",
+      "timestamp": "20 Feb 2026 13:12",
+      "content": "Hi, Request to send the revised URN for agreed COS Read 06101 dated 07/10/2025 as Xoserve is showing high consumption at our end. Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Haldavanekar@ovoenergy.com",
+      "timestamp": "12 Feb 2026 10:12",
+      "content": "Hi, Request to send the revised URN for agreed COS Read 06101 dated 07/10/2025 as \nXoserve is showing high consumption at our end. Thanks."
+    }
+  ],
+  "communication_id": "1743239",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4212657005",
+  "bucket": "Current"
+}

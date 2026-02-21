@@ -1,0 +1,26 @@
+{
+  "reference": "SC01732433",
+  "subject": "Disputed opening read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "2058609501",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "michael.kelly@eonnext.com",
+      "timestamp": "11 Feb 2026 11:49",
+      "content": "Hi, we have now sent agreement. Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harry.hammick@fuseenergy.com",
+      "timestamp": "02 Feb 2026 16:05",
+      "content": "Hi, please see active dispute relating to this MPRN - cust awaiting resolution"
+    }
+  ],
+  "communication_id": "1732433",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2058609501",
+  "bucket": "Current"
+}

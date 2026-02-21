@@ -1,0 +1,26 @@
+{
+  "reference": "SC01734167",
+  "subject": "1200061561340 - dispute",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1200061561340",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jonny.midwinter-turner@octoenergy.com",
+      "timestamp": "04 Feb 2026 08:06",
+      "content": "Hi team, \n\nAs we are not billing the customer as it was an ET gain on our side I would advise to resolve internally on your side. \n\nArchieving the thread."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "04 Feb 2026 01:17",
+      "content": "Hey team! Quite an old one but I see we have a dispute for said customer with the value of 33036.197 kWh for 27/02 but this is actually the read we used for 29/01 (we were the supplier before and after the short period with you.)\nWe are now using 33479.3 kWh as originally suggested for 27/02 if you want to adjust your records. Coming up to the 12 month mark now though!"
+    }
+  ],
+  "communication_id": "1734167",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200061561340",
+  "bucket": "Current"
+}

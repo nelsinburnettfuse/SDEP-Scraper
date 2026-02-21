@@ -1,0 +1,38 @@
+{
+  "reference": "SC01735762",
+  "subject": "2199995552810",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2199995552810",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ellis.Nesbitt2@edfenergy.com",
+      "timestamp": "12 Feb 2026 09:24",
+      "content": "Hey, Please cancel the ET customer wishes to cancel the ET. Cheers"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ellis.Nesbitt2@edfenergy.com",
+      "timestamp": "09 Feb 2026 10:20",
+      "content": "can this please be actioned today to prevent this for becoming a bigger problem. Cheers"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ellis.Nesbitt2@edfenergy.com",
+      "timestamp": "05 Feb 2026 09:47",
+      "content": "also for the gas as well, please object to them taking so we can take the supplies back as per ET agreement"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ellis.Nesbitt2@edfenergy.com",
+      "timestamp": "05 Feb 2026 09:45",
+      "content": "hey, can you stop SPAL from taking this from you please we have sent ET agreement and are trying to regain the supply. Cheers"
+    }
+  ],
+  "communication_id": "1735762",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2199995552810",
+  "bucket": "Current"
+}

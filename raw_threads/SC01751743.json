@@ -1,0 +1,20 @@
+{
+  "reference": "SC01751743",
+  "subject": "Seeking Response",
+  "escalation_level": "First Escalation",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7426107102",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "20 Feb 2026 07:35",
+      "content": "Hi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups."
+    }
+  ],
+  "communication_id": "1751743",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7426107102",
+  "bucket": "Current"
+}

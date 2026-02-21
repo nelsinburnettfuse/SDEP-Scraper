@@ -1,0 +1,32 @@
+{
+  "reference": "SC01749165",
+  "subject": "Outstanding dispute",
+  "escalation_level": "First Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4269197209",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "klee@uw.co.uk",
+      "timestamp": "18 Feb 2026 10:45",
+      "content": "Please ignore the below, we have now found the Y flow, thanks. Archived. \n\n\"SAR\",\"FUR\",\"020 3951 1052\",155527,4269197209,\"E6S11751722462\",\"79 Fosse Close\",\"GL7 1TD\",20260102,164,\"E\",\"B\",663,\"E\",4,\"Y\",\"AEL\",\"M Courtney\",\"00\",\"Based on 1 16-02-2025 649 29-12-2025\""
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "klee@uw.co.uk",
+      "timestamp": "18 Feb 2026 10:42",
+      "content": "Screenshot 2026-02-18 104104.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "klee@uw.co.uk",
+      "timestamp": "18 Feb 2026 10:42",
+      "content": "Hi, we received your proposal 710 but the read is too high. Please agree our original proposal 663 Based on 1 16-02-2025 + 649 29-12-2025 (photo attached) Thanks."
+    }
+  ],
+  "communication_id": "1749165",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4269197209",
+  "bucket": "Current"
+}

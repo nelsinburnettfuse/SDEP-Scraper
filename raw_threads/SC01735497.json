@@ -1,0 +1,20 @@
+{
+  "reference": "SC01735497",
+  "subject": "Seeking Response",
+  "escalation_level": "First Escalation",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "522062709",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "05 Feb 2026 06:57",
+      "content": "Working on SDEP Chase, sent the first escalation for the MPxN : xxx\nTo chase response on our initiation _ SDEP REF ID: xxx created."
+    }
+  ],
+  "communication_id": "1735497",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "522062709",
+  "bucket": "Current"
+}

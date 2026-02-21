@@ -1,0 +1,44 @@
+{
+  "reference": "SC01711733",
+  "subject": "1610006064033",
+  "escalation_level": "Final Escalation",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1610006064033",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "17 Feb 2026 12:23",
+      "content": "Hi team, providing you D0149 flat file, kindly validate the D0149 flat file, \n280|1610006064033|20150509|\n281|0151|20080331|\n778|00043|\n283|D09W710744|\n284|N|1|\n778|00210|\n283|D09W710744|\n284|L|1|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Souri.Dutta@edfenergy.com",
+      "timestamp": "09 Feb 2026 06:11",
+      "content": "Hi, here is the D0150 raw file 288|1610006064033|20150509||E|\n289|0151|20080331|||\n290|D09W710744|||100|F|Ampy 5254E|ESML|||||||||||N|20150509|20090822|20290822|||H|20150509|\n293|L|C|AI|1.00||5|||\n293|N|C|AI|1.00||5||| and the TPR 00043 is day and TPR 210 Night"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 15:59",
+      "content": "We hold the registers switched. Could you please confirm that your registers are in the correct order?"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Neha.Chauhan@edfenergy.com",
+      "timestamp": "04 Feb 2026 17:34",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Souri.Dutta@edfenergy.com",
+      "timestamp": "14 Jan 2026 12:24",
+      "content": "Hi team we sent proposal but got rejection with the code The CoS read values in this flow are not correct.sharing the raw file 196|1610006064033|V| 197|D09W710744|D| 198|L|20251101000000|32659.3||0|T|N| 198|N|20251101000000|36185.2||0|T|N| could you please validate and let us know whether we can agree verbelly or not.Regards Reference: SC01689900 we have not received any response hence archived the chat"
+    }
+  ],
+  "communication_id": "1711733",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610006064033",
+  "bucket": "Current"
+}

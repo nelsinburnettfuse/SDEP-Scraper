@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745862",
+  "subject": "8896452008",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "8896452008",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Sneha.Prakash@edfenergy.com",
+      "timestamp": "16 Feb 2026 07:35",
+      "content": "Hi team, we hold cos read for old MSN which was Deactivated on 3rd Nov 2025, for cos date 1st Jan 2026 we hold MSN E6E17102782523 as we don't hold any actual backup so kindly share us backup or meter picture.Regards."
+    }
+  ],
+  "communication_id": "1745862",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "8896452008",
+  "bucket": "Current"
+}

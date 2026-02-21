@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1012422199263",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi Team, we have accepted the CoS reading 96478 kWh for MSN: S65E021725 on 23rd December 2025.aromal.jawaharlal@fuseenergy.com18 Feb 2026 16:47Hi, we are still waiting for the revised cos read on the agreed read. RegardsNeha.Dey@edfenergy.com18 Feb 2026 16:19Hi team,\nWe are waiting for your response, kindly issue cos read over agreed read.\nRegards.Monika.Singh@edfenergy.com07 Feb 2026 16:22Hi team, please issue COS read as 96478.0 for MSN S65E021725 & COS date 23rd Dec 2025. Regards,Partha.Deb@edfenergy.com29 Jan 2026 10:47"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi Team, we have accepted the CoS reading 96478 kWh for MSN: S65E021725 on 23rd December 2025.aromal.jawaharlal@fuseenergy.com18 Feb 2026 16:47Hi, we are still waiting for the revised cos read on the agreed read. RegardsNeha.Dey@edfenergy.com18 Feb 2026 16:19Hi team,\nWe are waiting for your response, kindly issue cos read over agreed read.\nRegards.Monika.Singh@edfenergy.com07 Feb 2026 16:22Hi team, please issue COS read as 96478.0 for MSN S65E021725 & COS date 23rd Dec 2025. Regards,Partha.Deb@edfenergy.com29 Jan 2026 10:47"
+    }
+  ],
+  "communication_id": "1727108",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012422199263"
+}

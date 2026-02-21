@@ -1,0 +1,86 @@
+{
+  "reference": "SC01693128",
+  "subject": "No response-- SC01683303",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "544539510",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "07 Feb 2026 12:29",
+      "content": "Please clarify what you are refering to, as per prior message or we will need to archive this chat"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sumit.Sumit@ovo.com",
+      "timestamp": "06 Feb 2026 08:20",
+      "content": "Hello, \n\"TRANS\",\"OVO000000477040\",\"\",\"PGM_OVO01\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"193761\",, \"MTPNT\",\"\",544539510,\"\",\"\",\"\",\"\",\"\",,, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"CR\",\"U6\",\"SCH\",1990,\"209\",\"09\",\"\",\"RE\" \"METER\",\"\",\"\",\"\",,\"\",\"\",,\"S\",, \"REGST\",\"\",\"METER\",4,\"SCFH\", \"READG\",20250714,,\"2771\" \"MKPRT\",\"ASSPR\",\"UNK\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2022,\"E6S12795762261\",\"09\",\"\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20250714,,\"00000\" \"MKPRT\",\"ASSPR\",\"SSL\" \"APPNT\",\"\",20250714,,\"\",\"095000\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 19:22",
+      "content": "hello the onjob was sent, is that not what you are referring to?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sumit.Sumit@ovo.com",
+      "timestamp": "30 Jan 2026 08:49",
+      "content": "Hello, kindly performed the Cos Day+1 mex and share the screenshot. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 09:07",
+      "content": "hello, following onjob has been sent\n\n\"TRANS\",\"FUEsdep94769267\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"269833825\",20250825,\n\"MTPNT\",\"\",544539510,\"\",\"\",\"\",\"\",\"\",,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"209\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",4,\"SCFH\",\n\"READG\",20250825,,\"2771\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2022,\"E6S12795762261\",\"09\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250825,,\"00000\"\n\"APPNT\",\"\",20250825,,\"\",\"000000\",\"\"\n\"MKPRT\",\"ASSPR\",\"UNK\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sumit.Sumit@ovo.com",
+      "timestamp": "26 Jan 2026 08:23",
+      "content": "Hello, I have already filled the correct details. Please check salesforce and updated new MSN. kindly performed the Cos Day+1 mex and share the screenshot. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "15 Jan 2026 08:20",
+      "content": "Hi team, ONJOB was rejected 07117. Can you please check all details are correct? Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sumit.Sumit@ovo.com",
+      "timestamp": "15 Jan 2026 07:53",
+      "content": "\"TRANS\",\"OVO000000477040\",\"\",\"PGM_OVO01\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"193761\",,\n\"MTPNT\",\"\",544539510,\"\",\"\",\"\",\"\",\"\",,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"CR\",\"U6\",\"SCH\",1990,\"209\",\"09\",\"\",\"RE\"\n\"METER\",\"\",\"\",\"\",,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",4,\"SCFH\",\n\"READG\",20250714,,\"2771\"\n\"MKPRT\",\"ASSPR\",\"UNK\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2022,\"E6S12795762261\",\"09\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250714,,\"00000\"\n\"MKPRT\",\"ASSPR\",\"SSL\"\n\"APPNT\",\"\",20250714,,\"\",\"095000\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "10 Jan 2026 16:43",
+      "content": "Hi team, the ONJOB was sent, thanks."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Abdul.Qadir@ovo.com",
+      "timestamp": "08 Jan 2026 06:47",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abdul.Qadir@ovo.com",
+      "timestamp": "25 Dec 2025 14:01",
+      "content": "\"TRANS\",\"OVO000000477040\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"193761\",, \"MTPNT\",\"\",544539510,\"\",\"\",\"00\",\"\",\"\",,, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"209\",\"00\",\"\",\"RE\" \"REGST\",\"\",\"METER\",,\"\", \"READG\",20250714,0,\"2771\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2022,\"E6S12795762261\",\"09\",\"\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20250714,0,\"00000\" \"MKPRT\",\"ASSPR\",\"SSL\" \"APPNT\",\"\",20250714,,\"\",\"095000\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abdul.Qadir@ovo.com",
+      "timestamp": "25 Dec 2025 14:00",
+      "content": "Hi, we lost this MPRN 544539510 to FUR on 28/08/2025. We have an incorrect CoS read as a meter exchange occurred during our supply and Xoserve wasn't updated. The MEX was from 209 to E6S12795762261. Can you please process the meter exchange on CoS day +1 using the read 14 as the OPNX and Incorrect transfer read as the FINX."
+    }
+  ],
+  "communication_id": "1693128",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "544539510",
+  "bucket": "Current"
+}

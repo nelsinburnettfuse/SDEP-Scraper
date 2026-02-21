@@ -1,0 +1,32 @@
+{
+  "reference": "SC01738391",
+  "subject": "ET Re-reg escalation MPAN 1200023554958",
+  "escalation_level": "Final Escalation",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200023554958",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "15 Feb 2026 03:29",
+      "content": "Hello, is there any update on your re-registration please? Please confirm your SSD. Many thanks."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "15 Feb 2026 03:29",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "08 Feb 2026 03:47",
+      "content": "Hello. ET Gain was agreed between us on 01/02/2026 but you haven't re-registered supply. Please can you re-register supply as soon as possible. Many thanks."
+    }
+  ],
+  "communication_id": "1738391",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200023554958",
+  "bucket": "Current"
+}

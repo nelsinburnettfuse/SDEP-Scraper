@@ -1,0 +1,20 @@
+{
+  "reference": "SC01737376",
+  "subject": "Complaint on an ET",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3937065710",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "vicky.fenwick@ovo.com",
+      "timestamp": "06 Feb 2026 11:05",
+      "content": "Good morning.  I hope you are all well.  We have had to send a manual ET for MPRN 3937065710 to FUR and I am just looking to see if FUR have received this?  There has been alot of confusion over incorrect ETs being sent and then we established that they do not wish to be with OVO and that they want to be supplied by FUR.  OVO gained supply of this MPRN 14/01/2026 and I see FUR took the supply back 29/01/2026.  Please can we treat this period as an ET where OVO do not bill and FUR do?\n\nI look forward to hearing from you.\n\nKind regards\n\nVicky"
+    }
+  ],
+  "communication_id": "1737376",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3937065710",
+  "bucket": "Current"
+}

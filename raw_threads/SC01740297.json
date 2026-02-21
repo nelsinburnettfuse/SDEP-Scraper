@@ -1,0 +1,26 @@
+{
+  "reference": "SC01740297",
+  "subject": "MPAN 2000001990921 Awaiting response",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000001990921",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "yash.yash@ovo.com",
+      "timestamp": "19 Feb 2026 08:19",
+      "content": "Hi team, Kindly respond on below communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Rinki.Rinki@ovo.com",
+      "timestamp": "10 Feb 2026 08:58",
+      "content": "Hi, You had proposed alternate 84352 on which we are unable to agree due to the read is same as D0086 read. We hold the COR reads like  83943 2025-08-04 & 83247 2025-06-01. If you are unable to agree on our proposal please propose us a different alternate. Thanks"
+    }
+  ],
+  "communication_id": "1740297",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000001990921",
+  "bucket": "Current"
+}

@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2300000951999",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEOVO Energy - SupplierOVOEHey Team, customer has contacted to us and wants to cancel the ET back to yourselves, please cancel ET and ensure customer stays with Fuse. \nBest wishesandrew.lai@fuseenergy.com20 Feb 2026 16:54"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEOVO Energy - SupplierOVOEHey Team, customer has contacted to us and wants to cancel the ET back to yourselves, please cancel ET and ensure customer stays with Fuse. \nBest wishesandrew.lai@fuseenergy.com20 Feb 2026 16:54"
+    }
+  ],
+  "communication_id": "1753032",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2300000951999"
+}

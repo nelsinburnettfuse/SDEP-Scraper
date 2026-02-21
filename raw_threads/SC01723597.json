@@ -1,0 +1,32 @@
+{
+  "reference": "SC01723597",
+  "subject": "3347079000",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "3347079000",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "28 Jan 2026 17:14",
+      "content": "Hello, here is the ONJOB - \"TRANS\",\"670T53DJF4WRYJD\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"OES\",,\n\"MTPNT\",\"\",3347079000,\"F\",\"CA\",\"\",\"\",\"\",1.022640,20161005,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S02983821556\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20251017,0,\"27896\"\n\"MKPRT\",\"ASSPR\",\"UNK\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60C\",\"EDM\",2024,\"E6E15188612460\",\"01\",\"\",\"LI\"\n\"METER\",\"\",\"Z\",\"S2\",6.0000,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20251017,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"MFG\"\n\"APPNT\",\"\",20251017,,\"\",\"154900\",\"\""
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "26 Jan 2026 18:06",
+      "content": "IMG_0620.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "26 Jan 2026 18:05",
+      "content": "Please send the necessary ONJOB details for this meter. The MSN that we hold is E6E15188612460."
+    }
+  ],
+  "communication_id": "1723597",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3347079000",
+  "bucket": "Current"
+}

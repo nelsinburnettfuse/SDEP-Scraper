@@ -1,0 +1,26 @@
+{
+  "reference": "SC01686541",
+  "subject": "ET Wrong SSD",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "3319301101",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sophie.merciawhite@octoenergy.com",
+      "timestamp": "24 Dec 2025 13:58",
+      "content": "Thank you, please nil bill and we will bill through, thanks!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ronald@fuseenergy.com",
+      "timestamp": "17 Dec 2025 15:55",
+      "content": "Hello \nIt appears we raised an ET for the wrong date\nThe correction contract duration should be 2025-09-16 -> 2025-11-24 and 2025-12-09 -> 2025-12-12"
+    }
+  ],
+  "communication_id": "1686541",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3319301101",
+  "bucket": "Archived"
+}

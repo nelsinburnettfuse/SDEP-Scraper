@@ -1,0 +1,26 @@
+{
+  "reference": "SC01735665",
+  "subject": "1415822340009",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1415822340009",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "fatima.kovacevic@octopus.energy",
+      "timestamp": "05 Feb 2026 13:12",
+      "content": "Hi team, responded.\nKind regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "05 Feb 2026 09:06",
+      "content": "Could you please answer our dispute for this MPAN?"
+    }
+  ],
+  "communication_id": "1735665",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1415822340009",
+  "bucket": "Current"
+}

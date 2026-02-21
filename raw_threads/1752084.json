@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "3997246706",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURHi team,\nWe have sent proposal over read 249, for cos date 30th Dec 2025, backed by: 20251229 249.4 20250904 0.0, for MSN E6S16180532361, kindly validate and send us Y flow.\nRegards.Monika.Singh@edfenergy.com20 Feb 2026 10:21"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURHi team,\nWe have sent proposal over read 249, for cos date 30th Dec 2025, backed by: 20251229 249.4 20250904 0.0, for MSN E6S16180532361, kindly validate and send us Y flow.\nRegards.Monika.Singh@edfenergy.com20 Feb 2026 10:21"
+    }
+  ],
+  "communication_id": "1752084",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3997246706"
+}

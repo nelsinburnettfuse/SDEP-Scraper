@@ -1,0 +1,26 @@
+{
+  "reference": "SC01752000",
+  "subject": "5017825603",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "5017825603",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 09:56",
+      "content": "20260220_070222.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 09:54",
+      "content": "Hi Team, had a dispute made for the mprn 5017825603, but I need to create a onjob for the meter as it does not match on the industry database. Can you please provide an opening read, mex date and clsoing read for old meter so I can adjust this new msn: E6E01328352021. So I can update this and send a opening read dispute for this."
+    }
+  ],
+  "communication_id": "1752000",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5017825603",
+  "bucket": "Current"
+}

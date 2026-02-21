@@ -1,0 +1,20 @@
+{
+  "reference": "SC01740986",
+  "subject": "Response on SAR",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2530917910",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "10 Feb 2026 13:07",
+      "content": "Hi, as per our proposal we have received alt from your side. your alt is not going inline so please provide us two backups for validate or provide us meter photo. thanks"
+    }
+  ],
+  "communication_id": "1740986",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2530917910",
+  "bucket": "Current"
+}

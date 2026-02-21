@@ -1,0 +1,20 @@
+{
+  "reference": "SC01728544",
+  "subject": "missing D0086",
+  "escalation_level": "",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900001289292",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "30 Jan 2026 09:11",
+      "content": "Hi, we have received a rejection to our missing D0086 proposal for reason 17- mandatory data invalid or missing. Please advise what data was missing from the flow"
+    }
+  ],
+  "communication_id": "1728544",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900001289292",
+  "bucket": "Current"
+}

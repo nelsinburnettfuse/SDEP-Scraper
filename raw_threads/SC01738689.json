@@ -1,0 +1,26 @@
+{
+  "reference": "SC01738689",
+  "subject": "1919411606",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "1919411606",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Suman.Adhikari@edfenergy.com",
+      "timestamp": "17 Feb 2026 10:05",
+      "content": "Hi team, As proposal received 19924 for the cos date 13th Jan 2026 which is within tolerance with our cos read 19932.0 hence sticking to our cos read and closed the dispute. \"M03\",\"EDSX1919411606X20250116S1\",\"F\",20260113,\"G4W01088150602\",1919411606,,\"N\",1,\"FINT\",\"E\",\" 19932\",5,\"\",,\"\",,\"U\",\"U\",\"U\",\"\",\"M\",1.022640,,1.000,\"0\",\"\",\"266145961\",0,118,\"\",0,\"G4\",\"\",\"CR\",,\"\" Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 08:47",
+      "content": "Hello, please agree to read of 19924 per customer submission."
+    }
+  ],
+  "communication_id": "1738689",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1919411606",
+  "bucket": "Current"
+}

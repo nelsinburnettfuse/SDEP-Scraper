@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2199996340673",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEOctopus Energy - SupplierMRCYHi Team,  please confirm you will internally settle the period 12/01 to switch out as ET (should not pay) for both MPxNs. Once confirmed, I will action switchbianca.myers@fuseenergy.com20 Feb 2026 16:34If you are unable to raise the ET then this will have to be settled VERBALLY on both mpxns. Please confirm receipt of our acceptances. Thanks!sophie.merciawhite@octoenergy.com20 Feb 2026 11:53Hi team, we need ET in this scenario. An error on our end is occurring. Please submit ET on your end as contract is active with yourselves. Please action ASAPbianca.myers@fuseenergy.com20 Feb 2026 10:30Customer has now been in touch, thanks! Please take our verbal acceptance on both mpxns and re-reg them.sophie.merciawhite@octoenergy.com20 Feb 2026 10:03Hi team, customer has informed you through support to proceed with ET. Please action ASAPbianca.myers@fuseenergy.com19 Feb 2026 20:46Hi Team, customer was in touch with us on the 13th and said he does in fact want to switch to Fuse. He attempted to submit the switch himself but got blocked due to stand-still period. Instances of MMS REGISTRATION_REJECTED:\n13/02/2026, 02:57:27 \n13/02/2026, 17:34:27\n13/02/2026, 17:59:28\n \nWe have no reason to re-register a customer who did not want to be with us. So please submit ET. If you do not take our word, you can ask customer himself.bianca.myers@fuseenergy.com18 Feb 2026 13:49Valid contract with us, they want to be with Octopus because \"New supplier kept failing to switch me to a on/off peak tariff\" . Thankssophie.merciawhite@octoenergy.com18 Feb 2026 11:16Hi team, please submit ET request asapbianca.myers@fuseenergy.com17 Feb 2026 13:39Hi team, customer switched back to octopus on 13/02, but wants to remain with us. Please submit ET for both electricity and gas: \nMPAN 2199996340673 MPRN 2722993204\nOur system was not allowing to submit ourselves. Please action ASAPbianca.myers@fuseenergy.com16 Feb 2026 10:28"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEOctopus Energy - SupplierMRCYHi Team,  please confirm you will internally settle the period 12/01 to switch out as ET (should not pay) for both MPxNs. Once confirmed, I will action switchbianca.myers@fuseenergy.com20 Feb 2026 16:34If you are unable to raise the ET then this will have to be settled VERBALLY on both mpxns. Please confirm receipt of our acceptances. Thanks!sophie.merciawhite@octoenergy.com20 Feb 2026 11:53Hi team, we need ET in this scenario. An error on our end is occurring. Please submit ET on your end as contract is active with yourselves. Please action ASAPbianca.myers@fuseenergy.com20 Feb 2026 10:30Customer has now been in touch, thanks! Please take our verbal acceptance on both mpxns and re-reg them.sophie.merciawhite@octoenergy.com20 Feb 2026 10:03Hi team, customer has informed you through support to proceed with ET. Please action ASAPbianca.myers@fuseenergy.com19 Feb 2026 20:46Hi Team, customer was in touch with us on the 13th and said he does in fact want to switch to Fuse. He attempted to submit the switch himself but got blocked due to stand-still period. Instances of MMS REGISTRATION_REJECTED:\n13/02/2026, 02:57:27 \n13/02/2026, 17:34:27\n13/02/2026, 17:59:28\n \nWe have no reason to re-register a customer who did not want to be with us. So please submit ET. If you do not take our word, you can ask customer himself.bianca.myers@fuseenergy.com18 Feb 2026 13:49Valid contract with us, they want to be with Octopus because \"New supplier kept failing to switch me to a on/off peak tariff\" . Thankssophie.merciawhite@octoenergy.com18 Feb 2026 11:16Hi team, please submit ET request asapbianca.myers@fuseenergy.com17 Feb 2026 13:39Hi team, customer switched back to octopus on 13/02, but wants to remain with us. Please submit ET for both electricity and gas: \nMPAN 2199996340673 MPRN 2722993204\nOur system was not allowing to submit ourselves. Please action ASAPbianca.myers@fuseenergy.com16 Feb 2026 10:28"
+    }
+  ],
+  "communication_id": "1746184",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2199996340673"
+}

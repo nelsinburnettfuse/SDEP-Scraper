@@ -1,0 +1,20 @@
+{
+  "reference": "SC01739753",
+  "subject": "Loss D0086",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100021602676",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Gauri.Kushwaha@ovo.com",
+      "timestamp": "09 Feb 2026 15:18",
+      "content": "Hello,\nOvo lost supply of mpan (1100021602676) on (01 Nov 2025) please can you advise if the D0086 for CoS has been issued. If so please can you provide the date it has been issued and the File ID. If D0086 has not been issued please can you chase this and advise of any issues holding the D0086.\nThanks"
+    }
+  ],
+  "communication_id": "1739753",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100021602676",
+  "bucket": "Current"
+}

@@ -1,0 +1,44 @@
+{
+  "reference": "SC01662922",
+  "subject": "1012848453669",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "OVOE - OVO Energy - Supplier",
+  "meter_point_number": "1012848453669",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "komal.shinde1@ovo.com",
+      "timestamp": "12 Jan 2026 09:24",
+      "content": "Hi Team, Please issue D86 flow. We have open complaint on this account. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vishal.Jagtap@ovoenergy.com",
+      "timestamp": "31 Dec 2025 13:28",
+      "content": "Hello Team, any update on this ? Please response ASAP.\n\n\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mainuddin.Sayyed@ovo.com",
+      "timestamp": "24 Dec 2025 09:31",
+      "content": "Hello Team, any update on this ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "komal.shinde1@ovo.com",
+      "timestamp": "17 Dec 2025 10:41",
+      "content": "Hi Team, We lost supply to you with final read 81467. Please confirm from your customer and issue valid D86 flow. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bayan.wahib@fuseenergy.com",
+      "timestamp": "25 Nov 2025 11:23",
+      "content": "Hi Team,\nCan you please confirm if you have had any remote reads from MPAN 1012848453669? We are trying to agree on an opening read but our remote reads do not reconcile with the readings on the customer's meter. We wanted to check which closing read you have. Thanks."
+    }
+  ],
+  "communication_id": "1662922",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012848453669",
+  "bucket": "Current"
+}

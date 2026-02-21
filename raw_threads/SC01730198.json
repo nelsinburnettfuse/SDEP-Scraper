@@ -1,0 +1,32 @@
+{
+  "reference": "SC01730198",
+  "subject": "SAR RESPONSE",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3318174609",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "16 Feb 2026 07:33",
+      "content": "please response on SDEP-SC01745854. this is archived"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "09 Feb 2026 12:10",
+      "content": "Hi team, we received your alt read 49438 for cos date 08/01/2026, can you please provide two valid backups to validate your alt read 49438, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bharti.bharti@ovo.com",
+      "timestamp": "02 Feb 2026 08:58",
+      "content": "Hi Team, we are raise a dispute Proposing estimated reading 48001 backed by 47908.0 2025/08/21 and 47894.0 2025/07/31 for transfer date 08/01/2026. Please take a look our proposal. thanks"
+    }
+  ],
+  "communication_id": "1730198",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3318174609",
+  "bucket": "Current"
+}

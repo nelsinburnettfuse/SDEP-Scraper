@@ -1,0 +1,32 @@
+{
+  "reference": "SC01741035",
+  "subject": "No response to ET request",
+  "escalation_level": "Final Escalation",
+  "from": "GESL - So Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1300003185445",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "panagiotis.aslanidis@fuseenergy.com",
+      "timestamp": "17 Feb 2026 13:42",
+      "content": "Hi team, ET noted. We have reached out to cust to confirm. Will accept/reject accordingly."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Jamel.Johnson@so.energy",
+      "timestamp": "17 Feb 2026 11:52",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mel.King@so.energy",
+      "timestamp": "10 Feb 2026 13:43",
+      "content": "Hi\nOn 03/02/2026, we sent an ET request to you relating to supply 1300003185445 - You have neither accepted or rejected our request  - Please send the missing acceptance or rejection for our ET request\nMany thanks"
+    }
+  ],
+  "communication_id": "1741035",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300003185445",
+  "bucket": "Current"
+}

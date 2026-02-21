@@ -1,0 +1,44 @@
+{
+  "reference": "SC01744324",
+  "subject": "1012389013715",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012389013715",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "13 Feb 2026 06:34",
+      "content": "IMG_2673.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "13 Feb 2026 06:33",
+      "content": "IMG_2674.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "13 Feb 2026 06:31",
+      "content": "Imp R1 start.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "13 Feb 2026 06:30",
+      "content": "Imp R2 end.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "13 Feb 2026 06:30",
+      "content": "Hi team, we have received your alternative flow for cos date 20th Jan 2026, rejection sent from our end with comment \"The CoS read values in this flow are not correct.\", so we attached D0086 flat file, but as per our backups 1-12784/ 2-2875 on 29/12/2025 and 1-12465/ 2-2794 on 25/11/2025, our cos read is not falling inline, so can we verbally agree on our proposal read 1-12990/ 2-2927 for cos date 20th Jan 2026, MSN-21K0104363, we attached meter picture, kindly validate and response back. Regards"
+    }
+  ],
+  "communication_id": "1744324",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012389013715",
+  "bucket": "Current"
+}

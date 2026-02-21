@@ -1,0 +1,50 @@
+{
+  "reference": "SC01678743",
+  "subject": "Cross meters",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "584679203",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "harriet.edmondson@octoenergy.com",
+      "timestamp": "30 Jan 2026 18:42",
+      "content": "No problem, thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "19 Jan 2026 21:06",
+      "content": "Hi team, sorry I think this issue was misdiagnosed. Apologies that we didn't get back to you sooner."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harriet.edmondson@octoenergy.com",
+      "timestamp": "31 Dec 2025 07:50",
+      "content": "We have now archived this, if you require anything further from us please raise a new communication stating our MPRN and more info regarding the cross. Many thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harriet.edmondson@octoenergy.com",
+      "timestamp": "23 Dec 2025 08:51",
+      "content": "Hi there, please can you send us more information? If we don't hear back by next  tuesday we will be archiving the communication. Kind regards Harriet"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "samuel.king@octoenergy.com",
+      "timestamp": "10 Dec 2025 10:43",
+      "content": "Hi team, please provide the MPRN for our customer and more information regarding the suspected crossed meter."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alvin.kimuli@fuseenergy.com",
+      "timestamp": "09 Dec 2025 17:05",
+      "content": "Hi team \nCustomer\u2019s physical gas meter MSN does not match the MSN registered on Xoserve for MPRN 584679203. \n\nMeter is unable to connect to DCC, consistent with incorrect asset registration.\n\nBest,\nFuse"
+    }
+  ],
+  "communication_id": "1678743",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "584679203",
+  "bucket": "Current"
+}

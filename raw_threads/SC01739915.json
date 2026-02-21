@@ -1,0 +1,20 @@
+{
+  "reference": "SC01739915",
+  "subject": "Meter update required / RFA",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1901374310",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Jei.Ho@ovo.com",
+      "timestamp": "09 Feb 2026 16:30",
+      "content": "Hi team, it has come to our attention the the meter with industry is setup incorrectly as a imperal 4 dial meter due to this there is incorrect settlement charges for imperial when it should be metric. Please can you action meter updated for MSN E6S01873811756 to be updated from imperal 4 dial meter to 5 dial metricx meter? We can then look to action RFA for settlement charge correction. Many thanks"
+    }
+  ],
+  "communication_id": "1739915",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1901374310",
+  "bucket": "Current"
+}

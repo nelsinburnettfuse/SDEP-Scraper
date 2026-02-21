@@ -1,0 +1,50 @@
+{
+  "reference": "SC01712260",
+  "subject": "MCoS - 1200025654510",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200025654510",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "anjali.sharma@fuseenergy.com",
+      "timestamp": "17 Feb 2026 18:41",
+      "content": "Hi Team, we cannot accept 67469.0 kWh on 23/12/2025 as the previous reads are:\n\n01/12/2025 : 67577 kWh\n25/10/2025: 67469 kWh\n\nWe cannot accept  67469.0 kWh on 23/12/2025 as it's lower than the dates above."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dzenan.Music@octoenergy.com",
+      "timestamp": "17 Feb 2026 18:07",
+      "content": "Hi team, I will escalate this. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dzenan.Music@octoenergy.com",
+      "timestamp": "09 Feb 2026 09:47",
+      "content": "Hello team, can you please respond to our query or I will escalate this? Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dzenan.Music@octoenergy.com",
+      "timestamp": "30 Jan 2026 13:41",
+      "content": "Hi team, can you please respond to our query? Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dzenan.Music@octoenergy.com",
+      "timestamp": "22 Jan 2026 14:27",
+      "content": "Hello team, can you please respond to our query? Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ryan.eldridge@octoenergy.com",
+      "timestamp": "14 Jan 2026 17:05",
+      "content": "Hi Team. We have an MCoS open on this MPAN, which we proposed a reading of 67469.0 on 23/12/2025. Please can we get a response to this. Thanks"
+    }
+  ],
+  "communication_id": "1712260",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200025654510",
+  "bucket": "Current"
+}

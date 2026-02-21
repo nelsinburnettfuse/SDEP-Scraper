@@ -1,0 +1,74 @@
+{
+  "reference": "SC01713105",
+  "subject": "sar response",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "5083725408",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Abhishek.Singh2@ovo.com",
+      "timestamp": "09 Feb 2026 10:55",
+      "content": "Hello, please take the required time and update once done. Thank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 18:43",
+      "content": "This was rejected by Xoserve on our end. Will send again."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhishek.Singh2@ovo.com",
+      "timestamp": "02 Feb 2026 15:15",
+      "content": "Hello, it seems proposed read has not been reflected in the Xoserve yet. Kindly check and confirm if there is any issue or additional action required from our end to ensure the read is properly updated."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 13:30",
+      "content": "Hi team, we have processed this now on our end. archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "27 Jan 2026 09:26",
+      "content": "Hi team, happy to agree on your read 490 for COS date 31/07/2025, thanks"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 10:35",
+      "content": "Screenshot 2026-01-26 at 10.27.02.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 10:34",
+      "content": "in reference to communication SC01690741, we can agree on 490 as closing read 31/07/2025 as backed up by actual picture submission dated 31/07/2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 10:25",
+      "content": "hello, answering now communication SC01690741"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Abhishek.Singh2@ovo.com",
+      "timestamp": "26 Jan 2026 10:10",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhishek.Singh2@ovo.com",
+      "timestamp": "15 Jan 2026 11:54",
+      "content": "Hello, due to no response on communication with reference number SC01690741. we have escalated."
+    }
+  ],
+  "communication_id": "1713105",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5083725408",
+  "bucket": "Current"
+}

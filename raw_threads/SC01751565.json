@@ -1,0 +1,20 @@
+{
+  "reference": "SC01751565",
+  "subject": "ET",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "1146569902",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sanjay.samudrala@fuseenergy.com",
+      "timestamp": "19 Feb 2026 18:37",
+      "content": "Hi team, customer is not intended to switch out. Can you re-register the customer back to us"
+    }
+  ],
+  "communication_id": "1751565",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1146569902",
+  "bucket": "Current"
+}

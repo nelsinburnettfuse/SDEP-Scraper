@@ -1,0 +1,32 @@
+{
+  "reference": "SC01635846",
+  "subject": "Opening Read for Gas",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "03 Nov 2025 10:22",
+      "content": "MPRN?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mazen@fuseenergy.com2026-02-10 00:02:04",
+      "timestamp": "27 Oct 2025 20:44",
+      "content": "please refer to previous communication"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Waasiq@fuseenergy.com2026-02-20 00:01:08",
+      "timestamp": "27 Oct 2025 20:32",
+      "content": "Hello Team,\n\nPlease accept opening read of gas for customer as 27260 m3 on 09/10/2025. No bu"
+    }
+  ],
+  "communication_id": "1635846",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

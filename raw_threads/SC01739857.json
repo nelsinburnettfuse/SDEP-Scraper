@@ -1,0 +1,20 @@
+{
+  "reference": "SC01739857",
+  "subject": "Missing Read D0086",
+  "escalation_level": "",
+  "from": "GETW - Utilita - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1610018909474",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "arjunlaroiya@utilita.co.uk",
+      "timestamp": "09 Feb 2026 15:57",
+      "content": "Hi, please issue loss d86"
+    }
+  ],
+  "communication_id": "1739857",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610018909474",
+  "bucket": "Current"
+}

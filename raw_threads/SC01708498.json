@@ -1,0 +1,26 @@
+{
+  "reference": "SC01708498",
+  "subject": "Missing MEX",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9399503301",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Janet.Hannah@ovo.com",
+      "timestamp": "27 Jan 2026 08:31",
+      "content": "Hi,\nPlease can I have a response to this query\nMany thanks\nJanet"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Janet.Hannah@ovo.com",
+      "timestamp": "12 Jan 2026 09:40",
+      "content": "Hi,\nWe have received communication from the previous supplier that a MEX was carried out in their supply that was not updated in industry.\nPlease can you action a MEX? \nWe have been provided with the following information:\nInstallation date: 17/07/2024 , removed meter 512544, installed meter E6S10847172462, installed reading 00000. Model Code E6VG470,Manufacturer code LPG,Year of manufacture 2024,SMETS version2.\nMany thanks\nJanet"
+    }
+  ],
+  "communication_id": "1708498",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9399503301",
+  "bucket": "Current"
+}

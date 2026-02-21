@@ -1,0 +1,152 @@
+{
+  "reference": "SC01576869",
+  "subject": "Missing D86",
+  "escalation_level": "Final Escalation",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1640000336980",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "11 Feb 2026 15:52",
+      "content": "Hi, many thanks for verbal agreement, please continue to attempt to get D0086 issued"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 17:53",
+      "content": "We have chased our DCC for a D0086."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 17:34",
+      "content": "Hi we can agree to this. Could you get your DC to issue a D0086? Or we can after our DC accepts the MTDs."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "03 Feb 2026 15:53",
+      "content": "Hi, please advise if you've received an update from the customer"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 14:15",
+      "content": "Hi team,\n\nStill no photos received. We will escalate situation with customer if not received"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "26 Dec 2025 21:13",
+      "content": "Hi team, please provide photos of meter to confirm backup."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Dec 2025 22:07",
+      "content": "could you provide photos"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "03 Dec 2025 10:48",
+      "content": "Hi, customer has previously provided us with actual reads 91619 16/06/2025 and 91697 16/07/2025. Using these I have estimated a COS read 91499 01/05/2025 - please can we agree this read for the COS date while you resolve your billing issues."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sam.moss@fuseenergy.com",
+      "timestamp": "26 Nov 2025 17:17",
+      "content": "Hi, \n\nWe believe because it's the secondary MPAN to a primary MPAN we do supply, ECOES is showing that we supply both. However I can confirm we are not presently billing that MPAN- we are seeing how we can obtain readings to issue D86, or alternatively can accept your reads?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "26 Nov 2025 16:42",
+      "content": "Hi, please can you elaborate on how ECOES would show you as being the current supplier without you switching the supply?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rihyun@fuseenergy.com",
+      "timestamp": "26 Nov 2025 15:37",
+      "content": "Hi team, we confirm this secondary MPAN1640000336980 is not with us even if ECOES shows with us. So we're not billing them on this MPAN or anything"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "25 Nov 2025 11:54",
+      "content": "HI, please can you provide an update - customer is contacting us because you have only been billing the 1 MPAN."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rihyun@fuseenergy.com",
+      "timestamp": "16 Nov 2025 08:25",
+      "content": "Hi team, we'll investigate it and will reply asap."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "12 Nov 2025 10:35",
+      "content": "this is a related MPAN supply. Primary MPAN has a separate thread SC01586165, this thread is regarding MPAN 1640000336980 which you also supply. Please issue D86 as previously requested. As shown in previous screenshot from ECOES, you have supplied this MPAN since 01/05/2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rihyun@fuseenergy.com",
+      "timestamp": "03 Nov 2025 20:55",
+      "content": "Hi team, we're holding the primary MPAN on our system 1610031997530. 1:11698 kWh 2:56863 kWh  for 12/05 please agree with this read"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "03 Nov 2025 15:00",
+      "content": "Screenshot 2025-11-03 145901.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "03 Nov 2025 15:00",
+      "content": "Screenshot 2025-11-03 145820.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "03 Nov 2025 15:00",
+      "content": "please see ECOES screenshots showing that MPAN 1640000336980 has been in your supply since 01/05/2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rihyun@fuseenergy.com",
+      "timestamp": "25 Oct 2025 10:46",
+      "content": "Hi team, sorry for this significant delay. we can't find the customer MPAN 1640000336980 on our system. Could you confirm this is correct MPAN?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "21 Oct 2025 10:48",
+      "content": "no response or D0086 received. raising to CM escalation"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "02 Sep 2025 11:08",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "02 Sep 2025 11:08",
+      "content": "please provide update or CM escalation will be followed"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "21 Aug 2025 14:53",
+      "content": "Hi, we are missing the D86 on this MPAN. previous thread SC01507180 contains photos held for the correct meter, please can the D86 be issued"
+    }
+  ],
+  "communication_id": "1576869",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1640000336980",
+  "bucket": "Current"
+}

@@ -1,0 +1,44 @@
+{
+  "reference": "SC01724703",
+  "subject": "Overdue RET response flow",
+  "escalation_level": "First Escalation",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "5051539506",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "david.sumpter@octoenergy.com",
+      "timestamp": "29 Jan 2026 10:07",
+      "content": "Looks like you accepted and returned the electric so would you be able to return the gas too?   MPAN you accepted was 1200025186478.\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "david.sumpter@octoenergy.com",
+      "timestamp": "29 Jan 2026 10:06",
+      "content": "Sorry ignore the below.  Related to a different SDES - I will look to see what we have evidence wise."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "david.sumpter@octoenergy.com",
+      "timestamp": "29 Jan 2026 10:03",
+      "content": "Hi there\n\nOur customer is at flat 6 but on GES it is listed as 6 Clifton Road.  There are two MPRNS showing the address of 6 Clifton Road so I'm assuming you wanted the other one?  Can you tell who the previous supplier was for the electric if relevant?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "29 Jan 2026 01:47",
+      "content": "Hi team, we have not received meter photo from customer so have no confirmation this is justified. please provide evidence if available"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "david.sumpter@octoenergy.com",
+      "timestamp": "27 Jan 2026 14:27",
+      "content": "Hi there\nwe sent a proposal on the 07 January 2026 asking for the return of MPRN 5051539506.  We don't seem to have received a response.  Please could you issue a RET response flow?\nThanks"
+    }
+  ],
+  "communication_id": "1724703",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5051539506",
+  "bucket": "Current"
+}

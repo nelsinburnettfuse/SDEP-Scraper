@@ -1,0 +1,20 @@
+{
+  "reference": "SC01710358",
+  "subject": "1306984107",
+  "escalation_level": "",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1306984107",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nnupur@uw.co.uk",
+      "timestamp": "13 Jan 2026 12:59",
+      "content": "Hi All,\nWe recently received a picture from our customer and realised that a meter exchange was done prior to us. New MSN is E6E12963762423, based on that we are opening our account at 1526 . Please update your records.\nThanks!"
+    }
+  ],
+  "communication_id": "1710358",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1306984107",
+  "bucket": "Current"
+}

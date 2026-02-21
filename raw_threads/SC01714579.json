@@ -1,0 +1,26 @@
+{
+  "reference": "SC01714579",
+  "subject": "5066055010",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "5066055010",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Pawan.Kumar2@ovo.com",
+      "timestamp": "26 Jan 2026 08:23",
+      "content": "Hello, We are waiting for your response. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Pooja.Mohite@ovo.com",
+      "timestamp": "16 Jan 2026 12:20",
+      "content": "Hello Team,\n\nWe hold MPRN 7469820106 with MSN 5001011S Our customer which confirms the correct gas meter for the property is 5001011S can you please contact with your customer and confirm correct MSN and update your system with correct details.\n\nThank you"
+    }
+  ],
+  "communication_id": "1714579",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5066055010",
+  "bucket": "Current"
+}

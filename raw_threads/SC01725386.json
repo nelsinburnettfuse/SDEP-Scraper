@@ -1,0 +1,20 @@
+{
+  "reference": "SC01725386",
+  "subject": "Need D0300 sent",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1700051853404",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "emily.croston@octoenergy.com",
+      "timestamp": "28 Jan 2026 09:24",
+      "content": "Hi team, can you contact your DC to process the D0086 so our DC can be notified and we can send the final bill to our former customer"
+    }
+  ],
+  "communication_id": "1725386",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1700051853404",
+  "bucket": "Current"
+}

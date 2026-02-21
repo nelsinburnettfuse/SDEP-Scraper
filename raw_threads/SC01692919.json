@@ -1,0 +1,32 @@
+{
+  "reference": "SC01692919",
+  "subject": "Bilateral Address Amendment Query - MPAN 1012446679772 & 1050001556818",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012446679772",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "akshada.gopale@ovo.com",
+      "timestamp": "08 Jan 2026 12:12",
+      "content": "Hi, Sorry to bother you but, we are still waiting for your response. Is there any update on this?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "neha.rathod1@ovo.com",
+      "timestamp": "01 Jan 2026 10:15",
+      "content": "Hello Team, Is there any update on this?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "neha.rathod1@ovo.com",
+      "timestamp": "25 Dec 2025 09:05",
+      "content": "Hello, OVOE supply MPAN 1012446679772 with customer confirmed MSN Z03E202434, which is currently listed on Ecoes as BROOK LODGE, BICESTER ROAD, OAKLEY, AYLESBURY, BUCKINGHAMSHIRE, HP18 9QF, but our customer has confirmed their correct address as Brook Lodge The Nap Oakley Aylesbury HP18 9PW You supply MPAN 1050001556818 which is currently listed as BROOK LODGE, THE NAP, OAKLEY, AYLESBURY, HP18 9PW. Please can you investigate with your customer and advise if you agree to a bilateral address amendment? Many thanks,"
+    }
+  ],
+  "communication_id": "1692919",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012446679772",
+  "bucket": "Current"
+}

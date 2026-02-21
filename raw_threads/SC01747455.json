@@ -1,0 +1,20 @@
+{
+  "reference": "SC01747455",
+  "subject": "2579411005",
+  "escalation_level": "First Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2579411005",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "17 Feb 2026 08:51",
+      "content": "Hi team, We have not received any response from your end, as we have received proposal for MSN- E6S00179281556 but it's deactivated 8th Dec 2025, we have also attached ONJOB earlier kindly validate. Regards."
+    }
+  ],
+  "communication_id": "1747455",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2579411005",
+  "bucket": "Current"
+}

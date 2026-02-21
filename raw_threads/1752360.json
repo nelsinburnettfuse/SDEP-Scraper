@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1717271082000",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEBritish Gas - SupplierTILLCustomer has also mentioned that a neighbour has recently moved in so is likely their request not his. Addresses are very similar, one has 'Farragon Cottage', both have 'Farragon Drive'.shauna.ryan@fuseenergy.com20 Feb 2026 11:51Customer claims they were switched back without requesting so. Notes suggest it was proposed by Old Supplier. We have cancelled the ET but cos lost still remains ET back to us. Why was this initiated?shauna.ryan@fuseenergy.com20 Feb 2026 11:42"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEBritish Gas - SupplierTILLCustomer has also mentioned that a neighbour has recently moved in so is likely their request not his. Addresses are very similar, one has 'Farragon Cottage', both have 'Farragon Drive'.shauna.ryan@fuseenergy.com20 Feb 2026 11:51Customer claims they were switched back without requesting so. Notes suggest it was proposed by Old Supplier. We have cancelled the ET but cos lost still remains ET back to us. Why was this initiated?shauna.ryan@fuseenergy.com20 Feb 2026 11:42"
+    }
+  ],
+  "communication_id": "1752360",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1717271082000"
+}

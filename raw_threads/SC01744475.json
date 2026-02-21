@@ -1,0 +1,20 @@
+{
+  "reference": "SC01744475",
+  "subject": "Incorrect meter on account at site loss",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000011266815",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Payel.Kundu@edfenergy.com",
+      "timestamp": "13 Feb 2026 09:01",
+      "content": "Please remove the correct MSN 24L3487907 that should have been on our account at the site loss 19/08/2025, Information of the correct meter details MSN 24L3487907\n,Manufactured year 2024, Install date 14/03/2025.Read date - 20/08/2025, Read - 46450"
+    }
+  ],
+  "communication_id": "1744475",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000011266815",
+  "bucket": "Current"
+}

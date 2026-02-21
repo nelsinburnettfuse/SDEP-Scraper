@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1200042430388",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi team, we have msn 25M0026575 on our system. The mpan they registered with was 1200042381720 which is linked to the subject mpanpavit.chandhok@fuseenergy.com17 Feb 2026 17:22Hi team, for the cos date \t3rd Jan 2026, could you please confirm which MSN you are holding from your ned, as we are holding two MSNs H12A000126 and 25M0026575: Regards.Saikat.Chatterjee@edfenergy.com04 Feb 2026 01:26"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi team, we have msn 25M0026575 on our system. The mpan they registered with was 1200042381720 which is linked to the subject mpanpavit.chandhok@fuseenergy.com17 Feb 2026 17:22Hi team, for the cos date \t3rd Jan 2026, could you please confirm which MSN you are holding from your ned, as we are holding two MSNs H12A000126 and 25M0026575: Regards.Saikat.Chatterjee@edfenergy.com04 Feb 2026 01:26"
+    }
+  ],
+  "communication_id": "1734168",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200042430388"
+}

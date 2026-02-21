@@ -1,0 +1,26 @@
+{
+  "reference": "SC01747255",
+  "subject": "1820908",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1820908",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "17 Feb 2026 20:17",
+      "content": "Hi Team, we have initiated the dispute with MSN: G4K00122511401. Please accept or send back proposed readings with backups. Regards, Aromal"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "17 Feb 2026 05:03",
+      "content": "Hi team, We hold MSN E6E16996992523 and no backup for this MSN, however we hold GT read for deactivated MSN, so kindly provide two actual backup for new MSN, so we can raise dispute. Regards."
+    }
+  ],
+  "communication_id": "1747255",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1820908",
+  "bucket": "Current"
+}

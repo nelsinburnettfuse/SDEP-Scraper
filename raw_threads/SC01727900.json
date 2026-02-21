@@ -1,0 +1,38 @@
+{
+  "reference": "SC01727900",
+  "subject": "ET",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "1600929707",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "11 Feb 2026 14:28",
+      "content": "no RET flow received at all"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 09:10",
+      "content": "Sent on the 30th of January please check"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "03 Feb 2026 14:56",
+      "content": "no ET request received"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "29 Jan 2026 15:01",
+      "content": "Hi team, please accept ET"
+    }
+  ],
+  "communication_id": "1727900",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1600929707",
+  "bucket": "Current"
+}

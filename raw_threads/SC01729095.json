@@ -1,0 +1,38 @@
+{
+  "reference": "SC01729095",
+  "subject": "2426923204",
+  "escalation_level": "",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2426923204",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "thandazile.ngubane@uw.co.uk",
+      "timestamp": "19 Feb 2026 14:57",
+      "content": "Hi team, please issue a revised URN. Thank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "panagiotis.aslanidis@fuseenergy.com",
+      "timestamp": "16 Feb 2026 17:43",
+      "content": "Hi team, we have responded with a Y flow to your SAR"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thandazile.ngubane@uw.co.uk",
+      "timestamp": "16 Feb 2026 10:47",
+      "content": "Hi team, could you please respond to our last communication to avoid further escalations? Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thandazile.ngubane@uw.co.uk",
+      "timestamp": "30 Jan 2026 13:10",
+      "content": "Hi team, a SAR has been sent your way, and we haven't heard back yet. Could you please respond? Thank you!"
+    }
+  ],
+  "communication_id": "1729095",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2426923204",
+  "bucket": "Current"
+}

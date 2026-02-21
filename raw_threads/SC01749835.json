@@ -1,0 +1,32 @@
+{
+  "reference": "SC01749835",
+  "subject": "2500002013979",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "7825589103",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Lucy.Howard@eonnext.com",
+      "timestamp": "19 Feb 2026 10:07",
+      "content": "Thank you for your query. We have acknowledged your case and will provide an update as soon as possible following our initial investigations."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "stuart.simms@fuseenergy.com",
+      "timestamp": "18 Feb 2026 15:02",
+      "content": "Screenshot 2026-02-04 at 18.11.02.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "stuart.simms@fuseenergy.com",
+      "timestamp": "18 Feb 2026 15:01",
+      "content": "Hello. I am raising this as previous SDEP SC01716826 was rejected before evidence was supplied, and escalation SDEP SC01735378 with evidence attached was rejected because the original SDEP was rejected, even though evidence was provided.\n\nThe customer's gas meter is an S2 model. GSME on meter: 30-EB-5A-FF-FF-D5-F7-7F GSME on TMA: 98-B1-77-FF-FF-02-BF-CC which is connected to your MPRN. Can you please look into this ? Timely matter, customer has been chasing this for almost 1 month now, and previous escalation was ignored."
+    }
+  ],
+  "communication_id": "1749835",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7825589103",
+  "bucket": "Current"
+}

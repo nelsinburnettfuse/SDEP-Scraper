@@ -1,0 +1,26 @@
+{
+  "reference": "SC01742499",
+  "subject": "Potential Crossed Meters",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "2500000996251",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "emaad.khan@fuseenergy.com",
+      "timestamp": "11 Feb 2026 14:20",
+      "content": "Screenshot 1404-11-22 at 2.20.20?PM.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "emaad.khan@fuseenergy.com",
+      "timestamp": "11 Feb 2026 14:20",
+      "content": "We have a potential crossed meter case. A customer has switched in with us under the following MSN- E15UP12557 and MPAN- 2500000996260\nHowever this is his actual MSN- E15UP14079 linked to MPAN- 2500000996251\n\nThey are neighbouring properties, please check with your customer and advise"
+    }
+  ],
+  "communication_id": "1742499",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2500000996251",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01746714",
+  "subject": "4227208400",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4227208400",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Subhajit.Dey@edfenergy.com",
+      "timestamp": "16 Feb 2026 13:24",
+      "content": "Hi team,in this account ,cos date-7th Jan 2026,MSN-E6E18008512523,as per that we did not have any backup ,so kindly sent us backup and meter photo ,so we can move for further process.\nregards,"
+    }
+  ],
+  "communication_id": "1746714",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4227208400",
+  "bucket": "Current"
+}

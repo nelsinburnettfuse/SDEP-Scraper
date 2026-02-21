@@ -1,0 +1,32 @@
+{
+  "reference": "SC01715098",
+  "subject": "Crossed meter",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1200061717005",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "oli.varga@octoenergy.com",
+      "timestamp": "05 Feb 2026 17:39",
+      "content": "Hi team, I acknowledge the previous message but, as the PT0077 is for DNO communication so please raise this via the Cross Meters Process on Ecos. Thakns"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "inigo.cockett@fuseenergy.com",
+      "timestamp": "20 Jan 2026 13:53",
+      "content": "Hi team, please could you review our previous message and send a response. Thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "grace.gill@fuseenergy.com",
+      "timestamp": "16 Jan 2026 17:36",
+      "content": "We believe we have a crossed meter case as confirmed by an engineer visit. We have a customer of flat 59 with MPAN - 1200061717005 with MSN - 17S012794. Currently we have an incorrect MSN for this meter of 25J0321390 (previously D13A235707) assigned to this MPAN but believe it actually belongs to flat 60 MPAN - 1200061717014"
+    }
+  ],
+  "communication_id": "1715098",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200061717005",
+  "bucket": "Current"
+}

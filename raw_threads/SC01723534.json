@@ -1,0 +1,20 @@
+{
+  "reference": "SC01723534",
+  "subject": "Read Dispute",
+  "escalation_level": "First Escalation",
+  "from": "GNRG - 100Green - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2500021202662",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "tom.l@100green.com",
+      "timestamp": "26 Jan 2026 16:52",
+      "content": "Hello, we sent a D0300  proposing 17316 but have also received a D0300 proposing 16770. Can you please confirm if this is an alternative proposal and if so provide any supporting reads. Kind regards,"
+    }
+  ],
+  "communication_id": "1723534",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2500021202662",
+  "bucket": "Current"
+}

@@ -1,0 +1,38 @@
+{
+  "reference": "SC01724545",
+  "subject": "Associated MPAN closing reading",
+  "escalation_level": "Final Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "HYDE - OVO Electricity - Supplier",
+  "meter_point_number": "1724892391527",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "06 Feb 2026 11:29",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 13:31",
+      "content": "Screenshot 2026-01-27 at 13.28.37.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 13:30",
+      "content": "Screenshot 2026-01-27 at 13.28.30.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 13:28",
+      "content": "Hi Team, customer with associated MPANs switched to us on 04/06. They contacted you regarding high closing on final bill, you said we did not send opening reading. This is because you were billing on secondary MPAN while we are billing on primary. We are unable to send flows for secondary. Your closing read is too high. Customer submission shows 21644 kwh on SSD, backed up by 217285 kwh on 14/06 taken by our engineer (both attached). You hold 22899 kwh on 03/06, which is impossible. We can't raise dispute given the alternate MPAN. Please agree to amend this reading.\n\nPrimary MPAN is 1714892391520 for reference."
+    }
+  ],
+  "communication_id": "1724545",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1724892391527",
+  "bucket": "Current"
+}

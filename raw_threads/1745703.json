@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1610001025917",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi team,\n\nWe sent proposal for 2 MSNs 17S0134537 and 25E6004912 because in our system it shows 2 MSNs active, but you have sent a proposal with single MSN. So, kindly share the D0149/150 so we can keep the correct MSn active and deactivate the other one.Shubhodeep.Basu@edfenergy.com15 Feb 2026 14:15"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi team,\n\nWe sent proposal for 2 MSNs 17S0134537 and 25E6004912 because in our system it shows 2 MSNs active, but you have sent a proposal with single MSN. So, kindly share the D0149/150 so we can keep the correct MSn active and deactivate the other one.Shubhodeep.Basu@edfenergy.com15 Feb 2026 14:15"
+    }
+  ],
+  "communication_id": "1745703",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610001025917"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01737610",
+  "subject": "Missing LossD0086",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012591220511",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Akshay.Lolge@ovo.com",
+      "timestamp": "20 Feb 2026 10:42",
+      "content": "Hi team,\nplease can you release the D0086 date 26 Jan 2026.\nThank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Akshay.Lolge@ovo.com",
+      "timestamp": "06 Feb 2026 12:41",
+      "content": "Hello,\nWe are missing the Loss D0086 this has been issued by the new D0086 (26/01/2026) please can you release the D0086.\nThanks"
+    }
+  ],
+  "communication_id": "1737610",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012591220511",
+  "bucket": "Current"
+}

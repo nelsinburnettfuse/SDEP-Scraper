@@ -1,0 +1,32 @@
+{
+  "reference": "SC01735567",
+  "subject": "PLEASE RESPONSE",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3382081805",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sabah.said@fuseenergy.com",
+      "timestamp": "19 Feb 2026 09:50",
+      "content": "Hi Team, I can confirm we have agreed on the proposal read."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "12 Feb 2026 08:46",
+      "content": "Hi team, please response can you verbal agree on our proposal read 11849 for COS date 13/01/2026, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Moh.Shahid@ovo.com",
+      "timestamp": "05 Feb 2026 08:08",
+      "content": "Hi Team, we have raise dispute incorrect proposal read so we have calculated New proposal read 11849 backed by 11510.0 2025/07/31 and 11751 2025/11/26 so please send verbal agreement on our new proposal read. Thanks"
+    }
+  ],
+  "communication_id": "1735567",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3382081805",
+  "bucket": "Current"
+}

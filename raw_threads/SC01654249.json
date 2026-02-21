@@ -1,0 +1,38 @@
+{
+  "reference": "SC01654249",
+  "subject": "1451133810",
+  "escalation_level": "",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1451133810",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "vdesai@uw.co.uk",
+      "timestamp": "21 Jan 2026 08:46",
+      "content": "HI team, please can we get revised URN at agreeed read? thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "15 Dec 2025 09:59",
+      "content": "Hi team, thank you for the below response. We will archive this communication. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aroon@fuseenergy.com2026-02-05 16:06:02",
+      "timestamp": "27 Nov 2025 17:48",
+      "content": "Hi team, we are agreeing with your proposed read of 10512 m3, as we hold remote read 10513.403 m3 22/08/25"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "17 Nov 2025 08:58",
+      "content": "Hi team, please issue updated MRI read. Regards, the UW Team."
+    }
+  ],
+  "communication_id": "1654249",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1451133810",
+  "bucket": "Current"
+}

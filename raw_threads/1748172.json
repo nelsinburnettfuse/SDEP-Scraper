@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1592786107",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURhello, sorry about the delay in the response. i have respoded to the propsal.trey.kirton@fuseenergy.com17 Feb 2026 13:48Hi teams, \nwe have sent proposal for the cos date 27th Jan 2026 but no response received from your end so proposal read 2264  backed by 30/06/2025 1758 02/06/2025 1732 so kindly validate and response back. \nRegardsAvinash.Kumar@edfenergy.com17 Feb 2026 13:35"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURhello, sorry about the delay in the response. i have respoded to the propsal.trey.kirton@fuseenergy.com17 Feb 2026 13:48Hi teams, \nwe have sent proposal for the cos date 27th Jan 2026 but no response received from your end so proposal read 2264  backed by 30/06/2025 1758 02/06/2025 1732 so kindly validate and response back. \nRegardsAvinash.Kumar@edfenergy.com17 Feb 2026 13:35"
+    }
+  ],
+  "communication_id": "1748172",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1592786107"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01724739",
+  "subject": "SC01678794",
+  "escalation_level": "Final Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "ENRD - British Gas - Supplier",
+  "meter_point_number": "2341903101115",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "oliver.garland@fuseenergy.com",
+      "timestamp": "27 Jan 2026 14:35",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "oliver.garland@fuseenergy.com",
+      "timestamp": "27 Jan 2026 14:35",
+      "content": "Hi team, can you please respond to sdep referece number: SC01678794"
+    }
+  ],
+  "communication_id": "1724739",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2341903101115",
+  "bucket": "Current"
+}

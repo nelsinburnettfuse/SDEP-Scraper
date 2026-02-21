@@ -1,0 +1,32 @@
+{
+  "reference": "SC01722393",
+  "subject": "Raw file for ONJOB required",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "3251747803",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Deepak.Kumar2@britishgas.co.uk",
+      "timestamp": "06 Feb 2026 09:55",
+      "content": "Hi, We do not hold ONJOB flow."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "ephraim.cudjoe@fuseenergy.com",
+      "timestamp": "24 Jan 2026 09:35",
+      "content": "3251747803.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ephraim.cudjoe@fuseenergy.com",
+      "timestamp": "24 Jan 2026 09:35",
+      "content": "Hello, we noticed there was a meter exchange for this MPRN and GES is showing the old meter details. Could you kindly send us the raw file for the ONJOB so we can update this."
+    }
+  ],
+  "communication_id": "1722393",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3251747803",
+  "bucket": "Current"
+}

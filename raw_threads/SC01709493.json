@@ -1,0 +1,32 @@
+{
+  "reference": "SC01709493",
+  "subject": "1800028768078",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1800028768078",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "20 Jan 2026 13:16",
+      "content": "Archived communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "20 Jan 2026 13:15",
+      "content": "Hi team, as per our backups 5147 on 05/10/2025 and 5002 on 19/09/2025 our cos read 5417.3 is falling inline, hence we are sticking in our cos read and close the dispute.\t\t\t\tIdentifier: D769254628\t\t\t\t\n\n196|1800028768078|V|\n197|P329043110|D|\n198|01|20251028000000|5417.3||0|T|N|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sourav.Mandal@edfenergy.com",
+      "timestamp": "13 Jan 2026 05:51",
+      "content": "Hi team,\nproposal received from our end by stating \"We have customer photo submission validating our proposed read. D0086 is incorrect and customer has requested they are billed correctly.\" As we already have D0086 read for COS date. kindly provide us meter photo or D0086 raw file, So we can validate your proposal.\nRegards."
+    }
+  ],
+  "communication_id": "1709493",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800028768078",
+  "bucket": "Current"
+}

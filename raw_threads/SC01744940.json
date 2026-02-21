@@ -1,0 +1,20 @@
+{
+  "reference": "SC01744940",
+  "subject": "PLEASE RESPONSE",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3371833905",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "13 Feb 2026 12:25",
+      "content": "Hi team, we receive your alt read 17713 for cos date 23/01/2026, which is showing less consumption, we hold customer submitted read 17686 date 01/04/2025 and read 17451 date07/02/2025, so please relook our proposal and sent Y flow , thanks"
+    }
+  ],
+  "communication_id": "1744940",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3371833905",
+  "bucket": "Current"
+}

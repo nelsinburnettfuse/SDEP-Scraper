@@ -1,0 +1,26 @@
+{
+  "reference": "SC01722711",
+  "subject": "SAR RESPONSE",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3254769009",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Annasaheb.Habbu@ovoenergy.com",
+      "timestamp": "03 Feb 2026 10:54",
+      "content": "Good day,\nWe have received your alternated read 9942 for 03/01/2026 . Our new proposed read 9768 is inline with our backup read 9626 date 08/07/2025 . Please obtain photo meter to validate our proposed read.\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "26 Jan 2026 09:31",
+      "content": "Hi team, we have raised incorrect proposal read, so again calculate new proposal read 9768 for cos date 03/01/2026 backed by 9626.0 2025/07/08 and 9568.0 2025/04/26,so can you verbal agree on our new proposal, thanks"
+    }
+  ],
+  "communication_id": "1722711",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3254769009",
+  "bucket": "Current"
+}

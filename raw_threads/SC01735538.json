@@ -1,0 +1,20 @@
+{
+  "reference": "SC01735538",
+  "subject": "1300005995516",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1300005995516",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Sneha.Prakash@edfenergy.com",
+      "timestamp": "05 Feb 2026 07:42",
+      "content": "Hi team, we have received proposal for cos date 23rd Dec 2025 and sent rejection with comment \"48607 - already issued d86\", as we hold D0086 read for our cos date so sticking with our cos read hence close the dispute and archiving the communication.Regards.\nRaw file:\n196|1300005995516|V|\n197|L79J04813|D|\n198|01|20251223000000|48607.0||0|T|N|\nIdentifier: D769324841"
+    }
+  ],
+  "communication_id": "1735538",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300005995516",
+  "bucket": "Current"
+}

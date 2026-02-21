@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1507591910035",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEOctopus Energy - SupplierMRCYHi team,\n\nDo you have D86 \n\nRegardssandip.ghataurhae@octoenergy.com20 Feb 2026 07:04Hi, I just want to confirm that this dispute has met its resolution. Customer is currently in contact regarding this - please let us know if there is anything wrong with the flow.nelsin.burnett@fuseenergy.com16 Feb 2026 16:15"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEOctopus Energy - SupplierMRCYHi team,\n\nDo you have D86 \n\nRegardssandip.ghataurhae@octoenergy.com20 Feb 2026 07:04Hi, I just want to confirm that this dispute has met its resolution. Customer is currently in contact regarding this - please let us know if there is anything wrong with the flow.nelsin.burnett@fuseenergy.com16 Feb 2026 16:15"
+    }
+  ],
+  "communication_id": "1747040",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1507591910035"
+}

@@ -1,0 +1,50 @@
+{
+  "reference": "SC01693441",
+  "subject": "Awaiting response",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2132406204",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "27 Jan 2026 10:31",
+      "content": "Hi team, any update for meter photo we will wait for your response, provide a response within next 7 days. If we would not receive the response will have to look for an internal fix hence request you to look into it, Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "27 Jan 2026 10:30",
+      "content": "Hi team, any update for meter photo we will wait for your response, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "20 Jan 2026 11:13",
+      "content": "Hi, any update regarding meter photo? please response. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Anchal.Anchal@ovo.com",
+      "timestamp": "02 Jan 2026 16:47",
+      "content": "Hi, Thanks for update, we are waiting for photo of the meter, Thanks!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "hariaksh.pandya@fuseenergy.com",
+      "timestamp": "26 Dec 2025 08:42",
+      "content": "Hey Team, we have requested a picture of the meter from the customer, right now we hold a manual text submission 46724"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Anchal.Anchal@ovo.com",
+      "timestamp": "26 Dec 2025 08:38",
+      "content": "Hi, please provide us photo of the meter because we have hold the COR read 47317 date 14/09/2025, kindly response. Thanks!"
+    }
+  ],
+  "communication_id": "1693441",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2132406204",
+  "bucket": "Current"
+}

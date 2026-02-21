@@ -1,0 +1,26 @@
+{
+  "reference": "SC01751766",
+  "subject": "SAR RESPONSE",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "531664301",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 08:25",
+      "content": "Hi Team, we have acknowledge you reads and responded to this dispute"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Moh.Shahid@ovo.com",
+      "timestamp": "20 Feb 2026 08:07",
+      "content": "Hi team, we've raised a read dispute Proposing estimated reading 1199 backed by 1199.0 2025/07/15 and 1199.0 2025/08/05 for the transfer date of 27/01/2026. Please can you take a look at our proposal and respond to our SAR."
+    }
+  ],
+  "communication_id": "1751766",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "531664301",
+  "bucket": "Archived"
+}

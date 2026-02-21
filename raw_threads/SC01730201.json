@@ -1,0 +1,38 @@
+{
+  "reference": "SC01730201",
+  "subject": "Response to SAR",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9162872904",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "17 Feb 2026 08:50",
+      "content": "Hi team, we haven't receive any response from your side after many chase, so we are closing the dispute using own read 8177 for COS date 07/10/2025, archive and thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Akshay.Srivastava@ovoenergy.com",
+      "timestamp": "09 Feb 2026 11:40",
+      "content": "Hi team,\nWe sent a SAR proposing  new proposal read 8177 for COS date 07/10/2025 COS date 07/10/2025 but have yet to receive a response. Please can you take a look and respond to our dispute.\n\n\n If we do not receive a response within a week, we will look to resolve this dispute internally and inform the customer that we have been unable to reach an agreement with yourselves. \n\n\nThanks\nThe OVO Energy Team"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Akshay.Srivastava@ovoenergy.com",
+      "timestamp": "09 Feb 2026 11:38",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Annasaheb.Habbu@ovoenergy.com",
+      "timestamp": "02 Feb 2026 08:59",
+      "content": "Good day, No response from your end , can you verbally agree on read 8177 for COS date 07/10/2025, . Please response for further process.  Thanks"
+    }
+  ],
+  "communication_id": "1730201",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9162872904",
+  "bucket": "Current"
+}

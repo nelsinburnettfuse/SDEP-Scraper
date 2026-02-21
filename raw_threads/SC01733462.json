@@ -1,0 +1,26 @@
+{
+  "reference": "SC01733462",
+  "subject": "7452009504",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7452009504",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "11 Feb 2026 05:30",
+      "content": "Hi team,\nWe have sent SAR flow over read- 502, kindly validate and sent Y flow.\nRegards.."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Aryan.Mallik@edfenergy.com",
+      "timestamp": "03 Feb 2026 12:44",
+      "content": "Hi team we have missing cos read and we need dispute so can we verbally agree over proposed read: 502 for cos date 01/01/2026. backups:\t\t\t\t\t\t\t[488 on 30/12/2025] and [420 on 20/12/2025], kindly validate and response to us.\n\nRegards"
+    }
+  ],
+  "communication_id": "1733462",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7452009504",
+  "bucket": "Current"
+}

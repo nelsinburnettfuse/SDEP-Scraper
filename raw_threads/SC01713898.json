@@ -1,0 +1,32 @@
+{
+  "reference": "SC01713898",
+  "subject": "7507357204 - meter exchange",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "7507357204",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "kieran.mcmahon@octoenergy.com",
+      "timestamp": "19 Jan 2026 11:50",
+      "content": "Ignore my last message I was mistaken. We HAVE NOT done a meter exchange at this property. the meter for 7507357204 remains as 485137"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kieran.mcmahon@octoenergy.com",
+      "timestamp": "19 Jan 2026 10:58",
+      "content": "Yes, we did exchange the meter. We will get xoserve updated. Current MSN for 7507357204 is 22M0276478"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "16 Jan 2026 01:57",
+      "content": "Hi team, did you exchange the meter for this property without sending flows? We are trying to see if there is an address mismatch/potential ET case for our customer with mprn 4006334003. \nTheir meter lists old msn as the one associated with this mprn. The new meter has MSN E6E12656852423."
+    }
+  ],
+  "communication_id": "1713898",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7507357204",
+  "bucket": "Current"
+}

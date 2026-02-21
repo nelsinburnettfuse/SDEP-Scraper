@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1012623272622",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)OVO Energy - SupplierOVOEFuse Energy Supply - SupplierFUSEHi Team, we have a BU READ 52594 20260113 when customer swtiched.mahdi.mohamed@fuseenergy.com20 Feb 2026 10:09Communication escalated to:Final Escalationkm.priyanka1@ovo.com20 Feb 2026 09:49Hi Team, We have sent you proposal of 52986.0 backed by 52066 2025-07-23 & 51262 2025-02-21 but still we did not get any response from your side so kindly response in order to settle the account. if we didn't receive a response within a week, we will look to resolve this dispute internally and inform the customer that we have been unable to reach an agreement with yourselves. Thanks!km.priyanka1@ovo.com20 Feb 2026 09:47Hi, Is there any update on below request. ThanksSharif.Shaikh@ovoenergy.com09 Feb 2026 08:44Hi Team,\nWe have sent you proposal of 52986.0 backed by 52066 2025-07-23 & 51262 2025-02-21 but still we did not get any response from your side so kindly response in order to settle the account. ThanksMahesh.Gautam@ovoenergy.com02 Feb 2026 16:39"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "OVO Energy - SupplierOVOEFuse Energy Supply - SupplierFUSEHi Team, we have a BU READ 52594 20260113 when customer swtiched.mahdi.mohamed@fuseenergy.com20 Feb 2026 10:09Communication escalated to:Final Escalationkm.priyanka1@ovo.com20 Feb 2026 09:49Hi Team, We have sent you proposal of 52986.0 backed by 52066 2025-07-23 & 51262 2025-02-21 but still we did not get any response from your side so kindly response in order to settle the account. if we didn't receive a response within a week, we will look to resolve this dispute internally and inform the customer that we have been unable to reach an agreement with yourselves. Thanks!km.priyanka1@ovo.com20 Feb 2026 09:47Hi, Is there any update on below request. ThanksSharif.Shaikh@ovoenergy.com09 Feb 2026 08:44Hi Team,\nWe have sent you proposal of 52986.0 backed by 52066 2025-07-23 & 51262 2025-02-21 but still we did not get any response from your side so kindly response in order to settle the account. ThanksMahesh.Gautam@ovoenergy.com02 Feb 2026 16:39"
+    }
+  ],
+  "communication_id": "1732510",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012623272622"
+}

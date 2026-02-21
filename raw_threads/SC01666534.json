@@ -1,0 +1,44 @@
+{
+  "reference": "SC01666534",
+  "subject": "Supplier mismatch",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1200022603220",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "electricity@octoenergy.com",
+      "timestamp": "27 Jan 2026 15:34",
+      "content": "Good afternoon, please could we have a response to the below? Kind regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jessica.verso@octoenergy.com",
+      "timestamp": "07 Jan 2026 17:04",
+      "content": "Our current customer is H.M. they have been account holder since 3rd of Dec 25. Before that there was a vacant occupier account from 23rd Oct 25 to 3rd of Dec 25. Before that we had an account in the name of M.A.E & L.B which ran from 23rd Oct 24 to 23rd Oct 25. Before this there was another vacant occupier account from 14th Sept 24 to 23rd Oct 24. Before that the account was in the name of R.D. which ran from 3rd July 21 to 14th Sept 24"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sam.moss@fuseenergy.com",
+      "timestamp": "30 Nov 2025 17:38",
+      "content": "Hello, the initials would be ME. What initials do you have for that MPAN, and which did you have before 23/10, if they're different - ME states that they moved out on that date, but of course you are still billing them, so imagine that it is the same?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "electricity@octoenergy.com",
+      "timestamp": "30 Nov 2025 12:11",
+      "content": "Hi there, the correct MPAN is: 1200022603220 - please can you confirm the initials of the person who has said we've provided a refund? We have the MPAN with the correct address and MSN since the inception of the MPAN. Your MPAN has had a change of MSN and I believe you hold the incorrect MPAN. Warm regards, Octopus"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "emils.bahanovskis@fuseenergy.com",
+      "timestamp": "27 Nov 2025 22:40",
+      "content": "Hi, we currently supply mpan 1200022603211, and have done since 12/03/2025, however you are still billing the same property, and have it registered as mpan 1200022603220. Please note that the addresses for each are almost identical, as are the MSNs, with the MSN for 1200022603211 being registered as K76A04760, and the MSN for 1200022603220 being registered as K76A 04760. The customer at the property is certain that they switched in to our supply, and that they have reached out to you before with a complaint about this issue and you refunded them their usage, but now have billed them again. Please fix."
+    }
+  ],
+  "communication_id": "1666534",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200022603220",
+  "bucket": "Current"
+}

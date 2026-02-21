@@ -1,0 +1,20 @@
+{
+  "reference": "SC01675192",
+  "subject": "Gas Leak - 638323306",
+  "escalation_level": "First Escalation",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OVO - OVO Energy - Supplier",
+  "meter_point_number": "638323306",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "05 Dec 2025 09:58",
+      "content": "Hi there Customer recently switched to us 07/10 and has had a gas leak the whole time. The RAQ we received was 626316646Wh - which is very high for such a property and should have been flagged. We will therefore be raising a dispute for the opening reading."
+    }
+  ],
+  "communication_id": "1675192",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "638323306",
+  "bucket": "Current"
+}

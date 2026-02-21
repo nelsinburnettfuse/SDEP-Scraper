@@ -1,0 +1,26 @@
+{
+  "reference": "SC01699046",
+  "subject": "1275248700",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1275248700",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "13 Jan 2026 11:36",
+      "content": "Hi team, we have received your proposal for old MSN however we have sent an incorrect rejection, so providing you ONJOB flat file and response,\n\"TRANS\",\"144015\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",1275248700,\"\",\"\",\"98\",\"\",\"\",1.022640,20241204,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"G4A03862839901\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20241204,0,\"17993\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2024,\"E6E14076982423\",\"98\",\"balcony with meterbox\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20241204,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20241204,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20241204,20241204,\"\",\"120000\",\"160000\", regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "03 Jan 2026 17:51",
+      "content": "Hi team,\nRejection received by stating \"BU 01/12/25: 104 m3 Customer photo submission of meter - no other backup available\", so kindly provide meter photo for validation.\nRegards."
+    }
+  ],
+  "communication_id": "1699046",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1275248700",
+  "bucket": "Current"
+}

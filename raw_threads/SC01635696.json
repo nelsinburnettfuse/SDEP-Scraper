@@ -1,0 +1,38 @@
+{
+  "reference": "SC01635696",
+  "subject": "Awaiting SAR response",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7425373803",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "17 Jan 2026 21:48",
+      "content": "hi team, the urn is still being processed. here's the umr \"U01\",7425373803,20250930,\"A\",\"R\",\"5001683\",\"2044\",\"0\",\"\",\"\",\"\",\"\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "16 Jan 2026 11:57",
+      "content": "Hi team, happy to agree on our proposal, please send revised URN, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mazen@fuseenergy.com2026-02-10 00:02:04",
+      "timestamp": "08 Nov 2025 14:06",
+      "content": "Hi Team, confirmed \u2014 CoS read 2057.782 m\u00b3 aligns within tolerance of your proposal 2044 m\u00b3. We\u2019ve accepted the read."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Varun.Kumar@ovoenergy.com",
+      "timestamp": "27 Oct 2025 16:25",
+      "content": "Hi, we have initiated a dispute for COS dated 30/09/2025 Proposing estimated reading 2044 backed by 2031.0 2025/09/06 and 2014.0 2025/08/06 however we are still awaiting for a response from you. Request you to look into this and provide your acceptance at the earliest"
+    }
+  ],
+  "communication_id": "1635696",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7425373803",
+  "bucket": "Current"
+}

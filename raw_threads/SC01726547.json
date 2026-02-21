@@ -1,0 +1,32 @@
+{
+  "reference": "SC01726547",
+  "subject": "ONJOB Required",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "3902771308",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Raheem.Joseph@eonnext.com",
+      "timestamp": "30 Jan 2026 09:09",
+      "content": "Raw file:\n\n\"TRANS\",\"GUS000474307440\",\"\",\"MORRMEONDX\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",20220721,\"OAMI\",\"578414\",,\n\"MTPNT\",\"\",3902771308,\"\",\"\",\"\",\"\",\"\",,20220721,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"U6\",\"PC\",1987,\"0099508\",\"32\",\"\",\"RE\"\n\"METER\",\"\",\"S\",\"CR\",,\"\",\"\",20220721,\"\",,\n\"REGST\",\"\",\"METER\",4,\"\",1.000\n\"READG\",20220721,,\"8311\"\n\"MKPRT\",\"ASSPR\",\"GTM\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60A\",\"EDM\",2021,\"E6E02245672041\",\"09\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20220721,\"\",,\n\"REGST\",\"\",\"METER\",5,\"\",\n\"READG\",20220721,,\"8311.0\"\n\"MKPRT\",\"ASSPR\",\"ESL\"\n\"APPNT\",\"\",20220721,20220721,\"\",\"133400\",\"161400\"\n\"TRANS\",\"GUS0"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "arnav.singh@fuseenergy.com",
+      "timestamp": "28 Jan 2026 19:51",
+      "content": "Screenshot 2026-01-28 at 19.48.48.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arnav.singh@fuseenergy.com",
+      "timestamp": "28 Jan 2026 19:50",
+      "content": "Hi,\n\nWe believe that the gas meter for this MPRN was changed by you and the MSN was not updated on the national database. Please share the related ONJOB, so that we can update the national database and this customer's profile."
+    }
+  ],
+  "communication_id": "1726547",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3902771308",
+  "bucket": "Current"
+}

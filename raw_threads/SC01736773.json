@@ -1,0 +1,32 @@
+{
+  "reference": "SC01736773",
+  "subject": "3388357200",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3388357200",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "13 Feb 2026 05:51",
+      "content": "Hi team,\nWe have received Y flow over read- 835.0, kindly issue revised URN.\nRegards."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Kaustar.Mondal@edfenergy.com",
+      "timestamp": "05 Feb 2026 18:26",
+      "content": "20260112_065239 (1).jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Kaustar.Mondal@edfenergy.com",
+      "timestamp": "05 Feb 2026 18:25",
+      "content": "Hi team,\nwe  have sent rejection on your proposal as we hold 4 dial imperial gas meter. also we have meter photo so share the meter photo and ONUPD file below, kindly validate and response us regards\nRaw file:\n\n\"TRANS\",\"DRZRDQLNCH02YT8\",\"\",\"100124001\",\"APPNT\",\"COS\",\"\",\"\",\"\",\"\",\"D\",,\"\",\"\",20231001,\n\"MTPNT\",\"\",3388357200,\"F\",\"LI\",\"\",\"\",\"\",1.022640,,\n\"ADDRS\",\"MTRPT\",\"\",\"FLAT 129\",\"129 LUMLEY FLATS\",\"\",\"PIMLICO ROAD\",\"\",\"\",\"LONDON\",\"\",\"SW1W 8NG\",,,,\"\"\n\"ASSET\",\"\",\"APPNT\",\"METER\",\"\",\"CR\",\"U6\",\"UGI\",1995,\"04751517\",\"04\",\"\",\"\"\n\"METER\",\"\",\"S\",\"\",212.000,\"\",\"\",,\"T\",,\n\"REGST\",\"\",\"METER\",4,\"SCFH\",1.000"
+    }
+  ],
+  "communication_id": "1736773",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3388357200",
+  "bucket": "Current"
+}

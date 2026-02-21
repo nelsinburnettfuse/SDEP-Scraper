@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2155729402",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)British Gas - SupplierBGFFuse Energy Supply - SupplierFURHi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups.Nilesh.Bhaisade@britishgas.co.uk20 Feb 2026 12:06"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "British Gas - SupplierBGFFuse Energy Supply - SupplierFURHi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups.Nilesh.Bhaisade@britishgas.co.uk20 Feb 2026 12:06"
+    }
+  ],
+  "communication_id": "1752452",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2155729402"
+}

@@ -1,0 +1,80 @@
+{
+  "reference": "SC01690352",
+  "subject": "please response on A flow",
+  "escalation_level": "First Escalation",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1819058407",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Amit.Chaturvedi@britishgas.co.uk",
+      "timestamp": "30 Jan 2026 05:16",
+      "content": "Hi Team, we are archiving this communication as we have resolved the query from our end. Hence archived. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Amit.Chaturvedi@britishgas.co.uk",
+      "timestamp": "08 Jan 2026 09:51",
+      "content": "Hi Team, we are happy to agree the read 16860 for COS 20/08/2025, please consider this communication as Y flow. So, please issue us the revised URN. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 15:00",
+      "content": "Hi Team,\n\nPlease send Y flow on dispute"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Amit.Chaturvedi@britishgas.co.uk",
+      "timestamp": "31 Dec 2025 11:25",
+      "content": "Hi Team, we can verbally agree on proposed read of 16860 m3 for COS 20/08/2025. Please issue us revised URN for the same. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "27 Dec 2025 12:06",
+      "content": "Hi team, can we agree on proposed read of 16860 m3 for COS 20/08/2025?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Amit.Chaturvedi@britishgas.co.uk",
+      "timestamp": "24 Dec 2025 04:41",
+      "content": "Hi Team, we can verbally agree on 16871 m3 for COS date 20/08/2025. Please agree on this read and send us revised URN ASAP. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "24 Dec 2025 01:01",
+      "content": "Apologies, I meant 16871 m3 on 10/09 thus a proposed read of 16860 m3 on 20/08"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "24 Dec 2025 01:00",
+      "content": "9942703d-b1f1-4a52-ab8a-4997c6732b82.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "24 Dec 2025 00:58",
+      "content": "Hi team, we received a customer submission of 16871 m3 on 20/08 thus a proposed read on 16860 m3 on ssd 03/08. Attached meter photo on 20/08 here as well. Can we verbally agree on this?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Amit.Chaturvedi@britishgas.co.uk",
+      "timestamp": "23 Dec 2025 12:30",
+      "content": "Hi Team, we sent you SAR flow on proposed read16878 for COS 20/08/2025. Based on customer own read 16870 on 03/08/2025 and 16854 on 03/05/2025, Customer complaint about Bill. So, please verbally agree on our proposal read 16878 COS 20/08/2025. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nalneesh.Singh2@britishgas.co.uk",
+      "timestamp": "22 Dec 2025 15:28",
+      "content": "Hi please response on A flow of meter read 16878 for 20/08/2025"
+    }
+  ],
+  "communication_id": "1690352",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1819058407",
+  "bucket": "Current"
+}

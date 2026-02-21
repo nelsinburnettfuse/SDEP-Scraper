@@ -1,0 +1,32 @@
+{
+  "reference": "SC01708127",
+  "subject": "Gas meter address correction",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "5068807401",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Lucy.Howard@eonnext.com",
+      "timestamp": "12 Jan 2026 09:34",
+      "content": "Thank you for your enquiry.  However, you have raised this on the incorrect PT code. \n\nPlease re-raise using the right process PT 55 code.  \nWe are archiving this message so please do not respond."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "11 Jan 2026 14:30",
+      "content": "IMG_5285.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "11 Jan 2026 14:30",
+      "content": "Please investigate correct address of listed MPRN as we have a customer with MPRN 8886750504 who is actually living at the address 21 Lap*** **y but on GES as living at 12 Lap*** **y"
+    }
+  ],
+  "communication_id": "1708127",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5068807401",
+  "bucket": "Current"
+}

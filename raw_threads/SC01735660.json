@@ -1,0 +1,20 @@
+{
+  "reference": "SC01735660",
+  "subject": "MPAN 1200031996202 Awaiting Response",
+  "escalation_level": "First Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200031996202",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Rinki.Rinki@ovo.com",
+      "timestamp": "05 Feb 2026 09:02",
+      "content": "Hi Team, We have sent you proposal of 7210.0 backed by 7218 2025-12-01 & 7172 2025-09-11 but still we did not get any response from your side so kindly response in order to settle the account. Thanks."
+    }
+  ],
+  "communication_id": "1735660",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200031996202",
+  "bucket": "Current"
+}

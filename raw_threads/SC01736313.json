@@ -1,0 +1,26 @@
+{
+  "reference": "SC01736313",
+  "subject": "4269197209",
+  "escalation_level": "",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4269197209",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "brandon.caballero@fuseenergy.com",
+      "timestamp": "18 Feb 2026 12:29",
+      "content": "Hello team, we have accepted the dispute as a reference: 155527\nCreated at - 28/01/2026, 10:48:37\n\nPlease find the below:\nTransporter read: 164 ((E) Estimated read)\nProposed Read: 663 ((E) Estimated read)\nRoot Cause: 4 ((4) Original actual was incorrect)\nStatus Response SAR: Y((Y) Yes; the proposed read is agreed)\nRecord Rejection Acceptance Code: 00((00) SAR / RET / OBJ / SID / MRR / MPN File received and passed for processing)"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thandazile.ngubane@uw.co.uk",
+      "timestamp": "05 Feb 2026 13:20",
+      "content": "Hi team, a SAR has been sent your way, and we haven't heard back yet. Could you please respond? Thank you!"
+    }
+  ],
+  "communication_id": "1736313",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4269197209",
+  "bucket": "Current"
+}

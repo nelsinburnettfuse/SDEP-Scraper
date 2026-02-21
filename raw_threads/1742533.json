@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1100002842279",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEFoxglove - SupplierOFTMHiya, for customer with this MPAN we have an agreed d0086 of 33473.9 kWh.  Customer is saying you requested info on this matter.joel.chapman@fuseenergy.com11 Feb 2026 14:31"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEFoxglove - SupplierOFTMHiya, for customer with this MPAN we have an agreed d0086 of 33473.9 kWh.  Customer is saying you requested info on this matter.joel.chapman@fuseenergy.com11 Feb 2026 14:31"
+    }
+  ],
+  "communication_id": "1742533",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100002842279"
+}

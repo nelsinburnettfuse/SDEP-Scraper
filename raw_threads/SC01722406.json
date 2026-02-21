@@ -1,0 +1,26 @@
+{
+  "reference": "SC01722406",
+  "subject": "Uncap meter",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "3929995906",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "maya.bloomwood@octoenergy.com",
+      "timestamp": "29 Jan 2026 16:43",
+      "content": "Hello, all systems are showing the meter as live, please advise further on what is required. Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "naveena.vinayan@fuseenergy.com",
+      "timestamp": "24 Jan 2026 11:20",
+      "content": "Hi team, can you please uncap customers meter as they would like to switch in with us \nThank you"
+    }
+  ],
+  "communication_id": "1722406",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3929995906",
+  "bucket": "Current"
+}

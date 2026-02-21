@@ -1,0 +1,140 @@
+{
+  "reference": "SC01688032",
+  "subject": "7663887504",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7663887504",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "18 Feb 2026 07:25",
+      "content": "We have lost the supply to you and we do not have the confirmation that the meter was changed during our supply period as we still stick to our MSN E6S15053651860. Also no MEX details reflecting in the meter yellow picture."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anjali.sharma@fuseenergy.com",
+      "timestamp": "17 Feb 2026 19:10",
+      "content": "Hey Team, we currently don't hold supply for this meter, so we can't update numbers. You would have to reach out to the current supplier being British Gas. Please ask them to draft an ONJOB and update the MSN."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "17 Feb 2026 11:17",
+      "content": "meter in system is showing E6S15053651860 however the meter picture you have shared is different so kindly validate or provide us the correct meter details"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "10 Feb 2026 16:01",
+      "content": "We meant do you have any MEX info so the MSN E6S15053651860 as this is the meter updated on our end."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 10:17",
+      "content": "correct meter details are in picture as sent. we no longer supply this property so we cannot update on our end."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "09 Feb 2026 07:53",
+      "content": "meter in system is showing E6S15053651860 however the meter picture you have shared is different so kindly validate or provide us the correct meter  details"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 17:01",
+      "content": "Hello, burns test was conclusive. The meter is correctly supplying the property. Please let us know how you would like to proceed."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "02 Feb 2026 19:19",
+      "content": "Okay we shall wait, please chase this up further."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 20:05",
+      "content": "still waiting thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "29 Jan 2026 19:37",
+      "content": "Hi, Okay sure. We will wait for your further response and confirmation. Kindly keep us updated."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 15:00",
+      "content": "Hi team, will update as soon as we get response from customer"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "26 Jan 2026 21:05",
+      "content": "as per the communication, we will wait for the response from your end regarding burn test.\nonce you receive an update please keep us informed."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "25 Jan 2026 14:19",
+      "content": "Hi team, have just chased up customer. Will send over results once obtained"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "25 Jan 2026 12:55",
+      "content": "Hi, please let us know once you obtain the results of the burns test. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 11:22",
+      "content": "Hi team, we have reached out to the customer to conduct a burns test now."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "21 Jan 2026 17:14",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "13 Jan 2026 19:31",
+      "content": "Hi,\n\nThe MSN is not matching as the meter at site is E6S15053651860?"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "12 Jan 2026 09:28",
+      "content": "Screenshot 2026-01-12 at 09.26.55.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "12 Jan 2026 09:27",
+      "content": "hello,\nplease find the picture attached of the backup 1787 m3 dated 20/11/2025.\nbest"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "07 Jan 2026 15:31",
+      "content": "Hi, we have received the proposal again with the comment \"BU 20/11/25: 1787 Customer photo submission\", so please share the meter picture for us to validate. regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mahammad.Panna@edfenergy.com",
+      "timestamp": "18 Dec 2025 19:14",
+      "content": "Hi,\n\nplease respond to the follow alt read proposal:\nMPRN (Account)\t7663887504  \nMeter serial\tE6S15053651860\nSupply start date\t23rd Sep 2025\nProposal Read:4225\nBackups: 20250922 4225.4 20250821 4225.4\n\nregards"
+    }
+  ],
+  "communication_id": "1688032",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7663887504",
+  "bucket": "Current"
+}

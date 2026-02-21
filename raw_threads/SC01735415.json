@@ -1,0 +1,20 @@
+{
+  "reference": "SC01735415",
+  "subject": "Objected switch",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "SCT - ScottishPower - Supplier",
+  "meter_point_number": "9126017208",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "harry.hammick@fuseenergy.com",
+      "timestamp": "04 Feb 2026 20:35",
+      "content": "Hi, customer is trying to switch gas supply to Fuse and is being objected, could you let us know why and/or lift the block? Many thanks"
+    }
+  ],
+  "communication_id": "1735415",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9126017208",
+  "bucket": "Current"
+}

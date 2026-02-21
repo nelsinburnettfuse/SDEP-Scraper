@@ -1,0 +1,56 @@
+{
+  "reference": "SC01606773",
+  "subject": "2000055865404",
+  "escalation_level": "Final Escalation",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000055865404",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "18 Feb 2026 10:04",
+      "content": "Hi, we have not received the D86, please can you share the flat file. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "22 Jan 2026 20:41",
+      "content": "Hi team, we see D86 with the agreed value on our end now, can you confirm if you have received?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "22 Jan 2026 15:26",
+      "content": "Hi, please can we have an update on this ASAP as no D86 yet received. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Alastair@fuseenergy.com2026-02-05 16:05:34",
+      "timestamp": "31 Oct 2025 18:55",
+      "content": "Hi team, \nWe've accepted the revised D86, it should be issued shortly.\nThanks, Fuse team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "09 Oct 2025 10:53",
+      "content": "Hi, please can we have a response. Thanks"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "09 Oct 2025 10:53",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ella.mcculla@ecotricity.co.uk",
+      "timestamp": "25 Sep 2025 12:26",
+      "content": "Hi, escalating due to no response on SDEP SC01463380, please can the revised D86 be issued ASAP following the agreement for 14133 - 12/03/25. Thanks"
+    }
+  ],
+  "communication_id": "1606773",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000055865404",
+  "bucket": "Current"
+}

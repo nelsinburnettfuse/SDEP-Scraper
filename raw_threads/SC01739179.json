@@ -1,0 +1,20 @@
+{
+  "reference": "SC01739179",
+  "subject": "1012477741500",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012477741500",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Sneha.Prakash@edfenergy.com",
+      "timestamp": "09 Feb 2026 11:54",
+      "content": "Hi team, we have sent proposal for cos date 8th Jan 2026, but no response received from your end as cos read is missing hence we send proposal \"proposed read: 47363 for cos date 08/01/2026. backups:[47161 on 21/12/2025] and [46914 on 29/11/2025]\", kindly validate and response.Regards."
+    }
+  ],
+  "communication_id": "1739179",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012477741500",
+  "bucket": "Current"
+}

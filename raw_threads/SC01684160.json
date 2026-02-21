@@ -1,0 +1,194 @@
+{
+  "reference": "SC01684160",
+  "subject": "2476642103",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2476642103",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "09 Feb 2026 10:52",
+      "content": "relevant team chased to issue the read so archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 19:05",
+      "content": "Yes, we can agree on this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "02 Feb 2026 11:46",
+      "content": "Hi,\nThank you.We also hold MSN E6S14923032562 and Smart read 47.4 for cos date 2nd Oct 2025,kindly confirm if we can make agreement on read 47.4.\n\nRegards,"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "01 Feb 2026 17:58",
+      "content": "image (1).png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "01 Feb 2026 17:50",
+      "content": "Reattempting photo attachment"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "01 Feb 2026 17:45",
+      "content": "Hi team, please find attached photo of gas meter sent by customer"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 20:14",
+      "content": "Waiting on customer to return to property this week"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "29 Jan 2026 11:37",
+      "content": "Hi,\nKindly share the Meter picture to validate the correct MSN .As we have received Proposal with MSN-0226211 read 1673  without any back ups,however we hold MSN-E6S14923032562 for cos date 2nd Oct 2025.Hence,Meter picture required.\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 09:21",
+      "content": "Hi team, agreed. no more response needed until then"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "28 Jan 2026 09:16",
+      "content": "Once you receive the meter photo please share the response with us , we will wait accordingly."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 13:58",
+      "content": "Hi team, we will send once received in February"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "27 Jan 2026 13:37",
+      "content": "As per your communication we will wait for the response from your end , once you receive the update from the customer regarding meter picture further, please share response with us accordingly."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 10:31",
+      "content": "Hi team the customer has responded that he will not be at the property untill February we will get in touch then."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "21 Jan 2026 18:11",
+      "content": "We will wait for the response from your end regarding meter picture."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "20 Jan 2026 20:53",
+      "content": "We will keep you posted!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "20 Jan 2026 16:36",
+      "content": "Once you receive the meter picture with yellow sticker. please share the response with us."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "19 Jan 2026 18:27",
+      "content": "We will do, thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "19 Jan 2026 17:17",
+      "content": "We will wait for the response further from your end regarding meter photo along with the yellow sticker, as per your communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "17 Jan 2026 16:38",
+      "content": "Hi team, customer has said they will only be at the property to send a new meter picture in February, so we will update you when we hear back from them. We have already followed up with the customer. Kind regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "13 Jan 2026 16:58",
+      "content": "You sent meter photo wherein yellow sticker is blank. meter photo has MSN- 0226211 but we already have the ONJOB which confirms MEX happened on 16/09/2025 from old MSN- 0226211 to old MSN- E6S14923032562. based on this, correct MSN on site for Cos date 02.10.2025 is the new MSN- E6S14923032562. so please validate and confirm. or please provide meter picture with yellow sticker with complete MEX details present to validate ."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "12 Jan 2026 21:35",
+      "content": "Screenshot 2026-01-12 at 21.33.28.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "12 Jan 2026 21:34",
+      "content": "Hi Team, I have attached the most recent picture of the meter with MSN 0226211"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "12 Jan 2026 16:37",
+      "content": "Hi, we will wait for the further response from your end so kindly keep us updated. regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vittorio@fuseenergy.com",
+      "timestamp": "09 Jan 2026 15:08",
+      "content": "Hi team, we have not yet received answer from the customer with picture of meter. We have chased and will update you when we receive it.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "05 Jan 2026 17:12",
+      "content": "Hi, we will wait for the further response from your end so kindly keep us updated. regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "inigo.cockett@fuseenergy.com",
+      "timestamp": "03 Jan 2026 15:58",
+      "content": "Hi team, we have reached out to customer to attain a photo of the meter. We will update you when we receive this. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "02 Jan 2026 13:17",
+      "content": "Hi,\nWe do not hold Meter Picture. As you are a gaining supplier,kindly chase customer,if required.\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "elena.liberti@fuseenergy.com",
+      "timestamp": "01 Jan 2026 16:16",
+      "content": "Hi team, thank you for the onjob file. Will override MSN on our end, do you have picture of the meter with the right MSN?"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "29 Dec 2025 07:05",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "16 Dec 2025 06:45",
+      "content": "Hi team, we have received the proposal for 1673 for the SSD of 2nd Oct 2025 with the incorrect MSN hence sent the rejection the MSN-0226211,for our cos date 2ndOct 2025,correct MSN is E6S14923032562 hence sharing the the ONJOB file \"TRANS\",\"623946\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"194483\",, \"MTPNT\",\"\",2476642103,\"\",\"\",\"06\",\"\",\"\",1.022640,20250916, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"0226211\",\"\",\"\",\"RE\" \"REGST\",\"\",\"METER\",,\"\", \"READG\",20250916,0,\"8246\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2025,\"E6S14923032562\",\"06\",\"Garage\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250916,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20250916,0,\"0\" \"MKPRT\",\"ASSPR\",\"MFD\" \"APPNT\",\"\",20250916,20250916,\"\",\"080000\",\"120000\"\nRegards"
+    }
+  ],
+  "communication_id": "1684160",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2476642103",
+  "bucket": "Current"
+}

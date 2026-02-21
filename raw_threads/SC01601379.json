@@ -1,0 +1,80 @@
+{
+  "reference": "SC01601379",
+  "subject": "MPAN 2380001113780",
+  "escalation_level": "Final Escalation",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2380001113780",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "lemuel.nwagwu@octoenergy.com",
+      "timestamp": "10 Feb 2026 13:15",
+      "content": "Hi team,\n\nEt re-sent today, flow should arrive within the next 24-48 hours.\n\nApologies for the delay.\n\nWe look forward to hear from you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "05 Jan 2026 11:08",
+      "content": "Hi team, any update please?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "26 Dec 2025 21:12",
+      "content": "Hi team, we have not received a response. Any update?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "24 Nov 2025 23:22",
+      "content": "Hi team, could you send an ET request to switch customer to us. We should then be able to accept the switch"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "lemuel.nwagwu@octoenergy.com",
+      "timestamp": "20 Nov 2025 10:28",
+      "content": "Hi team,\n\nPlease go ahead in restarting the registration for the meter.\n\nWe've been experiencing issues in releasing this supply but we have removed the objection so you should now be able to re-register the meter.\n\nMany thanks,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sophie.merciawhite@octoenergy.com",
+      "timestamp": "12 Nov 2025 16:00",
+      "content": "Hi there, no the account is now clear - could you please try again? Thanks so much for your patience on this!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "william.agates@fuseenergy.com",
+      "timestamp": "25 Oct 2025 07:55",
+      "content": "Hi team, are there any outstanding debts left to be paid by the customer to yourselves that would be stopping the switch, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "william.agates@fuseenergy.com",
+      "timestamp": "24 Oct 2025 15:53",
+      "content": "Hi, we have attempted to re-register the associated MPAN but it has been objected we are looking into it"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jessica.verso@octoenergy.com",
+      "timestamp": "23 Oct 2025 15:40",
+      "content": "Hello, can you respond to this thread, or re-register MPAN 2380001113780 please?"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "jessica.verso@octoenergy.com",
+      "timestamp": "23 Oct 2025 15:39",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "richard.iyoha@octoenergy.com2026-01-08 00:01:11",
+      "timestamp": "19 Sep 2025 14:18",
+      "content": "Hi Team\n\nWe've received accepted flow for this MPAN. Kindly register this mpan with yourselves"
+    }
+  ],
+  "communication_id": "1601379",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2380001113780",
+  "bucket": "Current"
+}

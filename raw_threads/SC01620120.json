@@ -1,0 +1,110 @@
+{
+  "reference": "SC01620120",
+  "subject": "Missing Electricity loss D0086",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012848453669",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "komal.shinde1@ovo.com",
+      "timestamp": "16 Feb 2026 11:22",
+      "content": "Hi Team, Please response asap, as we have open complaint on this account. regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vishal.Jagtap@ovoenergy.com",
+      "timestamp": "09 Feb 2026 16:17",
+      "content": "Hi Team, Please issue D86 flow. We have open complaint on this account. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aishwarya.mirje@ovo.com",
+      "timestamp": "02 Feb 2026 08:58",
+      "content": "Hi Team, Please issue D86 flow. We have open complaint on this account. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "komal.shinde1@ovo.com",
+      "timestamp": "22 Jan 2026 10:25",
+      "content": "Hi Team, Please response or agree our final read 81467. We will chase our DC. Thank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mainuddin.Sayyed@ovo.com",
+      "timestamp": "24 Dec 2025 09:28",
+      "content": "Hello Team, any update on this ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Pankaj.Agarwal@ovoenergy.com",
+      "timestamp": "10 Dec 2025 15:40",
+      "content": "Hi Team, Still not get valid D0086 flow. Please provide us D86 file id and read, we will chase our DC. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "komal.shinde1@ovo.com",
+      "timestamp": "03 Dec 2025 12:46",
+      "content": "Hi Team, Still not get valid D0086 flow. Please provide us D86 file id and read, we will chase our DC. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dhanshri.sonawane@ovo.com",
+      "timestamp": "26 Nov 2025 11:38",
+      "content": "Hello Team, thank you for the response, please issue D0086 Flow ASAP, Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arjun.devsen@fuseenergy.com2026-02-05 16:05:54",
+      "timestamp": "20 Nov 2025 16:23",
+      "content": "dispute filed again, waiting for ACCU to reissue d86. please reach out if any concerns/ updates. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arjun.devsen@fuseenergy.com2026-02-05 16:05:54",
+      "timestamp": "08 Nov 2025 14:06",
+      "content": "Hi, sorry for delay. Reached out to DC again to issue D86 with value 278673 kWh (remote read) for SSD 03/09/2025. Please standby for this, you should receive in 48 hours. Please get back if any issues arise"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "komal.shinde1@ovo.com",
+      "timestamp": "06 Nov 2025 08:48",
+      "content": "Hi Team, Any update on this please?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aishwarya.mirje@ovo.com",
+      "timestamp": "30 Oct 2025 08:01",
+      "content": "Hello Team, Thank you for your response, please issue D0086 flow ASAP, we are still awaiting, Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aditya@fuseenergy.com2026-01-25 00:01:41",
+      "timestamp": "25 Oct 2025 17:02",
+      "content": "Hello Team,\n\nSorry for the delay. We have sent a message to our data collector to issue the D086."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aishwarya.mirje@ovo.com",
+      "timestamp": "23 Oct 2025 08:44",
+      "content": "Hello Team, please respond our below communication, Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jhumali.Sinha@ovo.com",
+      "timestamp": "16 Oct 2025 13:38",
+      "content": "Hello Team, OVO lost supply on 03 Sep 2025 to FUSE (Fuse Energy Supply). We have not yet received the D0086 for our loss, your gain. Please can you send the D0086 to our DC ACCU. Please can you also confirm the read you have opened your account to and provide the file ID of the D0086 so we can chase this with our DC? Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jhumali.Sinha@ovo.com",
+      "timestamp": "09 Oct 2025 13:36",
+      "content": "Hello Team,\n\nOVO lost supply on 03 Sep 2025 to FUSE (Fuse Energy Supply). We have not yet received the D0086 for our loss, your gain. Please can you send the D0086 to our DC ACCU. Please can you also confirm the read you have opened your account to and provide the file ID of the D0086 so we can chase this with our DC? \n\nMany thanks."
+    }
+  ],
+  "communication_id": "1620120",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012848453669",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750740",
+  "subject": "Opening Read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "1814407908",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "19 Feb 2026 11:24",
+      "content": "Hi Team, please accept the opening read of 169000 ft3 from 23/01/2026. Thanks."
+    }
+  ],
+  "communication_id": "1750740",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1814407908",
+  "bucket": "Current"
+}

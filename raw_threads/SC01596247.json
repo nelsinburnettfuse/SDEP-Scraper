@@ -1,0 +1,110 @@
+{
+  "reference": "SC01596247",
+  "subject": "D86 file for MPAN: 2200032038234",
+  "escalation_level": "Final Escalation",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "PADD - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200032038234",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Jahnavi@fuseenergy.com",
+      "timestamp": "11 Feb 2026 09:42",
+      "content": "Hi, please provide verbal agreement if applicable an we can chase DC for updated D0086"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "03 Feb 2026 09:51",
+      "content": "Hi team,\nPast RF, can't dispute\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "10 Jan 2026 15:56",
+      "content": "Hi team, any updates?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "05 Jan 2026 12:43",
+      "content": "Hi team, kindly asking for an update."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "30 Dec 2025 18:13",
+      "content": "Hi team, any update? Please respond to dispute or issue verbal agreement so we can chase DC for updated D0086."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "25 Dec 2025 00:26",
+      "content": "Hi, this has been dropped. Should we initiate another dispute for a D86 to be issued?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "filippo@fuseenergy.com",
+      "timestamp": "25 Nov 2025 00:43",
+      "content": "Hi Team,\n\nI sincerely apologise for the delay.\n\nI have reissued a new dispute proposing the readings that you have suggested below due to the customer performing a Space Test.\n\nPlease accept the dispute and an updated D0086 will be issued accordingly.\n\nThank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "17 Nov 2025 07:21",
+      "content": "Hi team, could you respond Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zoe.westcott@octoenergy.com",
+      "timestamp": "06 Nov 2025 21:08",
+      "content": "Please respond to message below, thanks Zoe"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "15 Oct 2025 09:37",
+      "content": "Hi team,\n\ncould you respond \n\nRegards"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "15 Oct 2025 09:36",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "elliot.green@octoenergy.com",
+      "timestamp": "30 Sep 2025 12:06",
+      "content": "original-78377216-7BAF-4AE5-BD92-AF7F028B1413.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "elliot.green@octoenergy.com",
+      "timestamp": "30 Sep 2025 12:03",
+      "content": "original-8102F491-7776-4024-9C38-BA4BE98278BE.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "elliot.green@octoenergy.com",
+      "timestamp": "30 Sep 2025 11:59",
+      "content": "original-94D11844-69C1-4FD6-8713-5D816F878AEC.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "elliot.green@octoenergy.com",
+      "timestamp": "30 Sep 2025 11:56",
+      "content": "Hi there, please can you respond to our request for the D0086 for this account? Customer has performed a space test and we have R1 as 74101 (night usage) and R2 as 22683 (day usage), have copied in the result photos below for transparency, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rycardas.nikitinas@octoenergy.com",
+      "timestamp": "15 Sep 2025 10:49",
+      "content": "Hi team,\n\nWe've not received the D86 for MPAN: 2200032038234, SSD: 14/09/2024 yet, can you please let us know if you've received this and if so, can you send us the raw D86 file?\n\nMany thanks"
+    }
+  ],
+  "communication_id": "1596247",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200032038234",
+  "bucket": "Current"
+}

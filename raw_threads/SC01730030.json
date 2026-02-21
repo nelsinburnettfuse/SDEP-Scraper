@@ -1,0 +1,20 @@
+{
+  "reference": "SC01730030",
+  "subject": "3045016707",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3045016707",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "02 Feb 2026 06:59",
+      "content": "Hi team, We have received alternate with read 9339 which is within tolerance with our GT read 9412.0 hence sticking to out GT read and closed the dispute.\nRegards"
+    }
+  ],
+  "communication_id": "1730030",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3045016707",
+  "bucket": "Current"
+}

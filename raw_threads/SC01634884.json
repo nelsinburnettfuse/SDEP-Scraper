@@ -1,0 +1,134 @@
+{
+  "reference": "SC01634884",
+  "subject": "D0300 Y",
+  "escalation_level": "Final Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1712380013259",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "07 Feb 2026 12:26",
+      "content": "Please find the D0086 RAW FILE: 196|1712380013259|V| 197|23M0451220|D| 198|1|20250709000000|1030.8|||T|N| 198|2|20250709000000|1104.6|||T|N|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shankar.mehta@ovo.com",
+      "timestamp": "06 Feb 2026 08:48",
+      "content": "Hi Team, can you please insure the replace D0086 transfer read has been sent as we have not yet received this. If this has already been sent then, please provide the file id so that we can chase with our DC. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 18:59",
+      "content": "Y-flow sent will have to wait for D0086"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jehangir.Dash@ovoenergy.com",
+      "timestamp": "30 Jan 2026 11:23",
+      "content": "Hi, please accept our verbal agreement to reads 580/401 and send us Y flow and revised D86. Thanks. The OVO Energy Team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "23 Jan 2026 13:38",
+      "content": "Hi team, have sent new proposal. please send y-flow"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "shankar.mehta@ovo.com",
+      "timestamp": "22 Jan 2026 08:47",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shankar.mehta@ovo.com",
+      "timestamp": "22 Jan 2026 08:47",
+      "content": "Hi, still not received any response so please response asap to settle the account. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "15 Jan 2026 08:16",
+      "content": "Hi team, Please re-look our proposal and sent us Y flow .Thanks!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jehangir.Dash@ovoenergy.com",
+      "timestamp": "01 Jan 2026 14:05",
+      "content": "Hi, you are proposing reads similar to dispute reads which we are disputing. In addition, current dispute is active at our end and system will not allow us to raise another proposal. So we request you to agree and send Y flow to our proposed read 1:580.0/2:401.0 backed by 1:554/2:393 2025-06-19 & 1:512/2:381 2025-05-19 for CoS-09/07/2025. Thanks. The OVO Energy Team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "19 Dec 2025 15:13",
+      "content": "Hi team, we have already responded to your proposal. Could you resend proposed read if you disagree?"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "18 Dec 2025 11:47",
+      "content": "Screenshot_18-12-2025_171713_prod.oot.ovotech.org.uk.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "18 Dec 2025 11:47",
+      "content": "Hi Team, As per Smart reads its two register ,so please relook our proposal 1:580.0/2:401.0 backed by 1:554/2:393 2025-06-19 & 1:512/2:381 2025-05-19 and send us Y flow. Thanks!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "27 Nov 2025 08:04",
+      "content": "Hi team, We have chased our metering team to update the correct register on our end ,, kindly allow us some time"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "20 Nov 2025 08:50",
+      "content": "Hi team, understood and awaiting your reply. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "20 Nov 2025 08:01",
+      "content": "Hi team, We have chased our metering team to update the correct register on our end ,, kindly allow us some time"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "16 Nov 2025 21:41",
+      "content": "Hi team, we have already responded to your D300. Kindly either respond back or advise here about the register discrepancy. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mayur.Kukkar@ovoenergy.com",
+      "timestamp": "13 Nov 2025 11:11",
+      "content": "Hi Team, please respond to our D0300 flow with appropriate flow. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "05 Nov 2025 10:42",
+      "content": "Hi team, We have chased our metering team to update the correct register on our end ,, kindly allow us some time"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "29 Oct 2025 12:52",
+      "content": "Hi team, our readings do not show a second register on the meter. We only have one register for all readings. Remote reading for us for the D86 on 08/07/25 was 1030.8 kWh. Can you please double check and reconfirm? Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alisha.pinjari1@ovo.com",
+      "timestamp": "27 Oct 2025 10:27",
+      "content": "Hi Team,\nWe\u2019ve raised a read dispute proposing1:580.0/2:401.0 backed by 1:554/2:393 2025-06-19 & 1:512/2:381 2025-05-19 for the transfer date of 20/10/2025\nPlease can you take a look at our proposal and respond to our dispute.\n\nThanks\nThe OVO Energy Team"
+    }
+  ],
+  "communication_id": "1634884",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1712380013259",
+  "bucket": "Current"
+}

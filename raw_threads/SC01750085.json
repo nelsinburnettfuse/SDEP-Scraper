@@ -1,0 +1,32 @@
+{
+  "reference": "SC01750085",
+  "subject": "7576218901",
+  "escalation_level": "First Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7576218901",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "20 Feb 2026 15:35",
+      "content": "Hi, the previous agreed read is not inline, so can we have the agreement on the new proposed read. regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "saoirse.chinery@fuseenergy.com",
+      "timestamp": "19 Feb 2026 16:00",
+      "content": "Hi,\n\nI can see that this was previously agreed so we can confirm that the reading of 4514 is correct."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "18 Feb 2026 17:03",
+      "content": "Hi, look back to our previous sdep can we make a verbal agreement over read 913 for cos date 27/08/2025. backups: [575 on 23/12/2024] and [534 on 23/11/2024] for MSN E6S13689472261? Also archive the loop Reference: SC01677447. Regards"
+    }
+  ],
+  "communication_id": "1750085",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7576218901",
+  "bucket": "Current"
+}

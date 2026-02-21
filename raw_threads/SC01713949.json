@@ -1,0 +1,26 @@
+{
+  "reference": "SC01713949",
+  "subject": "Customer Opening Read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "3059652605",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Saima.Parween@edfenergy.com",
+      "timestamp": "22 Jan 2026 10:14",
+      "content": "Hi,Sure, Revised cos read has been received. Archiving communication.  Raw file:\n\n\"U04\",3059652605,20251230,\"A\",\"O\",\"0065760\",\"        1711\",\"0\",\"\",\"\",\"\",\"\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "trevor@fuseenergy.com",
+      "timestamp": "16 Jan 2026 06:20",
+      "content": "Hello, \n\nWe have an agreed URN with you for this customer for 1711 ft3. Please can you issue customer final bill and close their account.\n\n\"U03\",3059652605,20251230,\"A\",\"O\",\"0065760\",\"        1711\",\"\",\"\",\"\",\"0\",\"\",\"\""
+    }
+  ],
+  "communication_id": "1713949",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3059652605",
+  "bucket": "Current"
+}

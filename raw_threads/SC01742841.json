@@ -1,0 +1,26 @@
+{
+  "reference": "SC01742841",
+  "subject": "1900040355544",
+  "escalation_level": "Final Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900040355544",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "nobantu.masanga@uw.co.uk",
+      "timestamp": "19 Feb 2026 09:52",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "11 Feb 2026 17:17",
+      "content": "Hi team, you sent a YFlow to us with an agreement  however on the additional note you wrote we need to provide 2 or more backups, kindly clarify if we can take the YFlow as the agreement or do you still require valid backups. regards."
+    }
+  ],
+  "communication_id": "1742841",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900040355544",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01695066",
+  "subject": "1881684603",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "1881684603",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "stuart.simms@fuseenergy.com",
+      "timestamp": "15 Feb 2026 18:25",
+      "content": "Hello, can you please provide an ONJOB to update the meter details for this MPRN 1881684603 which was a meter exchanged before the supply switched to Fuse? We cannot send one."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "29 Dec 2025 19:29",
+      "content": "Hi, you have requested through a customer that we update XOSERVE with onjob. We did not mex the meter, could you provide onjob?"
+    }
+  ],
+  "communication_id": "1695066",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1881684603",
+  "bucket": "Current"
+}

@@ -1,0 +1,68 @@
+{
+  "reference": "SC01680360",
+  "subject": "2100041783776",
+  "escalation_level": "First Escalation",
+  "from": "EOND - E.ON - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2100041783776",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "29 Jan 2026 02:08",
+      "content": "Hi team, have resubmitted proposal based on the reading provided. we do not yet hold any customer submissions ourselves. please send y-flow"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Olivia.Butler@eonnext.com",
+      "timestamp": "27 Jan 2026 08:33",
+      "content": "Final chaser before escalating to CM."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "neil.king@eonnext.com",
+      "timestamp": "16 Jan 2026 12:02",
+      "content": "1000042697.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "neil.king@eonnext.com",
+      "timestamp": "16 Jan 2026 12:00",
+      "content": "Hello team please see attached picture taken on the 18.11.25 for our dispute."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "10 Jan 2026 19:07",
+      "content": "Hi team, I can see that we had received your dispute request on the 2nd of December and also rejected it on the 2nd of December. Could you please clarify if your back up reading was an estimate or a customer submission? And if it was a customer submission, please provide pictures. Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Olivia.Butler@eonnext.com",
+      "timestamp": "08 Jan 2026 10:55",
+      "content": "Final chaser before escalating to CM."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Olivia.Butler@eonnext.com",
+      "timestamp": "17 Dec 2025 13:02",
+      "content": "58C|2100041783776|D|20251002|GELLIDEG WORKSHOP||LLANDEILO|SIR GAR||||||SA19 7DN|BU: back up read 4409 4276||\n59C|21E1008189|2|\n60C|1|5430.3|A|02|4588.0|P|\nZPT|B00001HT2I|16||5|20251203163213|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "11 Dec 2025 13:27",
+      "content": "Hi team, We haven't received any dispute req on 2nd December. Can you please check"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Olivia.Butler@eonnext.com",
+      "timestamp": "11 Dec 2025 09:11",
+      "content": "Hello. We raised a dispute to you on the 2nd December and are yet to receive a response. Can you please look into this and respond to avoid further escalation. Thank you"
+    }
+  ],
+  "communication_id": "1680360",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2100041783776",
+  "bucket": "Current"
+}

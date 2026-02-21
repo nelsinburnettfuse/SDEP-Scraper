@@ -1,0 +1,20 @@
+{
+  "reference": "SC01725675",
+  "subject": "9086986608 - P too low",
+  "escalation_level": "First Escalation",
+  "from": "GEG - Good Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9086986608",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "28 Jan 2026 11:16",
+      "content": "Hi - Can you please re issue the Proposal as higher as initially I accepted 9911  but the customer has given an actual reading 19 12 25 - 9986.0 so your reading needs to be higher or this will not go through xoserve - I have proposed 9989  - please ensure the 9911 does not go through, thanks Rachel"
+    }
+  ],
+  "communication_id": "1725675",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9086986608",
+  "bucket": "Current"
+}

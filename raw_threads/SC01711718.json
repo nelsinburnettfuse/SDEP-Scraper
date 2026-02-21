@@ -1,0 +1,56 @@
+{
+  "reference": "SC01711718",
+  "subject": "7615693807",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7615693807",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "17 Feb 2026 12:37",
+      "content": "Hi, We will wait for your further response. Keep us updated. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "stuart.simms@fuseenergy.com",
+      "timestamp": "16 Feb 2026 15:23",
+      "content": "Hello, I have chased this up, we have sent this ONJOB \"TRANS\",\"FUEsdep246641\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"270660310\",,\n\"MTPNT\",\"\",7615693807,\"\",\"\",\"\",\"\",\"\",,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"078267\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20251114,,\"08705\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"\",\"E6VG470\",\"LPG\",2024,\"E6S11149462462\",\"\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1\n\"READG\",20251114,,\"00414\"\n\"APPNT\",\"\",20251114,,\"\",\"000000\",\"\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\nWe are awaiting this to update, and then we will send COS flows"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "16 Feb 2026 13:14",
+      "content": "Hi, Please let us know if you have any further update on this ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "09 Feb 2026 15:04",
+      "content": "Hi,\nWe will wait for your further response. Keep us updated.\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 15:49",
+      "content": "Hello we have sent ONJOB, we will send COS read flow when this is updated."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Souri.Dutta@edfenergy.com",
+      "timestamp": "05 Feb 2026 11:41",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Souri.Dutta@edfenergy.com",
+      "timestamp": "14 Jan 2026 12:18",
+      "content": "Hi team, We have received alternative by stating \"we hold msn 078267\", sharing ONJOB, kindly validate and respnse to Us. \"Raw file: \"TRANS\",\"246641\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",, \"MTPNT\",\"\",7615693807,\"\",\"\",\"32\",\"\",\"\",1.022640,20250205, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"078267\",\"\",\"\",\"RE\" \"REGST\",\"\",\"METER\",,\"\", \"READG\",20250205,0,\"8403\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S11149462462\",\"32\",\"\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250205,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20250205,0,\"0\" \"MKPRT\",\"ASSPR\",\"MFD\" \"APPNT\",\"\",20250205,20250205,\"\",\"080000\",\"120000\" Regards.archiving the chat as no response received Reference: SC01697690"
+    }
+  ],
+  "communication_id": "1711718",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7615693807",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01723079",
+  "subject": "D0086 Loss Read Chase FUSE",
+  "escalation_level": "",
+  "from": "ALAB - Square1 Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1013030238990",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "data.quality@tulo.energy",
+      "timestamp": "26 Jan 2026 12:12",
+      "content": "Hello, Please can you send us our Loss Read SSD COS 09/01/2026, Thanks"
+    }
+  ],
+  "communication_id": "1723079",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1013030238990",
+  "bucket": "Current"
+}

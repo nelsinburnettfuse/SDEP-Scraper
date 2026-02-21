@@ -1,0 +1,26 @@
+{
+  "reference": "SC01735218",
+  "subject": "ET Return",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "1416588660009",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "09 Feb 2026 16:41",
+      "content": "we raised to you 04.02.26 which you accepted 09.02.26"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "04 Feb 2026 15:56",
+      "content": "Please raise ET return for customer with MPAN: 1416588660009, MPRN: 2499029103, erroneously switched out by neighbour, confirmed with meter photos"
+    }
+  ],
+  "communication_id": "1735218",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1416588660009",
+  "bucket": "Current"
+}

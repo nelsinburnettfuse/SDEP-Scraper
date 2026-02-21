@@ -1,0 +1,50 @@
+{
+  "reference": "SC01711826",
+  "subject": "Erroneous transfer",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "OVOE - OVO Energy - Supplier",
+  "meter_point_number": "1700051900988",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rohit.kamate@ovo.com",
+      "timestamp": "30 Jan 2026 08:53",
+      "content": "Hi Team, ET can't deal with meter photos. We hold the correct MSN and supply as per our system data. Please ask customer to contact OVO. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "29 Jan 2026 10:24",
+      "content": "Hi Team, could you please send us a picture of the meter you hold or request one from the customer? Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rohit.kamate@ovo.com",
+      "timestamp": "15 Jan 2026 10:56",
+      "content": "Hi Team, We hold valid contract for this supply. We are not going to process an ET until our partnership allow us to accept this. Please ask you customer to contact OVO. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ephraim.cudjoe@fuseenergy.com",
+      "timestamp": "14 Jan 2026 13:19",
+      "content": "Could you initiate the ET from your end as I unable to do it from mine. The customer says they have also reached out to OVO as well regarding this"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "ephraim.cudjoe@fuseenergy.com",
+      "timestamp": "14 Jan 2026 13:02",
+      "content": "electricity_meter.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ephraim.cudjoe@fuseenergy.com",
+      "timestamp": "14 Jan 2026 13:02",
+      "content": "Customer has informed has been asking us since November to switch him back as this was an ET and neither he or his landlord are aware of this switch. He was provided a picture of his meter which matches the MPAN."
+    }
+  ],
+  "communication_id": "1711826",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1700051900988",
+  "bucket": "Current"
+}

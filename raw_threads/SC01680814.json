@@ -1,0 +1,80 @@
+{
+  "reference": "SC01680814",
+  "subject": "1012707669513",
+  "escalation_level": "First Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012707669513",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "09 Feb 2026 08:07",
+      "content": "Thank you for the Y flow, Please issue revised D86. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "24 Jan 2026 14:48",
+      "content": "Can you agree to the dispute? Last message was from us to you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "22 Jan 2026 09:26",
+      "content": "Hi, We agree to ypur proposal of R1-3333.4 and R2-8701.8, Please issue Y flow. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "12 Jan 2026 09:23",
+      "content": "hello,\nthank you for the pictures. I assume they are dated 09/01/2026?\n\nI can confirm to you we have proposed a read of R1 3333.4 kWh and R2 8701.8 kWh for the D086 of 15/07/2025 based on the remote reads received on 15/07/2025: R1 3337.289 kWh and R2 8704.156 kWh\n\nbest"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "09 Jan 2026 09:57",
+      "content": "2026-01-09-1.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "09 Jan 2026 09:56",
+      "content": "2026-01-09 R2.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "09 Jan 2026 09:56",
+      "content": "2026-01-09 R1.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "09 Jan 2026 09:56",
+      "content": "Hi Team Please find photos attached . Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "02 Jan 2026 16:56",
+      "content": "Hi, We have requested photos from the customer. Please allow for some time. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "11 Dec 2025 12:07",
+      "content": "Hi Team, we have proposed the read for the date 15/07/2025- 3337.289 & 8704.156.\nBU- 10/07/2025- 3322.125 & 8686.766 kWh."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "11 Dec 2025 11:53",
+      "content": "Hi, Please advise us of the reason for your rejection of our proposal. Regards,"
+    }
+  ],
+  "communication_id": "1680814",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012707669513",
+  "bucket": "Current"
+}

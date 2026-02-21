@@ -1,0 +1,20 @@
+{
+  "reference": "SC01740368",
+  "subject": "1700051900988",
+  "escalation_level": "First Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1700051900988",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "snehal.awatade@ovo.com",
+      "timestamp": "10 Feb 2026 09:30",
+      "content": "Hello Team,\nET Gain accepted by you on 09/02/2026 please re-register the supply ASAP. \nThank You."
+    }
+  ],
+  "communication_id": "1740368",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1700051900988",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01749937",
+  "subject": "1900046126003",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900046126003",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "18 Feb 2026 17:03",
+      "content": "Hi Team, proposed reading of 65146.0 has been agreed upon."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "armand.dudas@octoenergy.com",
+      "timestamp": "18 Feb 2026 15:43",
+      "content": "Hi! Can you please accept the dispute so we can issue the final bill?"
+    }
+  ],
+  "communication_id": "1749937",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900046126003",
+  "bucket": "Current"
+}

@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "3300307308",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)E.ON - SupplierEODFuse Energy Supply - SupplierFURHi, please see ONJOB below so you can update your side and send Y flow. Thanks \n\nRaw file:\n\n\"TRANS\",\"GUS001150188419\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"578414\",,\n\"MTPNT\",\"\",3300307308,\"\",\"\",\"\",\"\",\"\",,20250314,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S09411261956\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20250314,0,\"02000\"\n\"MKPRT\",\"ASSPR\",\"GTM\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S17743242462\",\"01\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250314,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250314,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"ESL\"\n\"APPNT\",\"\",20250314,20250314,\"\",\"081200\",\"093300\"nicola.bacon@eonnext.com20 Feb 2026 12:15Hi Team, currently we are not able to accept read as meter serial number is E6S09411261956 and it is not matching to the dispute sent by your team.mahdi.mohamed@fuseenergy.com19 Feb 2026 18:01Hi, please could you review and respond to our proposal. Many thanksnicola.bacon@eonnext.com09 Feb 2026 12:44"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "E.ON - SupplierEODFuse Energy Supply - SupplierFURHi, please see ONJOB below so you can update your side and send Y flow. Thanks \n\nRaw file:\n\n\"TRANS\",\"GUS001150188419\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"578414\",,\n\"MTPNT\",\"\",3300307308,\"\",\"\",\"\",\"\",\"\",,20250314,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S09411261956\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20250314,0,\"02000\"\n\"MKPRT\",\"ASSPR\",\"GTM\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S17743242462\",\"01\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250314,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250314,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"ESL\"\n\"APPNT\",\"\",20250314,20250314,\"\",\"081200\",\"093300\"nicola.bacon@eonnext.com20 Feb 2026 12:15Hi Team, currently we are not able to accept read as meter serial number is E6S09411261956 and it is not matching to the dispute sent by your team.mahdi.mohamed@fuseenergy.com19 Feb 2026 18:01Hi, please could you review and respond to our proposal. Many thanksnicola.bacon@eonnext.com09 Feb 2026 12:44"
+    }
+  ],
+  "communication_id": "1739333",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3300307308"
+}

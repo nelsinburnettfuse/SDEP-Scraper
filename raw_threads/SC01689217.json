@@ -1,0 +1,44 @@
+{
+  "reference": "SC01689217",
+  "subject": "Disputed meter readings",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1416355481000",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "musammad.begum@octoenergy.com",
+      "timestamp": "07 Jan 2026 20:18",
+      "content": "Hi, Please can you send us the raw file for the CoS read as we do not have this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "musammad.begum@octoenergy.com",
+      "timestamp": "31 Dec 2025 11:25",
+      "content": "Hi, Please can you send us the raw file for the CoS read as we do not have this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "musammad.begum@octoenergy.com",
+      "timestamp": "22 Dec 2025 18:26",
+      "content": "Hi,\nPlease can you send us the raw file for the CoS read as we do not have this."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "ossama.naitkabache@fuseenergy.com",
+      "timestamp": "19 Dec 2025 18:02",
+      "content": "Screenshot 2025-12-19 at 18.02.18.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ossama.naitkabache@fuseenergy.com",
+      "timestamp": "19 Dec 2025 18:02",
+      "content": "Hi,\n\nWe raised a dispute with your team on 17/12/2025 regarding the meter readings for the customer John Burns.\nThe readings we currently have on our system for the electricity meter are: 62,405 kWh.\nWe\u2019re following this up to ensure the readings are reviewed and the issue is resolved. Please let us know once this has been addressed.\n\nKind regards,\nOssama\nFuse Energy"
+    }
+  ],
+  "communication_id": "1689217",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1416355481000",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01729692",
+  "subject": "D0086 Issued- Please issue Final Bill",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1300010367870",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rycardas.nikitinas@octoenergy.com",
+      "timestamp": "03 Feb 2026 14:41",
+      "content": "Hi team,\n\nWe've also received the D86 on our end and have already issued the statement to the customer.\n\nWe will now be archiving this thread.\n\nMany thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ebin.baby@fuseenergy.com",
+      "timestamp": "31 Jan 2026 08:43",
+      "content": "Hi Team,\n\nJust to let you know, D0086 has been issued for this supply on January 20th. Please issue the final electricity bill to the customer.\n\nThank You"
+    }
+  ],
+  "communication_id": "1729692",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300010367870",
+  "bucket": "Current"
+}

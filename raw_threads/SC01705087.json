@@ -1,0 +1,50 @@
+{
+  "reference": "SC01705087",
+  "subject": "7441220702",
+  "escalation_level": "Final Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7441220702",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "16 Feb 2026 09:13",
+      "content": "Hi team, we haven't received it yet. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 18:56",
+      "content": "Hi, you'll just have to accept the Y-flow and it should be automatically issued"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "30 Jan 2026 13:26",
+      "content": "Hi team, thank you for the Y flow. Please issue a revised URN. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "22 Jan 2026 21:36",
+      "content": "Hi team, we have agreed to proposal."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "21 Jan 2026 09:52",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "07 Jan 2026 14:27",
+      "content": "Hi team, Please agree to our proposed SAR: COR 32678 backed by 32591 26-02-2025. Regards"
+    }
+  ],
+  "communication_id": "1705087",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7441220702",
+  "bucket": "Current"
+}

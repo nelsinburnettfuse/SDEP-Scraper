@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750198",
+  "subject": "1833881506",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1833881506",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Kunal.Das@edfenergy.com",
+      "timestamp": "19 Feb 2026 05:49",
+      "content": "Hi team , previously rejection sent satiating as we holD msn-E6S13842172562,MSN-Meter E6S16175691861 Deactivated 2nd Sep 2025 ONJOB attached below \"TRANS\",\"570955\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",1833881506,\"\",\"\",\"19\",\"\",\"\",1.022640,20250902,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S16175691861\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20250902,0,\"6159\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2025,\"E6S13842172562\",\"19\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250902,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250902,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20250902,20250902,\"\",\"080000\",\"120000\" please validate and get back too us,Regards"
+    }
+  ],
+  "communication_id": "1750198",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1833881506",
+  "bucket": "Current"
+}

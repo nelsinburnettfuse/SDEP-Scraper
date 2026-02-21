@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "9397628704",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUROctopus Energy - SupplierOCTHi Team, I'm contacting regarding a customer who would like to switch to us. He cannot do so because the MSN for his supply is blank on XOS. Could you please update this to the current MSN 20M0013980 as per his meter and your correspondence with him. Thank youroseann.fitzgerald@fuseenergy.com20 Feb 2026 10:08"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUROctopus Energy - SupplierOCTHi Team, I'm contacting regarding a customer who would like to switch to us. He cannot do so because the MSN for his supply is blank on XOS. Could you please update this to the current MSN 20M0013980 as per his meter and your correspondence with him. Thank youroseann.fitzgerald@fuseenergy.com20 Feb 2026 10:08"
+    }
+  ],
+  "communication_id": "1752042",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9397628704"
+}

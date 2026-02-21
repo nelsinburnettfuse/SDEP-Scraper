@@ -1,0 +1,86 @@
+{
+  "reference": "SC01663640",
+  "subject": "1012715991833",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012715991833",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "17 Feb 2026 13:53",
+      "content": "meter photo3.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "17 Feb 2026 13:50",
+      "content": "meter photo2.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "17 Feb 2026 13:47",
+      "content": "meter photo1.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "17 Feb 2026 13:44",
+      "content": "."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "17 Feb 2026 13:44",
+      "content": "Now showing correct MSN only active in our system- 24L3254998 (correct as per meter picture white sticker, MEX details). but incorrect Cos read [3854.7] received on  single reg. And also received Your Proposal on incorrect single register Read: 1437.0 . But  we hold dual register. and we are unable to send rejection flow due to relevant option not present in system. _______________\n So based on Actual BU:- [30/10/2025- 1- 1132.7 , 2- 304.6] and [ 10/07/2025- 1- 775.6 , 2- 196.1] can we verbally agree on 1- 1132.7 , 2- 304.6 for cos date 31/10/2025 , MSN- 24L3254998"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "03 Feb 2026 05:17",
+      "content": "Hi team,\nWe have removed the MSN- 23M0291684, as we hold MSN- 24L3254998 which is dual rate but proposal received in single rate so kindly validate it.\nRaw file:\n\n288|1012715991833|20241128||E|\n289|0151|20241128|||\n290|24L3254998|||5|X|1063|MFDE|||||||||||S2A|20241119|20240603|20340603|||R|20241119|\n293|1|C|AI|1.00||5|||\n293|2|C|AI|1.00||5|||\nRegards..."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "07 Jan 2026 07:26",
+      "content": "Hi team, we have chased our relevant team to remove MSN 23M0291684, kindly wait for some time, regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "31 Dec 2025 06:35",
+      "content": "Hi Team, we hold msn 23M0291684 / 24L3254998 from our end so please share us the meter picture with yellow sticker so that we can validate the correct msn ."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "17 Dec 2025 12:20",
+      "content": "Hi team,\n\nI can see the proposal was sent from your end initially not by us. Please check and confirm."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "12 Dec 2025 08:40",
+      "content": "this is the correct msn that we hold. the remote reads we have received are in line with your proposal, please send again and we will accept."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "02 Dec 2025 08:27",
+      "content": "Hi, previously we provide d0150 rawfile kindly validate and response back"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "25 Nov 2025 16:10",
+      "content": "Hi team,We have received proposal for single rate however we hold dual rate register hence attached the D0150 file.\nRegards\n288|1012715991833|20241128||E|\n289|0151|20241128|||\n290|24L3254998|||5|X|1063|MFDE|||||||||||S2A|20241119|20240603|20340603|||R|20241119|\n293|1|C|AI|1.00||5|||\n293|2|C|AI|1.00||5|||"
+    }
+  ],
+  "communication_id": "1663640",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012715991833",
+  "bucket": "Current"
+}

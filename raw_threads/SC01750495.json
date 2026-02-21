@@ -1,0 +1,26 @@
+{
+  "reference": "SC01750495",
+  "subject": "1100022110685",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100022110685",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "xav.wilkinson@octopus.energy",
+      "timestamp": "19 Feb 2026 09:56",
+      "content": "1000039940 copy.pdf"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "xav.wilkinson@octopus.energy",
+      "timestamp": "19 Feb 2026 09:55",
+      "content": "Hi Team, I hope you're well. \n\nPlease accept our COS dispute proposal for MPAN: 1100022110685. \nCOS read submitted on 13/11/25 was 40651.3. \nOur proposal is 34502.0. \nAttached is a reading taken on 16/02/26 of 36462. \nPlease accept our proposal of 34502.0. \nBest, \nXav, \nOE,"
+    }
+  ],
+  "communication_id": "1750495",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100022110685",
+  "bucket": "Current"
+}

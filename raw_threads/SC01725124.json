@@ -1,0 +1,38 @@
+{
+  "reference": "SC01725124",
+  "subject": "Onjob request",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "1010738506",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "31 Jan 2026 18:01",
+      "content": "Hi team, yes will be sorted. archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "lucy.snow@octoenergy.com",
+      "timestamp": "30 Jan 2026 10:25",
+      "content": "Hi, unfortunately we hold no details of G4W01143632126 nor do we hold any ONJOB. Rrom the yellow sticker this meter was installed in August 2022 and we only held the supply from 27/11/2025 therefore this would have been an unrecorded MEX. The photo you have provided should give you the information you require to process a found meter update for SSD+1. Kind Regards, Lucy"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "27 Jan 2026 22:21",
+      "content": "image0 (1).jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "27 Jan 2026 22:20",
+      "content": "Hi team,\n\nCould you please provide onjob details for MSN G4W01143632126 (previously MSN 00063733) associated with tagged MPAN."
+    }
+  ],
+  "communication_id": "1725124",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1010738506",
+  "bucket": "Current"
+}

@@ -1,0 +1,38 @@
+{
+  "reference": "SC01707726",
+  "subject": "2310512265313",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "2310512265313",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "27 Jan 2026 12:59",
+      "content": "Hi team,\n\nHas you are the gaining supply you have issue the D86 \n\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "22 Jan 2026 14:25",
+      "content": "Hi team, can you please let me know how long will it take?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "09 Jan 2026 15:13",
+      "content": "Hi team,\n\nGive sometime to issue the D86 has we have only just taken it over 3/1/26 \n\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ebin.baby@fuseenergy.com",
+      "timestamp": "09 Jan 2026 14:46",
+      "content": "HiTeam,\n\nWe've submitted the dispute for this, but are awaiting  CoS read to be settled.\n\nThis is the opening read 39354. Please confirm as the customer has been waiting a while for this to be sorted."
+    }
+  ],
+  "communication_id": "1707726",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2310512265313",
+  "bucket": "Current"
+}

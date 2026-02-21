@@ -1,0 +1,26 @@
+{
+  "reference": "SC01745635",
+  "subject": "ONJOB",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "1296499305",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "escalations@octoenergy.com",
+      "timestamp": "16 Feb 2026 14:40",
+      "content": "Hi here is the ONJOB, \"TRANS\",\"00J-B2B94169\",\"\",\"PVD001\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"629592\",,\n\"MTPNT\",\"\",1296499305,\"\",\"\",\"\",\"\",\"\",,20170509,\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2024,\"E6E13959562423\",\"00\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250117,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1\n\"READG\",20250117,00,\"00000\"\n\"MKPRT\",\"ASSPR\",\"MLA\"\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"CR\",\"\",\"\",0,\"07779520\",\"00\",\"\",\"RE\"\n\"METER\",\"\",\"\",\"\",0.0000,\"\",\"\",20250117,\"\",,\n\"REGST\",\"\",\"METER\",5,\"\",0.00\n\"READG\",20250117,00,\"00537\"\n\"APPNT\",\"\",20250117,20250117,\"\",\"090047\",\"103627\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "emils.bahanovskis@fuseenergy.com",
+      "timestamp": "14 Feb 2026 18:33",
+      "content": "Hi Team,\n\nPlease can you provide the ONJOB for the gas meter with MSN E6E13959562423, as seemingly a MEX took place for mprn 1296499305, but was not registered in the national database. And if you are able to provide the install code, that would also be great. GSME: 44-11-02-00-00-2D-D3-79"
+    }
+  ],
+  "communication_id": "1745635",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1296499305",
+  "bucket": "Current"
+}

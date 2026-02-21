@@ -1,0 +1,32 @@
+{
+  "reference": "SC01733199",
+  "subject": "1610014809303 - disputed D086",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1610014809303",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "09 Feb 2026 07:10",
+      "content": "Hi team,\nwe have agreed with your meter reading and sent the y-flow could issue the D86 \nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "gedmantas.malcas@fuseenergy.com",
+      "timestamp": "03 Feb 2026 11:09",
+      "content": "Switch date - 20/12/25"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "gedmantas.malcas@fuseenergy.com",
+      "timestamp": "03 Feb 2026 11:08",
+      "content": "Hi team,\n\nCan you please confirm the status regarding the D086 for MSN A08N093674? The dispute has been accepted on the 2025-12-20 as 48555.2 yet you still do not have it?"
+    }
+  ],
+  "communication_id": "1733199",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610014809303",
+  "bucket": "Current"
+}

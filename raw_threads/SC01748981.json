@@ -1,0 +1,20 @@
+{
+  "reference": "SC01748981",
+  "subject": "9190035604",
+  "escalation_level": "First Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9190035604",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "18 Feb 2026 09:26",
+      "content": "Hi team, we have sent you proposal for cos date 24th Dec 2025, our proposed read 97 , backed by  20251219 86.0 20251201 47.7, MSN-E6E19192392523, kindly validate our proposal and response back. Regards"
+    }
+  ],
+  "communication_id": "1748981",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9190035604",
+  "bucket": "Current"
+}

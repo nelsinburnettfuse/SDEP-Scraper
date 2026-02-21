@@ -1,0 +1,38 @@
+{
+  "reference": "SC01697706",
+  "subject": "1800051288342",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "1800051288342",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "02 Feb 2026 16:17",
+      "content": "Hi team,\n\nResponse has sent."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "01 Feb 2026 15:24",
+      "content": "Hi there, we have resubmitted an ET for elec so that the period with Fuse can be adjusted accordingly."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "05 Jan 2026 15:23",
+      "content": "Hi team, we have not received any ET for elec. I can confirm that for elec we hold the supply from 03/09/2025."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "01 Jan 2026 20:00",
+      "content": "Customer was correctly ET'd back to you for gas: 8896120207, but not for elec: 8896120207 where they were just switched back? Thus we have a bill for them for electric. What do you propose that we do in this case?"
+    }
+  ],
+  "communication_id": "1697706",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800051288342",
+  "bucket": "Current"
+}

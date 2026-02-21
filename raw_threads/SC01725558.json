@@ -1,0 +1,32 @@
+{
+  "reference": "SC01725558",
+  "subject": "517324104 - disputed opening read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "517324104",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "10 Feb 2026 10:13",
+      "content": "we have chased our relevant team to issue the read so archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Banhisikha.Dey@edfenergy.com",
+      "timestamp": "03 Feb 2026 13:23",
+      "content": "Hi, team, gt read received \"M03\",\"EDSX517324104X20251108S1\",\"F\",20260106,\"E6P04095802200\",517324104,,\"N\",1,\"FINT\",\"E\",\"       01013\",5,\"\",,\"\",,\"U\",\"U\",\"U\",\"\",\"M\",1.022640,,1.000,\"0\",\"\",\"270756324\",0,10005969,\"O/SIDE\",32,\"B0A10144\",\"\",\"S2\",,\"\" however proposal read was falling inline hence sent y flow.Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "28 Jan 2026 10:28",
+      "content": "Hey team, we have issued a dispute with the our opening read we hold for customer. We do hold 476 and customer would like his closing read with you to reflect this."
+    }
+  ],
+  "communication_id": "1725558",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "517324104",
+  "bucket": "Current"
+}

@@ -1,0 +1,74 @@
+{
+  "reference": "SC01660761",
+  "subject": "Verbal Agreement",
+  "escalation_level": "",
+  "from": "OFTM - Foxglove - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100024798591",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "14 Jan 2026 11:17",
+      "content": "Hi team, based on the photos you sent, we see register 1 reading is 32344, so we have correct registers."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "30 Dec 2025 10:41",
+      "content": "Hi Team, Any update ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "18 Dec 2025 09:18",
+      "content": "Hi Team, we are still waiting for your update."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "12 Dec 2025 10:33",
+      "content": "Hi Team, Any update on this ??"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "02 Dec 2025 09:01",
+      "content": "Hi Team, as per your readings you hold transposed meter readings, so please check the readings as per the meter photos."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arjun.devsen@fuseenergy.com2026-02-05 16:05:54",
+      "timestamp": "23 Nov 2025 16:43",
+      "content": "Hi, thanks for photos. We have d0086 from SSD 27/10 with readings R1: 32352.4 kWh, R2: 25410.4 kWh, which is outside tol window from your verbal suggestion. Please advise"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "21 Nov 2025 17:44",
+      "content": "IMG_4349.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "21 Nov 2025 17:43",
+      "content": "IMG_4350.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "21 Nov 2025 17:43",
+      "content": "Meter photos"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Yuvraj.Nakadi@outfox.energy",
+      "timestamp": "21 Nov 2025 17:41",
+      "content": "Hi Team we have sent D0300 Proposing 23526.0/32318.0 but we received a rejection Under \"code 17\" Also check the meter photos as requested, can we verbally agree on COS date 27/10/2025 for read 23526.0/32318.0 ?"
+    }
+  ],
+  "communication_id": "1660761",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100024798591",
+  "bucket": "Current"
+}

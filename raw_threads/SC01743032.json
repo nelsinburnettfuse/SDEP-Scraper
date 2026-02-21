@@ -1,0 +1,20 @@
+{
+  "reference": "SC01743032",
+  "subject": "Incorrect meter on account at site loss",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3259453209",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Sumanta.Sarkar@edfenergy.com",
+      "timestamp": "12 Feb 2026 08:25",
+      "content": "Please update the correct MSN E6S10284792562 that should have been on our account at the site loss 10/02/2026, Information of the correct meter details MSN E6S10284792562  Manufactured year 2024, installation date 03/03/2025. Read date - 11/02/2026, Read - 00000"
+    }
+  ],
+  "communication_id": "1743032",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3259453209",
+  "bucket": "Current"
+}

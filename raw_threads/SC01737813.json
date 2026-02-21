@@ -1,0 +1,44 @@
+{
+  "reference": "SC01737813",
+  "subject": "response required",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2408683601",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Vinay.Kumar@ovo.com",
+      "timestamp": "17 Feb 2026 09:26",
+      "content": "Hi, Thanks we have received. archived."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "13 Feb 2026 16:56",
+      "content": "Hi team, apologies for the delay. This has been accepted now."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Akshay.Srivastava@ovoenergy.com",
+      "timestamp": "13 Feb 2026 08:05",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Akshay.Srivastava@ovoenergy.com",
+      "timestamp": "13 Feb 2026 08:05",
+      "content": "Hi team,\n\nWe sent a SAR proposing 4676 backed by 4654.0 2025/12/19 and 4613.0 2025/11/19 for the transfer date of 13/01/2026  but have yet to receive a response. Please can you take a look and respond to our dispute.\n\n\nThanks\nThe OVO Energy Team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Akshay.Srivastava@ovoenergy.com",
+      "timestamp": "06 Feb 2026 14:25",
+      "content": "Hi team,\n\nWe\u2019ve raised a read dispute proposing 4676 backed by 4654.0 2025/12/19 and 4613.0 2025/11/19  for the transfer date of 13/01/2026\nPlease can you take a look at our proposal and respond to our proposal.\n\nThanks\nThe OVO Energy Team"
+    }
+  ],
+  "communication_id": "1737813",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2408683601",
+  "bucket": "Current"
+}

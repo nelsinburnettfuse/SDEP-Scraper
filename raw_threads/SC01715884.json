@@ -1,0 +1,62 @@
+{
+  "reference": "SC01715884",
+  "subject": "MCOS",
+  "escalation_level": "Final Escalation",
+  "from": "EOND - E.ON - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1800060961208",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Daniel.Mason@eonnext.com",
+      "timestamp": "16 Feb 2026 16:36",
+      "content": "Hi, thanks for issuing the Y flow, D86 has been requested. \nKind regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 09:43",
+      "content": "thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Daniel.Mason@eonnext.com",
+      "timestamp": "09 Feb 2026 09:42",
+      "content": "Hi, thanks for getting in touch with us, we will provide an update as soon as we can. \nKind regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 19:06",
+      "content": "Thank you. Please update us when you have one."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Daniel.Mason@eonnext.com",
+      "timestamp": "02 Feb 2026 11:39",
+      "content": "Good Morning, \nThanks for letting us know and providing reads.\nWe are getting the details updated our side. \nKind regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 13:39",
+      "content": "Hi, the meter had 2 registers. Last remote read dated 04/12/2025: r1 1864.258 kWh, r2 1073.894 kWh. Backup: 03/12/2025: r1 1855.335 kWh, r2 1071.112 kWh; 02/12/2025: r1 1847.925 kWh, r2 1068.105 kWh"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Daniel.Mason@eonnext.com",
+      "timestamp": "26 Jan 2026 11:21",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Daniel.Mason@eonnext.com",
+      "timestamp": "19 Jan 2026 11:09",
+      "content": "Hi, we're missing the COS D86 read\nThe customer has raised a complaint with us. \nThe proposal is 1864.2\nBackups \tBU: 20251020 1: 1343.3 20251205 1864.2\nPlease respond as soon as possible.\nKind regards"
+    }
+  ],
+  "communication_id": "1715884",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800060961208",
+  "bucket": "Current"
+}

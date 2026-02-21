@@ -1,0 +1,32 @@
+{
+  "reference": "SC01736412",
+  "subject": "ET Response",
+  "escalation_level": "First Escalation",
+  "from": "STL - So Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7823377010",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "adeeba.khalidshaikh@fuseenergy.com",
+      "timestamp": "13 Feb 2026 13:26",
+      "content": "Hi team, we had accepted the ET request earlier, but have now re-initiated an ET so that the customer can be returned to you. Kindly accept."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mel.King@so.energy",
+      "timestamp": "12 Feb 2026 12:19",
+      "content": "Hi\nPlease send a response to the ET raised for MPRN 7823377010 - SSD 19.11.2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jamel.Johnson@so.energy",
+      "timestamp": "05 Feb 2026 14:14",
+      "content": "Hi, we're yet to receive a response to our ET request. Could you please respond as soon as possible?"
+    }
+  ],
+  "communication_id": "1736412",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7823377010",
+  "bucket": "Current"
+}

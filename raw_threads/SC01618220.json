@@ -1,0 +1,20 @@
+{
+  "reference": "SC01618220",
+  "subject": "Stop billing MPRN: 1642085008",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "chloe.vaudin@fuseenergy.com",
+      "timestamp": "07 Oct 2025 21:47",
+      "content": "Hi Team,\n\nWe have been informed by our customer that you are still billing them for gas supply with MPRN: 1642085008. They have been switched in with us since 31/07/2025. \n\nPlease waive all bills for dates after 31/07/2025. Our opening read is: 45201 m3.\n\nKind regards,\n\nChloe"
+    }
+  ],
+  "communication_id": "1618220",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

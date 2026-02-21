@@ -1,0 +1,92 @@
+{
+  "reference": "SC01713497",
+  "subject": "8882987504",
+  "escalation_level": "Final Escalation",
+  "from": "CGP - Crown Gas and Power 2 Limited - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "8882987504",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "settlements@crowngas.co.uk",
+      "timestamp": "19 Feb 2026 15:27",
+      "content": "Hi - you agreed the SAR on 30/01/2026 as per below. Please send your replacement read:\nHi team, in that case it is verbally agreed. Please apply on your end. archiving\n bianca.myers@fuseenergy.com"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "roseann.fitzgerald@fuseenergy.com",
+      "timestamp": "18 Feb 2026 20:59",
+      "content": "Hi Team, please agree to the SAR for the read of 503739 (2025-09-18), raised on 28/10/2025. Once that is agreed upon we can then chase up for the GT read."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "settlements@crowngas.co.uk",
+      "timestamp": "18 Feb 2026 14:10",
+      "content": "Any update on you sending your replacement read?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "settlements@crowngas.co.uk",
+      "timestamp": "09 Feb 2026 08:36",
+      "content": "I believe it is a UBR - Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 18:37",
+      "content": "What flat file do you want us to send?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "settlements@crowngas.co.uk",
+      "timestamp": "02 Feb 2026 16:03",
+      "content": "Please send replacement read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "31 Jan 2026 22:12",
+      "content": "Hi team, in that case it is verbally agreed. Please apply on your end. archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sars@crowngas.co.uk",
+      "timestamp": "30 Jan 2026 08:30",
+      "content": "Hello, we dont use Y-Flow? please can we agree our proposal? thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 14:30",
+      "content": "Hi team, we submitted dispute with the same value on 28/10/2025 and no response on your end. Need y-flow to proceed"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sars@crowngas.co.uk",
+      "timestamp": "26 Jan 2026 16:04",
+      "content": "Hello please can you provide us with an urgent response. Thanks Rebecca"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "sars@crowngas.co.uk",
+      "timestamp": "26 Jan 2026 16:04",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "rebecca.berry@crowngas.co.uk",
+      "timestamp": "15 Jan 2026 14:39",
+      "content": "8882987504.xlsx"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rebecca.berry@crowngas.co.uk",
+      "timestamp": "15 Jan 2026 14:39",
+      "content": "ESCALATED DUE TO NO RESPONSE ON SC01658251. Please can you provide an urgent response. Thanks Rebecca"
+    }
+  ],
+  "communication_id": "1713497",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "8882987504",
+  "bucket": "Current"
+}

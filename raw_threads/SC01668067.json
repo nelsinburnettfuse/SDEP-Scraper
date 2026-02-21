@@ -1,0 +1,38 @@
+{
+  "reference": "SC01668067",
+  "subject": "MIssing COS",
+  "escalation_level": "First Escalation",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1046365609",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "escalations@octoenergy.com",
+      "timestamp": "10 Feb 2026 18:35",
+      "content": "Hi, unfortunately it looks like the MEX took place prior to our supply so we do not hold the ONJOB details. The meter was installed on the 25/07/24 with the read index of 0, LPG, E6VG470, 2024."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "27 Dec 2025 11:46",
+      "content": "Hi team, can you share ONJOB file?"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Zanecebo.Xulu@octoenergy.com",
+      "timestamp": "01 Dec 2025 10:01",
+      "content": "1000036191.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Zanecebo.Xulu@octoenergy.com",
+      "timestamp": "01 Dec 2025 09:59",
+      "content": "Hi team,\n\nWe're raising this as an escalation since we lost the supply 2 months ago. XOSERVE hold the old MSN: 00212632, Meter was changed on the 24th of July 2024 before we got the supply. New MSN is E6S12493012461.\n\nProposed read: \u2007953.9\nBU; 05/05/2025: 932.9 ; 27/08/2025: \u2007953.0"
+    }
+  ],
+  "communication_id": "1668067",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1046365609",
+  "bucket": "Current"
+}

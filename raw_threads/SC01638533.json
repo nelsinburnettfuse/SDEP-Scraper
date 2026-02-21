@@ -1,0 +1,50 @@
+{
+  "reference": "SC01638533",
+  "subject": "sar response",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9162872904",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Annasaheb.Habbu@ovoenergy.com",
+      "timestamp": "26 Jan 2026 12:45",
+      "content": "Good day,\nNo response from your end , can you verbally agree on read 8177 for COS date 07/10/2025, we will wait for your response, . If you don't response within a week then we will look to resolve this case internally and we will inform to customer.\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "17 Jan 2026 05:58",
+      "content": "Hi team, can you verbal agree on read 8177 for COS date 07/10/2025, we will wait for your response, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "02 Jan 2026 08:45",
+      "content": "Hi team, please response can you verbal agreement on our proposal 8177 for COS date 07/10/2025, we will wait for your response, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "11 Dec 2025 09:00",
+      "content": "Hi team, unable to accepted this read 8157 date \t07/10/2025, because we hold SMR read \t8169.173 date 25/09/2025, so please verbal agreement on our new proposal read 8177 for COS date 07/10/2025, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "christopher.sasanuma@fuseenergy.com",
+      "timestamp": "16 Nov 2025 16:54",
+      "content": "Hi team, I've sent back a dispute with an actual read of 8193 on 08/10 from a remote read with remote read BUs of 8190 on 15/10 and 8199 on 22/10. \nPlease accept at your earliest convenience. Archiving communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "30 Oct 2025 09:29",
+      "content": "Hi team, please ignore previous proposal, because we hold SMR read 8169.173 date 25/09/2025, so we have again calculated new proposal estimated read 8177 for COS date 07/10/2025 back by 8169 date 25/09/2025 and 8146 date 25/08/2025, so can you verbal agreement on our proposal, thanks"
+    }
+  ],
+  "communication_id": "1638533",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9162872904",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01695358",
+  "subject": "Incorrect transfer read",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3966436508",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Sumit.Sumit@ovo.com",
+      "timestamp": "30 Dec 2025 09:15",
+      "content": "Hello, this MPRN (3966436508) has an incorrect transfer read on (30 Aug 2025). We believe it should be (15452) and have the following back reads: (18 Jan 2025 \u2013 15008) and (29 Feb 2024 \u2013 14336). However, since CoS date is older than a year ago, we cannot raise a SARs. Would you be able to verbally agree the new CoS read?"
+    }
+  ],
+  "communication_id": "1695358",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3966436508",
+  "bucket": "Current"
+}

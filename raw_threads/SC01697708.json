@@ -1,0 +1,38 @@
+{
+  "reference": "SC01697708",
+  "subject": "Cos gain read",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1417719900001",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Michael.Suchodolski@octoenergy.com",
+      "timestamp": "07 Jan 2026 10:12",
+      "content": "Hi, please use PT0045 and its escalations, where applicable to query disputes with us going forward - this will ensure a prompt response from us. As per your query in this thread, we haven't received a D86/validated final D10 for the loss date from our DC. Can you please send us a flatfile of the D86 you received? All the best,"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "gedmantas.malcas@fuseenergy.com",
+      "timestamp": "01 Jan 2026 20:11",
+      "content": "Screenshot 2026-01-01 at 19.40.45.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "gedmantas.malcas@fuseenergy.com",
+      "timestamp": "01 Jan 2026 20:11",
+      "content": "Screenshot 2026-01-01 at 19.40.22.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "gedmantas.malcas@fuseenergy.com",
+      "timestamp": "01 Jan 2026 20:11",
+      "content": "Hi team - Please accept our cos gain read R1 - 37540 based on two customer submissions - please find them attached here. 13/12/25 - 37514 , 01/01/26 - 37752. Why was the dispute rejected?"
+    }
+  ],
+  "communication_id": "1697708",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1417719900001",
+  "bucket": "Current"
+}

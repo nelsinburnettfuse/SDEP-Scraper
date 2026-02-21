@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1012389013715",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi team, we cannot see an attachment on your message. Your proposed reading values are in line with our reading on Jan 18th - 1:12973 kWh / 2:2910 kWh, so we can agree when we see the photo. Can you send A-flow so we can accept?panagiotis.aslanidis@fuseenergy.com20 Feb 2026 16:32Hi team, we have received your alternative flow for cos date 20th Jan 2026, rejection sent from our end with comment \"The CoS read values in this flow are not correct.\", so we attached D0086 flat file, but as per our backups 1-12784/ 2-2875 on 29/12/2025 and 1-12465/ 2-2794 on 25/11/2025, our cos read is not falling inline, so can we verbally agree on our proposal read 1-12990/ 2-2927 for cos date 20th Jan 2026, MSN-21K0104363, we have attached meter picture earlier , kindly validate and response back. RegardsBISHALKUMAR.MAHATO@edfenergy.com20 Feb 2026 15:19"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDFEFuse Energy Supply - SupplierFUSEHi team, we cannot see an attachment on your message. Your proposed reading values are in line with our reading on Jan 18th - 1:12973 kWh / 2:2910 kWh, so we can agree when we see the photo. Can you send A-flow so we can accept?panagiotis.aslanidis@fuseenergy.com20 Feb 2026 16:32Hi team, we have received your alternative flow for cos date 20th Jan 2026, rejection sent from our end with comment \"The CoS read values in this flow are not correct.\", so we attached D0086 flat file, but as per our backups 1-12784/ 2-2875 on 29/12/2025 and 1-12465/ 2-2794 on 25/11/2025, our cos read is not falling inline, so can we verbally agree on our proposal read 1-12990/ 2-2927 for cos date 20th Jan 2026, MSN-21K0104363, we have attached meter picture earlier , kindly validate and response back. RegardsBISHALKUMAR.MAHATO@edfenergy.com20 Feb 2026 15:19"
+    }
+  ],
+  "communication_id": "1752880",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012389013715"
+}

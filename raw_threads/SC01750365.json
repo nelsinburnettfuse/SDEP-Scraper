@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750365",
+  "subject": "Confirmation to process credit back to customer",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "TILL - British Gas - Supplier",
+  "meter_point_number": "1417507761001",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "brandon.caballero@fuseenergy.com",
+      "timestamp": "19 Feb 2026 08:57",
+      "content": "Hi team, please find the opening read: 4761 kWh, recorded on 14/02/2026, 09:31, the customer would like receive to his remaining credit back"
+    }
+  ],
+  "communication_id": "1750365",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1417507761001",
+  "bucket": "Current"
+}

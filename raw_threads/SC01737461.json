@@ -1,0 +1,20 @@
+{
+  "reference": "SC01737461",
+  "subject": "Agreement",
+  "escalation_level": "",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1007522310",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Anamika.Bajpai2@britishgas.co.uk",
+      "timestamp": "06 Feb 2026 11:36",
+      "content": "Hi Team, You have sent the proposal of cos date 10/09/2025 read 11016 however we have customer actual read 11100 on 31.08.2025 and GT read 11105 already issued for date 10/09/2025 that is going inline with this so kindly provide two valid backups or meter pic for your proposed read, Thanks and Regards"
+    }
+  ],
+  "communication_id": "1737461",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1007522310",
+  "bucket": "Current"
+}

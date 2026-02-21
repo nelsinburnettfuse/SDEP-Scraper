@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1085201104",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)OVO Energy - SupplierOVOFuse Energy Supply - SupplierFURHi please response thereAkshay.Srivastava@ovoenergy.com20 Feb 2026 12:55Hi team, we have received your alternat proposal, so please provide two backup read validate your alternat proposal, thanksShadab.Khan@ovo.com04 Feb 2026 09:13"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "OVO Energy - SupplierOVOFuse Energy Supply - SupplierFURHi please response thereAkshay.Srivastava@ovoenergy.com20 Feb 2026 12:55Hi team, we have received your alternat proposal, so please provide two backup read validate your alternat proposal, thanksShadab.Khan@ovo.com04 Feb 2026 09:13"
+    }
+  ],
+  "communication_id": "1734395",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1085201104"
+}

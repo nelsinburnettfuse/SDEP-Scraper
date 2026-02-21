@@ -1,0 +1,33 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "1800021984624",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Vishal.Jagtap@ovoenergy.com",
+      "timestamp": "20 Feb 2026 17:07",
+      "content": "Hello Team, any update on this ? Please update ASAP.\n\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mainuddin.Sayyed@ovo.com",
+      "timestamp": "13 Feb 2026 09:08",
+      "content": "Hello Team, any update on this ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sonia.Ghule@ovoenergy.com",
+      "timestamp": "05 Feb 2026 09:13",
+      "content": "Hello, OVO lost supply to FUSE on date 20 Sep 2025. The D0086 for your gain, our loss has been issued on incorrect MSN P287709836. The correct MSN for our loss is 25M0056008. I can see correct MTDs for our loss have been sent. Please can the incorrect D0086 be withdrawn and reissued for the correct meter? Please advise the read and file ID of the corrected D0086 once sent so we can close to the same read. Many thanks"
+    }
+  ],
+  "communication_id": "1735688",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800021984624"
+}

@@ -1,0 +1,56 @@
+{
+  "reference": "SC01706558",
+  "subject": "Request to accept ET back to Fuse (13/11/25 to 08/01/26)",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "DFDL - Tru Energy - Supplier",
+  "meter_point_number": "2500001217910",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "02 Feb 2026 14:33",
+      "content": "Hi, We have sent our response. We have rejected the ET as we had a valid contract when we took over. Kind regards, Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "29 Jan 2026 15:06",
+      "content": "Hi team,\n\nWe will escalate the situation if ET not accepted. As said before, customer switched due to the rejections on your end, please provide valid rejection reasoning."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "22 Jan 2026 11:39",
+      "content": "Hi, The customer signed up to TruEnergy and therefore we did not take over in error. The customer then cancelled and therefore we let it leave via the normal process. Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 10:00",
+      "content": "Hi Team can you please respond."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "17 Jan 2026 17:41",
+      "content": "Hi team, customer switched due to the rejections on your end, please provide valid rejection reasoning as to why the you let this go through normal loss procedure, and rejected ET requests."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "09 Jan 2026 09:21",
+      "content": "Hi, We rejected both ETs. The first ET was rejected on 17/11/25 and the second was rejected on 03/12/25. We let the supply leave via the normal loss process and not via an ET. Therefore we will not be treating this as an TE and we will bill the customer for the time they were on supply. The customer did sign up to TruEnergy and therefore we did not take over in error, the customer then cancelled outside of the window. Kind regards, Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "08 Jan 2026 14:26",
+      "content": "Dear Tru Energy Team,\n\nI hope you are well. \n\nOur customer was ET\u2019d out from Fuse on 13/11/2025. Following a request from the customer, we raised an ET request, latest, on 18/11/2025 to transfer the customer back to Fuse; however, this request was not responded to. The customer subsequently completed a switch back to Fuse themselves, which completed on 08/01/2026.\n\nWe would kindly ask if you could accept our previous ET request and support ET\u2019ing the customer back to Fuse for the period 13/11/2025 to 08/01/2026, as originally requested by the customer, so that the supply history can be corrected.\n\nBest, \n\nZeynep"
+    }
+  ],
+  "communication_id": "1706558",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2500001217910",
+  "bucket": "Current"
+}

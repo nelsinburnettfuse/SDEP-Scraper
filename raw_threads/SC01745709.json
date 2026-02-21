@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745709",
+  "subject": "1100020483175",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100020483175",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mausam.Kumari@edfenergy.com",
+      "timestamp": "15 Feb 2026 14:31",
+      "content": "Hi Team,We have received D0086 read-Raw file:\n\n196|1100020483175|V|\n197|D15C96948|D|\n198|1|20260106000000|30306.2||0|T|N|Identifier: D769363780."
+    }
+  ],
+  "communication_id": "1745709",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100020483175",
+  "bucket": "Current"
+}

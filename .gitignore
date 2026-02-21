@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Session / auth (do not commit)
+ecoes_session/
+ecoes_session.json
+
+# Scraped output (optional: remove *.csv if you want to track sample data)
+*.csv
+raw_threads/

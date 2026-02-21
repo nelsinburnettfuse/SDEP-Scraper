@@ -1,0 +1,26 @@
+{
+  "reference": "SC01735491",
+  "subject": "No response--SC01723756",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2181248608",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "Abdul.Qadir@ovo.com",
+      "timestamp": "12 Feb 2026 06:49",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abdul.Qadir@ovo.com",
+      "timestamp": "05 Feb 2026 06:47",
+      "content": "Hi, we lost this MPRN 2181248608 to FUR on 29/10/2025. We have an incorrect CoS read as a meter exchange occurred during our supply and Xoserve wasn't updated. The MEX was from G4W00467690701 to G4W00417462227. Can you please process the meter exchange on CoS day +1 using the read 1160as the OPNX and Incorrect transfer read as the FINX."
+    }
+  ],
+  "communication_id": "1735491",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2181248608",
+  "bucket": "Current"
+}

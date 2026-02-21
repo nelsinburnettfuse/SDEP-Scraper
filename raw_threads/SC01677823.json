@@ -1,0 +1,38 @@
+{
+  "reference": "SC01677823",
+  "subject": "1200037814398 Missing ESME",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "1200037814398",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "30 Jan 2026 10:52",
+      "content": "Hi team, we require the D149, D150 and D312"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "elizabeth.hutchings@eonnext.com",
+      "timestamp": "23 Jan 2026 09:20",
+      "content": "Hello , \n\nPlease can you specify what flows you require as this is a electric meter and thus does not have ONJOB flows as ONJOB flows are for gas"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "claudia.clegg@fuseenergy.com",
+      "timestamp": "09 Dec 2025 10:15",
+      "content": "Screenshot 2025-12-08 at 11.50.48.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "claudia.clegg@fuseenergy.com",
+      "timestamp": "09 Dec 2025 10:13",
+      "content": "Hi team you MeXed MPAN on 16 Oct 2023 MSN 23J0124670 but ESME on ECOES does not match, please can you provide ONJOBs?"
+    }
+  ],
+  "communication_id": "1677823",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200037814398",
+  "bucket": "Current"
+}

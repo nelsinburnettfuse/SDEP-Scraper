@@ -1,0 +1,20 @@
+{
+  "reference": "SC01747304",
+  "subject": "1495167805",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1495167805",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Maya.Ruidas@edfenergy.com",
+      "timestamp": "17 Feb 2026 07:12",
+      "content": "Hi team, we have dispute required but we have one actual backups present so please kindly provide us two actual backups however we have initiated dispute.\nRegards."
+    }
+  ],
+  "communication_id": "1747304",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1495167805",
+  "bucket": "Current"
+}

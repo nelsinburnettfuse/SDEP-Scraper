@@ -1,0 +1,32 @@
+{
+  "reference": "SC01743000",
+  "subject": "1012819817976",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012819817976",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "12 Feb 2026 07:57",
+      "content": "MM069f04c5ccae9a77193ba36650c66713.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "12 Feb 2026 07:56",
+      "content": "12.11.2025.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "12 Feb 2026 07:54",
+      "content": "Hi team, As per meter picture the proposal read 21272.6 sent from our end   is incorrect, it should be 2650 for the cos date 22nd Sep 2025 based on backup:[3300 on 12/11/2025] and [1579 on 30/06/2025] MSN 24L3490638,so can we make a verbal agreement over this read?\t\t\nRegards"
+    }
+  ],
+  "communication_id": "1743000",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012819817976",
+  "bucket": "Current"
+}

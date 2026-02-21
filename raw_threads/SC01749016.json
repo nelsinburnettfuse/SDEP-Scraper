@@ -1,0 +1,20 @@
+{
+  "reference": "SC01749016",
+  "subject": "1100023351950",
+  "escalation_level": "",
+  "from": "EOND - E.ON - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100023351950",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mohammed.Bemat@eonnext.com",
+      "timestamp": "18 Feb 2026 09:42",
+      "content": "Hi team raised a dispute on 9th February requested the COS Loss readings, you took the supply on 3rd October 2025 we have the smart reading 36990 could you confirm we can agree on this reading please"
+    }
+  ],
+  "communication_id": "1749016",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100023351950",
+  "bucket": "Current"
+}

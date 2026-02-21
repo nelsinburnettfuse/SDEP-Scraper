@@ -1,0 +1,26 @@
+{
+  "reference": "SC01729136",
+  "subject": "Update MTDs",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "3258090710",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "ewelina.Kaniewska@octoenergy.com",
+      "timestamp": "04 Feb 2026 07:38",
+      "content": "Hello and apologise for not having this updated! I have requested onjob to updated national data base for msn E6F33173422300 - this should reflect on the system by tomorrow. Thank you - archiving this thread."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harry.hammick@fuseenergy.com",
+      "timestamp": "30 Jan 2026 13:27",
+      "content": "Hi there, we have a customer who is currently supplied by Octopus and is trying to switch to Fuse, however his gas MSN needs to be updated in the national database from your side. Old MSN is G4P21669301800 and new MSN is E6F33173422300. Cust reports having chased Octopus since November and that he has been told the MSN is updated in the database, but old MSN is still showing. Please action ASAP."
+    }
+  ],
+  "communication_id": "1729136",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3258090710",
+  "bucket": "Current"
+}

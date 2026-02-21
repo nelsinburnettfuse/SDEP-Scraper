@@ -1,0 +1,116 @@
+{
+  "reference": "SC01710271",
+  "subject": "Seeking Response",
+  "escalation_level": "Final Escalation",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7783971703",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "10 Feb 2026 13:10",
+      "content": "Screenshot 2026-02-10 130606.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "10 Feb 2026 13:10",
+      "content": "Our customer at FLAT 13 has confirmed the a bove and it\u2019s actually a different seriasl number to xoseve and what Bg hold, Please check attached screenshot of meter, do you agree to the ET as we hild the right ,pxn for the address."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "10 Feb 2026 10:45",
+      "content": "Please allow us some time, case sent for further discussion,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 10:19",
+      "content": "Can you ask for a burns test?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "09 Feb 2026 07:39",
+      "content": "Hi Team, we are not authorized to do so, request you to please send your response through RET flow or else you can send us Flat file for the same so that we can proceed further."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 15:55",
+      "content": "b7f1dc32-15f8-4ceb-9e34-65bdfd7464f0.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 15:55",
+      "content": "Could you confirm with your customer that this is their meter? The customer with this meter sent us a picture of her reading and believes this to be her meter."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "05 Feb 2026 07:45",
+      "content": "Screenshot 2026-02-05 074322.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "05 Feb 2026 07:45",
+      "content": "Hi Team, we are still awaiting your response, request you to please do the needful & send us respond in RET flow on priority to avoid further escalations, or you can send FLAT file for the same, Thanku, Attaching meter screenshot for your reference,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 21:01",
+      "content": "Hello, could you send a picture of the meter as provided by your customer?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "29 Jan 2026 05:38",
+      "content": "Hi Team, we are still awaiting your response, request you to please do the needful & send us respond in RET flow on priority to avoid further escalations, or you can send FLAT file for the same, Thanku."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ewan.boyle@fuseenergy.com",
+      "timestamp": "28 Jan 2026 14:06",
+      "content": "Hi team, we have a customer submission with MSN that matches this, however the customer's name does not match either of those you provided. It seems the incorrect MPRN was switched-in, our customer has switched-in the flat 13 MPRN. We will need to ET this back to you and get our customer to onboard with the correct MPRN and send flows to update the MSN. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "27 Jan 2026 05:54",
+      "content": "Hi Team, we are still awaiting your response, request you to please do the needful on priority to avoid further escalations, \n\nWe hold MSN E6S16356062161 & customer name - Mr Jamie Donaldson And Miss Ewelina Urman"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "22 Jan 2026 14:58",
+      "content": "Could you send us a photo of the gas meter? We received a photo of a gas meter from customer with different name, but MSN matches that on record."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zahid.khan@britishgas.co.uk",
+      "timestamp": "22 Jan 2026 13:21",
+      "content": "Please could we have a response?"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "zahid.khan@britishgas.co.uk",
+      "timestamp": "22 Jan 2026 13:21",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "13 Jan 2026 12:14",
+      "content": "Hi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups."
+    }
+  ],
+  "communication_id": "1710271",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7783971703",
+  "bucket": "Current"
+}

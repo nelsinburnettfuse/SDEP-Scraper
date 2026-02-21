@@ -1,0 +1,26 @@
+{
+  "reference": "SC01730130",
+  "subject": "4168035810",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4168035810",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "15 Feb 2026 08:41",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "02 Feb 2026 08:22",
+      "content": "Hi team,\nWe have sent proposal- 319 , \tBU: 20251220 319.0 20251115 201.6 20251018 135.0, MSN- E6E15610172423 cos date- \t20th Dec 2025, so kindly validate and response to us.\nRegards."
+    }
+  ],
+  "communication_id": "1730130",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4168035810",
+  "bucket": "Current"
+}

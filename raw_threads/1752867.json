@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2000050023116",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)SSE Energy Supply - SupplierIMPOFuse Energy Supply - SupplierFUSEHi, We are yet to receive the D0086 for our loss on 01/01/2026. Can you please raise this with your DC? If the flow has already been sent, please provide the flat file (thus confirming the COS read) so we can investigate further at our end? Thanks.Elliot.Mitchell@sse.com20 Feb 2026 15:13"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "SSE Energy Supply - SupplierIMPOFuse Energy Supply - SupplierFUSEHi, We are yet to receive the D0086 for our loss on 01/01/2026. Can you please raise this with your DC? If the flow has already been sent, please provide the flat file (thus confirming the COS read) so we can investigate further at our end? Thanks.Elliot.Mitchell@sse.com20 Feb 2026 15:13"
+    }
+  ],
+  "communication_id": "1752867",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000050023116"
+}

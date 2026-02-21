@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745176",
+  "subject": "Wrong Flow Sent",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "ALA - Square1 Energy - Supplier",
+  "meter_point_number": "1696561402",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "siddhi@fuseenergy.com",
+      "timestamp": "13 Feb 2026 14:33",
+      "content": "Message Received:\n\"HEADR\",\"RET\",\"ALA\",\"SUP\",\"FUR\",\"SUP\",20260213,\"123357\",\"PALA0226\",\"PRDCT\",1,0\n\"RET\",\"ALA\",\"George.Brown\",256,1696561402,\"1\",\"MEASHAM WAY\",\"L12 0NL\",\"MR GARY HAMEL\",\"\",\"N\",20260213,20260213,\"F\",\"Q\",\"F\u2026\n\nB0026 should either have Y or NA, not N\n\nPlease resent the correct flow."
+    }
+  ],
+  "communication_id": "1745176",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1696561402",
+  "bucket": "Current"
+}

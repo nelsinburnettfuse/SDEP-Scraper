@@ -1,0 +1,26 @@
+{
+  "reference": "SC01729572",
+  "subject": "1800027054502",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1800027054502",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sophie.merciawhite@octoenergy.com",
+      "timestamp": "02 Feb 2026 12:16",
+      "content": "Acceptance issued 01/02 - ET COMPLETED Retrospective Acceptance in place (Supply returned to Octopus effective 04 December 2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "30 Jan 2026 18:39",
+      "content": "Can you accept this ET? Customer has shown through photos this supply is not theirs. I see they are back with you, but should not be relevant."
+    }
+  ],
+  "communication_id": "1729572",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800027054502",
+  "bucket": "Current"
+}

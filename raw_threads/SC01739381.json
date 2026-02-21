@@ -1,0 +1,38 @@
+{
+  "reference": "SC01739381",
+  "subject": "Emergency power cut - supply address mismatch",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "2000004300987",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "contract_manager@octoenergy.com",
+      "timestamp": "09 Feb 2026 17:22",
+      "content": "passed to our emergency team"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "09 Feb 2026 13:06",
+      "content": "IMG_8995.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "09 Feb 2026 13:06",
+      "content": "175C87AB-5A27-4A67-A760-01D9B347CA8B.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "09 Feb 2026 13:06",
+      "content": "Hi Team, urgent request Customer with MPAN listed here (ending 987) has emergency power cut - this MSN (22M0202887) was sent to us by our customer (the neighbour) with MPAN 2000058003561 \n\nWhat our customer believes to be the neighbours (working) meter was sent as well (MSN 21L4593670) The relevant meter (22M0202887) is supplied by MRCY but is under the incorrect MPAN. \n\nWe need you to perform an emergency meter exchange asap then we can organise cross meters supply exchange"
+    }
+  ],
+  "communication_id": "1739381",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000004300987",
+  "bucket": "Current"
+}

@@ -1,0 +1,74 @@
+{
+  "reference": "SC01693983",
+  "subject": "Two Meters on National Database",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "2199990626681",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "charlotte.moyce@octoenergy.com",
+      "timestamp": "05 Feb 2026 15:09",
+      "content": "Hi team, the MPAN has been updated so you should be able to proceed with the switch"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlotte.moyce@octoenergy.com",
+      "timestamp": "03 Feb 2026 17:21",
+      "content": "Hi team, due to the MPAN being in MHHS we are having some issues with the update. Our request has been rejected. This has been raised to the DIP, but until they are able to remove this block we cannot do anything else to progress this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "lucy.snow@octoenergy.com",
+      "timestamp": "21 Jan 2026 16:20",
+      "content": "Hi, MTD update request is still in progress."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "joseph.lord@fuseenergy.com",
+      "timestamp": "20 Jan 2026 15:23",
+      "content": "ESME 00-00-00-00-00-00-00-00 still on ECOES, please could all meter details be updated on your end, thank you!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "faraz.zaman@fuseenergy.com",
+      "timestamp": "20 Jan 2026 13:40",
+      "content": "Hey Team, can you please update here"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "14 Jan 2026 11:29",
+      "content": "Thanks, please let us know when this is done."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlotte.moyce@octoenergy.com",
+      "timestamp": "14 Jan 2026 10:19",
+      "content": "I've chased this up now"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlotte.moyce@octoenergy.com",
+      "timestamp": "05 Jan 2026 17:36",
+      "content": "Hi team, we have requested a D312 be sent to update ecoes"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "alexander.weinerhurriaga@fuseenergy.com",
+      "timestamp": "28 Dec 2025 16:31",
+      "content": "Screenshot 2025-12-28 at 16.30.43.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alexander.weinerhurriaga@fuseenergy.com",
+      "timestamp": "28 Dec 2025 16:30",
+      "content": "Customer had a Meter Exchange done by Octopus (REGE) 7th January 2021. Customer has tried to switch to Fuse however comes up as unsupported as both meters (new and old) appear on ECOES for their address. Could this be rectified to allow switch please?"
+    }
+  ],
+  "communication_id": "1693983",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2199990626681",
+  "bucket": "Current"
+}

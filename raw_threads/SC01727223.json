@@ -1,0 +1,20 @@
+{
+  "reference": "SC01727223",
+  "subject": "2199999591869 - Missing opening read dispute",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "GESL - So Energy - Supplier",
+  "meter_point_number": "2199999591869",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "gedmantas.malcas@fuseenergy.com",
+      "timestamp": "29 Jan 2026 11:23",
+      "content": "Morning team,\n\nCan you please accept the opening reads for MSN 24J0444488 - peak 1859.088 kWh and off peak 410.718 kWh taken on 24/09/25."
+    }
+  ],
+  "communication_id": "1727223",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2199999591869",
+  "bucket": "Current"
+}

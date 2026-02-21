@@ -1,0 +1,20 @@
+{
+  "reference": "SC01728739",
+  "subject": "Missing D0086",
+  "escalation_level": "",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200041027540",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Adam.Sinclair@ecotricity.co.uk",
+      "timestamp": "30 Jan 2026 10:38",
+      "content": "Hi team, please can you provide D0086 flat file for COS date 11/09/2025? Thank you."
+    }
+  ],
+  "communication_id": "1728739",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200041027540",
+  "bucket": "Current"
+}

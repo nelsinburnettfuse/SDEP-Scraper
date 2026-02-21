@@ -1,0 +1,44 @@
+{
+  "reference": "SC01704067",
+  "subject": "1640000772176",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "OVOE - OVO Energy - Supplier",
+  "meter_point_number": "1640000772176",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "pooja.bagal1@ovo.com",
+      "timestamp": "14 Jan 2026 13:20",
+      "content": "Hi Team, \nWe are unable to accept your ET.  We hold valid contract for this MPAN. Please inform the customer accordingly. Many Thanks"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "pavit.chandhok@fuseenergy.com",
+      "timestamp": "13 Jan 2026 16:46",
+      "content": "9F2A167C-0B19-4B74-B49E-292F5B6C9E1A.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pavit.chandhok@fuseenergy.com",
+      "timestamp": "13 Jan 2026 16:44",
+      "content": "Hi team, customer insists that they not initiate switch out and they do not want to switch. Believed to be due to a neighbour error. Meter pictures confirm MSN (19L2710268) matches MPAN (1640000772176) so correct supply, pls accept ET request"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rohit.kamate@ovo.com",
+      "timestamp": "07 Jan 2026 11:02",
+      "content": "Hi Team, We hold valid contract for this supply. We are unable to accept your ET. Please inform the customer accordingly. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "06 Jan 2026 23:59",
+      "content": "Hi team,\nWe have a customer who has contacted us regarding an ET that was rejected. Could you please let us know the reason for the rejection?"
+    }
+  ],
+  "communication_id": "1704067",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1640000772176",
+  "bucket": "Current"
+}

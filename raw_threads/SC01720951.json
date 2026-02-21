@@ -1,0 +1,32 @@
+{
+  "reference": "SC01720951",
+  "subject": "1170001996238",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "1170001996238",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "26 Jan 2026 21:17",
+      "content": "Hi Team, we hold 5528 and 1659 on 07/01/2026 with BU: 5528 and 1659 for 09/01/2026, 5547 and 1666 for 10/01/2026. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "michael.kelly@eonnext.com",
+      "timestamp": "23 Jan 2026 12:03",
+      "content": "Hi, we hold 5528.2 and 1659.8 as opening reads. Are those the readings you have received?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "22 Jan 2026 15:23",
+      "content": "Hi Team, We are reached out by email by E.ON agent and cc client.\nWe have received D086 which we have received and used as our opening read(for 7th). And for 9th we have received remote read from their meter.\nCan you please respond to this please?"
+    }
+  ],
+  "communication_id": "1720951",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1170001996238",
+  "bucket": "Current"
+}

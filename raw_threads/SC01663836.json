@@ -1,0 +1,32 @@
+{
+  "reference": "SC01663836",
+  "subject": "1419679012001",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "BNRG - Utility Warehouse - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "adkiss@uw.co.uk",
+      "timestamp": "05 Dec 2025 10:05",
+      "content": "Hi team. 64863 was our estimate before we received D86. We have closed the account on 65654 as per D86 read. Thank you!"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "25 Nov 2025 19:56",
+      "content": "d5c84a7f-7ab8-4944-be95-e7a7c511ef2e.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "25 Nov 2025 19:56",
+      "content": "Hi Team,\n\nOur customer with MPAN: 141967901200, got in touch regarding opening and closing bills, saying you have told them their closing read should be 64863. The D86 has been issued for 65654kWh. This is based on the actual read we received from the customer. Attached the picture for your convenience. Please correct this on your end.\n\nBest regards,"
+    }
+  ],
+  "communication_id": "1663836",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

@@ -1,0 +1,32 @@
+{
+  "reference": "SC01733268",
+  "subject": "709773500",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "709773500",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Jessica.Lapsley@edfenergy.com",
+      "timestamp": "19 Feb 2026 11:28",
+      "content": "PT0043 - Contract Manager Query (Gas) - General Query raised: SC01750744"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "11 Feb 2026 12:24",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Chauhan@edfenergy.com",
+      "timestamp": "03 Feb 2026 11:33",
+      "content": "Hi team,\n\nwe haven't received any response from your end. \n\nWe have received proposed with the old MSN but we hold new MSN in our system, we have also shared onjob with you in SDEP Reference: SC01701057 to update the correct MSN in your account. \n\nHence, please update the correct MSN E6F32021442300 and let us know."
+    }
+  ],
+  "communication_id": "1733268",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "709773500",
+  "bucket": "Current"
+}

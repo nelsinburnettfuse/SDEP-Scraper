@@ -1,0 +1,26 @@
+{
+  "reference": "SC01700762",
+  "subject": "Xoserve screenshot",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7664576806",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mansi.Dandekar@ovo.com",
+      "timestamp": "12 Jan 2026 09:04",
+      "content": "Hi, we are unable to replace the previous OOL read. Therefore, we request you to install the MSN based on the agreed COS read of 00752 dated 02/09/2025. If you have already installed the MSN, please share the Xoserve screenshot so that we can raise an RFA to adjust the volume on our end. Thank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Haldavanekar@ovoenergy.com",
+      "timestamp": "05 Jan 2026 11:37",
+      "content": "Hi, we are unable to replace the previous OOL read. Therefore, we request you to \ninstall the MSN based on the agreed COS read of 00752 dated 02/09/2025. If you have already installed the MSN, please share the Xoserve screenshot so that we can raise an RFA to adjust the volume on our end. Thank you."
+    }
+  ],
+  "communication_id": "1700762",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7664576806",
+  "bucket": "Current"
+}

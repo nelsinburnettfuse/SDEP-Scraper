@@ -1,0 +1,26 @@
+{
+  "reference": "SC01726932",
+  "subject": "2199993595167",
+  "escalation_level": "First Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2199993595167",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "29 Jan 2026 10:00",
+      "content": "Archived"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "29 Jan 2026 09:59",
+      "content": "Hi team , we've rejected your dispute and dispute has been closed on our side. Kindly note that and we also stated the reason. what confused us you sent Y flow on your proposal that was rejected on side. Dispute has been closed on our side thanks"
+    }
+  ],
+  "communication_id": "1726932",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2199993595167",
+  "bucket": "Current"
+}

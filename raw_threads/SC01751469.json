@@ -1,0 +1,32 @@
+{
+  "reference": "SC01751469",
+  "subject": "Missing opening read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "7867526809",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "zeynep.sener@fuseenergy.com",
+      "timestamp": "19 Feb 2026 16:29",
+      "content": "2026.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "zeynep.sener@fuseenergy.com",
+      "timestamp": "19 Feb 2026 16:26",
+      "content": "2026.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep.sener@fuseenergy.com",
+      "timestamp": "19 Feb 2026 16:26",
+      "content": "We have raised a dispute regarding the opening read for this MPRN: 7867526809 and provided the backup reads. Could you please process this as soon as possible."
+    }
+  ],
+  "communication_id": "1751469",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7867526809",
+  "bucket": "Current"
+}

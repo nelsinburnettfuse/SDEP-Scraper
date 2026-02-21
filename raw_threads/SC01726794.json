@@ -1,0 +1,26 @@
+{
+  "reference": "SC01726794",
+  "subject": "2199999494561",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2199999494561",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "05 Feb 2026 07:38",
+      "content": "Hi, agreement done over read 60076.0, as you are the gaining supplier kindly provide us d0086 read to issue the cos read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Partha.Deb@edfenergy.com",
+      "timestamp": "29 Jan 2026 08:58",
+      "content": "Hi team, please issue COS read as 60076.0 for MSN S10R53698 & COS date 23rd Dec 2025. Regards,"
+    }
+  ],
+  "communication_id": "1726794",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2199999494561",
+  "bucket": "Current"
+}

@@ -1,0 +1,56 @@
+{
+  "reference": "SC01610431",
+  "subject": "Invalid Y flow",
+  "escalation_level": "",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1050002072641",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "22 Jan 2026 12:48",
+      "content": "please can we have an update, still awaiting D0086"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "18 Dec 2025 13:23",
+      "content": "we also hold MSN 19L3399978"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "inigo.cockett@fuseenergy.com",
+      "timestamp": "18 Nov 2025 16:20",
+      "content": "Please let us know what MSN you hold. We hold 19L3399978. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "17 Nov 2025 15:01",
+      "content": "Hi, we hold smart reads 604 07/08/2025 and 0 01/06/2024"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "inigo.cockett@fuseenergy.com",
+      "timestamp": "09 Nov 2025 11:11",
+      "content": "Hi team, our proposed reading is a remote reading from smart meter on the day of switch. This reading is 239.005 kWh on 18/08/2025 BU1: 271.979 kWh 25/08/2025 BU2: 297.082 kWh 01/09/2025. Please let us know what readings you hold"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "20 Oct 2025 15:12",
+      "content": "Hi, please provide update in order to avoid escalation route"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "greg.warman@ecotricity.co.uk",
+      "timestamp": "29 Sep 2025 14:49",
+      "content": "Hi, we have received a Y flow to our rejection on this MPAN. Your flow was rejected as a D0086 was included in a missing D0086 flow, P was sent in response to P flow and your proposal conflicts with our customer reads. Your proposed read has NOT been agreed, please provide photo"
+    }
+  ],
+  "communication_id": "1610431",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1050002072641",
+  "bucket": "Current"
+}

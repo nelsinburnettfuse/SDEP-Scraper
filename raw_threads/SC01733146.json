@@ -1,0 +1,26 @@
+{
+  "reference": "SC01733146",
+  "subject": "Dispute",
+  "escalation_level": "",
+  "from": "EOND - E.ON - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900006180580",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jack.allwood@eonnext.com",
+      "timestamp": "10 Feb 2026 13:49",
+      "content": "Hello team can you respond asap please"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jeanette.phillips@eonnext.com",
+      "timestamp": "03 Feb 2026 10:50",
+      "content": "hey - we have received rejection as you have cos date for 02/10/2025 however this is not the reading we are disputing we are missing cos for 06/09/2025 when customer joined us - they then came back to you on 02/10/2025 - please respond to dispute - many thanks in advance"
+    }
+  ],
+  "communication_id": "1733146",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900006180580",
+  "bucket": "Current"
+}

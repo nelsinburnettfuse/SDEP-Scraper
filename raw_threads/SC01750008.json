@@ -1,0 +1,26 @@
+{
+  "reference": "SC01750008",
+  "subject": "Dispute",
+  "escalation_level": "First Escalation",
+  "from": "EOND - E.ON - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2700008198157",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sabah.said@fuseenergy.com",
+      "timestamp": "19 Feb 2026 12:51",
+      "content": "Hi Team, I've sent a dispute for the open read 477.656 kWh"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jeanette.phillips@eonnext.com",
+      "timestamp": "18 Feb 2026 16:14",
+      "content": "hey - please respond\n\nHi team, Can you please send over the d86 file as we do not hold this thank you\n \nfreya.wheeldon@eonnext.com\n29 Jan 2026 16:07"
+    }
+  ],
+  "communication_id": "1750008",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2700008198157",
+  "bucket": "Current"
+}

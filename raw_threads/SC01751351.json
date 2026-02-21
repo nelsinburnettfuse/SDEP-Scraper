@@ -1,0 +1,32 @@
+{
+  "reference": "SC01751351",
+  "subject": "2700001047512",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "2700001047512",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Kaustar.Mondal@edfenergy.com",
+      "timestamp": "20 Feb 2026 06:30",
+      "content": "Kindly see the communication for Reference: SC01751710\n\n\nAlso archived the communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "19 Feb 2026 15:52",
+      "content": "Hi team, it looks like we received the flow with the reading section left blank, so we have issued a new flow with the read. please accept so that D86 can be issued :)"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "emaad.khan@fuseenergy.com",
+      "timestamp": "19 Feb 2026 15:35",
+      "content": "Hi Team,\n\nWe have an active dispute up for customer's electricity meter, please accept our proposed reading of 62284.0 kWh on 22/01/2026.\n\nFollowed by backup readings of:\n62327.461 kWh on 23/01/2026\n62383.577 kWh on 24/01/2026"
+    }
+  ],
+  "communication_id": "1751351",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2700001047512",
+  "bucket": "Current"
+}

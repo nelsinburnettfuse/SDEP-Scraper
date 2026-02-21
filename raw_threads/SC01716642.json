@@ -1,0 +1,32 @@
+{
+  "reference": "SC01716642",
+  "subject": "Opening Read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "1287997702",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Protap.Ghosh@edfenergy.com",
+      "timestamp": "22 Jan 2026 14:28",
+      "content": "Hi team please ignore previous one,  we have chased our team to issue the  revised cos read 522  hence archive , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Protap.Ghosh@edfenergy.com",
+      "timestamp": "22 Jan 2026 14:26",
+      "content": "Hi team kindly provide two actual backups along with proposal and also mention the MSN no"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "19 Jan 2026 15:53",
+      "content": "Hi Team, we have remote read for CoS of 512, can we verbally agree on this? Regards,"
+    }
+  ],
+  "communication_id": "1716642",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1287997702",
+  "bucket": "Current"
+}

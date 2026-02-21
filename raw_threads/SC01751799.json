@@ -1,0 +1,20 @@
+{
+  "reference": "SC01751799",
+  "subject": "Address Amends",
+  "escalation_level": "",
+  "from": "NORW - Electricity North West - Distribution Network Operators (DNO)",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1610009232436",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Stuart.Halsall@enwl.co.uk",
+      "timestamp": "20 Feb 2026 08:27",
+      "content": "Hi, Could you please provide the correct address from your customer as per Royal Mail so we can update our records. Please be aware that we may already have the same address as yourself and may need an update from your customer or they may need to register their address with Royal Mail. Thanks"
+    }
+  ],
+  "communication_id": "1751799",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610009232436",
+  "bucket": "Current"
+}

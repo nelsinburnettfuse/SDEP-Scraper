@@ -1,0 +1,32 @@
+{
+  "reference": "SC01738207",
+  "subject": "1415290850005",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "1415290850005",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Andrew.Donnachie@eonnext.com",
+      "timestamp": "09 Feb 2026 10:42",
+      "content": "Thank you for your query. We have acknowledged your case and will provide an update as soon as possible following our initial investigations."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "06 Feb 2026 21:22",
+      "content": "Screenshot 2026-02-06 at 21.22.18.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "06 Feb 2026 21:22",
+      "content": "Hi team, the meter for this MPAN has an MSN that is different from the MSN on ECOES. Meter has MSN K85G 13846, while ECOES has K89G13846B. Address is also incorrect on ECOES and should include a Unit 1. Can you please advise if you performed a meter exchange or were aware of this? Regards,"
+    }
+  ],
+  "communication_id": "1738207",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1415290850005",
+  "bucket": "Current"
+}

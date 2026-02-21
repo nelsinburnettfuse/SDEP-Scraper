@@ -1,0 +1,20 @@
+{
+  "reference": "SC01698076",
+  "subject": "Response to SAR",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1324292203",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Annasaheb.Habbu@ovoenergy.com",
+      "timestamp": "02 Jan 2026 09:39",
+      "content": "Good day,\nNo response from your end , as par my investigation we found that OMR read is incorrect and case is over 12 months so we have calculated proposal estimated read 12487 for COS date 09/06/2023 back by 12791 date 05/12/2025 and 12785 date 17/11/2025, can you verbal agreement on our proposal. Thanks"
+    }
+  ],
+  "communication_id": "1698076",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1324292203",
+  "bucket": "Current"
+}

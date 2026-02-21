@@ -1,0 +1,26 @@
+{
+  "reference": "SC01713682",
+  "subject": "Accept ET",
+  "escalation_level": "First Escalation",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "SCT - ScottishPower - Supplier",
+  "meter_point_number": "9156800500",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jvaron@scottishpower.com",
+      "timestamp": "02 Feb 2026 13:22",
+      "content": "Hello,\nRET flow added today. Our response will be sent soon. Best regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "hristiyan@fuseenergy.com",
+      "timestamp": "15 Jan 2026 16:09",
+      "content": "Hi team, this ET was raised on 12/05/2025. Please accept as soon as possible as this is not our customer's MPRN"
+    }
+  ],
+  "communication_id": "1713682",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9156800500",
+  "bucket": "Current"
+}

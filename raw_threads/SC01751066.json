@@ -1,0 +1,26 @@
+{
+  "reference": "SC01751066",
+  "subject": "Missed MEX",
+  "escalation_level": "",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3334030105",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "escalations@octoenergy.com",
+      "timestamp": "19 Feb 2026 13:49",
+      "content": "FUR_SDEP.csv"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "escalations@octoenergy.com",
+      "timestamp": "19 Feb 2026 13:49",
+      "content": "Good afternoon, please find an attached spreadsheet of 28 MPRNs where a MEX took place prior to our SED. Please could this be updated on Xoserve? Thank you"
+    }
+  ],
+  "communication_id": "1751066",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3334030105",
+  "bucket": "Current"
+}

@@ -1,0 +1,104 @@
+{
+  "reference": "SC01632645",
+  "subject": "7574694609",
+  "escalation_level": "Final Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7574694609",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "16 Feb 2026 16:45",
+      "content": "Hi team, we have verbally agreed on the read below, kindly chase for the revised URN. regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 13:57",
+      "content": "Hi team, please send Y flow for 3021m3"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "klee@uw.co.uk",
+      "timestamp": "27 Jan 2026 10:22",
+      "content": "Hi, that's a electric meter, not gas. Happy to agree your proposal 3021 based on the first picture of the gas meter you sent to us, please issue the revised URN. Thanks."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "15 Jan 2026 09:37",
+      "content": "Screenshot 2026-01-15 at 09.37.04.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "15 Jan 2026 09:37",
+      "content": "Hi team, we have customer submission 12/09/2025 of 34005 with MSN Z15N169085 as shown in the picture. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vdesai@uw.co.uk",
+      "timestamp": "14 Jan 2026 15:12",
+      "content": "HI team, do you havae any update on customer read? thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "12 Jan 2026 21:56",
+      "content": "Hi Team, this is incorrect D150. We have contacted the customer re a meter reading for MSN. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vuyisa.Ngubane@uw.co.uk",
+      "timestamp": "12 Jan 2026 13:30",
+      "content": "Hi team, we do hold the same MSn when it comes U6S02449861502, your D0150 shows a different one I believe, we are unable to get a meter photo as we are not the current supplier, please chase for it on your side, thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "25 Dec 2025 00:30",
+      "content": "Here is the D150:\n288|1470000510024|20160815||E| 289|0393|20150826||| 290|Z15N169085|||100|F|LANDIS+GYR 5235A|MFMP|||||||||||S2A|20160815|||||H|20160815| 293|1|C|AI|1.00||5|||"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "09 Dec 2025 16:27",
+      "content": "Hi team, we hold MSN U6S02449861502 - the same one which you had raised a dispute for in the first place. Please confirm the same and kindly provide meter photos for verification."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Vuyisa.Ngubane@uw.co.uk",
+      "timestamp": "08 Dec 2025 17:12",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vuyisa.Ngubane@uw.co.uk",
+      "timestamp": "10 Nov 2025 11:17",
+      "content": "Hi team , the meter serial number on the meter does not match with what we have, please provide a raw file for your metering details since your MSN doesnt match with that on xoserve, thanks."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "diya@fuseenergy.com",
+      "timestamp": "26 Oct 2025 20:42",
+      "content": "Screenshot 2025-10-26 at 20.41.20.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "diya@fuseenergy.com",
+      "timestamp": "26 Oct 2025 20:41",
+      "content": "Hi team we have a customer submission on the 12/09/2025 of 3021 m3, please review our dispute and accept. Many thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vuyisa.Ngubane@uw.co.uk",
+      "timestamp": "23 Oct 2025 12:11",
+      "content": "Hi team, please respond to our open SAR proposal: 6248 Based on 2703 18-07-2024 5519 19-03-2025, thanks."
+    }
+  ],
+  "communication_id": "1632645",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7574694609",
+  "bucket": "Current"
+}

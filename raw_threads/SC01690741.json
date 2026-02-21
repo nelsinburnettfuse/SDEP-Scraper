@@ -1,0 +1,44 @@
+{
+  "reference": "SC01690741",
+  "subject": "sar response",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "5083725408",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 10:28",
+      "content": "Screenshot 2026-01-26 at 10.27.02.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 10:27",
+      "content": "hi, we can agree on 490 as backed by actual picture submission on 31/07/2025. Please see picture attached. Best regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "abhishek.rawat@ovo.com",
+      "timestamp": "20 Jan 2026 10:46",
+      "content": "Good day, we sent a SAR proposing estimated reading 491 backed by 489.0 2025/07/29 and 308.0 2025/02/28 for the transfer date of 31/07/2025 but have yet to receive a response. Please can you take a look and respond to our dispute. If we do not receive a response within a week, we will look to resolve this dispute internally and inform the customer that we have been unable to reach an agreement with yourselves.  Thanks The OVO Energy Team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "30 Dec 2025 08:38",
+      "content": "Hi team, please response can you verbal agree on your alternat proposal read 490 for COS date 31/07/2025, we will wait for your response, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "23 Dec 2025 09:03",
+      "content": "Hi team, we have received your alternat this sar \"SAR\",\"FUR\",\"020 3951 1052\",3825,5083725408,\"8526377S\",\"19\",\"EH16 5NX\",20250731,764,\"E\",\"A\",490,\"A\",,\"P\",\"OVO\",\"AR Team\",\"00\",\"Customer opening read of 490\"\n\"TRAIL\", so can you verbal agree on your alternat proposal read 490, thanks"
+    }
+  ],
+  "communication_id": "1690741",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5083725408",
+  "bucket": "Current"
+}

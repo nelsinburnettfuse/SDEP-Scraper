@@ -1,0 +1,20 @@
+{
+  "reference": "SC01741236",
+  "subject": "2000018538168",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000018538168",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "10 Feb 2026 15:01",
+      "content": "HI team, we already have D86 read  75703.0 for cos date  20th Jan 2026 .  Raw file:\n\n196|2000018538168|V|\n197|S72C12899|A|\n198|01|20260120000000|75703.0||0|T|N|  Identifier: D769344984 . hence archived . Regards,"
+    }
+  ],
+  "communication_id": "1741236",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000018538168",
+  "bucket": "Current"
+}

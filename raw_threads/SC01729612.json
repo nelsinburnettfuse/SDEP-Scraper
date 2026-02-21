@@ -1,0 +1,38 @@
+{
+  "reference": "SC01729612",
+  "subject": "Missing read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "3333778808",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ujjawal.Singh@britishgas.co.uk",
+      "timestamp": "10 Feb 2026 11:37",
+      "content": "Hi team we are happy to agreed read 8612 for 25.12.2025 please issue the agreed GT read. Thank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "08 Feb 2026 10:30",
+      "content": "Hi team,\n\nThank you for supplying - we sent D0300 dispute for read provided previously, please accept"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ujjawal.Singh@britishgas.co.uk",
+      "timestamp": "04 Feb 2026 14:49",
+      "content": "Hi team we have costumer read 8612 for 25.12.2025. Thank you."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "30 Jan 2026 22:09",
+      "content": "Hi team,\n\nDo you have any readings for listed MPAN 3333778808 as 15 January reading we have is for 8623m^3 - lower than 25th December MBR of 8698m^3"
+    }
+  ],
+  "communication_id": "1729612",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3333778808",
+  "bucket": "Current"
+}

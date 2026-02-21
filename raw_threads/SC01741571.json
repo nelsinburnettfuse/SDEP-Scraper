@@ -1,0 +1,20 @@
+{
+  "reference": "SC01741571",
+  "subject": "2000026653256",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000026653256",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "11 Feb 2026 05:18",
+      "content": "Hi team we have received proposal and send rejection as we don't hold two actuals backups to validate your proposal so, kindly provide us two actual backups so that we can validate and response.\nRegards"
+    }
+  ],
+  "communication_id": "1741571",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000026653256",
+  "bucket": "Current"
+}

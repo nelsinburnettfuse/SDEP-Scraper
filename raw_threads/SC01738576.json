@@ -1,0 +1,26 @@
+{
+  "reference": "SC01738576",
+  "subject": "1630000247580",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1630000247580",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "17 Feb 2026 12:35",
+      "content": "Hi team,\nKindly fine the attached D86-\nRaw file:\n\n196|1630000247580|V|\n197|24J0491840|I|\n198|2|20260107000000|1005.8|||T|N|\n198|1|20260107000000|412.7|||T|N|\narchiving.\nRegards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sneha.Prakash@edfenergy.com",
+      "timestamp": "09 Feb 2026 07:36",
+      "content": "Hi team, cos read is missing from our end hence we sent you proposal \"our proposed read 1- 412.7, 2- 1005.8 for cos date 7th Jan 2026\", kindly validate our proposal and responese.Regards."
+    }
+  ],
+  "communication_id": "1738576",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1630000247580",
+  "bucket": "Current"
+}

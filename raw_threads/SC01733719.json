@@ -1,0 +1,26 @@
+{
+  "reference": "SC01733719",
+  "subject": "2341464804819",
+  "escalation_level": "Final Escalation",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2341464804819",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "17 Feb 2026 07:13",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "victoria.grant@octoenergy.com",
+      "timestamp": "03 Feb 2026 14:31",
+      "content": "Hi, for this MPAN 2341464804819 we've agreed to the proposed reading of 17537.0 for the loss date 1 Jan 2026, but not had a response or the D86 through. Acceptance was sent 3 weeks ago. Please can you send the D86, or reply with the raw file, so that we can send onto our DC? Thank you."
+    }
+  ],
+  "communication_id": "1733719",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2341464804819",
+  "bucket": "Current"
+}

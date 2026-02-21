@@ -1,0 +1,56 @@
+{
+  "reference": "SC01695923",
+  "subject": "3937065710",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3937065710",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rohit.kamate@ovo.com",
+      "timestamp": "14 Jan 2026 11:35",
+      "content": "Hi, Please refer below flow where you have accepted our sent ET loss then we registered the supply for 14/01/2025. We are not going to accept your ET. Its ET gain over the ET loss. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rohit.kamate@ovo.com",
+      "timestamp": "14 Jan 2026 11:32",
+      "content": "HEADR\",\"RET\",\"FUR\",\"SUP\",\"OVO\",\"SUP\",20260106,\"192848\",\"PN000121\",\"PRDCT\",1,0\n\"RET\",\"OVO\",\"ET Team\",98223,3937065710,\"ELMLEIGH\",\"COOKS LANE\",\"SO40 2RU\",\"Ben Weeks\",\"\",\"\",20251116,20251222,\"I\",\"A\",\"FUR\",\"Dany Dbaibo\",\"\",,,\"\",\"00\",\"\"\n\"TRAIL\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "14 Jan 2026 10:07",
+      "content": "Hi team, customer reached out communicating that they wanted their supply with MPRN: 3937065710 to have been with us all along. Thus, my colleague should not have accepted your ET request. I will raise an ET Loss request from our side now so we can re-register the customer back to us (Fuse). Could you please accept this ET and stop sending ET Loss requests from your side?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rashmi.yadav@ovo.com",
+      "timestamp": "07 Jan 2026 08:00",
+      "content": "Hi Team,\nThanks , reg-reg done today."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 19:28",
+      "content": "Hi team,\n\nWe have sent ET request. Archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "akshay.kumbhar@ovo.com",
+      "timestamp": "06 Jan 2026 08:57",
+      "content": "Hi Team, we raised an ET Loss request to you on 23/12/2025 for MPRN 3937065710 we have not yet received a response from you, can you please provide us with a response ASAP, thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "somnath.jadhav@ovo.com",
+      "timestamp": "30 Dec 2025 13:34",
+      "content": "Hi Team, we raised an ET Loss request to you on 23/12/2025 for MPRN 3937065710 we have not yet received a response from you, can you please provide us with a response ASAP, thanks."
+    }
+  ],
+  "communication_id": "1695923",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3937065710",
+  "bucket": "Current"
+}

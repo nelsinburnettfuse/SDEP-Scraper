@@ -1,0 +1,56 @@
+{
+  "reference": "SC01721879",
+  "subject": "Response on SAR",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1472572203",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Vinay.Kumar@ovo.com",
+      "timestamp": "20 Feb 2026 10:21",
+      "content": "Hi, We are happy to agree on read 76750 and close the dispute our side. Archived."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 08:53",
+      "content": "Hi Team, we have already accepted a propose read of 76895 on the 19/01/2026. We have re-disputed the read to 76750 for gas. Please accept this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bharti.bharti@ovo.com",
+      "timestamp": "20 Feb 2026 07:53",
+      "content": "Good day\n\nWe sent a dispute Proposing customer reading 76750 backed by 76358.0 2025/10/08 and 76260.0 2025/09/18 for the transfer date of 30/12/2025 on the 16/01/2026 but have yet to receive a response. \n \nAs we have been unable to come to an agreement with yourselves, we\u2019ve closed the dispute down on our side and We will process an internal fix on our supply."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mehak.menaria@ovo.com",
+      "timestamp": "13 Feb 2026 09:07",
+      "content": "Hi team we have received your alternat on PFV but we hold customer submitted reads Show replaced reads30/12/2025\n\nG4A00994121101\t76750\tFinalReadingActual\t20/01/2026 19:38\n27/12/2025\n\nG4A00994121101\t76750\tCustomerSubmittedReading\t31/12/2025 22:10\n18/12/2025\n\nG4A00994121101\t76697\tCustomerSubmittedReading\t31/12/2025 22:10\n08/10/2025\n\nG4A00994121101\t76358\tCustomerSubmittedReading\t31/12/2025 22:10\n03/10/2025\n\nG4A00994121101\t76334\tCustomerSubmittedReading\t31/12/2025 22:10so please verbally agree on our proposal and send Y flow, thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mehak.menaria@ovo.com",
+      "timestamp": "06 Feb 2026 09:37",
+      "content": "Good day\n\n\nWe sent a dispute proposing 76750 backed by 76358.0 2025/10/08 and 76260.0 2025/09/18 for the transfer date of 30/12/2025 on the 16/01/2026 but have yet to receive a response. \n \nAs we have been unable to come to an agreement with yourselves, we\u2019ve closed the dispute down on our side and will inform the customer. We will process an internal fix on our supply."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mehak.menaria@ovo.com",
+      "timestamp": "30 Jan 2026 09:46",
+      "content": "Hi team, kindly response on below conversation, thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mehak.menaria@ovo.com",
+      "timestamp": "23 Jan 2026 13:01",
+      "content": "Hi team, we have received your response on PFV (SAR\",\"FUR\",\"020 3951 1052\",4912,1472572203,\"G4A00994121101\",\"22, Greave Clough Drive\",\"OL13 9HP\",20251230,,\"\",\"C\",76895,\"\",,\"P\",\"OVO\",\"\",\"00\",\"\"\n\"TRAIL\") we are unable to accept your alternate 76895 for COS date 30/12/2025 because your proposal is going high our customer read 76750 date 27/12/2025 so kindly relook and send verbal agreement on our proposal, thanks"
+    }
+  ],
+  "communication_id": "1721879",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1472572203",
+  "bucket": "Current"
+}

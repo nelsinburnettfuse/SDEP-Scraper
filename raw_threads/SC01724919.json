@@ -1,0 +1,32 @@
+{
+  "reference": "SC01724919",
+  "subject": "Closing reading",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "2579411005",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "04 Feb 2026 07:18",
+      "content": "Hi team,\nWe have not received any response from your end,  as we have received proposal for MSN- E6S00179281556 but it's deactivated   8th Dec 2025, we have also attached ONJOB earlier kindly validate.\nRegards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "28 Jan 2026 11:16",
+      "content": "Hi,\nWe have sent Rejection to your proposal because we have received proposal for MSN E6S00179281556 which was already Deactivated 8th Dec 2025,hence for our cos date correct MSN is E6E17158202523,we have shared ONJOB below,kindly update your MTDS and confirm us back,so that we can further proceed in Dispute.Raw file:\n\n\"TRANS\",\"774521\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",2579411005,\"\",\"\",\"32\",\"\",\"\",1.022640,20251208,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S00179281556\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20251208,0,\"33996\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2025,\"E6E17158202523\",\"32\",\"outside\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20251208,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20251208,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20251208,20251208,\"\",\"080000\",\"120000\".\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "oliver.garland@fuseenergy.com",
+      "timestamp": "27 Jan 2026 15:55",
+      "content": "Hi Team,\n\nYou required a closing reading for MPRN 2579411005. Please respond to the dispute sent on 14/1/26 (dispute ref. no. 4865) as we have sent this reading.\n\nThanks, \nOliver"
+    }
+  ],
+  "communication_id": "1724919",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2579411005",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01738245",
+  "subject": "1170002229265",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "SPOW - ScottishPower - Supplier",
+  "meter_point_number": "1170002229265",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "07 Feb 2026 04:23",
+      "content": "Screenshot 2026-02-07 at 04.22.36.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "druv.punjabi@fuseenergy.com",
+      "timestamp": "07 Feb 2026 04:23",
+      "content": "Hi team, this export MPAN 1170002229265 is with us for import and we have installed the meter. The meter is giving us remote import readings, but is not giving you export remote readings. Please send flows for this export MPAN, update the meter's details on your records, and attempt CoS gain so you can receive remote export readings."
+    }
+  ],
+  "communication_id": "1738245",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1170002229265",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745513",
+  "subject": "2000024442890",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000024442890",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Subhajit.Dey@edfenergy.com",
+      "timestamp": "13 Feb 2026 19:40",
+      "content": "Hi team,proposal sent ,acceptance received ,we received cos read-43844.0,cos date-8th Jan 2026.,,Identifier: D769363780,,196|2000024442890|V|\n197|D09C31968|D|\n198|01|20260108000000|43844.0||0|T|N|,closed the case sticking cos read ,communication archived.\nRegards,"
+    }
+  ],
+  "communication_id": "1745513",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000024442890",
+  "bucket": "Current"
+}

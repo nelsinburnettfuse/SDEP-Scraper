@@ -1,0 +1,26 @@
+{
+  "reference": "SC01734395",
+  "subject": "sar response",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1085201104",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Akshay.Srivastava@ovoenergy.com",
+      "timestamp": "20 Feb 2026 12:55",
+      "content": "Hi please response there"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "04 Feb 2026 09:13",
+      "content": "Hi team, we have received your alternat proposal, so please provide two backup read validate your alternat proposal, thanks"
+    }
+  ],
+  "communication_id": "1734395",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1085201104",
+  "bucket": "Current"
+}

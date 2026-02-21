@@ -1,0 +1,26 @@
+{
+  "reference": "SC01746915",
+  "subject": "Missed MEX",
+  "escalation_level": "",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3922399001",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "richard.dodd@octoenergy.com",
+      "timestamp": "16 Feb 2026 15:15",
+      "content": "Raw file:\n\n\"TRANS\",\"000000001086464\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"629592\",,\n\"MTPNT\",\"UPDTE\",3922399001,\"\",\"\",\"\",\"\",\"\",,,\n\"ASSET\",\"UPDTE\",\"REMVE\",\"METER\",\"\",\"CR\",\"\",\"\",,\"E6S11015921660\",\"\",\"\",\"RE\"\n\"METER\",\"\",\"\",\"\",,\"\",\"\",,\"\",,\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20220803,,\"07490\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2022,\"E6S13373172261\",\"99\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20220803,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20220803,,\"99999\"\n\"MKPRT\",\"ASSPR\",\"MFG\"\n\"APPNT\",\"\",20220803,,\"\",\"134442\",\"150535\"\n\"TRANS\",\"000"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "richard.dodd@octoenergy.com",
+      "timestamp": "16 Feb 2026 15:14",
+      "content": "Hi Team, we completed a MEX on the 03 Aug 2022 that unfortunately failed to update on Xoserve. Can you please complete a found meter update for COS + 1 at your earliest convenience please. Thank you."
+    }
+  ],
+  "communication_id": "1746915",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3922399001",
+  "bucket": "Current"
+}

@@ -1,0 +1,44 @@
+{
+  "reference": "SC01709744",
+  "subject": "510427000",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "510427000",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Souri.Dutta@edfenergy.com",
+      "timestamp": "04 Feb 2026 09:46",
+      "content": "Hi, we have not received any response hence closed the chat"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "20 Jan 2026 14:33",
+      "content": "Hi team,\nWe have received Y flow from your end, as we have previously describe you that meter photo received for different MSN, meter photo shared below, so kindly chase customer for meter photo with yellow sticker from your end.\nRegards."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "13 Jan 2026 09:08",
+      "content": "1000032685.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "13 Jan 2026 09:05",
+      "content": "."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Priyosi.Roy@edfenergy.com",
+      "timestamp": "13 Jan 2026 09:04",
+      "content": "Hi team, we have sent you a rejection as we have received meter picture for different MSN, kindly chase customer to confirm if there was any unrecorded MEX, regards."
+    }
+  ],
+  "communication_id": "1709744",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "510427000",
+  "bucket": "Current"
+}

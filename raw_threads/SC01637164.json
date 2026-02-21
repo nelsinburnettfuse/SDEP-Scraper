@@ -1,0 +1,32 @@
+{
+  "reference": "SC01637164",
+  "subject": "RE: ET",
+  "escalation_level": "First Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "GESL - So Energy - Supplier",
+  "meter_point_number": "1413166371008",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "26 Dec 2025 19:18",
+      "content": "Hi, can you issue A flow for electricity ET so our records can update?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mel.King@so.energy",
+      "timestamp": "04 Nov 2025 13:19",
+      "content": "Hi\nThe ET was accepted on SDep Reference: SC01607844 - raw file as follows :-\"HEADR\",\"RET\",\"STL\",\"SUP\",\"FUR\",\"SUP\",20250926,\"090920\",\"03872422\",\"PRDCT\",1,1 \"RET\",\"FUR\",\"020 3951 1052\",541,4167101208,\"8\",\"RUSHERS CLOSE\",\"WR10 1HF\",\"JENNY Gordon\",\"\",\"\",20250920,20250924,\"I\",\"A\",\"STL\",\"Heraj Patel\",\"\",,,\"\",\"00\",\"\" \"TRAIL\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shivalinga@fuseenergy.com2026-02-16 00:01:51",
+      "timestamp": "28 Oct 2025 22:26",
+      "content": "hi team,\nplease acknowledge the ET issued.\nthanks"
+    }
+  ],
+  "communication_id": "1637164",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1413166371008",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01744383",
+  "subject": "1716669842008",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1716669842008",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Avinash.Kumar@edfenergy.com",
+      "timestamp": "13 Feb 2026 07:56",
+      "content": "Hi teams,\nwe have sent R flow for the cos 14th Jan 2026 we also hold D0086 read for our cos date hence no requirement of dispute hence close the dispute archive the communication,\nRaw file:\n\n196|1716669842008|V|\n197|D13C07473|D|\n198|01|20260114000000|54313.4||0|T|N|\n\nRegards,"
+    }
+  ],
+  "communication_id": "1744383",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1716669842008",
+  "bucket": "Current"
+}

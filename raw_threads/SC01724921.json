@@ -1,0 +1,74 @@
+{
+  "reference": "SC01724921",
+  "subject": "Crossed meters",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "2200019512718",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Andrew.Currie@edfenergy.com",
+      "timestamp": "11 Feb 2026 09:23",
+      "content": "We are closing this case as all necessary actions have been completed, and we believe the original query has been fully resolved. If you feel the issue remains outstanding or need any additional information, please send a new communication rather than reopening this message. This will ensure your query is picked up quickly and handled promptly."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.pettey@edfenergy.com",
+      "timestamp": "04 Feb 2026 16:05",
+      "content": "The customer has sent another photo showing 25L3025729 and that is whats on the mpan. Its marked number 1. Do you need anything else from us as your now the supplier and we dont deal with ETs."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mark.Forster@edfenergy.com",
+      "timestamp": "28 Jan 2026 11:06",
+      "content": "I've emailed the customer for 2200019512718 (Flat 1) to confirm their meter details via a burns test in case they were previously provided incorrectly."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Mark.Forster@edfenergy.com",
+      "timestamp": "28 Jan 2026 11:03",
+      "content": "ELEC METER 28.01.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mark.Forster@edfenergy.com",
+      "timestamp": "28 Jan 2026 11:03",
+      "content": "Hi, the last photo the customer provided was in June 2025, I have attached it"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "28 Jan 2026 09:04",
+      "content": "Hi Team, the customer is reaching out to us for an update. Can you please give an update?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Andrew.Currie@edfenergy.com",
+      "timestamp": "28 Jan 2026 07:26",
+      "content": "This is just a quick courtesy response to advise we are aware of this new case. We will respond as soon as possible, following initial investigations on our side."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "27 Jan 2026 16:03",
+      "content": "C70EE779-5191-40B5-AEE4-B51BF3584F51.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "27 Jan 2026 16:03",
+      "content": "Hi team,\n\nPlease provide a meter image of MPAN 2200019512718 so we can confirm that the MSNs are swapped.\n\nAttached is meter image associated with MPAN 2200019512709 - the MSN is incorrectly associated with the other MPAN"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "27 Jan 2026 15:55",
+      "content": "Hi team,\n\nWe have switched in MPAN 2200019512718 to send flows for swapping MTDs with their neighbour at MPAN 2200019512709 - we will get these sent through then ET back MPAN 2200019512718 once complete. Please do not send ET while we do this"
+    }
+  ],
+  "communication_id": "1724921",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200019512718",
+  "bucket": "Current"
+}

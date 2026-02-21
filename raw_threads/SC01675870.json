@@ -1,0 +1,134 @@
+{
+  "reference": "SC01675870",
+  "subject": "1460000738675",
+  "escalation_level": "Final Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1460000738675",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "prerna.chadha2@ovo.com",
+      "timestamp": "18 Feb 2026 14:08",
+      "content": "Hi, please accept our verbal agreement on read 01-89627/02-48684 and issue valid revised D0086."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shashikant.Bhalerao@ovoenergy.com",
+      "timestamp": "10 Feb 2026 13:59",
+      "content": "Hi team, we not received your  new dispute please issue valid revised d0086 for agreed readv89627/ 48684"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 18:53",
+      "content": "We have filed another dispute, please accept and our DCC should issue a revised D0086."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jehangir.Dash@ovoenergy.com",
+      "timestamp": "02 Feb 2026 14:33",
+      "content": "Hi, we received a withdrawn revised D86. Request you to send us valid revised D86. Given the Raw File ID for D86 received.  Thanks. The OVO Energy Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZHV|0051812909|D0086002|D|ACCU|X|OVOE|20260124130911||||OPER|\n196|1460000738675|V|\n197|D04G13719|W|\n198|01|20250918000000|48684.0|||T|N|\n198|02|20250918000000|89627.0|||T|N|\nZPT|0051812909|7172||2279|20260124132102|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vittorio@fuseenergy.com",
+      "timestamp": "24 Jan 2026 11:32",
+      "content": "Hi team, usually this takes around 2 working days so should arrive by Monday.\nPlease let us know if it is not the case.\nregards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "somveer.singh@ovo.com",
+      "timestamp": "23 Jan 2026 09:41",
+      "content": "ok we will wait. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 11:32",
+      "content": "Hi team, I have reached out to our DC. You should receive the flow in the coming days."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Devender.Kumar@ovoenergy.com",
+      "timestamp": "21 Jan 2026 15:56",
+      "content": "Hi Team, we are verbally agreed on read 89639/48684 so please issue valid revised D0086 flow. Thanks"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "10 Jan 2026 17:49",
+      "content": "Screenshot 2026-01-10 at 17.47.33.png"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "10 Jan 2026 17:49",
+      "content": "Screenshot 2026-01-10 at 17.47.21.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "10 Jan 2026 17:48",
+      "content": "Hi team, here are the meter submissions for both registers, submitted by customer on 18/09/2025."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jehangir.Dash@ovoenergy.com",
+      "timestamp": "07 Jan 2026 13:09",
+      "content": "Hi,  we require photo reads for Reg1 & Reg2 with the date of the photos taken. Thanks. The OVO Energy Team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "30 Dec 2025 18:10",
+      "content": "Hi team, any update? Please respond to dispute."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "24 Dec 2025 12:53",
+      "content": "Screenshot 2025-12-24 at 07.52.09.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "24 Dec 2025 12:52",
+      "content": "Hi team, please see attached photos."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "somveer.singh@ovo.com",
+      "timestamp": "22 Dec 2025 13:01",
+      "content": "Hi, please respond as please send us photo reads to verify the current read pattern. Thanks."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "somveer.singh@ovo.com",
+      "timestamp": "22 Dec 2025 13:00",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Jehangir.Dash@ovoenergy.com",
+      "timestamp": "15 Dec 2025 15:20",
+      "content": "Hi, please  send us photo reads to verify the current read pattern. Thanks. The OVO energy team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "naveena.vinayan@fuseenergy.com2026-01-03 23:55:03",
+      "timestamp": "08 Dec 2025 13:43",
+      "content": "Hi team, sending a new dispute with readings- 89627 kWh and 48684 kWh, the reading that you provided doesn't match the customer submission. Please accept. Thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Kiran.Gaikwad1@ovo.com",
+      "timestamp": "05 Dec 2025 16:25",
+      "content": "Hi Team , Kindly provide Y flow on our proposal \"Proposing estimated reading 02:48684.0/01:89639.0 backed by 02:48603/01:89441 2025-06-09 & 02:48578/01:89380 2025-05-09\""
+    }
+  ],
+  "communication_id": "1675870",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1460000738675",
+  "bucket": "Current"
+}

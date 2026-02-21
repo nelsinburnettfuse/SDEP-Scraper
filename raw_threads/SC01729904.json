@@ -1,0 +1,38 @@
+{
+  "reference": "SC01729904",
+  "subject": "ET - 1200029551553",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "1200029551553",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "enya.burgess@eonnext.com",
+      "timestamp": "10 Feb 2026 09:46",
+      "content": "Hi Please provide evidence/details that confirm your customer has taken the wrong MPAN before we can agree"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 12:19",
+      "content": "Hello customer accidentally selected the wrong MPAN and has switched out one of your customer's supplies. Please take back ET"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "enya.burgess@eonnext.com",
+      "timestamp": "09 Feb 2026 11:17",
+      "content": "Hi Team,\n\nAs per our rejection - \nET request rejected as the customer details provided on the flow do not match our customer details possible cot since cos \n\nCustomer details do not match and with the time since the COS this suggest a change of tenancy in your supply period not an ET. \n\nMany Thanks,\nEnya B"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "01 Feb 2026 13:19",
+      "content": "Hi team, I\u2019m writing to enquire about the ET rejection for MPAN 1200029551553. We are attempting to ET this MPAN back to you, but the request has been rejected. Could you please clarify the reason for the rejection?"
+    }
+  ],
+  "communication_id": "1729904",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200029551553",
+  "bucket": "Current"
+}

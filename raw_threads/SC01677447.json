@@ -1,0 +1,56 @@
+{
+  "reference": "SC01677447",
+  "subject": "7576218901",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7576218901",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Kunal.Das@edfenergy.com",
+      "timestamp": "08 Feb 2026 11:43",
+      "content": "Please look back to our previous sdep can we make a verbal agreement over read 913 for cos date 27/08/2025. backups: [575 on 23/12/2024] and [534 on 23/11/2024] for MSN E6S13689472261? Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "01 Feb 2026 10:15",
+      "content": "Hi team, As incorrect agreement done so can we make a verbal agreement over read  913 for cos date 27/08/2025. backups:\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n[575 on 23/12/2024] and [534 on 23/11/2024]\tfor MSN E6S13689472261?\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "18 Jan 2026 08:16",
+      "content": "Hi team,\n\nKindly respond to us with a correct proposal so that we can proceed with the dispute."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "02 Jan 2026 17:47",
+      "content": "We have not considered the agreement on 4514 as Agreed read is not inline as per our backups- 20241223 575.1 20241123 534.3. Please validate."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "09 Dec 2025 06:26",
+      "content": "1000015176.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "09 Dec 2025 06:24",
+      "content": "Meter Photo"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "09 Dec 2025 06:23",
+      "content": "Proposal received with MSN-E6S13689472261 which removed on 14/1/2025,Correct MSN-E6P21472642400 for cos date 27th Aug 2025.Please find the attached Meter picture. We have raised request to Metering team to update the MSN, hence kindly update at your end as well."
+    }
+  ],
+  "communication_id": "1677447",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7576218901",
+  "bucket": "Current"
+}

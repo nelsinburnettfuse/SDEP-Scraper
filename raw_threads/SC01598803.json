@@ -1,0 +1,50 @@
+{
+  "reference": "SC01598803",
+  "subject": "Missing URN",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "05 Nov 2025 11:32",
+      "content": "we have GT read \u20074492"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Kerem@fuseenergy.com",
+      "timestamp": "26 Oct 2025 01:41",
+      "content": "Please respond to dispute"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Kerem@fuseenergy.com",
+      "timestamp": "26 Oct 2025 01:40",
+      "content": "Apologies, MPRN: 4172365302"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "17 Sep 2025 11:48",
+      "content": "MPRN?"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "sophia@fuseenergy.com",
+      "timestamp": "17 Sep 2025 10:48",
+      "content": "Screenshot 2025-09-17 at 10.47.34.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sophia@fuseenergy.com",
+      "timestamp": "17 Sep 2025 10:48",
+      "content": "The initial reading is 4486 m3 on the 3rd of September."
+    }
+  ],
+  "communication_id": "1598803",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

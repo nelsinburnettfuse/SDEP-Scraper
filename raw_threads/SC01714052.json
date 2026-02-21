@@ -1,0 +1,38 @@
+{
+  "reference": "SC01714052",
+  "subject": "9327223500",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "9327223500",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "31 Jan 2026 09:23",
+      "content": "Hi Team, please see the below onjob and update from your end , Regards\n\"TRANS\",\"819777\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",9327223500,\"\",\"\",\"09\",\"\",\"\",1.022640,20260107,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"G4K30877461301\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20260107,0,\"4285\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2025,\"E6E18101432523\",\"09\",\"NTM\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20260107,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20260107,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20260107,20260107,\"\",\"080000\",\"120000\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arnav.singh@fuseenergy.com",
+      "timestamp": "26 Jan 2026 01:04",
+      "content": "Hi Team, please update us on this ASAP"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "trey.kirton@fuseenergy.com",
+      "timestamp": "20 Jan 2026 15:59",
+      "content": "hi team, a follow up message. We are Drafting an ONJOB for MSN G4K30877461301. Please could you provide the opening read for this meter as our meter index. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.gatti@fuseenergy.com",
+      "timestamp": "16 Jan 2026 08:38",
+      "content": "Hi Team,\n\nDrafting an ONJOB for MSN G4K30877461301.\n\nPlease could you provide the opening read for this meter as our meter index.\n\nThanks"
+    }
+  ],
+  "communication_id": "1714052",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9327223500",
+  "bucket": "Current"
+}

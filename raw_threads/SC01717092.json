@@ -1,0 +1,26 @@
+{
+  "reference": "SC01717092",
+  "subject": "Pending D0300",
+  "escalation_level": "",
+  "from": "OFTM - Foxglove - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1700052372034",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Midhun.MohanK@outfox.energy",
+      "timestamp": "26 Jan 2026 13:02",
+      "content": "Hi team Kindley respond"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Midhun.MohanK@outfox.energy",
+      "timestamp": "20 Jan 2026 09:06",
+      "content": "Hi Team, please provide a response to the D0300 we initiated on 07/01/2026 (ZOG8623283)"
+    }
+  ],
+  "communication_id": "1717092",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1700052372034",
+  "bucket": "Current"
+}

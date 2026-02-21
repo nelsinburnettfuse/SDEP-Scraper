@@ -1,0 +1,38 @@
+{
+  "reference": "SC01705031",
+  "subject": "MPRN :  661235303",
+  "escalation_level": "First Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "661235303",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "klee@uw.co.uk",
+      "timestamp": "14 Jan 2026 10:38",
+      "content": "We closed on read 1. Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vdesai@uw.co.uk",
+      "timestamp": "07 Jan 2026 14:03",
+      "content": "also refer Reference: SC01605535"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vdesai@uw.co.uk",
+      "timestamp": "07 Jan 2026 14:02",
+      "content": "\"MTPNT\",\"UPDTE\",661235303,\"\",\"\",\"32\",\"\",\"Please exchange the meters to S2,please reach out to coms support to confirm and please leave clear notes if there are any issues  thanks\",,20250731,\n\"ASSET\",\"UPDTE\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"UNKNOWN\",\"32\",\"\",\"RE\"\n\"METER\",\"\",\"\",\"\",,\"\",\"\",20250731,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250731,,\"06361\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S18454482462\",\"32\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250731,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250731,,\"00000\"\n\"MKPRT\",\"ASSPR\",\"MFG\"\n\"APPNT\",\"\",20250731,20250731,\"\",\"120000\",\"160000\"\n\"TRANS\",\"LBOR00001213908\",\"all assets been joined and commissioned\",\"LBGAELMAM1\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"532806\",,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vdesai@uw.co.uk",
+      "timestamp": "07 Jan 2026 14:02",
+      "content": "HI team, we removed unknown MSN previously no MSN was falty. we installded new MSN. we gave you ONJOB file. please can we agree at propose read. thanks"
+    }
+  ],
+  "communication_id": "1705031",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "661235303",
+  "bucket": "Current"
+}

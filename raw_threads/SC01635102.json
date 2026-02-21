@@ -1,0 +1,56 @@
+{
+  "reference": "SC01635102",
+  "subject": "sar response",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1671222005",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Annasaheb.Habbu@ovoenergy.com",
+      "timestamp": "12 Feb 2026 05:28",
+      "content": "Good day,\nNo response from your end so we are closing on proposed read 1888  for COS date 03/10/2025 . Archived.\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Annasaheb.Habbu@ovoenergy.com",
+      "timestamp": "26 Jan 2026 12:18",
+      "content": "Good day,\nNo response from your end. We unable to sent y flow so can you verbal agree on your alternat proposal read 1896 date 03/10/2025, . If you don't response within a week then we will look to resolve this case internally and we will inform to customer.\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "17 Jan 2026 06:12",
+      "content": "Hi team, unable to sent y flow so can you verbal agree on your alternat proposal read 1896 date 03/10/2025,, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mehak.menaria@ovo.com",
+      "timestamp": "07 Jan 2026 13:14",
+      "content": "Hi Team, can you verbally agree on your read 1896 date 03/10/2025, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bayan.wahib@fuseenergy.com",
+      "timestamp": "25 Nov 2025 00:32",
+      "content": "Hi team,\nCan you please issue Y flow if you agree with our opening read 1896. Many thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "18 Nov 2025 10:26",
+      "content": "Hi team, please response can you verbal agreement on your alternat, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "27 Oct 2025 12:05",
+      "content": "Hi team, we have received your alternat proposal read 1896 for COS date \t03/10/2025, so can you verbal agreement on your alternat proposal , thanks"
+    }
+  ],
+  "communication_id": "1635102",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1671222005",
+  "bucket": "Current"
+}

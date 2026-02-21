@@ -1,0 +1,44 @@
+{
+  "reference": "SC01647626",
+  "subject": "please provide ON-JOB file",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "2157800504",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "harry.hammick@fuseenergy.com",
+      "timestamp": "09 Feb 2026 15:37",
+      "content": "Hi there, unfortunately I've been unable to open the screenshot -- could you attach again?"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "shannon.tingling@eonnext.com",
+      "timestamp": "04 Dec 2025 11:12",
+      "content": "Screenshot 2025-12-04 11.11.17.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shannon.tingling@eonnext.com",
+      "timestamp": "04 Dec 2025 11:12",
+      "content": "Hello team, unfortunately we failed to complete the onjob when we had  the supply.  As a result, we recommend you ask the cx for a photo of the meter tag, so you can complete the onjob. Only the gaining supplier can complete onjobs.\n\n We know the meter G4A02772320101 was deactivated on 7th Jul 2022. Final reading \u20075249.0 New msn is E6S22761092161 and reading 0.0. Our onjobs keep failing because we lost the supply. I have attached a photo of the new MTDS"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "inigo.cockett@fuseenergy.com",
+      "timestamp": "28 Nov 2025 10:03",
+      "content": "Hi team, please provide onjob file for gas meter. We currently have old MSN on file (G4A02772320101). Need to update and agree on read. Please respond. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "oliver.burchell@fuseenergy.com",
+      "timestamp": "09 Nov 2025 20:25",
+      "content": "please provide ON-JOB file"
+    }
+  ],
+  "communication_id": "1647626",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2157800504",
+  "bucket": "Current"
+}

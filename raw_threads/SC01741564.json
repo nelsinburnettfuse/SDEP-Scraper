@@ -1,0 +1,20 @@
+{
+  "reference": "SC01741564",
+  "subject": "1800054681122",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1800054681122",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "11 Feb 2026 05:10",
+      "content": "Hi team, we have received proposal for cos date 23rd Dec 2025 and sent rejection \"proposal received within tolerance ,limit we hold D0086 read :1-80123.0; 2-69975.0\", as we hold D0086 read for our cos date se we are sticking with our D0086 read so close the dispute and archiving the communication.Regards. Raw file: 196|1800054681122|V| 197|C08X240500|C| 198|1|20251223000000|80123.0||0|T|N| 198|2|20251223000000|69975.0||0|T|N| Identifier: D769321946"
+    }
+  ],
+  "communication_id": "1741564",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800054681122",
+  "bucket": "Current"
+}

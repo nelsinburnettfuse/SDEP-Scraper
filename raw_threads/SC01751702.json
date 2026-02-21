@@ -1,0 +1,20 @@
+{
+  "reference": "SC01751702",
+  "subject": "1413026911002",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1413026911002",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "20 Feb 2026 05:59",
+      "content": "Hi, we hold msn S80G07778A, ssd \t27th Jan 2026, we received proposal 14600.0 which is same as your d0086 read , and we hold another d0086 read 14586.0, which is falling inline with our backups so we are sticking with that read so dispute not required disptue closed communication archived \nIdentifier: D769362139\n\n\nRaw file:\n\n196|1413026911002|V|\n197|S80G07778A|C|\n198|00|20260127000000|14586.0||0|T|N|"
+    }
+  ],
+  "communication_id": "1751702",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1413026911002",
+  "bucket": "Current"
+}

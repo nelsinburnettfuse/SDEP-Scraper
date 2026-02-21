@@ -1,0 +1,44 @@
+{
+  "reference": "SC01647865",
+  "subject": "1712677124002",
+  "escalation_level": "",
+  "from": "ECOT - Ecotricity - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1712677124002",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "katie.farley@ecotricity.co.uk",
+      "timestamp": "18 Feb 2026 16:00",
+      "content": "Hi please can you issue to revised D86? Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "katie.farley@ecotricity.co.uk",
+      "timestamp": "21 Jan 2026 11:19",
+      "content": "Hi thank you for providing this, please accept this as our verbal agreement. Thanks"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "claudia.clegg@fuseenergy.com",
+      "timestamp": "10 Nov 2025 19:33",
+      "content": "7fcfef7f-bc09-45dd-8377-7498de06d125.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "claudia.clegg@fuseenergy.com",
+      "timestamp": "10 Nov 2025 19:30",
+      "content": "Hi please see attached photo dated 6/10/2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "katie.farley@ecotricity.co.uk",
+      "timestamp": "10 Nov 2025 09:30",
+      "content": "Hi you sent us an alternative to our MCOS flow. Please can you provide a second BU? Thanks"
+    }
+  ],
+  "communication_id": "1647865",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1712677124002",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01748726",
+  "subject": "Incorrect MSN update",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1200061988843",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "17 Feb 2026 21:05",
+      "content": "Hi Team, what MSN do you hold for 1200061988843, as this MPAN holds same MSN as 1200061988852. Regards,"
+    }
+  ],
+  "communication_id": "1748726",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200061988843",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01730194",
+  "subject": "1665623902",
+  "escalation_level": "",
+  "from": "OTM - Foxglove - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1665623902",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Jyothi.Malviya@outfoxthemarket.co.uk",
+      "timestamp": "17 Feb 2026 08:44",
+      "content": "Hi is there any reply for this"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Pranjal.Paliwal@outfox.energy",
+      "timestamp": "02 Feb 2026 08:57",
+      "content": "Hi Team,\nWe received SAR from your side with the proposal and transporter read as same 25794 so to validate the same can you please provide either actual BU's or COR photo to check the same.\nThanks"
+    }
+  ],
+  "communication_id": "1730194",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1665623902",
+  "bucket": "Current"
+}

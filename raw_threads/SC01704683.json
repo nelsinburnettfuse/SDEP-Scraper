@@ -1,0 +1,56 @@
+{
+  "reference": "SC01704683",
+  "subject": "2343234184411",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "2343234184411",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "29 Jan 2026 09:26",
+      "content": "Hi team, would like to double check, you have MEX'ed customer when supply was under us?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "28 Jan 2026 16:40",
+      "content": "But this was after our lost date which is why it never updated"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "28 Jan 2026 16:40",
+      "content": "8705018-V05703171.usr\nDetails\nFlow: D0150 - Non Half-hourly Meter Technical Details\n\nIndexes:\n\nPROCESSED: 11\nFAILED: 2\nProcessing errors:\n\nMeterExchangeProcessError: Unable to find current supplier MPID\nFrom: East Midlands Electricity plc (EMEB) (Meter Operator)\n\nTo: E.ON Next Energy Ltd (EOND) (Supplier)\n\nCreated: 8:30 AM, 22nd Oct 2025\n\nIdentifier: 0317673479\n\nArchive: flows/2025/10/22/8705018-V05703171.usr\n\nRaw file:\n\n288|2343234184411|20251020||E|\n289|0393|19971001|||\n762|20251020|No notes added|\n290|25J0214757|||100|E|KAIFA MA120-3138|ESML|||||||||||S2ADE|20251020|||||H|20191216|\n293|1|C|AI|1.00||5|||\n08A|19E0238550|20251020|SPSM|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "28 Jan 2026 16:40",
+      "content": "MSN at time we lost the supply was 19E0238550, however appointment was booked for 20.10.25 to exchange meter, this never updated but we do have D150"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "17 Jan 2026 12:33",
+      "content": "Hi team, customer now upset, please provide MTDs and MEX date to avoid escalation."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "chloe.vaudin@fuseenergy.com",
+      "timestamp": "16 Jan 2026 16:56",
+      "content": "Hi team, following up on this. Could you send us the new MTDs and date of MEX? New MSN is 25J0214757 but on database it is still 19E0238550."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "07 Jan 2026 11:29",
+      "content": "Hi, did you meter exchange this customer? If so, can we have the new MTDs and the date?"
+    }
+  ],
+  "communication_id": "1704683",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2343234184411",
+  "bucket": "Current"
+}

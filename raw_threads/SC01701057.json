@@ -1,0 +1,44 @@
+{
+  "reference": "SC01701057",
+  "subject": "709773500",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "709773500",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mahammad.Panna@edfenergy.com",
+      "timestamp": "14 Jan 2026 15:52",
+      "content": "Hi, Kindly confirm if you have corrected your records on the basis of the photo/onjob, we had shared. This will enable us to go ahead with ongoing dispute. regard"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "07 Jan 2026 07:51",
+      "content": "image4.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "07 Jan 2026 07:51",
+      "content": "image3.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "07 Jan 2026 07:51",
+      "content": "Meter picture"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "05 Jan 2026 13:27",
+      "content": "Hi team, We have received proposal for MSN E6S11869831961 however we hold MSN E6F32021442300 for the cos date hence rejection sent and shared the ONJOB file below.\"TRANS\",\"5jaubmk6l6k\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",709773500,\"\",\"\",\"\",\"\",\"\",1.022640,20241018,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S11869831961\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20241018,0,\"03324\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"G4SDZV-2\",\"FLN\",2023,\"E6F32021442300\",\"00\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20241018,0,\"00000\"\n\"APPNT\",\"\",20241018,,\"\",\"080000\",\"160000\"\nRegards"
+    }
+  ],
+  "communication_id": "1701057",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "709773500",
+  "bucket": "Current"
+}

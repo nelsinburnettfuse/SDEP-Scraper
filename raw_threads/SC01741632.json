@@ -1,0 +1,20 @@
+{
+  "reference": "SC01741632",
+  "subject": "7515365008",
+  "escalation_level": "First Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7515365008",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "11 Feb 2026 07:27",
+      "content": "Hi, we hold msn  E6S15832062462, ssd \t1st Jan 2026 ,we sent proposal 103 BU: 20251223 98.1 20251123 82.2, kindly validate and sent us Y flow"
+    }
+  ],
+  "communication_id": "1741632",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7515365008",
+  "bucket": "Current"
+}

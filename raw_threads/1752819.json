@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2000011947269",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEOVO Energy - SupplierOVOEHi Team, \n\nCould you please provide the closing reads for the below MPRN?\n\nMPRN: 4264712005\n\nWe will be accepting these as the opening reads on our side.\n\nRegards\nFuse energysowjanya.shankar@fuseenergy.com20 Feb 2026 14:50"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEOVO Energy - SupplierOVOEHi Team, \n\nCould you please provide the closing reads for the below MPRN?\n\nMPRN: 4264712005\n\nWe will be accepting these as the opening reads on our side.\n\nRegards\nFuse energysowjanya.shankar@fuseenergy.com20 Feb 2026 14:50"
+    }
+  ],
+  "communication_id": "1752819",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000011947269"
+}

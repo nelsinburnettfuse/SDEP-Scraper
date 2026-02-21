@@ -1,0 +1,26 @@
+{
+  "reference": "SC01714459",
+  "subject": "MPAN: 1591059928299",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "1591059928299",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Banhisikha.Dey@edfenergy.com",
+      "timestamp": "22 Jan 2026 10:35",
+      "content": "HI team, we have received d86, raw file: 196|1591059928299|V|\n197|17P7325417|D|\n198|01|20260107000000|19647.9|||T|N| read: 19647.9 is falling inline hence case was already closed. Archiving the communication as well.Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "16 Jan 2026 11:38",
+      "content": "Hi Team, this customer has contacted me saying you have not received our opening reading. I have filed a dispute associated with this. Switched in with us on 07/01/26 so please be quick. Regards, Aromal"
+    }
+  ],
+  "communication_id": "1714459",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1591059928299",
+  "bucket": "Current"
+}

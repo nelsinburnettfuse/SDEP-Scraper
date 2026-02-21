@@ -1,0 +1,38 @@
+{
+  "reference": "SC01714593",
+  "subject": "Missing Elec loss D0086",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000023187376",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mainuddin.Sayyed@ovo.com",
+      "timestamp": "06 Feb 2026 09:38",
+      "content": "Hello Team, No response received from your side after 3 Escalation, We are closing our account on this read - \nRead_1 - 36117, Read_2 - 15078, please issue D0086 flow on this read as soon as possible. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vishal.Jagtap@ovoenergy.com",
+      "timestamp": "30 Jan 2026 10:18",
+      "content": "Hello Team,\n\nAny update for this ? Please response ASAP.\n\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vishal.Jagtap@ovoenergy.com",
+      "timestamp": "23 Jan 2026 10:34",
+      "content": "Hello, OVO lost supply on 24 Sep 2025 to FUSE (Fuse Energy Supply). We have not yet received the D0086 for our loss, your gain. Please can you send the D0086 to our DC ACCU. Please can you also confirm the read you have opened your account to and provide the file ID of the D0086 so we can chase this with our DC? Many thanks, VJ"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Pankaj.Agarwal@ovoenergy.com",
+      "timestamp": "16 Jan 2026 12:26",
+      "content": "Hello,\n\nOVO lost supply on 24 Sep 2025 to FUSE (Fuse Energy Supply). We have not yet received the D0086 for our loss, your gain. Please can you send the D0086 to our DC ACCU. Please can you also confirm the read you have opened your account to and provide the file ID of the D0086 so we can chase this with our DC? \n\nMany thanks,\nPA"
+    }
+  ],
+  "communication_id": "1714593",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000023187376",
+  "bucket": "Current"
+}

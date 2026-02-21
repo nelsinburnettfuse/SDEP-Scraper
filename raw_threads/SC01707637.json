@@ -1,0 +1,32 @@
+{
+  "reference": "SC01707637",
+  "subject": "Update Gas MSN",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "1012403148362",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "19 Jan 2026 00:29",
+      "content": "This MSN is already updated in our database and since we are the losing supplier so you need to get the MSN updated in Ecoes."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "rishab@fuseenergy.com",
+      "timestamp": "09 Jan 2026 13:59",
+      "content": "Screenshot 2026-01-09 at 16.58.35.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rishab@fuseenergy.com",
+      "timestamp": "09 Jan 2026 13:58",
+      "content": "Hi there,\n\nFor this customer (MPRN- 3337081205) can you please update the MSN on xoserve to the new one- E6S16450862261, the opening read was 10556.608 m3\n\nHere is the ONJOB- \n\n\"TRANS\",\"FUEsup7864\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"270837727\",20251105,\n\"MTPNT\",\"\",3337081205\"\",\"\",\"\",\"\",\"\",,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"0455135\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20251105,0,\"2187\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"\",\"E6\",\"LPG\",2020,\"E6S16450862261\",\"06\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6,\"\",\"\",,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1\n\"READG\",20251105,0,\"10556\"\n\"APPNT\",\"\",20251105,,\"\",\"00000\",\"\""
+    }
+  ],
+  "communication_id": "1707637",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012403148362",
+  "bucket": "Current"
+}

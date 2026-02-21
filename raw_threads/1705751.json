@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "9184552302",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Utility Warehouse - SupplierAELFuse Energy Supply - SupplierFURCommunication escalated to:Final Escalationsimthembile.mjoli@uw.co.uk20 Feb 2026 10:05Hi team, Is there any update regarding a revised URN? Regardssimthembile.mjoli@uw.co.uk12 Feb 2026 14:31Hi we've sent the Y flow. Please issue a revised URN. Regardssimthembile.mjoli@uw.co.uk05 Feb 2026 17:33Can you agree to the dispute please?nelsin.burnett@fuseenergy.com24 Jan 2026 23:11Hi team, we are happy to verbally agree on 3102. Please issue a revised URN. Regardssimthembile.mjoli@uw.co.uk21 Jan 2026 12:01hi, please accept our alternative proposed actual read of 3102 m3 on 31/10/2025. BU: actual reads of 3164 m3 on 25/11/2025 and 3222 m3 on 22/12/2025pierfranco@fuseenergy.com12 Jan 2026 09:46Hi team, please agree to our proposed SAR: 3104 backed by 3067 25-07-2025. Regardssimthembile.mjoli@uw.co.uk08 Jan 2026 08:40"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Utility Warehouse - SupplierAELFuse Energy Supply - SupplierFURCommunication escalated to:Final Escalationsimthembile.mjoli@uw.co.uk20 Feb 2026 10:05Hi team, Is there any update regarding a revised URN? Regardssimthembile.mjoli@uw.co.uk12 Feb 2026 14:31Hi we've sent the Y flow. Please issue a revised URN. Regardssimthembile.mjoli@uw.co.uk05 Feb 2026 17:33Can you agree to the dispute please?nelsin.burnett@fuseenergy.com24 Jan 2026 23:11Hi team, we are happy to verbally agree on 3102. Please issue a revised URN. Regardssimthembile.mjoli@uw.co.uk21 Jan 2026 12:01hi, please accept our alternative proposed actual read of 3102 m3 on 31/10/2025. BU: actual reads of 3164 m3 on 25/11/2025 and 3222 m3 on 22/12/2025pierfranco@fuseenergy.com12 Jan 2026 09:46Hi team, please agree to our proposed SAR: 3104 backed by 3067 25-07-2025. Regardssimthembile.mjoli@uw.co.uk08 Jan 2026 08:40"
+    }
+  ],
+  "communication_id": "1705751",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9184552302"
+}

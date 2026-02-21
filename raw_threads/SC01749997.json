@@ -1,0 +1,26 @@
+{
+  "reference": "SC01749997",
+  "subject": "Missing D86",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3400000287223",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "18 Feb 2026 16:57",
+      "content": "Hi team, proposed reading of 3247.0 submitted from 13/02/2026. Please accept."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "matt.wells1@octoenergy.com",
+      "timestamp": "18 Feb 2026 16:07",
+      "content": "Hey there Guys,\n\nWe have a dispute open on this mpan about a missing D86, we don't hold any for the 13/02/26 would you be able to send one over so we can agree or disagree?"
+    }
+  ],
+  "communication_id": "1749997",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "3400000287223",
+  "bucket": "Current"
+}

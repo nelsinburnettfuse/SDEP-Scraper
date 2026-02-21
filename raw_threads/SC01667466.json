@@ -1,0 +1,26 @@
+{
+  "reference": "SC01667466",
+  "subject": "Disputed Read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "STL - So Energy - Supplier",
+  "meter_point_number": "1684222801",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Simon.Wells@so.energy",
+      "timestamp": "22 Jan 2026 10:51",
+      "content": "hi team, apologies for the delay in response - we did not receive a flow response from yourselves?  Please can you review our proposal of 6591 - we didn't send any backups on flow, but they are: 30/09/25 COR 6291 & 14/01/25 COR 6149 ~ thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "conor.powderly@fuseenergy.com",
+      "timestamp": "28 Nov 2025 15:14",
+      "content": "Hi Team, we responded to a dispute you launched on the 7th of October but haven't heard back from you. The MBR and opening reads we are proposing are as follows 7033 ft3 and 6295 ft3. please accept"
+    }
+  ],
+  "communication_id": "1667466",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1684222801",
+  "bucket": "Current"
+}

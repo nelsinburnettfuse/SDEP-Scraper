@@ -1,0 +1,80 @@
+{
+  "reference": "SC01679675",
+  "subject": "1610004984346",
+  "escalation_level": "Final Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1610004984346",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "stuart.simms@fuseenergy.com",
+      "timestamp": "16 Feb 2026 15:10",
+      "content": "Hello,\nI have sent an email to our data aggregation company to issue this D0086 with values 10610(d) and 47742(n). Apologies for the delay, this should be issued soon."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "16 Feb 2026 14:56",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "26 Jan 2026 11:27",
+      "content": "Hello, We are yet to receive the revised D86 for agreed reads 10610 ands 47742. Can this be looked into please? Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "samukeliswe.buthelezi@uw.co.uk",
+      "timestamp": "05 Jan 2026 16:57",
+      "content": "Hi team please issue revised D86 thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "02 Jan 2026 09:08",
+      "content": "Hi, WE verbally agree to your proposal of10610(d) and 47742(n). Regards"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "27 Dec 2025 12:08",
+      "content": "f6f9c6ed-9daa-447c-8a77-17e5307db31a.jpeg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "27 Dec 2025 12:07",
+      "content": "5242d1b4-ef93-409f-8d66-7220f4aa0d99.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jishern.yuen@fuseenergy.com",
+      "timestamp": "27 Dec 2025 12:07",
+      "content": "Hi team, attached are the photos of the meter"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "15 Dec 2025 17:33",
+      "content": "Hi, Please provide photos of the meters Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "10 Dec 2025 14:34",
+      "content": "Proposed as we have customer submission. Please accept\nL 47742 kWh\nN 10610 kWh"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "10 Dec 2025 14:08",
+      "content": "Hi,Could you please respond to our D300 proposal of 46816(d) and 47742(n), Regards"
+    }
+  ],
+  "communication_id": "1679675",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610004984346",
+  "bucket": "Current"
+}

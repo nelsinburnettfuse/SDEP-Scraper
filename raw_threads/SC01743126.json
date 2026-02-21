@@ -1,0 +1,20 @@
+{
+  "reference": "SC01743126",
+  "subject": "1900003122433",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900003122433",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "12 Feb 2026 09:21",
+      "content": "Hi team, We have received proposal 11364.0 for the cos date 6th Jan 2026 without any cos read hence previously rejection sent from our end so shared the D0086 flat file.\nIdentifier: D742222736\n196|1900003122433|F|\n197|17P0412104|R|\n198|01|20260106000000|11364.1||0|F|N|\nRegards"
+    }
+  ],
+  "communication_id": "1743126",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900003122433",
+  "bucket": "Current"
+}

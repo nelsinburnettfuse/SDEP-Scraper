@@ -1,0 +1,32 @@
+{
+  "reference": "SC01663746",
+  "subject": "1100012538847",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100012538847",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Avinash.Kumar@edfenergy.com",
+      "timestamp": "28 Jan 2026 06:42",
+      "content": "Hi team\nproposal recevied as we have d0086 read  3296.4 for cos date so rejection send not reqired dispute hence close the dispute,archive the communication\nRegards,\n\nRaw file:\n\n196|1100012538847|V|\n197|F00FC11267|D|\n198|01|20251003000000|3296.4||0|T|N|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "25 Nov 2025 17:01",
+      "content": "Also sharing D0150 -\n288|1100012538847|20000915||E|\n289|0393|19960401|||\n290|F00FC11267|||80|E|SIEMENS S2AT-100|EMEB|||||||||||N|20000915|20000701|20200701|||H|20000915|\n293|01|C|AI|1.00||5|||\nIdentifier: DTS3279"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "25 Nov 2025 17:01",
+      "content": "Fuel type- Electricity\nLoss/gain: Loss\nCOS DATE- 3rd Oct 2025\nMSN- F00FC11267\nCOS READ- 3296.4\nPROPOSED READ- 112.0\nACTUAL BACKUP- BU: [20241112 01-97893 20250912 01-99978]\nRejection received- MSN F00FC11267 is a single rate meter. We hold no customer reads either.\n____________\nWe hold also single register as per D0150. And our proposal is correct based on actual backups, so please confirm if we can verbally agree- 112.0 for Cos date 3rd Oct 2025"
+    }
+  ],
+  "communication_id": "1663746",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100012538847",
+  "bucket": "Current"
+}

@@ -1,0 +1,110 @@
+{
+  "reference": "SC01652898",
+  "subject": "Please accept dispute",
+  "escalation_level": "Final Escalation",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "STL - So Energy - Supplier",
+  "meter_point_number": "7510492910",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rachel.tcheng@fuseenergy.com",
+      "timestamp": "12 Feb 2026 15:33",
+      "content": "Hi we have initiated an SAR - please accept it with this read ASAP. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Maisie.Harris@so.energy",
+      "timestamp": "11 Feb 2026 16:16",
+      "content": "Hi team we have replaced higher read - please issue revised URN. Take this exchange as a verbal agreement to 30700 11/09/2025."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "22 Jan 2026 21:55",
+      "content": "Hi team, any update?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 14:18",
+      "content": "Hi team,\n\nPlease update us with Y flow. We will escalate situation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "26 Dec 2025 21:14",
+      "content": "Hi team, any update?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "18 Dec 2025 15:05",
+      "content": "Hi team, please confirm that you have amended customer's closing read with yourselves. Are you able to accept dispute on your end so revised URN can be issued."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Maisie.Harris@so.energy",
+      "timestamp": "18 Dec 2025 11:26",
+      "content": "Apologies please ignore my last message - we verbally accept your proposal. We did have a higher read validated on our supply which we have sent to replace today - please issue revised URN when possible"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Maisie.Harris@so.energy",
+      "timestamp": "17 Dec 2025 17:25",
+      "content": "Hi team - we are unable to see a D300 from our end. Can you please send this over to us either a new D300 or send us the raw file and we can respond?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "16 Dec 2025 16:09",
+      "content": "Hi team,\n\nWe have reinitiated a dispute. Please let us know if this is received and responded to."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "15 Dec 2025 18:05",
+      "content": "Screenshot 2025-12-15 at 18.03.48.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "15 Dec 2025 18:04",
+      "content": "Hi team,\n\nPlease see attached photo of customer submission from 01/10/2025 with reading 30758 m3.\n\nBest,\nUna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Simon.Wells@so.energy",
+      "timestamp": "15 Dec 2025 09:32",
+      "content": "hi team, we have not had a dispute flow from yourselves?  we hold COR 33618 on 09/09/25, but this does seem out of line with historical AQ (though mostly estimates during our supply period). do you have a photo to validate your read?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "03 Dec 2025 15:37",
+      "content": "Hey team, we have received notice customer has been sent a final bill with incorrect billing. Please accept this at your earliest convenience to avoid further action."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "rihyun@fuseenergy.com",
+      "timestamp": "03 Dec 2025 13:06",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "26 Nov 2025 13:22",
+      "content": "Hey team, \n\nIs there any update on this matter? We would like to avoid raising this to a final escalation and would aim for a reply soon in the best interests of the customer. \n\nThanks!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aroon@fuseenergy.com2026-02-05 16:06:02",
+      "timestamp": "14 Nov 2025 09:40",
+      "content": "Hi team, \nWe sent off a dispute dated 27/10/25 for MPRN 7510492910, MSN 470863, please can you accept at your earliest convenience. \nProposed read of 30700 from estimated COS read for 11/09/2025 based on customer submission on 01/10/2025 for 30758 m3.\nThanks!"
+    }
+  ],
+  "communication_id": "1652898",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7510492910",
+  "bucket": "Current"
+}

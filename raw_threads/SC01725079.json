@@ -1,0 +1,20 @@
+{
+  "reference": "SC01725079",
+  "subject": "628315402",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "628315402",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "27 Jan 2026 19:20",
+      "content": "Hi team, We have received proposal 47 for the cos date 17th Dec 2025 for MSN E6S08279171556 hence rejection sent as we hold MSN E6E17964052523 for the cos date so please find attached ONJOB file below.Regards\n\"TRANS\",\"718217\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",628315402,\"\",\"\",\"01\",\"\",\"\",1.022640,20251203,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S08279171556\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20251203,0,\"11784\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2025,\"E6E17964052523\",\"01\",\"Ntm\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20251203,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20251203,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20251203,20251203,\"\",\"080000\",\"120000\""
+    }
+  ],
+  "communication_id": "1725079",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "628315402",
+  "bucket": "Current"
+}

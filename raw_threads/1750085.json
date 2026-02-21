@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "7576218901",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURHi, the previous agreed read is not inline, so can we have the agreement on the new proposed read. regardsNeha.Dey@edfenergy.com20 Feb 2026 15:35Hi,\n\nI can see that this was previously agreed so we can confirm that the reading of 4514 is correct.saoirse.chinery@fuseenergy.com19 Feb 2026 16:00Hi, look back to our previous sdep can we make a verbal agreement over read 913 for cos date 27/08/2025. backups: [575 on 23/12/2024] and [534 on 23/11/2024] for MSN E6S13689472261? Also archive the loop Reference: SC01677447. RegardsNeha.Dey@edfenergy.com18 Feb 2026 17:03"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "EDF Energy - SupplierEDSFuse Energy Supply - SupplierFURHi, the previous agreed read is not inline, so can we have the agreement on the new proposed read. regardsNeha.Dey@edfenergy.com20 Feb 2026 15:35Hi,\n\nI can see that this was previously agreed so we can confirm that the reading of 4514 is correct.saoirse.chinery@fuseenergy.com19 Feb 2026 16:00Hi, look back to our previous sdep can we make a verbal agreement over read 913 for cos date 27/08/2025. backups: [575 on 23/12/2024] and [534 on 23/11/2024] for MSN E6S13689472261? Also archive the loop Reference: SC01677447. RegardsNeha.Dey@edfenergy.com18 Feb 2026 17:03"
+    }
+  ],
+  "communication_id": "1750085",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7576218901"
+}

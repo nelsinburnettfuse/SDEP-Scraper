@@ -1,0 +1,32 @@
+{
+  "reference": "SC01720360",
+  "subject": "Missing Read D0086",
+  "escalation_level": "",
+  "from": "GETW - Utilita - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1013055692868",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "arjunlaroiya@utilita.co.uk",
+      "timestamp": "05 Feb 2026 10:37",
+      "content": "please reply, one more week of no replying and an escalation enquiry will be raised."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arjunlaroiya@utilita.co.uk",
+      "timestamp": "29 Jan 2026 10:52",
+      "content": "please reply"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arjunlaroiya@utilita.co.uk",
+      "timestamp": "22 Jan 2026 10:33",
+      "content": "hi, please issue loss d86 to our dc"
+    }
+  ],
+  "communication_id": "1720360",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1013055692868",
+  "bucket": "Current"
+}

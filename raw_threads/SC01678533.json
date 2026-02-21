@@ -1,0 +1,38 @@
+{
+  "reference": "SC01678533",
+  "subject": "1610005437489",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1610005437489",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "zoe.westcott@octoenergy.com",
+      "timestamp": "14 Feb 2026 16:50",
+      "content": "Please respond to message below, thanks Zoe"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zoe.westcott@octoenergy.com",
+      "timestamp": "29 Jan 2026 15:31",
+      "content": "Please respond to message below, thanks Zoe"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zoe.westcott@octoenergy.com",
+      "timestamp": "07 Jan 2026 14:23",
+      "content": "Please respond to message below, thanks Zoe"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "natalia.pascova@octoenergy.com",
+      "timestamp": "09 Dec 2025 14:50",
+      "content": "Hello team, we agreed to COS 7335.0 for SSD 04/06/2025, but your DC hasn't issued our DC the D86 yet. Do you have any updates on this? Many thanks"
+    }
+  ],
+  "communication_id": "1678533",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1610005437489",
+  "bucket": "Current"
+}

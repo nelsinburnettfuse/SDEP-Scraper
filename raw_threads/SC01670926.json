@@ -1,0 +1,74 @@
+{
+  "reference": "SC01670926",
+  "subject": "Dispute update",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "8918572604",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mahammad.Panna@edfenergy.com",
+      "timestamp": "03 Jan 2026 14:40",
+      "content": "Hi,\n\ncan share us the status of the missed mex update.. kindly respond at the earliest.\nregards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "22 Dec 2025 06:09",
+      "content": "kindly update us once the MSN is updated"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "21 Dec 2025 20:34",
+      "content": "Onjob has been sent please ignore"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "21 Dec 2025 20:31",
+      "content": "Hey there, we believe the onjob has been filled in incorrectly: \n\nRow: \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"\",\"CR\",\"E6VG470\",2023,\"E6S17022952361\",\"\",\"\",\"LI\"\n\n\"CR\" relates to the Manufacturer code which should be 3 characters. \n\nPlease enlighten to if this is correct. \n\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "15 Dec 2025 16:39",
+      "content": "Hi team, Kindly update the MSN as per the ONJOB shared below and respond back to us.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Dec 2025 21:52",
+      "content": "thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Rawani@edfenergy.com",
+      "timestamp": "09 Dec 2025 18:05",
+      "content": "Hi team, Please find ONJOB file below.\n\"TRANS\",\"112948\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",8918572604,\"\",\"\",\"32\",\"\",\"\",1.022640,20241217,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"G4W00923700802\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20241217,0,\"42191\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2023,\"E6S17022952361\",\"00\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20241217,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20241217,0,\"0\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20241217,20241217,\"\",\"120000\",\"160000\"\nRegards"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "keya.sarkar@edfenergy.com",
+      "timestamp": "01 Dec 2025 22:05",
+      "content": "image1 (1).jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "keya.sarkar@edfenergy.com",
+      "timestamp": "01 Dec 2025 22:03",
+      "content": "Hi Team, We have send the rejection as we are holding MSN E6S17022952361. Kindly validate. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "alvin.kimuli@fuseenergy.com",
+      "timestamp": "01 Dec 2025 21:29",
+      "content": "Please accept our dispute for it to be closed \n\nThanks team"
+    }
+  ],
+  "communication_id": "1670926",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "8918572604",
+  "bucket": "Current"
+}

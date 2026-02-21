@@ -1,0 +1,32 @@
+{
+  "reference": "SC01729190",
+  "subject": "Missing MTD",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "TILL - British Gas - Supplier",
+  "meter_point_number": "2700015039850",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shakuntla.Negi@britishgas.co.uk",
+      "timestamp": "11 Feb 2026 10:21",
+      "content": "Hi,\nMPAN- 2700015039850, industry system showing traded status, supply not registered yet.\nPlease advise what action you required from our side\nRegards\nShakuntla Negi"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 09:08",
+      "content": "Please reply"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ebin.baby@fuseenergy.com",
+      "timestamp": "30 Jan 2026 13:51",
+      "content": "Hi Team,\n\nPlease update missing MTD for the export MPAN below on the national Database"
+    }
+  ],
+  "communication_id": "1729190",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2700015039850",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01694300",
+  "subject": "D300",
+  "escalation_level": "",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1726735850706",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shraddha.More@ovo.com",
+      "timestamp": "29 Dec 2025 09:41",
+      "content": "hi team, we hold dual register on our side. please refer below D149 file id and reconsider our proposal. Thanks \n\nFile name: D0149001_20250226123000771_0001958777.UFF\nDataflow ID: 54431242\n\nZHV|0001958777|D0149001|M|IHTL|X|OVOE|20250226123000||||OPER|\n\n280|1726735850706|20250221|\n281|0510|20250221|\n778|00533|\n283|24M0215028|\n284|1|1|\n778|00532|\n283|24M0215028|\n284|2|1|"
+    }
+  ],
+  "communication_id": "1694300",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1726735850706",
+  "bucket": "Current"
+}

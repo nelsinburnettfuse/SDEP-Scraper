@@ -1,0 +1,20 @@
+{
+  "reference": "SC01731838",
+  "subject": "Opening read 1200035481323",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "OVOE - OVO Energy - Supplier",
+  "meter_point_number": "1200035481323",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "02 Feb 2026 12:28",
+      "content": "Hi Team, please accept actual CoS read of 11365 kWh with BU: 11601 kWh 01/11/2025,  11816 kWh and 01/12/2025, 12032 kWh 01/01/2026, 12260 kWh 01/02/2026. Regards,"
+    }
+  ],
+  "communication_id": "1731838",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200035481323",
+  "bucket": "Current"
+}

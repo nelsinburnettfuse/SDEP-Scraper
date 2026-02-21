@@ -1,0 +1,86 @@
+{
+  "reference": "SC01683429",
+  "subject": "ET",
+  "escalation_level": "Final Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "SPOW - ScottishPower - Supplier",
+  "meter_point_number": "1900048358445",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jvaron@scottishpower.com",
+      "timestamp": "16 Feb 2026 12:47",
+      "content": "Hello,\nFile ID 1083101715. Raw file:\nZHV|DTS0000058|D0301002|X|SPOW|X|FUSE|20260212143005||||OPER|\n63C|1900048358445|||17||UPPER WELLINGTON ROAD|||BRIGHTON|EAST SUSSEX|BN2 3AN|20251107|20251128|FUSE|SPOW|JOANNA FIFIELD||Y|\n64C|E|C|REJECTED VALID CONTRACT|\n66C|20L3780425|R|\n67C|1|20251108000000|12277.0|\nZPT|DTS0000058|4||1|20260212143005|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "10 Feb 2026 11:51",
+      "content": "Hi team, please action ASAP. customer has been waiting a long time and is upset. will look to raise complaint against Scottish Power if no progress today"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "07 Feb 2026 12:22",
+      "content": "Thanks for letting us know, keep us updated please"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jvaron@scottishpower.com",
+      "timestamp": "06 Feb 2026 09:08",
+      "content": "Hello,\nD0301 flow added today. Our response will be sent soon. Best regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 19:37",
+      "content": "63C|1900048358445|||17||UPPER WELLINGTON ROAD|||BRIGHTON|EAST SUSSEX|BN2 3AN|20251107|20251128|FUSE|SEEB|Joanna Fifield|+447947041403||\n65C|E|D|Please re-register this customer ASAP."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jvaron@scottishpower.com",
+      "timestamp": "30 Jan 2026 07:14",
+      "content": "Hello,\nD0301 no received. Please provide us the raw file. Best regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "17 Jan 2026 13:20",
+      "content": "Hi team,\n\nWe have sent 2 ET requests associated with MPAN. Please check again and accept ET"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jvaron@scottishpower.com",
+      "timestamp": "13 Jan 2026 12:39",
+      "content": "Hello,\nD0301 no received. Best regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 16:09",
+      "content": "Hi team,\n\nPlease accept ET return"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 16:08",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ebin.baby@fuseenergy.com",
+      "timestamp": "18 Dec 2025 16:13",
+      "content": "Hi Team, has  there been any update on this since. Customer has been following up for a while now."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "15 Dec 2025 11:57",
+      "content": "Please accept return of MPAN 1900048358445 erroneous transfer to FUSE"
+    }
+  ],
+  "communication_id": "1683429",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900048358445",
+  "bucket": "Current"
+}

@@ -1,0 +1,38 @@
+{
+  "reference": "SC01728606",
+  "subject": "2311517321610",
+  "escalation_level": "First Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2311517321610",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "02 Feb 2026 15:07",
+      "content": "Hi team, we verbally agree to you proposed reading of 76766.4. Please issue us with the revised D86. Regards, the UW Team."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "giorgi@fuseenergy.com",
+      "timestamp": "01 Feb 2026 21:37",
+      "content": "Screenshot 2026-02-01 at 21.37.13.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "giorgi@fuseenergy.com",
+      "timestamp": "01 Feb 2026 21:37",
+      "content": "Hi Please see attached"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "30 Jan 2026 09:38",
+      "content": "Hi team, thank you for the flow you sent and as your back ups you advised photo submission, kindly send us the photos to validate your proposal so that we can close the dispute. regards."
+    }
+  ],
+  "communication_id": "1728606",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2311517321610",
+  "bucket": "Current"
+}

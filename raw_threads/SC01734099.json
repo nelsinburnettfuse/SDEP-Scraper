@@ -1,0 +1,26 @@
+{
+  "reference": "SC01734099",
+  "subject": "Erroneous Transfer",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1800019072064",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sophie.merciawhite@octoenergy.com",
+      "timestamp": "04 Feb 2026 15:21",
+      "content": "Acceptance issued 13/01 - ET COMPLETED Supply registered to Octopus effective 15 January 2026."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ricardo@fuseenergy.com",
+      "timestamp": "03 Feb 2026 18:53",
+      "content": "Hello Team, we have requested an ET to send this customer back to use please may you kindly respond"
+    }
+  ],
+  "communication_id": "1734099",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800019072064",
+  "bucket": "Current"
+}

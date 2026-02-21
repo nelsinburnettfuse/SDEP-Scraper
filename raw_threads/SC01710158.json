@@ -1,0 +1,68 @@
+{
+  "reference": "SC01710158",
+  "subject": "Seeking Response",
+  "escalation_level": "Final Escalation",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2059379605",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 10:27",
+      "content": "Hi Team, we contacted the customer if they have requested an ET and will await on their response."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zahid.khan@britishgas.co.uk",
+      "timestamp": "20 Feb 2026 09:21",
+      "content": "Hi Rachel, that's correct, the customer want to be switched back to us, please could you either resend the RET flow, or provide the flatfile on here, so we can verbally agree?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "14 Feb 2026 05:37",
+      "content": "if you are unable to send us your response through RET flow, you can send your response through Flat file, or you can mention your verbal agreement through SDEP communication as well thanku."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.tcheng@fuseenergy.com",
+      "timestamp": "12 Feb 2026 15:24",
+      "content": "Hi team, could I have confirmation that customer wants their gas supply back to British Gas?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zahid.khan@britishgas.co.uk",
+      "timestamp": "12 Feb 2026 13:58",
+      "content": "Please could we have a response? if possible, provide the flow details, so we can verbally agree on here? we've not received a RET response"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "zahid.khan@britishgas.co.uk",
+      "timestamp": "12 Feb 2026 13:55",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "03 Feb 2026 14:13",
+      "content": "Hi Team, we didn't find your response in RET flow, please check & revert ASAP to avoid further escalations, Thanku."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "29 Jan 2026 10:07",
+      "content": "Hi, response has already been provided so archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "13 Jan 2026 11:39",
+      "content": "Hi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups."
+    }
+  ],
+  "communication_id": "1710158",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2059379605",
+  "bucket": "Current"
+}

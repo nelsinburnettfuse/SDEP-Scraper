@@ -1,0 +1,38 @@
+{
+  "reference": "SC01706811",
+  "subject": "overdue RET reply for ET on MPRN 4174763010",
+  "escalation_level": "",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4174763010",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "brandon.caballero@fuseenergy.com",
+      "timestamp": "18 Feb 2026 13:21",
+      "content": "Hi team we have reached out to the customer and await a response to confirm the ET"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jessica.verso@octoenergy.com",
+      "timestamp": "10 Feb 2026 14:47",
+      "content": "Hello, can you respond please?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jessica.verso@octoenergy.com",
+      "timestamp": "27 Jan 2026 12:24",
+      "content": "Hello, can we get a response on this one please?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jessica.verso@octoenergy.com",
+      "timestamp": "08 Jan 2026 17:18",
+      "content": "Hello, we sent an ET proposal on 12th Dec 2025 to bring MPRN 4174763010 back to OCT after it switched to FUR in error, but there has been no reply. Can you review and get back to us please?\n*****11436406-POCT8172.RET\nDetails\nCreated: 10:37 AM, 12th Dec 2025\n\nFlow: RET\n\nIndexes:\n\nPROCESSED: 1\nRaw file:\n\n\"RET\",\"OCT\",\"RET Team\",285887,4174763010,\"44\",\"VICTORIA ROAD\",\"BS15 3QH\",\"Kaisha Powell\",\"\",\"Y\",20251014,20251212,\"I\",\"Q\",\"FUR\",\"\",\"\",,,\"\",\"00\",\"\"\n\"TRAIL\"****"
+    }
+  ],
+  "communication_id": "1706811",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4174763010",
+  "bucket": "Current"
+}

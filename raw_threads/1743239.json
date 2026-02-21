@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "4212657005",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)OVO Energy - SupplierOVOFuse Energy Supply - SupplierFURHi, Request to send the revised URN for agreed COS Read 06101 dated 07/10/2025 as Xoserve is showing high consumption at our end. Thanks.Prasad.Haldavanekar@ovoenergy.com20 Feb 2026 13:12Hi, Request to send the revised URN for agreed COS Read 06101 dated 07/10/2025 as \nXoserve is showing high consumption at our end. Thanks.Prasad.Haldavanekar@ovoenergy.com12 Feb 2026 10:12"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "OVO Energy - SupplierOVOFuse Energy Supply - SupplierFURHi, Request to send the revised URN for agreed COS Read 06101 dated 07/10/2025 as Xoserve is showing high consumption at our end. Thanks.Prasad.Haldavanekar@ovoenergy.com20 Feb 2026 13:12Hi, Request to send the revised URN for agreed COS Read 06101 dated 07/10/2025 as \nXoserve is showing high consumption at our end. Thanks.Prasad.Haldavanekar@ovoenergy.com12 Feb 2026 10:12"
+    }
+  ],
+  "communication_id": "1743239",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4212657005"
+}

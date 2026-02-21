@@ -1,0 +1,26 @@
+{
+  "reference": "SC01737707",
+  "subject": "2537974206",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2537974206",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "18 Feb 2026 16:40",
+      "content": "Hi, please share two backups in support of your alternative. regareds"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "06 Feb 2026 13:28",
+      "content": "Hi team,\n\nYou sent proposal flow and we sent rejection to your proposal requesting for 2 valid backups as no backups mentioned on your proposal. Kindly respond to us with a proposal and 2 valid backups so we can validate it. If we do not receive any response in 5 working days then we will close the dispute."
+    }
+  ],
+  "communication_id": "1737707",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2537974206",
+  "bucket": "Current"
+}

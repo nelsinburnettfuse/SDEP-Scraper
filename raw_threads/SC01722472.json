@@ -1,0 +1,26 @@
+{
+  "reference": "SC01722472",
+  "subject": "2000000350511",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "TILL - British Gas - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Prerna.Kadam@centrica.com",
+      "timestamp": "30 Jan 2026 01:30",
+      "content": "Hi Team , could you please check the MPAN details and resend it with correct one please"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "24 Jan 2026 17:28",
+      "content": "Hi we have initiated an ET for customer with mpan: 200000 035051. Please re-registed them asap."
+    }
+  ],
+  "communication_id": "1722472",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

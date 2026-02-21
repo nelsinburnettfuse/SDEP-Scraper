@@ -1,0 +1,26 @@
+{
+  "reference": "SC01752360",
+  "subject": "1717271082000",
+  "escalation_level": "First Escalation",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "TILL - British Gas - Supplier",
+  "meter_point_number": "1717271082000",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "shauna.ryan@fuseenergy.com",
+      "timestamp": "20 Feb 2026 11:51",
+      "content": "Customer has also mentioned that a neighbour has recently moved in so is likely their request not his. Addresses are very similar, one has 'Farragon Cottage', both have 'Farragon Drive'."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shauna.ryan@fuseenergy.com",
+      "timestamp": "20 Feb 2026 11:42",
+      "content": "Customer claims they were switched back without requesting so. Notes suggest it was proposed by Old Supplier. We have cancelled the ET but cos lost still remains ET back to us. Why was this initiated?"
+    }
+  ],
+  "communication_id": "1752360",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1717271082000",
+  "bucket": "Current"
+}

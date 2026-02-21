@@ -1,0 +1,32 @@
+{
+  "reference": "SC01723998",
+  "subject": "ET Loss not responded to",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "4243212102",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rashmi.yadav@ovo.com",
+      "timestamp": "29 Jan 2026 12:34",
+      "content": "Hi Team,\nRegain  done today you will received loss notification shortly.\nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "29 Jan 2026 01:58",
+      "content": "Hi team, response has been sent. please re-register customer. archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "akashata.pawar@ovo.com",
+      "timestamp": "27 Jan 2026 09:52",
+      "content": "Hi Team, we raised an ET Loss request to you on (20/01/2026) for MPXN (4243212102) we have not yet received a response from you, can you please provide us with a response ASAP, thanks."
+    }
+  ],
+  "communication_id": "1723998",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "4243212102",
+  "bucket": "Current"
+}

@@ -1,0 +1,32 @@
+{
+  "reference": "SC01740519",
+  "subject": "ET response",
+  "escalation_level": "Final Escalation",
+  "from": "UEL - Utilita - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3908986708",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "anjali.sharma@fuseenergy.com",
+      "timestamp": "17 Feb 2026 21:48",
+      "content": "Hey, ET has been accepted."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "shannonturner@utilita.co.uk",
+      "timestamp": "17 Feb 2026 13:27",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shannonturner@utilita.co.uk",
+      "timestamp": "10 Feb 2026 10:19",
+      "content": "Good Morning, please respond to the ET thaw as sent on the 02.02"
+    }
+  ],
+  "communication_id": "1740519",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3908986708",
+  "bucket": "Archived"
+}

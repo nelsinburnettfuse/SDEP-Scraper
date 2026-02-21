@@ -1,0 +1,20 @@
+{
+  "reference": "SC01746287",
+  "subject": "Incorrect meter on account at site loss",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1674026009",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Aritri.Roy@edfenergy.com",
+      "timestamp": "16 Feb 2026 11:05",
+      "content": "Please remove the MSN 757993 that should have been removed from our account at the site loss 30.09.2025. Information of the correct meter details MSN to be removed are 757993 Manufactured year 1992, removal date 14/11/2024. Read date - 01.10.2025, Read - 0000"
+    }
+  ],
+  "communication_id": "1746287",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1674026009",
+  "bucket": "Current"
+}

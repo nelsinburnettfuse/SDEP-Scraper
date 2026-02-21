@@ -1,0 +1,44 @@
+{
+  "reference": "SC01667706",
+  "subject": "Disputed meter readings: Escalation",
+  "escalation_level": "First Escalation",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OTM - Foxglove - Supplier",
+  "meter_point_number": "3330715903",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Adsul@outfoxthemarket.co.uk2026-02-13 17:14:16",
+      "timestamp": "15 Dec 2025 09:45",
+      "content": "Hi team, even though we agreed verbally, we got incorrect proposal from your side - \"SAR\",\"FUR\",\"020 3951 1052\",3654,3330715903,\"03965273\",\"58\",\"SL7 3HS\",20250827,6295,\"E\",\"E\",614000,\"A\",4,\"P\",\"OTM\",\"SAR Team\",\"57\",\"BU: 29/11/25 - 623300\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "11 Dec 2025 14:27",
+      "content": "Agreed. Thanks & Archived"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Adsul@outfoxthemarket.co.uk2026-02-13 17:14:16",
+      "timestamp": "11 Dec 2025 14:19",
+      "content": "we are happy to agree!"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "arnav.singh@fuseenergy.com",
+      "timestamp": "29 Nov 2025 12:52",
+      "content": "Screenshot 2025-11-29 at 12.49.20.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "arnav.singh@fuseenergy.com",
+      "timestamp": "29 Nov 2025 12:52",
+      "content": "Hi Team, we have COS read submission from customer for 6140 from SSD+2 with MSN: 03965273. Please accept and process ASAP to avoid further action. \n\nRegards"
+    }
+  ],
+  "communication_id": "1667706",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3330715903",
+  "bucket": "Current"
+}

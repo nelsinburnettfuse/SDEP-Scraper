@@ -1,0 +1,38 @@
+{
+  "reference": "SC01709961",
+  "subject": "1200030181269",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200030181269",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "28 Jan 2026 00:11",
+      "content": "We received the Cos read over agreed read hence archiving the chat.\n196|1200030181269|V|\n197|L87A 17076|D|\n198|S|20251125000000|9038.0|||T|N|\nIdentifier: D784318828"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "20 Jan 2026 12:20",
+      "content": "Hi, agreement done over read 9038.0, as you are the gaining supplier kindly provide us d0086 rawflile"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "14 Jan 2026 13:26",
+      "content": "Hi Team, I have notified my DC and they should issue a D86."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sofia.Abedin@edfenergy.com",
+      "timestamp": "13 Jan 2026 10:31",
+      "content": "Hi Team, agreement has been received over read 9038.0.However, waiting for revised COS read.Kindly issue the same.Regards,"
+    }
+  ],
+  "communication_id": "1709961",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200030181269",
+  "bucket": "Current"
+}

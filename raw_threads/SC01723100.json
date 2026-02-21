@@ -1,0 +1,20 @@
+{
+  "reference": "SC01723100",
+  "subject": "General Query",
+  "escalation_level": "",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3304599110",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Vinayak.Kamble@centrica.com",
+      "timestamp": "26 Jan 2026 12:19",
+      "content": "Hi, Our ET loss has been accepted to return supply to us. Please send us your Initial read(SSD read) for the date of transfer (20/01/2026) MPXN (3304599110). Thanks."
+    }
+  ],
+  "communication_id": "1723100",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3304599110",
+  "bucket": "Current"
+}

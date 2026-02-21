@@ -1,0 +1,38 @@
+{
+  "reference": "SC01733072",
+  "subject": "Dispute Agreement",
+  "escalation_level": "Final Escalation",
+  "from": "EOD - E.ON - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1284981907",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "jo-hannah.myatt@eonnext.com",
+      "timestamp": "16 Feb 2026 09:20",
+      "content": "Good morning, Thank you for letting us know we will wait your reply and check back with you on 23rd Feb. \n\nHave a great day!"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.tcheng@fuseenergy.com",
+      "timestamp": "12 Feb 2026 10:12",
+      "content": "Hi, seems like we have a different MSN of G14P0022071 on record compared to your E6S16223122562, we have reached out to customer for a picture of gas meter thanks."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "jo-hannah.myatt@eonnext.com",
+      "timestamp": "10 Feb 2026 15:03",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jo-hannah.myatt@eonnext.com",
+      "timestamp": "03 Feb 2026 10:22",
+      "content": "Good morning, \nI hope you are well, please could we agree to the proposed COS reading 222 for the linked MPRN\n\nMISSING COS: BU: 20251223 196.3 20251209 153.8"
+    }
+  ],
+  "communication_id": "1733072",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1284981907",
+  "bucket": "Current"
+}

@@ -1,0 +1,32 @@
+{
+  "reference": "SC01724296",
+  "subject": "General Query",
+  "escalation_level": "",
+  "from": "TILL - British Gas - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000002256253",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Balkrishna.Mestry@britishgas.co.uk",
+      "timestamp": "09 Feb 2026 14:48",
+      "content": "Hi, Our ET loss has been accepted to return supply to us. Please send us your Initial read (SSD:21 Oct 2025 read) for MPXN (2000002256253). Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Manjunath.Hiremath1@britishgas.co.uk",
+      "timestamp": "30 Jan 2026 13:27",
+      "content": "Hi, Our ET loss has been accepted to return supply to us. Please send us your Initial read (SSD:21 Oct 2025\tread) for MPXN (2000002256253). Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vinayak.Kamble@centrica.com",
+      "timestamp": "27 Jan 2026 11:40",
+      "content": "Hi, Our ET loss has been accepted to return supply to us. Please send us your Initial read(SSD read) for the date of transfer (21/10/2025) MPXN (2000002256253). Thanks."
+    }
+  ],
+  "communication_id": "1724296",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000002256253",
+  "bucket": "Current"
+}

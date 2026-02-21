@@ -1,0 +1,38 @@
+{
+  "reference": "SC01687278",
+  "subject": "Missing D0086 - 1200038338982",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200038338982",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "20 Feb 2026 06:55",
+      "content": "Hi team, Could you respond we are still waiting for the D86 Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sandip.ghataurhae@octoenergy.com",
+      "timestamp": "02 Feb 2026 07:25",
+      "content": "Hi team,\n\nCould you respond we are still waiting for the D86 \n\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zoe.westcott@octoenergy.com",
+      "timestamp": "09 Jan 2026 12:06",
+      "content": "Please respond to message below, thanks Zoe"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "natalie.fearon@octoenergy.com",
+      "timestamp": "18 Dec 2025 11:58",
+      "content": "Hi there, \n\nWe have an agreement for this dispute, however we have still not recieved the new D0086. If you have this, please can you send over the raw file.\n\nThank you"
+    }
+  ],
+  "communication_id": "1687278",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200038338982",
+  "bucket": "Current"
+}

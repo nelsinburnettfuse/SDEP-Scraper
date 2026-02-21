@@ -1,0 +1,62 @@
+{
+  "reference": "SC01695039",
+  "subject": "Missed Mex - Dispute",
+  "escalation_level": "",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1914513409",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "branson.wozencroft@octoenergy.com",
+      "timestamp": "22 Jan 2026 14:47",
+      "content": "thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "22 Jan 2026 13:16",
+      "content": "I can see that there is already an ongoing thread. I'll send another and can send the flat file if you like"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "22 Jan 2026 13:11",
+      "content": "I can send a SAR? is that sufficient for now?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "branson.wozencroft@octoenergy.com",
+      "timestamp": "21 Jan 2026 10:26",
+      "content": "can you please provide a flat files so that we can confirm the switch and issue the sustomer a refund. \n24 Dec 2025: 225.7"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "branson.wozencroft@octoenergy.com",
+      "timestamp": "14 Jan 2026 10:38",
+      "content": "My bad, mex took place on the 28th - closing reading 28th Oct 2025 - 12306.6 (estimated) meter screen blank"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "10 Jan 2026 15:37",
+      "content": "yes happy to use that read - we don't have a closing read from the previous meter for the onjob though and it's not on GES"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isabella@fuseenergy.com",
+      "timestamp": "10 Jan 2026 15:24",
+      "content": "thanks that's very helpful! will update"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "branson.wozencroft@octoenergy.com",
+      "timestamp": "29 Dec 2025 17:04",
+      "content": "Hi guys, \n\nYour Customer of 1, Cambrian Close, Huntington, York YO32 9PN was previosuly supplied by Octopus Energy and had a Meter exchange on the 23rd October 2025. These MTDs were not correctly updated to Xoserve Im afraid. \n\nNew MTDs \nGSME: 98-B1-77-FF-FF-B8-5E-BB\nSerial Number: E6S16584992562\nMake and Model : LPG E6VG470 (2025)\nMechanism: S2\n\nJust reaching out to see if we can agree on a confirm supply reading of \u2007225.7 (24 December 2025)\n\nPlease let me know if you need anything \nOctopus Energy"
+    }
+  ],
+  "communication_id": "1695039",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1914513409",
+  "bucket": "Current"
+}

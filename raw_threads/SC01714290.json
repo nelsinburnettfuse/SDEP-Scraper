@@ -1,0 +1,26 @@
+{
+  "reference": "SC01714290",
+  "subject": "Transposed Read for dispute",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "1900036348049",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "28 Jan 2026 00:56",
+      "content": "I can see we have done agreement on the read 11020.9/13553.2 and chased our DC to issue the D0086 hence archiving the communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "emaad.khan@fuseenergy.com",
+      "timestamp": "16 Jan 2026 10:35",
+      "content": "Hi Team, \n\nWe've been receiving remote reads for register 1 (TPR 43) and register 2 (TPR 210).\nWe will stick to CoS Read if you have no proof/customer photos of meter."
+    }
+  ],
+  "communication_id": "1714290",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900036348049",
+  "bucket": "Current"
+}

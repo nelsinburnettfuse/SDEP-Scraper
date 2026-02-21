@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750804",
+  "subject": "COS reading 302",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "SPOW - ScottishPower - Supplier",
+  "meter_point_number": "2600004393074",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "oliver.burchell@fuseenergy.com",
+      "timestamp": "19 Feb 2026 11:56",
+      "content": "Please accept COS reading of 302, specifically requested by customer \n\"Beginning for December 1st, 2025:\n\nSerial Number: 25L3360100\nReading: 00158units\n\nCurrent for February 3rd, 2026:\n\nReading: 00786units\n[...]\nThe December usage thus represents approximately 144units used (to be passed in as consumption figure to Scottish Power).\"\n\nPrevious dispute submitted in error"
+    }
+  ],
+  "communication_id": "1750804",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2600004393074",
+  "bucket": "Current"
+}

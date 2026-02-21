@@ -1,0 +1,20 @@
+{
+  "reference": "SC01728260",
+  "subject": "crossed meter (ELEC)",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "FRST - Octopus Energy - Supplier",
+  "meter_point_number": "1800026951270",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "trey.kirton@fuseenergy.com",
+      "timestamp": "29 Jan 2026 19:58",
+      "content": "We believe there is crossed meter case between MSN 24J0352386 (switched in with Octopus) and MSN 24J0352314"
+    }
+  ],
+  "communication_id": "1728260",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1800026951270",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01726540",
+  "subject": "2753472210",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2753472210",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Saikat.Chatterjee@edfenergy.com",
+      "timestamp": "28 Jan 2026 19:26",
+      "content": "Hi team, as agreement had been done over wrong MSN 0195578S for cos date 24th Oct 2025, so can we go for a verbal agreement over the read 1194 for cos date 24th Oct 2025, regarding the MSN E6S22974602161. \nONJOB- \"TRANS\",\"469840\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"OAMI\",, \"MTPNT\",\"\",2753472210,\"F\",\"LI\",\"24\",\"\",\"\",1.022640,, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"0195578S\",\"\",\"\",\"RE\" \"REGST\",\"\",\"METER\",,\"\", \"READG\",20230615,0,\"02694\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2021,\"E6S22974602161\",\"24\",\"Shed\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20230615,0,\"00000\" \"MKPRT\",\"ASSPR\",\"ESL\" \"APPNT\",\"\",20230615,,\"\",\"091300\",\""
+    }
+  ],
+  "communication_id": "1726540",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2753472210",
+  "bucket": "Current"
+}

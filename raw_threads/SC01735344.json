@@ -1,0 +1,32 @@
+{
+  "reference": "SC01735344",
+  "subject": "MPAN 3800000586421",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "TILL - British Gas - Supplier",
+  "meter_point_number": "3800000586421",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Deepak.Kumar2@britishgas.co.uk",
+      "timestamp": "17 Feb 2026 14:32",
+      "content": "Hi, We have smart read 627/0 dated 05/01/2026. We are using final read 652.3/11.8 for COS date 09/01/2026. It's a DCC commissioned meter, we will chase our DC for revised D0086. Communication archived."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "04 Feb 2026 19:48",
+      "content": "Hi Team,disregard previous figures and accept \nPeak (1) \u00b7 934 kWh \nOff-Peak (2) \u00b7 28 kWh\nfor MPAN 3800000586421"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "04 Feb 2026 17:11",
+      "content": "Hi Team, please accept R1 985 kWh AND R2 29 for MPAN 3800000586421"
+    }
+  ],
+  "communication_id": "1735344",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "3800000586421",
+  "bucket": "Current"
+}

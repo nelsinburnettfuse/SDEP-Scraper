@@ -1,0 +1,20 @@
+{
+  "reference": "SC01737973",
+  "subject": "Cross Meter",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "ECOT - Ecotricity - Supplier",
+  "meter_point_number": "1640000947907",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "ZiEn@fuseenergy.com",
+      "timestamp": "06 Feb 2026 15:23",
+      "content": "Hi, we see that you have raised a Cross Meter Case (CMC27177) with us. Our MPAN: 1640000947907 has MSN: 19L3316315 in our records. We have done a customer burns test, meter does not record our customer's consumption. Can you let me know if this is crossed with your customer, MPAN: 1640000947916. We are sending an engineer out soon to confirm the cross meter."
+    }
+  ],
+  "communication_id": "1737973",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1640000947907",
+  "bucket": "Current"
+}

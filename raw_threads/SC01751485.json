@@ -1,0 +1,26 @@
+{
+  "reference": "SC01751485",
+  "subject": "Disputed Opening Read for MPAN 2380000881455",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2380000881455",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "abi.lobo@octoenergy.com",
+      "timestamp": "19 Feb 2026 16:35",
+      "content": "IMG_0521.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "abi.lobo@octoenergy.com",
+      "timestamp": "19 Feb 2026 16:35",
+      "content": "Hi team, we've opened a dispute to update the CoS read to 54065.0, which is the reading our customer took on the change of supply date. There have been a couple of rejections, but we have a photo of the most recent reading, so hoping we can agree on our proposed read."
+    }
+  ],
+  "communication_id": "1751485",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2380000881455",
+  "bucket": "Current"
+}

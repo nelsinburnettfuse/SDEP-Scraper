@@ -1,0 +1,44 @@
+{
+  "reference": "SC01636117",
+  "subject": "FINT read incorrect",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "5088435503",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Priya.Kushwaha@ovo.com",
+      "timestamp": "25 Nov 2025 07:49",
+      "content": "Hi Team, this photo shows 032930.94 Kwh\n the meter in Kwh, but we need the meter photo showing the M3 reading. Could you please email the customer and ask them to provide a clear photo of the meter displaying the M3 Reading?\nThankyou"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "09 Nov 2025 19:00",
+      "content": "b05efc8b-ea76-476d-a2fc-03459086175f.jpeg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "edzus.nakums@fuseenergy.com",
+      "timestamp": "09 Nov 2025 19:00",
+      "content": "Hi team, the readings being received are in m3, however I have noted that the customer submitted photos are in kWh. The latest read we have is 32967 kWh on 04/10. We have reached out to the customer to request readings in m^3."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Priya.Kushwaha@ovo.com",
+      "timestamp": "04 Nov 2025 07:59",
+      "content": "Hello, there is any update ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Priya.Kushwaha@ovo.com",
+      "timestamp": "28 Oct 2025 09:31",
+      "content": "Hello, Could you please confirm whether the meter readings being received are in kWh or m3? If they are in m3, we would appreciate it if you could share the latest reading along with a photo of the meter for reference."
+    }
+  ],
+  "communication_id": "1636117",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "5088435503",
+  "bucket": "Current"
+}

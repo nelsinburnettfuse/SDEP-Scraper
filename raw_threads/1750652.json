@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2312592822816",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)Fuse Energy Supply - SupplierFUSEBritish Gas - SupplierTILLHi team We are happy to verbally agreed to the \nread 56836 cos date 23/01/2026.\nkindly issue revised D086Dhruv.Pasi@britishgas.co.uk20 Feb 2026 10:44Hi Team, please accept the opening reading of 56836.0 kWh for 23/01/2026. Thanks.aromal.jawaharlal@fuseenergy.com19 Feb 2026 10:49"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Fuse Energy Supply - SupplierFUSEBritish Gas - SupplierTILLHi team We are happy to verbally agreed to the \nread 56836 cos date 23/01/2026.\nkindly issue revised D086Dhruv.Pasi@britishgas.co.uk20 Feb 2026 10:44Hi Team, please accept the opening reading of 56836.0 kWh for 23/01/2026. Thanks.aromal.jawaharlal@fuseenergy.com19 Feb 2026 10:49"
+    }
+  ],
+  "communication_id": "1750652",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2312592822816"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01750721",
+  "subject": "1640000772176",
+  "escalation_level": "First Escalation",
+  "from": "OVOE - OVO Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1640000772176",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sabah.said@fuseenergy.com",
+      "timestamp": "19 Feb 2026 12:26",
+      "content": "Hi Team, we have accepted the ET."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "somnath.jadhav@ovo.com",
+      "timestamp": "19 Feb 2026 11:18",
+      "content": "Hi Team, ET raised to you on 12/02/2026 you have not yet responded, please respond ASAP. Thanks."
+    }
+  ],
+  "communication_id": "1750721",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1640000772176",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01749413",
+  "subject": "1573422903",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1573422903",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "18 Feb 2026 12:07",
+      "content": "Hi, we do not hold any backups in our end for the MSN E6S17188692562, so please share it. regards"
+    }
+  ],
+  "communication_id": "1749413",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1573422903",
+  "bucket": "Current"
+}

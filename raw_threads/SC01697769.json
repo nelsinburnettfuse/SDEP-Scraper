@@ -1,0 +1,116 @@
+{
+  "reference": "SC01697769",
+  "subject": "2964166105",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2964166105",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Saima.Parween@edfenergy.com",
+      "timestamp": "10 Feb 2026 05:40",
+      "content": "Hi, Thanks for providing the raw file ID. We have already chased our industry for the missing COS read. Archiving communication."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 09:49",
+      "content": "thank you, please do"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "09 Feb 2026 08:59",
+      "content": "we have chased our relevant team to issue the read once issued we will update you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 16:54",
+      "content": "okay let us know if this doesn't come through"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "02 Feb 2026 23:13",
+      "content": "We received latest TY flow also from your end on-  1898 read for cos date- 4th Nov 2025, msn- E6E11510182323. we have not received Cos read yet , hence we will wait for the revised URN to be issued."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "31 Jan 2026 21:55",
+      "content": "Hi team, UMR issued briefly after my previous message. here is raw file:\n\"U01\",2964166105,20251105,\"A\",\"R\",\"E6E11510182323\",\"01898\",\"0\",\"\",\"\",\"\",\"\",\"\"\n\nArchiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nikita.Ghosh@edfenergy.com",
+      "timestamp": "29 Jan 2026 04:32",
+      "content": "Hi team, we have also received Y flow from your end on 1898  read for cos date- 4th Nov 2025, msn- E6E11510182323. We will wait for the revised cos read on agreed read. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 12:47",
+      "content": "Hi team, thanks for response. still waiting for revision to process"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "28 Jan 2026 11:31",
+      "content": "We received your rejection flow with comments mentioned- \"Agreed via SDEP\" , hence we are unable to send Y flow so we sent TY (telephone agreed ) flow on 1898 for COS date 5th Nov 2025 but for the correct meter E6E11510182323. please issue revised Cos read on agreed read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 15:59",
+      "content": "Hi team, have raised new dispute for the agreed read. please send y-flow"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "27 Jan 2026 11:22",
+      "content": "Hi, please confirm if you are happy to use the previously agreed read of 1898 for COS date 5th Nov 2025 but for the correct meter E6E11510182323?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 13:58",
+      "content": "Hi team, onjob sent on January 23, 2026, at 16:46, and accepted on January 23, 2026, 20:28. MSN should be updated. best regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "26 Jan 2026 06:55",
+      "content": "Hi, please notify us once MSN E6E11510182323 is updated on your end. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "23 Jan 2026 14:21",
+      "content": "Hi team, we have sent ONJOB"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "18 Jan 2026 08:29",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "18 Jan 2026 08:29",
+      "content": "Hi team,\n\nKindly confirm if the MSN is updated correctly after we sent the ONJOB then we can issue the revised URN orelse the agreement will become invalid."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Kunal.Das@edfenergy.com",
+      "timestamp": "02 Jan 2026 05:42",
+      "content": "Hi team , as per this Reference: SC01689458 previously  we have received you Y flow for MSN G4K80472220701 however we hold MSN E6E11510182323 attaching the onjob \"TRANS\",\"001005549643\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",, \"MTPNT\",\"\",2964166105,\"\",\"\",\"09\",\"\",\"\",1.022640,20240711, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"CR\",\"G4\",\"KRO\",2007,\"G4K80472220701\",\"09\",\"\",\"RE\" \"METER\",\"\",\"S\",\"CR\",6.0000,\"\",\"I\",,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20240711,,\"33111\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2023,\"E6E11510182323\",\"09\",\"\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"I\",20240711,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20240711,,\"00000\" \"MKPRT\",\"ASSPR\",\"MFD\" \"ASSET\",\"\",\"INSTL\",\"IHD\",\"\",\"\",\"\",\"\",,\"\",\"\",\"\",\"I\" \"APPNT\",\"\",20240711,,\"\",\"155400\",\"\" kindly validate update the correct MSN from your end"
+    }
+  ],
+  "communication_id": "1697769",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2964166105",
+  "bucket": "Current"
+}

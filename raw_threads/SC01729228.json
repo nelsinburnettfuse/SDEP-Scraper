@@ -1,0 +1,26 @@
+{
+  "reference": "SC01729228",
+  "subject": "MPAN 2000023133399 ET",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EGDX - E (Gas & Electricity) - Supplier",
+  "meter_point_number": "2000023133399",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Rory.Hutchinson@e.org",
+      "timestamp": "30 Jan 2026 16:55",
+      "content": "Hi team, we rejected as we hold a valid contract, the customer is free to choose their preferred supplier. They just need to arrange a switch away, but we will not be accepting an ET, kind regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "30 Jan 2026 14:08",
+      "content": "Hi Team, our ET request for MPAN 2000023133399 was rejected by yourselves. Customer wishes to be re-registered with Fuse. Please ET"
+    }
+  ],
+  "communication_id": "1729228",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000023133399",
+  "bucket": "Current"
+}

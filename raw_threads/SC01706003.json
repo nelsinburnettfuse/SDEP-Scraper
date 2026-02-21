@@ -1,0 +1,26 @@
+{
+  "reference": "SC01706003",
+  "subject": "1005565206",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1005565206",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "23 Jan 2026 20:42",
+      "content": "Incorrect agreement flow received from your end on Read 5885 which is same as Cos read . so we have closed he dispute sticking with the cos read 5885 for cos date 18.10.2025, MSN- E6S20399012061. archiving the chat.\n\nCOS read flat file\n\"M03\",\"EDSX1005565206X20241108S1\",\"F\",20251018,\"E6S20399012061\",1005565206,,\"N\",1,\"FINT\",\"E\",\"       05885\",5,\"\",,\"\",,\"U\",\"U\",\"U\",\"\",\"M\",1.022640,,1.000,\"0\",\"\",\"265064687\",0,10001648,\"FRONT\",32,\"E6VG470\",\"\",\"S2\",,\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mausam.Kumari@edfenergy.com",
+      "timestamp": "08 Jan 2026 10:23",
+      "content": "Hi Team,We have received alternative read which is same as our cos read -5885 (Estimate),COS DATE-18th Oct 2025 so sticking with cos read close the dispute."
+    }
+  ],
+  "communication_id": "1706003",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1005565206",
+  "bucket": "Current"
+}

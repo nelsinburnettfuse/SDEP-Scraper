@@ -1,0 +1,50 @@
+{
+  "reference": "SC01695851",
+  "subject": "2000051858263",
+  "escalation_level": "Final Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000051858263",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 18:36",
+      "content": "yes we can agree verbally"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mutabaruka.Moloi@uw.co.uk",
+      "timestamp": "02 Feb 2026 16:06",
+      "content": "Hi team there were numerous D0300 after the Y flow and can you please agree verbally 12713/5834 because the night proposal is not 5854.Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "20 Jan 2026 12:21",
+      "content": "Has this been handled on your end?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "14 Jan 2026 10:02",
+      "content": "hello, Yflows sent for 08/08/2025 R1 12768.0 and R2 5854.0 based on following BU: actual read 09/08/2025 R1 12772.096 R2 5859.91, and actual read 10/08/2025 R1 12776.212 R2 5863.835"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "kayayvani.archary@uw.co.uk",
+      "timestamp": "14 Jan 2026 08:32",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "30 Dec 2025 13:05",
+      "content": "Hi team, you have sent Yflow without validating your back ups as we last requested 2 valid backups from you. kindly advise further on the request. regards."
+    }
+  ],
+  "communication_id": "1695851",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000051858263",
+  "bucket": "Current"
+}

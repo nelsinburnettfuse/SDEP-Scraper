@@ -1,0 +1,20 @@
+{
+  "reference": "SC01736954",
+  "subject": "SAR RESPONSE",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2987480004",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "bharti.bharti@ovo.com",
+      "timestamp": "06 Feb 2026 07:52",
+      "content": "Hi Team, we are raise a dispute Proposing estimated reading 7437 backed by 7263.0 2025/12/17 and 7076.0 2025/11/17 for transfer date 14/01/2026. Please take a look our proposal. thanks"
+    }
+  ],
+  "communication_id": "1736954",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2987480004",
+  "bucket": "Current"
+}

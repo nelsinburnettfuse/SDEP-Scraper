@@ -1,0 +1,20 @@
+{
+  "reference": "SC01738495",
+  "subject": "Cross meters enquiry",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "LOND - EDF Energy - Supplier",
+  "meter_point_number": "2700007806586",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rishab@fuseenergy.com",
+      "timestamp": "08 Feb 2026 20:01",
+      "content": "Hi team, I am writing to enquire about a cross meters case.\n\nOur customer switched in with the MPAN-2700007806586 but the associated MSN is 22J0223098. We have identified the related and correct MSN to be 22J0223099 and have made the changes on our system.\n\nCan you please confirm this with your customer who is switched in with you on MPAN-2700007806595 linked to MSN 22J0223099"
+    }
+  ],
+  "communication_id": "1738495",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2700007806586",
+  "bucket": "Current"
+}

@@ -1,0 +1,32 @@
+{
+  "reference": "SC01740704",
+  "subject": "Missing COS D86 - on ET",
+  "escalation_level": "",
+  "from": "CYCL - Evolve Energy Supply - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1620001474181",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "panagiotis.aslanidis@fuseenergy.com",
+      "timestamp": "17 Feb 2026 13:30",
+      "content": "Hi team, CoS D0086 read sent"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Stephanie.Winder@evolve-energy.com",
+      "timestamp": "17 Feb 2026 12:30",
+      "content": "Good afternoon, please can you advise regarding the below. Kind Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Stephanie.Winder@evolve-energy.com",
+      "timestamp": "10 Feb 2026 11:29",
+      "content": "Good morning we have not received the COS d86 read on this MPAN which is required as part of the ET process. using our MRH we have reopened the account on the read of 291040.0 for the 28/11/2025. To ensure the D86+1 process is followed please can you issue a D86 read for the 14/11/2025 with the read of 291039. Kind Regards"
+    }
+  ],
+  "communication_id": "1740704",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1620001474181",
+  "bucket": "Current"
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "SC01744394",
+  "subject": "1674026009",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1674026009",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "20 Feb 2026 07:12",
+      "content": "Hi team,\nWe have chased our relevant team to update meter properly, so kindly allow us some time.\nRegards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shreya.Dutta@edfenergy.com",
+      "timestamp": "13 Feb 2026 08:06",
+      "content": "Hi team, we have received your alternative  proposal for cos date 1st Oct 2025, MSN-E6E13471532423, but this MSN is not properly updated in our system, hence kindly share us ONJOB flat file. Regards"
+    }
+  ],
+  "communication_id": "1744394",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1674026009",
+  "bucket": "Current"
+}

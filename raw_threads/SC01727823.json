@@ -1,0 +1,26 @@
+{
+  "reference": "SC01727823",
+  "subject": "1300008100757",
+  "escalation_level": "",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1300008100757",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mduduzi.dube@uw.co.uk",
+      "timestamp": "16 Feb 2026 08:29",
+      "content": "Received a rejection D0300 with Record Rejection Reason Indicator ( Some mandatory fields invalid or missing). I have sent a new proposal."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mduduzi.dube@uw.co.uk",
+      "timestamp": "29 Jan 2026 14:34",
+      "content": "Good day,\n\nPlease reply to our D0300 proposal with CMR reads 36707."
+    }
+  ],
+  "communication_id": "1727823",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300008100757",
+  "bucket": "Current"
+}

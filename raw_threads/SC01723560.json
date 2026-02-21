@@ -1,0 +1,38 @@
+{
+  "reference": "SC01723560",
+  "subject": "2757137609",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "2757137609",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Protap.Ghosh@edfenergy.com",
+      "timestamp": "31 Jan 2026 20:25",
+      "content": "Hi team kindly find the onjob \"TRANS\",\"1jd0d4rpojbd\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",, \"MTPNT\",\"\",2757137609,\"\",\"\",\"\",\"\",\"\",1.022640,20241002, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S21309972061\",\"\",\"\",\"RE\" \"REGST\",\"\",\"METER\",,\"\", \"READG\",20241002,0,\"03585\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"B0A10144\",\"SCM\",2024,\"E6P20272412400\",\"00\",\"\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1.000 \"READG\",20241002,0,\"00000\" \"APPNT\",\"\",20241002,,\"\",\"080000\",\"160000\" \"TRAIL\" so validate and response back and already agree on read 164  for cos date 1st Oct 2024 for MSN E6S21309972061 and already chased hence archive"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Protap.Ghosh@edfenergy.com",
+      "timestamp": "31 Jan 2026 20:15",
+      "content": "Hi team kindly find the onjob\n\"TRANS\",\"1jd0d4rpojbd\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",2757137609,\"\",\"\",\"\",\"\",\"\",1.022640,20241002,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S21309972061\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20241002,0,\"03585\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"B0A10144\",\"SCM\",2024,\"E6P20272412400\",\"00\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20241002,0,\"00000\"\n\"APPNT\",\"\",20241002,,\"\",\"080000\",\"160000\"\n\"TRAIL\"\nso validate and response back"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "26 Jan 2026 17:21",
+      "content": "IMG_2909.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "26 Jan 2026 17:21",
+      "content": "Hello Team. The meter exchange for this meter was not updated. Please send the necessary details for an ONJOB. We hold MSN: E6P20272412400."
+    }
+  ],
+  "communication_id": "1723560",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2757137609",
+  "bucket": "Current"
+}

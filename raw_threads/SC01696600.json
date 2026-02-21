@@ -1,0 +1,62 @@
+{
+  "reference": "SC01696600",
+  "subject": "1900043417742",
+  "escalation_level": "First Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900043417742",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "thandazile.ngubane@uw.co.uk",
+      "timestamp": "27 Jan 2026 17:28",
+      "content": "Hi team, please issue a revised D8? Thank you."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "24 Jan 2026 22:59",
+      "content": "558dc0c3-3aba-4ab0-ba32-58cbc9307161.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "24 Jan 2026 22:59",
+      "content": "eaecf453-ea63-406e-bf95-af3125c299bb.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "24 Jan 2026 22:59",
+      "content": "As requested"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "21 Jan 2026 14:43",
+      "content": "Hi team, kindly send us photos to validate your customer reads so that we can come to an agreement. regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "12 Jan 2026 09:14",
+      "content": "hello,\nunable to accept as customer submitted actual reads of 12571 kWh on 03/11/2025 and 12836 kWh on 03/01/2026.\n\nbest"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "08 Jan 2026 12:02",
+      "content": "Hi team, please respond to our proposal sent to you. regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zibuyile.mbambo@uw.co.uk",
+      "timestamp": "31 Dec 2025 09:24",
+      "content": "Hi team, Please agree to our proposed read 15075 backup Read 1: 22/07/2024 10662 Backup Read 2: 14/10/2025 14942. thank you."
+    }
+  ],
+  "communication_id": "1696600",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900043417742",
+  "bucket": "Current"
+}

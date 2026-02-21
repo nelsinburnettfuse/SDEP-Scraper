@@ -1,0 +1,26 @@
+{
+  "reference": "SC01665770",
+  "subject": "2500020985157",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "2500020985157",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "thomas.cast@eonnext.com",
+      "timestamp": "28 Jan 2026 14:05",
+      "content": "Issue resolved now - closing chat."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "claudia.clegg@fuseenergy.com",
+      "timestamp": "27 Nov 2025 11:32",
+      "content": "hi team customer has reached out to say you are witholding funds as you have no cos read however we have confirmed d86, please advise. d86 states 1/10/25 3879.7 kWh."
+    }
+  ],
+  "communication_id": "1665770",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2500020985157",
+  "bucket": "Current"
+}

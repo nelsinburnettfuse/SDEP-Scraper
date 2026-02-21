@@ -1,0 +1,56 @@
+{
+  "reference": "SC01694600",
+  "subject": "No response (SC01681662)",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3339799903",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "Dipendra.Singh@ovo.com",
+      "timestamp": "09 Feb 2026 10:06",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dipendra.Singh@ovo.com",
+      "timestamp": "02 Feb 2026 09:52",
+      "content": "\"TRANS\",\"22502321\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"193761\",,\n\"MTPNT\",\"\",3339799903,\"\",\"\",\"00\",\"\",\"\",,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S23225691961\",\"00\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20241018,0,\"00000\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S13099742462\",\"32\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"NS\",6.0000,\"\",\"I\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20241018,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"SSL\"\n\"APPNT\",\"\",20241018,,\"\",\"101252\",\"\"\n\nPlease find the ONJOB flow."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "24 Jan 2026 14:15",
+      "content": "Can you send the flow so we can update to industry?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dipendra.Singh@ovo.com",
+      "timestamp": "23 Jan 2026 14:10",
+      "content": "The MSN currently displayed on Xoserve is E6S23225691961.\nPlease review your flow, as it is possible that your flow may have been rejected."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Dipendra.Singh@ovo.com",
+      "timestamp": "14 Jan 2026 11:11",
+      "content": "As I can see meter hasn't updated. Please recheck and confirm us."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 17:17",
+      "content": "Hi team,\n\nXOserve has been updated please check"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Barkha.Rani@ovo.com",
+      "timestamp": "29 Dec 2025 12:11",
+      "content": "Hi, we lost this MPRN 3339799903 to FUR on 23/08/2025. We have an incorrect CoS read as a meter exchange occurred during our supply and Xoserve wasn't updated. The MEX was from E6S23225691961 to E6S13099742462. Can you please process the meter exchange on CoS day +1 using the read 1348 as the OPNX and Incorrect transfer read as the FINX. Hello, due to no response on communication with reference no.SC01681662 we have escalated."
+    }
+  ],
+  "communication_id": "1694600",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3339799903",
+  "bucket": "Current"
+}

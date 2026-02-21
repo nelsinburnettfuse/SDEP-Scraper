@@ -1,0 +1,20 @@
+{
+  "reference": "SC01737026",
+  "subject": "Erroneous Transfers (Gas.) - General Query (PT0048)",
+  "escalation_level": "",
+  "from": "BGF - British Gas - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "573552807",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Balkrishna.Mestry@britishgas.co.uk",
+      "timestamp": "06 Feb 2026 08:41",
+      "content": "Hi Team, Our ET loss has been accepted to return supply to us. Please send us your Initial read\n(SSD: read) for MPXN (573552807). Thanks."
+    }
+  ],
+  "communication_id": "1737026",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "573552807",
+  "bucket": "Current"
+}

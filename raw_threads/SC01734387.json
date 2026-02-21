@@ -1,0 +1,26 @@
+{
+  "reference": "SC01734387",
+  "subject": "Cos read agreement",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3994972507",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "Sagar.Dogmane@ovo.com",
+      "timestamp": "11 Feb 2026 04:49",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Sagar.Dogmane@ovo.com",
+      "timestamp": "04 Feb 2026 09:08",
+      "content": "Hello Please reply on our request we have only one read 2042 for date 27/07/2025 hence cannot raised dispute via SAR process but we have calculated the read as 3016 using the KwH to M3 converter so requesting you to please verbally agree CoS read as 03016 for date 25/11/2025 and send us revise URN. kind regards"
+    }
+  ],
+  "communication_id": "1734387",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3994972507",
+  "bucket": "Current"
+}

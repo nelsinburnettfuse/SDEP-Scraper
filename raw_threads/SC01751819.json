@@ -1,0 +1,26 @@
+{
+  "reference": "SC01751819",
+  "subject": "1652811006",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1652811006",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Feb 2026 08:59",
+      "content": "Hi Team, We have accepted your y-flow"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "20 Feb 2026 08:35",
+      "content": "Hi, wrong Y flow sent from our end , we hold msn E6S27434301961, proposal received form your end 17816 , with invalid gt read 17 , we hold 17880 , rawfile attached below kindly validate and response back \n\nRaw file:\n\n\"M03\",\"EDSX1652811006X20241108S1\",\"F\",20260116,\"E6S27434301961\",1652811006,,\"N\",1,\"FINT\",\"E\",\"       17880\",5,\"\",,\"\",,\"U\",\"U\",\"U\",\"\",\"M\",1.022640,,1.000,\"0\",\"\",\"265065109\",0,10001648,\"O/S RHS\",32,\"E6VG470\",\"\",\"S2\",,\"\""
+    }
+  ],
+  "communication_id": "1751819",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1652811006",
+  "bucket": "Archived"
+}

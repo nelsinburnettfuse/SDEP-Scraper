@@ -1,0 +1,26 @@
+{
+  "reference": "SC01707594",
+  "subject": "Missing MSN",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "2790204710",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "lucy.snow@octoenergy.com",
+      "timestamp": "03 Feb 2026 13:19",
+      "content": "Hi, I cannot locate a previous SDEP communication for 2790204710 which you are escalating from. Please could you provide the SDEP reference and the details of the MTD update you require. Kind Regards, Lucy"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "chloe.vaudin@fuseenergy.com",
+      "timestamp": "09 Jan 2026 13:24",
+      "content": "Hi team,\n\nCould you please update the database with this MPRN's MSN?\n\nRegards,\nChloe"
+    }
+  ],
+  "communication_id": "1707594",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2790204710",
+  "bucket": "Current"
+}

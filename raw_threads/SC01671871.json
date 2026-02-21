@@ -1,0 +1,104 @@
+{
+  "reference": "SC01671871",
+  "subject": "1012870871533",
+  "escalation_level": "First Escalation",
+  "from": "BNRG - Utility Warehouse - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1012870871533",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "11 Feb 2026 11:49",
+      "content": "Hi team, as we have not received any of the required information to validate your proposal we will archive this communication. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "04 Feb 2026 11:52",
+      "content": "Hi team, please respond to the below communication. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "27 Jan 2026 13:19",
+      "content": "Hi team, we also hold MSN: 21M0005760. The D0300 sent has the correct MSN however the details box does not have backup readings. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 12:30",
+      "content": "Hi team, we hold  MSN: 21M0005760, please confirm you have the same to move forward."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "22 Jan 2026 12:07",
+      "content": "Hi team, please respond to the below communication. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "13 Jan 2026 08:42",
+      "content": "Hi team, we have checked the D300 flow sent to us and it is still incorrect. Please check the flow and send it correctly. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "05 Jan 2026 14:56",
+      "content": "Hi team, I have reissued the dispute with the correct MSN, please accept, archived, kind regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "05 Jan 2026 11:51",
+      "content": "Hi team, please resend D300 flow on ENSEK has been sent to us incorrectly as it does not include any valid backups. Please note we hold smart reads from 31.01.2025: 8767; 28.03.2025: 8793. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "elena.liberti@fuseenergy.com",
+      "timestamp": "30 Dec 2025 13:33",
+      "content": "Hi team, apologies for the wait. We also hold MSN: 21M0005760\nBack up read were sent on the dispute: 856 kWh on 15/10, 276 kWh on 16/08\nI've issued another dispute please accept it\nArchived"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "30 Dec 2025 11:56",
+      "content": "Hi team, please respond to our D300 flow on ENSEK appropriately. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "23 Dec 2025 15:02",
+      "content": "Hi team, please note that the flow was sent with the incorrect MSN. Please resend flow with correct details. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "19 Dec 2025 17:50",
+      "content": "Hi team, we have responded with backup."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "19 Dec 2025 17:13",
+      "content": "Hi team, we have sent a rejection on ENSEK as we have not received 2 valid backups to validate your proposed reading. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "10 Dec 2025 15:32",
+      "content": "Hi team, please respond to the below communication so we are able to verify your proposed read. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mutabaruka.Moloi@uw.co.uk",
+      "timestamp": "02 Dec 2025 13:14",
+      "content": "We need back ups Thanks"
+    }
+  ],
+  "communication_id": "1671871",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1012870871533",
+  "bucket": "Current"
+}

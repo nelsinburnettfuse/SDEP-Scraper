@@ -1,0 +1,26 @@
+{
+  "reference": "SC01738310",
+  "subject": "Update Meter",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "9113582308",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "escalations@octoenergy.com",
+      "timestamp": "09 Feb 2026 14:41",
+      "content": "Hi, please find the ONJOB flow attached \"TRANS\",\"000000002737568\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"629592\",,\n\"MTPNT\",\"UPDTE\",9113582308,\"\",\"\",\"00\",\"\",\"\",,,\n\"ASSET\",\"UPDTE\",\"REMVE\",\"METER\",\"\",\"CR\",\"\",\"\",,\"G4A50237460301\",\"\",\"\",\"RE\"\n\"METER\",\"\",\"\",\"\",,\"\",\"\",,\"\",,\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20240320,,\"14051\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2023,\"E6S17006642361\",\"32\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20240320,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20240320,,\"00000\"\n\"MKPRT\",\"ASSPR\",\"MFG\"\n\"APPNT\",\"\",20240320,,\"\",\"123049\",\"132110\". Thank you,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ewan.boyle@fuseenergy.com",
+      "timestamp": "07 Feb 2026 14:40",
+      "content": "Hello Team, We have identified a missing ONJOB flow following a meter exchange. Could you kindly send the associated ONJOB for this meter exchange please? Old Meter Serial Number (MSN): G4A50237460301 New Meter Serial Number (MSN): E6S17006642361"
+    }
+  ],
+  "communication_id": "1738310",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9113582308",
+  "bucket": "Current"
+}

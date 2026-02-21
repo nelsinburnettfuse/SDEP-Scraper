@@ -1,0 +1,20 @@
+{
+  "reference": "SC01746114",
+  "subject": "Incorrect meter at site loss",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "621952004",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arka.Sarkar2@edfenergy.com",
+      "timestamp": "16 Feb 2026 09:56",
+      "content": "Please update the correct MSN E6S13329592562 that should have been on our account at the site loss 10/02/2026, Information of the correct meter details MSN E6S13329592562, Manufacturer code LPG, Model name E6VG470, Manufactured year 2025, installation date 24/07/2025."
+    }
+  ],
+  "communication_id": "1746114",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "621952004",
+  "bucket": "Current"
+}

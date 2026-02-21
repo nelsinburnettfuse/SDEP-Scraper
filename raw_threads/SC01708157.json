@@ -1,0 +1,44 @@
+{
+  "reference": "SC01708157",
+  "subject": "2380002698704- Switch Objected",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "2380002698704",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "17 Feb 2026 14:56",
+      "content": "there is no customer interaction listed on the account so cannot disclose information"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Jan 2026 16:54",
+      "content": "Hi,\n\nCustomer had spoken to EON 3 days ago and said that the standing chargest and bill was from a previous tenant. Can you make an exemptions for the customer trying to switch to us."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "mahdi.mohamed@fuseenergy.com",
+      "timestamp": "20 Jan 2026 15:00",
+      "content": "Hi,\n\nCustomer had spoken to EON recently and confirmed that he does not own anything. Can you please confirm this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "13 Jan 2026 13:38",
+      "content": "we would not disclose that info, no ET agreed. Please ask customer to contact us so we can discuss any objection with the customer."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "11 Jan 2026 21:45",
+      "content": "Hi Team,\n\nCould you please confirm reason for objecting switch for MPAN 2380002698704. Customer wishes to onboard with Fuse.\n\nThank you"
+    }
+  ],
+  "communication_id": "1708157",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2380002698704",
+  "bucket": "Current"
+}

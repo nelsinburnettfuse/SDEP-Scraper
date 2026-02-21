@@ -1,0 +1,26 @@
+{
+  "reference": "SC01738189",
+  "subject": "Missing Closing Read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "AEL - Utility Warehouse - Supplier",
+  "meter_point_number": "3303309810",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "klee@uw.co.uk",
+      "timestamp": "09 Feb 2026 14:33",
+      "content": "Hi, the last customer read we have is 5517 on 01/02/26."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aromal.jawaharlal@fuseenergy.com",
+      "timestamp": "06 Feb 2026 18:49",
+      "content": "Hi Team, could you inform me of the final reading from previous meters when they switched out from you?"
+    }
+  ],
+  "communication_id": "1738189",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3303309810",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01752126",
+  "subject": "ET INITIATION ESCALATION 7525339103",
+  "escalation_level": "First Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7525339103",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "pwhittaker@utilitywarehouse.co.uk",
+      "timestamp": "20 Feb 2026 10:37",
+      "content": "Hi, we raised an ET initiation to have MPRN 7525339103 returned to AEL. There has been no response. Please send response as soon as possible. Thank you."
+    }
+  ],
+  "communication_id": "1752126",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7525339103",
+  "bucket": "Current"
+}

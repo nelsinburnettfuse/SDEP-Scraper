@@ -1,0 +1,32 @@
+{
+  "reference": "SC01713217",
+  "subject": "2351424708016",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2351424708016",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "11 Feb 2026 08:51",
+      "content": "D0086 flat file:\n196|2351424708016|V|\n197|A08N043676|D|\n198|01|20251104000000|44000.6||0|T|N|\nIdentifier: D769234682"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Arijita.Das@edfenergy.com",
+      "timestamp": "11 Feb 2026 08:51",
+      "content": "We checked incorrect agreement was done on read 43965 which is within tolerance with Cos read 44000.6. So we have closed the dispute sticking with Cos read 44000.6 for the Cos date 04.11.2025, MSN- A08N043676. Also inline as per Actual BU: [20251027-43954 and, 20250924- 43909.0] . Hence archiving the chat."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Kunal.Das@edfenergy.com",
+      "timestamp": "15 Jan 2026 12:30",
+      "content": "Hi team ,agreement done on 43965.0 please issued the revised D0086over agreed read,Regards"
+    }
+  ],
+  "communication_id": "1713217",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2351424708016",
+  "bucket": "Current"
+}

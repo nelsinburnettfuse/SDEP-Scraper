@@ -1,0 +1,26 @@
+{
+  "reference": "SC01691144",
+  "subject": "D86",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900042379306",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "zoe.westcott@octoenergy.com",
+      "timestamp": "12 Jan 2026 11:36",
+      "content": "Please respond to message below, thanks Zoe"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nemanja.vojinovic@octoenergy.com",
+      "timestamp": "23 Dec 2025 11:50",
+      "content": "Hi team, we agreed to a final read over a dispute on the 24th of November, but our DC isn't able to issue a D86 since it's a non-smart meter. They've asked for your DC to send them the D86. Can you please arrange this with your DC. Our DC for this MPAN is UDMS (TMA). Kind regards, Nemanja"
+    }
+  ],
+  "communication_id": "1691144",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900042379306",
+  "bucket": "Current"
+}

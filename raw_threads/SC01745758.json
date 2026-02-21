@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745758",
+  "subject": "Update MTDs",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "7600954508",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "15 Feb 2026 21:17",
+      "content": "Hi team, please update meter details. Customer can't switch out from you because gas meter is still showed as capped. Please update meter details"
+    }
+  ],
+  "communication_id": "1745758",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7600954508",
+  "bucket": "Current"
+}

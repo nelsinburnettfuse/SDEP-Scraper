@@ -1,0 +1,32 @@
+{
+  "reference": "SC01681106",
+  "subject": "1414531113000",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EOND - E.ON - Supplier",
+  "meter_point_number": "1414531113000",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "paolo.pisante@fuseenergy.com",
+      "timestamp": "13 Jan 2026 21:54",
+      "content": "Hi Team, customer with MPAN 1414531113000 has informed us that they keep being switched over to you. Please return customer back. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "thomas.hunter@eonnext.com",
+      "timestamp": "16 Dec 2025 10:00",
+      "content": "acceptance sent 12.12.25"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "11 Dec 2025 14:01",
+      "content": "Hi team, customer's neighbour accidentally switched with us for this MPAN. Please accept the ET back and issue the customer with bills for the period of 15 Oct 2025 - 29 Oct 2025."
+    }
+  ],
+  "communication_id": "1681106",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1414531113000",
+  "bucket": "Current"
+}

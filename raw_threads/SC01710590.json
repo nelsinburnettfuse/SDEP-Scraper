@@ -1,0 +1,20 @@
+{
+  "reference": "SC01710590",
+  "subject": "9148267310",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9148267310",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "13 Jan 2026 14:42",
+      "content": "Hi, here is the ONJOB for the MSN E6S10495272461, please validate and update the MSN in your end. \n\n\"TRANS\",\"178595\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"194483\",,\n\"MTPNT\",\"\",9148267310,\"\",\"\",\"00\",\"\",\"\",1.022640,20250127,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"G4P01414571400\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20250127,0,\"12144\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S10495272461\",\"32\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",20250127,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250127,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"MFD\"\n\"APPNT\",\"\",20250127,20250127,\"\",\"120000\",\"160000\", Regards"
+    }
+  ],
+  "communication_id": "1710590",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9148267310",
+  "bucket": "Current"
+}

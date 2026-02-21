@@ -1,0 +1,26 @@
+{
+  "reference": "SC01740131",
+  "subject": "1100011873798",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100011873798",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Banhisikha.Dey@edfenergy.com",
+      "timestamp": "18 Feb 2026 12:44",
+      "content": "Hi team, is ther any update regarding this ? Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mausam.Kumari@edfenergy.com",
+      "timestamp": "10 Feb 2026 06:10",
+      "content": "Hi Team ,please issued revised D0086 read -20277.0\nfor the cos date -23rd Aug 2025,ACTUAL BACKUP-BU: 20250725 1: 19601.0 20250625 1: 19449.0,MSN-E16Z002147"
+    }
+  ],
+  "communication_id": "1740131",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100011873798",
+  "bucket": "Current"
+}

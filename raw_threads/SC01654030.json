@@ -1,0 +1,68 @@
+{
+  "reference": "SC01654030",
+  "subject": "2500001217910",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "DFDL - Tru Energy - Supplier",
+  "meter_point_number": "2500001217910",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "06 Jan 2026 09:39",
+      "content": "Hi, We responded on 03/12/25 as the customer signed up to TruEnergy therefore we did not take over in error and therefore we will not accept an ET. Kind regards, Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "trey.kirton@fuseenergy.com",
+      "timestamp": "25 Dec 2025 20:48",
+      "content": "Hello team, this is a final request of a response before we escalate this matter. hope to hear back from you soon"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jonah.power@fuseenergy.com",
+      "timestamp": "21 Dec 2025 20:32",
+      "content": "Hi team, the customer contacted you on the 16/12, prior to your mot recent message, this is an erroneous transfer, not a standard switch, please accept our ET request to avoid further escalation. Kind regards, Jonah"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "17 Dec 2025 15:18",
+      "content": "Hi, The customer should contact us directly. Kind regards, Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "04 Dec 2025 13:22",
+      "content": "The customer is in contact, stating that you are preventing the switch-back. What is the hold up?\nET dates back to 18-11-2025."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "03 Dec 2025 09:03",
+      "content": "Hi, We have a customer signed up to us and we are waiting on confirmation from them. I will respond asap. Kind regards, Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "adeeba.khalidshaikh@fuseenergy.com",
+      "timestamp": "24 Nov 2025 08:14",
+      "content": "Hi Team, \nOur system still shows that we are awaiting response from your side regarding the ET, please look into this."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "shaunaunderwood@huddleenergy.co.uk",
+      "timestamp": "18 Nov 2025 14:51",
+      "content": "Hi, I responded to your ET request yesterday. Kind regards, Shauna"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "malintha.batage@fuseenergy.com",
+      "timestamp": "16 Nov 2025 16:28",
+      "content": "Hi team, please accept our ET to re-register customer back to us. Cust switched out accidentally but would like to remain with Fuse. Thank you"
+    }
+  ],
+  "communication_id": "1654030",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2500001217910",
+  "bucket": "Current"
+}

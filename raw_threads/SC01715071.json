@@ -1,0 +1,26 @@
+{
+  "reference": "SC01715071",
+  "subject": "1300006722232",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1300006722232",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "contract_manager@octoenergy.com",
+      "timestamp": "19 Jan 2026 11:56",
+      "content": "Talking with the MOP to end date Z16N109519 for the 13/3/2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "16 Jan 2026 16:58",
+      "content": "Hi, this customer is stating that there is only one electric meter registered at this supply. We see 2, and this is preventing them from switching to us. Can you confirm? If you see 2, could you fix this and let the customer know this was not done before?"
+    }
+  ],
+  "communication_id": "1715071",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300006722232",
+  "bucket": "Current"
+}

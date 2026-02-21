@@ -1,0 +1,26 @@
+{
+  "reference": "SC01704043",
+  "subject": "9203678210",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "9203678210",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "kevat.parmar@eonnext.com",
+      "timestamp": "29 Jan 2026 10:23",
+      "content": "hi, i can see no records of any such statements. I can see we have agreed to a meter reads. that is updated. i see no further action from our side or your side"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "06 Jan 2026 19:07",
+      "content": "Hi, we have come to an agreement on the CoS read for this MPRN, but one of your agents is suggesting that this needs to be updated on the national database. Could you clarify what this means?\n\nMy understanding is that a URN will be issued as the CoS read has been agreed upon. \n1618 m^3 was the agreed-upon read."
+    }
+  ],
+  "communication_id": "1704043",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9203678210",
+  "bucket": "Current"
+}

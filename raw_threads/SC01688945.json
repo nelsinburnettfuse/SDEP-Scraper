@@ -1,0 +1,26 @@
+{
+  "reference": "SC01688945",
+  "subject": "Erroneous Transfer Proposed",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200020600977",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "chantelle.staal@octoenergy.com",
+      "timestamp": "30 Dec 2025 13:55",
+      "content": "Good afternoon,\n\nI have raised an erroneous transfer for MPAN 2200020600977 on the 5th December 2025. I have previously attempted to reach out as we have yet to receive a response to the original request.\nThis communication has been received but also not responded to.\n\nPlease can this be reviewed and responded to as it is now beyond the expected timescale for a response to this request.\n\nMany thanks,\n\nChantelle\nRemote Energy Specialist"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "chantelle.staal@octoenergy.com",
+      "timestamp": "19 Dec 2025 14:19",
+      "content": "Good afternoon,\n\nI have raised an erroneous transfer for the MPAN 2200020600977 as the customer had requested to cancel the switch but this wasn't processed in time and therefore this went ahead in error.\n\nThis was raised on 5th December 2025 and we are yet to receive a response.\n\nPlease can you review this and respond to the proposal.\n\nMany thanks,\n\nChantelle\nRemote Energy Specialist"
+    }
+  ],
+  "communication_id": "1688945",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200020600977",
+  "bucket": "Current"
+}

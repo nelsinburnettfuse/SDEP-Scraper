@@ -1,0 +1,26 @@
+{
+  "reference": "SC01741931",
+  "subject": "Missing CoS Read",
+  "escalation_level": "Final Escalation",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1418328191004",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "jenny.needham@octoenergy.com",
+      "timestamp": "18 Feb 2026 09:20",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "jenny.needham@octoenergy.com",
+      "timestamp": "11 Feb 2026 10:20",
+      "content": "Hi there,\nWe've not received D86 flows, could we verbally agree on 51939.0 . \nThis is now an Ombudsman case, we need this confirmed as quickly as possible."
+    }
+  ],
+  "communication_id": "1741931",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1418328191004",
+  "bucket": "Current"
+}

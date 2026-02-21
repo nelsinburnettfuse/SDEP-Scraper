@@ -1,0 +1,26 @@
+{
+  "reference": "SC01740140",
+  "subject": "1900019171577",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1900019171577",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Kunal.Das@edfenergy.com",
+      "timestamp": "17 Feb 2026 07:16",
+      "content": "Hello team agreement done on 12148.3 please issued the revised COs read over agreed read,Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Aryan.Mallik@edfenergy.com",
+      "timestamp": "10 Feb 2026 06:33",
+      "content": "Hi team we have send proposal over read 12148.3 for cos date 9th Jan 2026\n without backups so, providing you two actual backups BU:1st Jan 2026 (12119.9) and 8th Dec 2025 (12049.6) kindly validate and response.\n\nRegards"
+    }
+  ],
+  "communication_id": "1740140",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1900019171577",
+  "bucket": "Current"
+}

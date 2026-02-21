@@ -1,0 +1,26 @@
+{
+  "reference": "SC01720148",
+  "subject": "1200022815813 - SC01624669",
+  "escalation_level": "",
+  "from": "MRCY - Octopus Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200022815813",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "contract_manager@octoenergy.com",
+      "timestamp": "03 Feb 2026 08:59",
+      "content": "Email Escalation now sent"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "electricity@octoenergy.com",
+      "timestamp": "22 Jan 2026 09:13",
+      "content": "Hi there, you raised an SDEP regarding MPAN: 1200022815813 on and we're receiving no response. Please can you respond on the thread regarding you sending D0086 on the wrong register? Warm regards, Octopus"
+    }
+  ],
+  "communication_id": "1720148",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200022815813",
+  "bucket": "Current"
+}

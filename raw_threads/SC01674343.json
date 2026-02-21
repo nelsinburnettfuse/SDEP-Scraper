@@ -1,0 +1,86 @@
+{
+  "reference": "SC01674343",
+  "subject": "7826595406",
+  "escalation_level": "Final Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7826595406",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nosibusiso.khambule@uw.co.uk",
+      "timestamp": "16 Feb 2026 15:35",
+      "content": "Hi team, can we please get a response to the below communication. Regards, the UW Team."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "09 Feb 2026 10:39",
+      "content": "Hi team , yes we've received Y flow for 03245 kindly issue revised URN thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "19 Jan 2026 19:19",
+      "content": "Hey team, please accept previously issued dispute as verbal confirmation accepted for disputed read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "19 Jan 2026 14:36",
+      "content": "Hi team , please issue revised URN thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "inigo.cockett@fuseenergy.com",
+      "timestamp": "29 Dec 2025 15:24",
+      "content": "Hi team, please take this as verbal agreement for SAR proposal 03245 backed by 21-05-2023 01170 10-11-2025 03362"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "29 Dec 2025 12:45",
+      "content": "Kindly sent us verbally agreement."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "29 Dec 2025 12:43",
+      "content": "Hi team , We've received respond on our proposal thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "isha.pawar@fuseenergy.com",
+      "timestamp": "25 Dec 2025 14:04",
+      "content": "Hi team, we have sent a new dispute with the verbally agreed read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "24 Dec 2025 17:05",
+      "content": "Hi team , Please note we've not received Y flow. Kindly respond with verbally agreement or resend thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "17 Dec 2025 21:50",
+      "content": "Hi team, dispute was responded to with Y flow. Please let us know if this has been received."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "17 Dec 2025 17:18",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sanelisiwe.duma@uw.co.uk",
+      "timestamp": "04 Dec 2025 12:59",
+      "content": "Hi team , Please respond on SAR proposal 03245 backed by 21-05-2023  01170 10-11-2025 03362 thanks"
+    }
+  ],
+  "communication_id": "1674343",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7826595406",
+  "bucket": "Current"
+}

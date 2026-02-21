@@ -1,0 +1,38 @@
+{
+  "reference": "SC01733580",
+  "subject": "Address mismatch 106 and 108",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGF - British Gas - Supplier",
+  "meter_point_number": "3252491709",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Namrata.Gawas@britishgas.co.uk",
+      "timestamp": "20 Feb 2026 10:03",
+      "content": "Hi\nStill No contact from our customer from email sent on (13/02/2026)\n3rd Email sent and stressing the importance of getting the correct MTDs. \nIf no reply, we will start process for site visit.\nI will update case once we have customer contact. \nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Namrata.Gawas@britishgas.co.uk",
+      "timestamp": "13 Feb 2026 07:43",
+      "content": "Hi\nNo contact from our customer from email sent on (06/02/2026)\n2nd Email sent and stressing the importance of getting the correct MTDs. \nI will update case once we have customer contact. \nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Namrata.Gawas@britishgas.co.uk",
+      "timestamp": "06 Feb 2026 06:25",
+      "content": "Hi \nWe have contacted our customer to request a photo and Burn\u2019s Test to be completed to confirm correct MSN. \nPlease can you confirm if your customer claiming MSN (00185076) has completed Burns test or a site visit has been completed.\nI will update case once we have customer contact. \nThanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "oliver.burchell@fuseenergy.com",
+      "timestamp": "03 Feb 2026 13:36",
+      "content": "Cus with msn 0185076S living at house num 108 \nMSN 00185076 is registered to house number 106, this is incorrect. Please allow the switch to us to occur, and assist customer in resolution of this. \nThis sdep reference will be given to cus"
+    }
+  ],
+  "communication_id": "1733580",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3252491709",
+  "bucket": "Current"
+}

@@ -1,0 +1,140 @@
+{
+  "reference": "SC01635740",
+  "subject": "2200042619868  D86",
+  "escalation_level": "Final Escalation",
+  "from": "PURE - Good Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2200042619868",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "13 Feb 2026 16:57",
+      "content": "hi We have found the issue and hope this will be fixed soon, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vittorio@fuseenergy.com",
+      "timestamp": "13 Jan 2026 09:13",
+      "content": "Hi again team, any news?\nthanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "13 Jan 2026 08:13",
+      "content": "I will do, thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "chloe.vaudin@fuseenergy.com",
+      "timestamp": "10 Jan 2026 11:34",
+      "content": "Hi, please update as soon as possible."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "09 Jan 2026 18:13",
+      "content": "thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vittorio@fuseenergy.com",
+      "timestamp": "09 Jan 2026 14:59",
+      "content": "Hi team,\nThank you for the update. We will wait for updates here.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "07 Jan 2026 09:28",
+      "content": "Hi - I have chased again and re sent the de appointment flows. thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 13:45",
+      "content": "Hi team, any updates here"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "26 Dec 2025 13:20",
+      "content": "Thanks, please share here once received."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "22 Dec 2025 16:16",
+      "content": "thank you I have chased again"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "11 Dec 2025 09:25",
+      "content": "Hi, okay - please provide it here once you have them."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "11 Dec 2025 09:13",
+      "content": "Hi - I have chased our MOP as we also do not have this, I will update when I receive this, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "elmo.meathbaker@fuseenergy.com",
+      "timestamp": "08 Dec 2025 15:45",
+      "content": "Hi team, we don't have a D0149 or D0150 for this MPAN. Can you send? Regards, Elmo"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "05 Dec 2025 15:22",
+      "content": "Hi is there any update please, thanks Rachel"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "malintha.batage@fuseenergy.com",
+      "timestamp": "21 Nov 2025 20:51",
+      "content": "Thanks team"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "20 Nov 2025 07:20",
+      "content": "Hi - ok thanks I will allow some more time."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "malintha.batage@fuseenergy.com",
+      "timestamp": "16 Nov 2025 15:31",
+      "content": "Hi team, D86 not issued yet."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "14 Nov 2025 09:50",
+      "content": "Hi could you send back a reply with the D86 raw file please. thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "beatriz.steensma@fuseenergy.com",
+      "timestamp": "10 Nov 2025 17:56",
+      "content": "Hi Team, I have just sent the D071."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "10 Nov 2025 11:50",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "rachel.slack@goodenergy.co.uk",
+      "timestamp": "27 Oct 2025 16:51",
+      "content": "Hi We have not received the D86 for the agreed reading 16492.0, can you please ask DC to send this and also send the D86 raw file, thanks Rachel."
+    }
+  ],
+  "communication_id": "1635740",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2200042619868",
+  "bucket": "Current"
+}

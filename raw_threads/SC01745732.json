@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745732",
+  "subject": "1640000776853 crossed meter",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1640000776853",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "15 Feb 2026 15:39",
+      "content": "Hey Team, \nCustomer has contacted us (62, WINCKLEY HOUSE PR1 3AJ) regarding a visit done to his neighbour (1640000776862) supplied by you where your engineers determined the meter for 63 (MSN: 19L4127482) is supplying 62 instead. Please confirm your engineer visit details and we can move forwards with a crossed meters case."
+    }
+  ],
+  "communication_id": "1745732",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1640000776853",
+  "bucket": "Current"
+}

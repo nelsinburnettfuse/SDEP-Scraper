@@ -1,0 +1,26 @@
+{
+  "reference": "SC01738692",
+  "subject": "1591032151570",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "1591032151570",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "13 Feb 2026 10:34",
+      "content": "Hi, D0086 read for COS date has been issued : 196|1591032151570|V|\n197|D17W040189|A|\n198|N|20260113000000|32213.0||0|T|N|, Identifier: D769335454. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 08:49",
+      "content": "Hello, we are missing a read here. Please agree to read of 32213 kWh so that we can issue a D0086."
+    }
+  ],
+  "communication_id": "1738692",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1591032151570",
+  "bucket": "Current"
+}

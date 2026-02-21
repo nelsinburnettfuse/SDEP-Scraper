@@ -1,0 +1,38 @@
+{
+  "reference": "SC01729769",
+  "subject": "Request for ONJOB \u2013 MSN Update Required on ECOES (MPAN 1300006841844)",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "EDFE - EDF Energy - Supplier",
+  "meter_point_number": "1300006841844",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Mark.Forster@edfenergy.com",
+      "timestamp": "02 Feb 2026 15:59",
+      "content": "Case closed"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mark.Forster@edfenergy.com",
+      "timestamp": "02 Feb 2026 15:59",
+      "content": "Hi, ive requested that our MOP sends the flows through to your MOP as soon as possible. going forward if you need anything like this please raise it under PT0078."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Andrew.Currie@edfenergy.com",
+      "timestamp": "02 Feb 2026 07:08",
+      "content": "This is just a quick courtesy response to advise we are aware of this new case. We will respond as soon as possible, following initial investigations on our side."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "steanjae.williams@fuseenergy.com",
+      "timestamp": "31 Jan 2026 13:58",
+      "content": "Hi Team, Please can you issue an ONJOB to update the meter serial number on ECOES for the MPAN below. MPAN: 1300006841844 MSN currently on ECOES: K97J76121 (old meter) MSN installed at property: 24L3016881 Customer has provided photo evidence confirming the installed meter is 24L3016881, but this MSN is not showing on ECOES. EDF have advised they cannot update this as we are now the supplier. Once ONJOB is issued, we can file this our side. Best Steanjae Williams"
+    }
+  ],
+  "communication_id": "1729769",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300006841844",
+  "bucket": "Current"
+}

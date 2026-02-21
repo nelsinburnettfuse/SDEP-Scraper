@@ -1,0 +1,32 @@
+{
+  "reference": "SC01743912",
+  "subject": "Gas Missed MEX",
+  "escalation_level": "",
+  "from": "STL - So Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2976496704",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Maisie.Harris@so.energy",
+      "timestamp": "12 Feb 2026 14:46",
+      "content": "See ONJOB below"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Maisie.Harris@so.energy",
+      "timestamp": "12 Feb 2026 14:46",
+      "content": "\"TRANS\",\"9196503823385\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"214505\",,\n\"MTPNT\",\"\",2976496704,\"F\",\"\",\"00\",\"\",\"\",1.022640,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"0073375S\",\"00\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20250919,0,\"1195\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2024,\"E6E16484792423\",\"32\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20250919,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"UTF\"\n\"APPNT\",\"\",20250919,,\"\",\"000000\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Maisie.Harris@so.energy",
+      "timestamp": "12 Feb 2026 14:44",
+      "content": "Hi team - Xoserve is showing old MSN we had MEX on our supply which we weren't able to update in time before the loss."
+    }
+  ],
+  "communication_id": "1743912",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2976496704",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01747988",
+  "subject": "2000057890314",
+  "escalation_level": "First Escalation",
+  "from": "EOND - E.ON - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2000057890314",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "nicola.cuckson@eonnext.com",
+      "timestamp": "17 Feb 2026 12:09",
+      "content": "Hey team, please take back the supply/advise of the hold up. many thanks"
+    }
+  ],
+  "communication_id": "1747988",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2000057890314",
+  "bucket": "Current"
+}

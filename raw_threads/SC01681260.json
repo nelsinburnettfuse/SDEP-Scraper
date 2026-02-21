@@ -1,0 +1,80 @@
+{
+  "reference": "SC01681260",
+  "subject": "1601729109",
+  "escalation_level": "",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1601729109",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Souri.Dutta@edfenergy.com",
+      "timestamp": "10 Feb 2026 19:18",
+      "content": "Hi, as we have not received any response hence chat archived"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "26 Jan 2026 16:00",
+      "content": "Hi, We have not received any response since our last reply. Kindly validate the details shared and respond"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Suman.Adhikari@edfenergy.com",
+      "timestamp": "16 Jan 2026 09:33",
+      "content": "Hi Team,\nSo here can we follow the agree to disagree process, so that we can stick to our GT read and you can stick to yours.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "zeynep@fuseenergy.com",
+      "timestamp": "09 Jan 2026 17:43",
+      "content": "Hi team, \n\nWe have received a reading of 2155 from the customer on 23/11/2025. Thus we cannot accept a cos read of 2156 for 18/09/2025 as it is higher than customer's reading on 23/11/2025. We would like to stick with our cos read of 2106."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "09 Jan 2026 14:54",
+      "content": "Hi,\n\nWe are still waiting for your response, kindly confirm if we can stick to our cos read.\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Suman.Adhikari@edfenergy.com",
+      "timestamp": "03 Jan 2026 16:03",
+      "content": "Hi Team,\nKindly ignore our previous comment.\nWe holding cos read 2156 for cos date 18th Sep 2025 and we have supporting actual backup (27th Jul 2025\t2146.0 & 22nd Feb 2025 2070.0) so we want to stick to our cos read. Kindly validate once again.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "hariaksh.pandya@fuseenergy.com",
+      "timestamp": "27 Dec 2025 17:12",
+      "content": "Hey Team, we had sent the dispute on 4th of December, This is the raw file of the dispute \n\"SAR\",\"FUR\",\"020 3951 1052\",3814,1601729109,\"022365\",\"74\",\"SK17 7NG\",20250918,,\"\",\"C\",2106,\"E\",,\"A\",\"EDS\",\"020 3951 1052\",\"57\",\"please see SDEP\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "26 Dec 2025 09:56",
+      "content": "we have till now not received any flow kindly validate and response back"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Suman.Adhikari@edfenergy.com",
+      "timestamp": "17 Dec 2025 19:17",
+      "content": "Hi Team,\nWe are happy to agree on 2106, so could you please sent us a new proposal flow with read 2106 for cos date 18th Sep 2025 once again. We will sent you the Y flow.\nRegards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "12 Dec 2025 09:41",
+      "content": "we have a customer text submission of 2155 on 23/11. Think the decimals are off will send another proposed read."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "11 Dec 2025 15:18",
+      "content": "Hi team,\nWe have sent rejection  \"Please provide 2 actual back ups to validate your proposal\" over your proposal 210673, as per our backups- BU: 20250726 2146.0 20250531 2146.0 the read is not inline so kindly provide meter photo.\nRegards."
+    }
+  ],
+  "communication_id": "1681260",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1601729109",
+  "bucket": "Current"
+}

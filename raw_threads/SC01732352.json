@@ -1,0 +1,26 @@
+{
+  "reference": "SC01732352",
+  "subject": "1300011366149",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1300011366149",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Banhisikha.Dey@edfenergy.com",
+      "timestamp": "03 Feb 2026 10:08",
+      "content": "Hi team, Acceptance sent incorrectly as we have d86 raw file: 196|1300011366149|V|\n197|HB09J02140|D|\n198|02|20250603000000|69106.0|||T|N|\n198|03|20250603000000|57782.0|||T|N| as per that the proposal 57679.0 and 69008.0 are with in tolerance, hence we are sticking to our cos read and closing the case.archieving this communication Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Monika.Singh@edfenergy.com",
+      "timestamp": "02 Feb 2026 15:38",
+      "content": "Hi team,\nRejection received by stating \"\tRejecting. Will resubmit dispute as Missing Read.\", sharing D0086 raw file, kindly validate and response to us.\n\"Raw file:\n\n196|1300011366149|V|\n197|HB09J02140|D|\n198|02|20250603000000|69106.0|||T|N|\n198|03|20250603000000|57782.0|||T|N|\nIdentifier: D769296833\"\nRegards."
+    }
+  ],
+  "communication_id": "1732352",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300011366149",
+  "bucket": "Current"
+}

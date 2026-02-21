@@ -1,0 +1,20 @@
+{
+  "reference": "SC01751708",
+  "subject": "1411387771006",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1411387771006",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Banhisikha.Dey@edfenergy.com",
+      "timestamp": "20 Feb 2026 06:17",
+      "content": "Hi team,agreement done on 81202.0 for S64G65466 and 8th Jan 2026 however we have received d86 : 196|1411387771006|V|\n197|S64G65466|D|\n198|1|20260108000000|81202.0|||T|N| Identifier: D769352932 hence closed the case archieved the comm Regards,"
+    }
+  ],
+  "communication_id": "1751708",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1411387771006",
+  "bucket": "Current"
+}

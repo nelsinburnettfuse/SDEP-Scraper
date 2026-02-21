@@ -1,0 +1,26 @@
+{
+  "reference": "SC01723146",
+  "subject": "9371645706",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EDS - EDF Energy - Supplier",
+  "meter_point_number": "2321681850",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "27 Jan 2026 16:37",
+      "content": "Hi team,\n\nCan you please confirm the mprn, as we can see in mprn area you have put 2321681850."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "aasawari.padhye@fuseenergy.com",
+      "timestamp": "26 Jan 2026 12:51",
+      "content": "Hello Team, the customer contacted us stating that you instructed them to reboot the electricity meter in order to obtain the reading. However, since their electricity supply is with us, could you please clarify why the customer is being asked to reboot their electricity meter for you to get the reading?"
+    }
+  ],
+  "communication_id": "1723146",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2321681850",
+  "bucket": "Current"
+}

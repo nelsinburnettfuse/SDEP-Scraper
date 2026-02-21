@@ -1,0 +1,20 @@
+{
+  "reference": "SC01750683",
+  "subject": "Address check",
+  "escalation_level": "",
+  "from": "LOND - UK Power Networks - Distribution Network Operators (DNO)",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1200051819410",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "catriona.smyth@ukpowernetworks.co.uk2026-02-19 17:49:08",
+      "timestamp": "19 Feb 2026 11:00",
+      "content": "Please check the address of this MPAN, the customer believes it should be for Flat C.\nmsn 23J0342947"
+    }
+  ],
+  "communication_id": "1750683",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1200051819410",
+  "bucket": "Current"
+}

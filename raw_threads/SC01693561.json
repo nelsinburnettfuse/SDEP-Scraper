@@ -1,0 +1,134 @@
+{
+  "reference": "SC01693561",
+  "subject": "2985991906",
+  "escalation_level": "Final Escalation",
+  "from": "EDS - EDF Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2985991906",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 18:26",
+      "content": "Still waiting on this"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "02 Feb 2026 18:28",
+      "content": "Hi Team, agreement done on 3876 this read so please issue the revised Gt read on the agreed read , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "31 Jan 2026 19:03",
+      "content": "Issued a revised y-flow for 3876. thank you"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "30 Jan 2026 10:00",
+      "content": "Hi Team, previously  we have received agreement on 3876  this also received alternative again on 3820 this so please validate , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "oliver.burchell@fuseenergy.com",
+      "timestamp": "29 Jan 2026 15:02",
+      "content": "Sent"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "29 Jan 2026 10:51",
+      "content": "Hi Team, acceptance sent on your proposal read 3876  so please issue ethe revised cos read on the agreed read , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "oliver.burchell@fuseenergy.com",
+      "timestamp": "28 Jan 2026 11:31",
+      "content": "Hi team, please reply to our most recent dispute first, with 3820. We will then accept."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Soumen.Majhi@edfenergy.com",
+      "timestamp": "28 Jan 2026 10:06",
+      "content": "Hi Team, as this is a domestic account so please validate and accept , Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "27 Jan 2026 14:32",
+      "content": "Hi team, your BU shows no usage for final month. Is that correct?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "27 Jan 2026 11:45",
+      "content": "Hi, since the ONJOB of E6S18274912361 has been accepted, for the same meter can you please agree on the read of 3820.0 for COS date 23rd Sep 2025 backed by 3820.0 on 22nd Aug 2025 and 3082.0 on 6th Mar 2025. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "26 Jan 2026 13:24",
+      "content": "hi, first onjob was sent on December 28, 2025, at 00:55 - but got rejected shotly after. Second onjob has been sent on January 25, 2026, at 15:51 and got accepted on January 25, 2026, at 19:53. MSN should be updated.\n\nOnjob sent on 25/01/2026: \"TRANS\",\"FUEsdep260125\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"270318922\",20250924, \"MTPNT\",\"\",2985991906,\"\",\"\",\"\",\"\",\"\",,, \"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"0450006\",\"\",\"\",\"RE\" \"REGST\",\"\",\"METER\",,\"\", \"READG\",20250924,,\"3247\" \"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"\",\"E6VG470\",\"LPG\",2023,\"E6S18274912361\",\"\",\"\",\"LI\" \"METER\",\"\",\"U\",\"S2\",6,\"\",\"\",,\"\",, \"REGST\",\"\",\"METER\",5,\"SCMH\",1 \"READG\",20250924,,\"03925\" \"APPNT\",\"\",20250924,,\"\",000000,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Abhipriya.Saha@edfenergy.com",
+      "timestamp": "25 Jan 2026 12:53",
+      "content": "Hi, please confirm us if the meter is updated on your end and the read you have used to final bill the account. Regards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 11:41",
+      "content": "Hi team, here: E6S18274912361"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Subhajit.Dey@edfenergy.com",
+      "timestamp": "19 Jan 2026 07:52",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shraboni.Sarkar@edfenergy.com",
+      "timestamp": "06 Jan 2026 17:16",
+      "content": "kindly send us the  proposal for the correct MSN"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 15:02",
+      "content": "Hi team,\n\nMeter updated"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mita.Debnath@edfenergy.com",
+      "timestamp": "29 Dec 2025 21:34",
+      "content": "Hi, Thank you for sharing the information, kindly keep us informed regarding the meter details update. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "26 Dec 2025 12:17",
+      "content": "Hi team, we will process ONJOB from SC01684208 to update MSN."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "una@fuseenergy.com",
+      "timestamp": "26 Dec 2025 12:15",
+      "content": "Hi, please send photo of meter to confirm MSN or provide ONJOB for MEX. We do not have a photo of the meter. We will respond on SC01684208 as well."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mita.Debnath@edfenergy.com",
+      "timestamp": "26 Dec 2025 10:42",
+      "content": "Hi, We have received proposal for MSN- 0450006, however we hold MSN- E6S18274912361. Kindly validate the details shared under Reference: SC01684208 and share your response. Regards,"
+    }
+  ],
+  "communication_id": "1693561",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2985991906",
+  "bucket": "Current"
+}

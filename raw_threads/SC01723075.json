@@ -1,0 +1,20 @@
+{
+  "reference": "SC01723075",
+  "subject": "1419761201003",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1419761201003",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Banhisikha.Dey@edfenergy.com",
+      "timestamp": "26 Jan 2026 12:11",
+      "content": "Hi team  we have received a flow on 17722.0 in dispute pot instead of missing pot however we have not received any d86 although we have d10 read 026|1419761201003|U|\n028|22L3572750|C|\n030|1|20260101000000|17717.0||||N| Identifier: B000013CK9 hence we are sticking to it as this is an EHH account closing the case and archieving this communication.Regards,"
+    }
+  ],
+  "communication_id": "1723075",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1419761201003",
+  "bucket": "Current"
+}

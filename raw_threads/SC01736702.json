@@ -1,0 +1,32 @@
+{
+  "reference": "SC01736702",
+  "subject": "3263220610",
+  "escalation_level": "Final Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3263220610",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "19 Feb 2026 12:13",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "13 Feb 2026 14:33",
+      "content": "Hi team, please respond to our communication to avoid further escalations. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Vuyisa.Ngubane@uw.co.uk",
+      "timestamp": "05 Feb 2026 16:52",
+      "content": "Hi team, please respond to our open SAR for 269 Based on 269 19-12-2025+269 19-12-2025, thanks."
+    }
+  ],
+  "communication_id": "1736702",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3263220610",
+  "bucket": "Current"
+}

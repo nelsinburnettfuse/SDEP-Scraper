@@ -1,0 +1,56 @@
+{
+  "reference": "SC01705751",
+  "subject": "9184552302",
+  "escalation_level": "Final Escalation",
+  "from": "AEL - Utility Warehouse - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "9184552302",
+  "messages": [
+    {
+      "message_type": "system",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "20 Feb 2026 10:05",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "12 Feb 2026 14:31",
+      "content": "Hi team, Is there any update regarding a revised URN? Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "05 Feb 2026 17:33",
+      "content": "Hi we've sent the Y flow. Please issue a revised URN. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "24 Jan 2026 23:11",
+      "content": "Can you agree to the dispute please?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "21 Jan 2026 12:01",
+      "content": "Hi team, we are happy to verbally agree on 3102. Please issue a revised URN. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "12 Jan 2026 09:46",
+      "content": "hi, please accept our alternative proposed actual read of 3102 m3 on 31/10/2025. BU: actual reads of 3164 m3 on 25/11/2025 and 3222 m3 on 22/12/2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "simthembile.mjoli@uw.co.uk",
+      "timestamp": "08 Jan 2026 08:40",
+      "content": "Hi team, please agree to our proposed SAR: 3104 backed by 3067 25-07-2025. Regards"
+    }
+  ],
+  "communication_id": "1705751",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "9184552302",
+  "bucket": "Current"
+}

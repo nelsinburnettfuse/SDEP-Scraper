@@ -1,0 +1,38 @@
+{
+  "reference": "SC01666456",
+  "subject": "1482957207",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "EOD - E.ON - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "Raheem.Joseph@eonnext.com",
+      "timestamp": "02 Dec 2025 12:16",
+      "content": "Screenshot 2025-12-02 12.16.28.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Raheem.Joseph@eonnext.com",
+      "timestamp": "02 Dec 2025 12:16",
+      "content": "All of our reads"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Raheem.Joseph@eonnext.com",
+      "timestamp": "02 Dec 2025 12:16",
+      "content": "Raw file:\n\n\"TRANS\",\"BULKTX20220527\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"D\",,\"OAMI\",\"196066\",,\n\"MTPNT\",\"\",1482957207,\"\",\"\",\"\",\"\",\"\",1.000000,20220527,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"E6S02777691054\",\"\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20220527,,\"21077\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"GS-60B\",\"EDM\",2020,\"E6E00975842020\",\"00\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20220527,,\"00000\"\n\"APPNT\",\"\",20220527,,\"\",\"080000\",\"160000\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "27 Nov 2025 17:58",
+      "content": "Hi Team,\n\nWe are reaching out regarding our customer with MPRN: 1482957207. Their MSN has not been updated. Please send us Onjob to process the override.\n\nKind regards,"
+    }
+  ],
+  "communication_id": "1666456",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

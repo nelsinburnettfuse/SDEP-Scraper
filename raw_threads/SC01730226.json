@@ -1,0 +1,38 @@
+{
+  "reference": "SC01730226",
+  "subject": "SAR RESPONSE",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "3375336900",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "18 Feb 2026 08:18",
+      "content": "Good day\nWe sent a SAR Proposing estimated reading 26902 backed by 26810.0 2025/11/13 and 26560.0 2025/06/15 for the transfer date of \t08/01/2026 on the 24/01/2026 but have yet to receive a response. Please can you take a look and respond to our dispute.\n\n\n If we do not receive a response within a week, we will look to resolve this dispute internally and inform the customer that we have been unable to reach an agreement with yourselves. \n\n\nThanks\nThe OVO Energy Team"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Arun.Masiwal@ovo.com",
+      "timestamp": "18 Feb 2026 08:17",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Moh.Shahid@ovo.com",
+      "timestamp": "11 Feb 2026 09:05",
+      "content": "Hi Team, please response on our below communication. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bharti.bharti@ovo.com",
+      "timestamp": "02 Feb 2026 09:10",
+      "content": "Hi Team, we are raise a dispute Proposing estimated reading 26902 backed by 26810.0 2025/11/13 and 26560.0 2025/06/15 for transfer date 08/01/2026. Please take a look our proposal. thanks"
+    }
+  ],
+  "communication_id": "1730226",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "3375336900",
+  "bucket": "Current"
+}

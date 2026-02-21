@@ -1,0 +1,362 @@
+{
+  "reference": "SC01557867",
+  "subject": "1030028933080",
+  "escalation_level": "Final Escalation",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1030028933080",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "BISHALKUMAR.MAHATO@edfenergy.com",
+      "timestamp": "19 Feb 2026 15:31",
+      "content": "Hi team,\nIs there any update regarding kindly validate and response.\nRegards."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Ankita.Pal2@edfenergy.com",
+      "timestamp": "09 Feb 2026 12:04",
+      "content": "Ok we will wait kindly keep us updated"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "08 Feb 2026 17:00",
+      "content": "We are still waiting on this. Will update when we have a response."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "02 Feb 2026 22:12",
+      "content": "Hi team,\n\nKindly inform us if there is any update regarding the D0086 read."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "charlie.fowler@fuseenergy.com",
+      "timestamp": "30 Jan 2026 21:25",
+      "content": "Hi team,\n\nWe have reached out to Callisto to change result of this and issue revised D0086 based on the agreed upon reads. Will update in due course"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "29 Jan 2026 15:04",
+      "content": "Hi, we did not received the any proposal, we had received the rejection from your end. Regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 09:16",
+      "content": "Hi team, I have raised new dispute for the proposed reads. Please send y flow so we can close this case"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "27 Jan 2026 22:58",
+      "content": "We hold the read 1260.4/857.7 for the COS date 16/04/2025."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "23 Jan 2026 13:08",
+      "content": "Hi team, please confirm the read. currently have 666 kwh /0 kwh for 16/04/2025 in our system due to missing register."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Dey@edfenergy.com",
+      "timestamp": "23 Jan 2026 07:03",
+      "content": "Hi, the MTDs is now updated in your end, so please issue the D0086 on the dual rate. regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "anna.zamtaradze@fuseenergy.com",
+      "timestamp": "22 Jan 2026 11:47",
+      "content": "Hi team,as mentioned MTDs have been updated, are there any issues on your end?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "19 Jan 2026 06:06",
+      "content": "Hi team, we will wait for you to update MTDs on your end . Kindly inform us once done also try to install asap . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "vittorio@fuseenergy.com",
+      "timestamp": "16 Jan 2026 10:19",
+      "content": "Hi team, MTDs have been sent.\nPlease let us know if there are any issues.\nregards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "15 Jan 2026 13:20",
+      "content": "Hi team, we will wait for you to update MTDs on your end . Kindly inform us once done . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "pierfranco@fuseenergy.com",
+      "timestamp": "14 Jan 2026 14:41",
+      "content": "hi, absolutely.\n\nbest regards"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "12 Jan 2026 13:23",
+      "content": "Hi team, we will wait for you to update MTDs on your end . Kindly inform us once done . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "chloe.vaudin@fuseenergy.com",
+      "timestamp": "10 Jan 2026 14:58",
+      "content": "Hi team, we have sent D149 and D150."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "06 Jan 2026 20:36",
+      "content": "Hi team, we have already provided you meter picture with yellow sticker as well as MTDs . So please update accordingly and inform us  . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "29 Dec 2025 09:32",
+      "content": "Raw file:\n\n288|1030028933080|20241223||E|\n289|0151|20190906|||\n290|24L3520834|||5|X|1063|MFDE|||||||||||S2A|20241223|20240904|20340904|||R|20241223|\n293|1|C|AI|1.00||6|||\n293|2|C|AI|1.00||6|||\n08A|17P1058019|20241223|NPML|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "29 Dec 2025 09:31",
+      "content": "Raw file:\n\n280|1030028933080|20241223|\n281|0151|20190906|\n778|00043|\n283|24L3520834|\n284|1|1|\n778|00210|\n283|24L3520834|\n284|2|1|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "29 Dec 2025 09:31",
+      "content": "HI team, please find the attached 149 & 150 and update accordingly . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nelsin.burnett@fuseenergy.com",
+      "timestamp": "26 Dec 2025 00:25",
+      "content": "We MEX'd the customer on 2025-04-30, 2 weeks after SSD of 2025-04-16.\n\nI presume you MEX'd the customer to MSN 24L3520834. If so, do you have D149, D150, D312 so that we can update the history?"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "22 Dec 2025 05:24",
+      "content": "1000020121.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "22 Dec 2025 05:24",
+      "content": "."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "22 Dec 2025 05:23",
+      "content": "HI team, please find the attached the yellow sticker as per which MSN 17P1058019 removed and 24L3520834 installed . So please validate and update with correct MSN . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "christopher.sasanuma@fuseenergy.com",
+      "timestamp": "21 Dec 2025 18:10",
+      "content": "Hi team, we MEXed the customer's old meter which was 17P1058019. The customer was sending pictures of the wrong meter 25L3520834. Sorry for any confusion. Please go ahead with the readings send a Y flow with the readings that my colleague mentioned below. Archiving communication. Many thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "15 Dec 2025 14:48",
+      "content": "HI team, the read you have provided is looks like for MSN 17P1058019 but we hold MSN 24L3520834 for which we have already provided meter picture for one register and we need meter picture for another register . So please validate and respond accordingly . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "nimi.mathew@fuseenergy.com",
+      "timestamp": "13 Dec 2025 14:51",
+      "content": "Hi Team, customer unable to provide meter photos. Please go ahed with COS date 16th Apr 2025,  R1 - 16732 kWh, R2 - 4258 kWh (Customer submission)."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "12 Dec 2025 16:18",
+      "content": "Hi team, we have reached out to the customer to provide us with meter reading photos for around CoS date. Will update here once we have them."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "11 Dec 2025 15:29",
+      "content": "1000025349.jpg"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "11 Dec 2025 15:28",
+      "content": "1000025348.jpg"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "11 Dec 2025 15:27",
+      "content": "."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "11 Dec 2025 15:27",
+      "content": "HI team, we have meter picture for single rate only for dated 16/06/2025 & 03/09/2025 but no backups for second rate . So could you please ask customer for meter reading for bith rate . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "elmo.meathbaker@fuseenergy.com",
+      "timestamp": "10 Dec 2025 17:01",
+      "content": "Hi team, for COS date 16th Apr 2025, we have R1 - 16732 kWh, R2 - 4258 kWh. Customer submission via text so no photos, this is for old MSN 17P1058019. We have no backups as we did not receive a read before the MEX on 30 Apr 2025. Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "10 Dec 2025 15:42",
+      "content": "HI team, MTDs now updated on our end . So please confirm us the red you are using for the cos date 16th Apr 2025 as we are missing D86 for cos date 16th Apr 2025 . Also please provide us backups . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "09 Dec 2025 17:56",
+      "content": "Sure thing! We shall wait for an update from your end."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shubhodeep.Basu@edfenergy.com",
+      "timestamp": "05 Dec 2025 08:10",
+      "content": "We will surely inform you once the MTD is updated."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "04 Dec 2025 16:55",
+      "content": "Hi team, no worries - please let us know once done."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "01 Dec 2025 15:45",
+      "content": "HI team, MSN 24L3520834 is not properly updated on our end . So we have already chased our metering team . Kindly allow us some time . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "28 Nov 2025 16:03",
+      "content": "Hi team, no worries - please let us know once done."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "SumanKumar.Mondal@edfenergy.com",
+      "timestamp": "28 Nov 2025 04:49",
+      "content": "HI team, MSN 24L3520834 is not properly updated on our end . So we have chased our metering team . Kindly allow us some time . Regards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "26 Nov 2025 21:30",
+      "content": "Hi team, raised to meter ops for MSN update. Will confirm via SDEP once done"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Chauhan@edfenergy.com",
+      "timestamp": "26 Nov 2025 15:50",
+      "content": "Yes, please. \n\nWe will wait for an update from your end. \n\nLet us know once the correct MSN gets updated in your record.\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "harshal.fating@fuseenergy.com",
+      "timestamp": "25 Nov 2025 09:44",
+      "content": "Okay, will update once done."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Chauhan@edfenergy.com",
+      "timestamp": "25 Nov 2025 09:03",
+      "content": "That's okay. \n\nLet us know once the correct MSN gets updated in your account. \n\nWe will wait for an update from your end.\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bayan.wahib@fuseenergy.com",
+      "timestamp": "24 Nov 2025 22:17",
+      "content": "Hi team,\nThanks for pointing this out and apologies for the confusion. We will update the MSN on our system. Thanks."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Chauhan@edfenergy.com",
+      "timestamp": "08 Nov 2025 18:10",
+      "content": "Hi team,\n\nthanks for sharing the meter picture. You mentioned earlier that you hold MSN 24J0492890 but the meter picture is reflecting MSN 24L3520834 and we hold the same MSN with us. \n\nHence, it seems that you need to update the correct MSN in your record."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "sophia@fuseenergy.com",
+      "timestamp": "06 Nov 2025 13:57",
+      "content": "Screenshot 2025-11-06 at 13.55.48.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sophia@fuseenergy.com",
+      "timestamp": "06 Nov 2025 13:56",
+      "content": "Hi Team, \n\nPlease find attached the picture of the meter before the Mex"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Neha.Chauhan@edfenergy.com",
+      "timestamp": "02 Nov 2025 11:00",
+      "content": "Hi team,\n\nwe haven't received any response from you yet. \n\nIf dispute required, please initiate a proposal."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "24 Oct 2025 15:00",
+      "content": "Hi,\nCould you share the Meter picture for same ?Also initiate dispute and send us proposal via flow if required.\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sophia@fuseenergy.com",
+      "timestamp": "23 Oct 2025 22:12",
+      "content": "Dear Team, \n\nThe MSN on our records is 24J0492890 from 2025-04-30"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Mohini.Debnath@edfenergy.com",
+      "timestamp": "23 Oct 2025 16:08",
+      "content": "Hi,\nWe are still waiting for your response. Kindly confirm  the MSN as the read is in line with the old removed meter 17P1058019 ?\n\nRegards,"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "15 Oct 2025 19:26",
+      "content": "Can you also confirm the MSN as the read is in line with the old removed meter 17P1058019 ?"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "sophia@fuseenergy.com",
+      "timestamp": "14 Oct 2025 13:00",
+      "content": "Hi Team, \n\nThe initial reading on the 16/04/25 is 16732 kWh and 4258 kWh as per customers submission. Please initiate a formal dispute if you disagree or didn't receive the correct numbers so we can provide them to you again"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Adrito.Halder@edfenergy.com",
+      "timestamp": "19 Aug 2025 13:36",
+      "content": "We have received the D0086 file but with the single register :\nRaw file:\n\n196|1030028933080|V|\n197|17P1058019|D|\n198|01|20250416000000|13211.7||0|T|N|\n\nPlease validate."
+    },
+    {
+      "message_type": "system",
+      "sender_email": "MONOJEET.DHIBAR@edfenergy.com",
+      "timestamp": "08 Aug 2025 06:17",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Manojit.Guria@edfenergy.com",
+      "timestamp": "31 Jul 2025 18:02",
+      "content": "Hi team,\n\nIs the MTDs now updated correctly on your end ?"
+    }
+  ],
+  "communication_id": "1557867",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1030028933080",
+  "bucket": "Current"
+}

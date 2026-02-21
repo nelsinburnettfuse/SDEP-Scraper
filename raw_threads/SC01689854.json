@@ -1,0 +1,32 @@
+{
+  "reference": "SC01689854",
+  "subject": "Missing information for Gas meter",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "BGT - British Gas - Supplier",
+  "meter_point_number": "",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Jagannath.Kudale1@britishgas.co.uk",
+      "timestamp": "23 Dec 2025 08:55",
+      "content": "Hi,\n\nThe MSN L1156202088M is belong to BG only But unable to confirm the MSN E6502020881154 details.\n\nThanks, MDP."
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "22 Dec 2025 10:58",
+      "content": "Screenshot 2025-12-22 at 10.56.20?am.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "22 Dec 2025 10:56",
+      "content": "Can we please have information of MSN: E6502020881154\nNot available on national data base, no MPRN associated."
+    }
+  ],
+  "communication_id": "1689854",
+  "mpxn_type": "",
+  "mpxn_value": "",
+  "bucket": "Current"
+}

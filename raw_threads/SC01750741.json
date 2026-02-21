@@ -1,0 +1,26 @@
+{
+  "reference": "SC01750741",
+  "subject": "Missing mex",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1838673906",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Gopal.Bhardwaj@ovo.com",
+      "timestamp": "19 Feb 2026 11:26",
+      "content": "TRANS\",\"OVO000000402919\",\"\",\"\",\"EXCHG\",\"\",\"\",\"\",\"COMLT\",\"\",\"\",,\"OAMI\",\"193761\",,\n\"MTPNT\",\"\",1838673906,\"\",\"\",\"00\",\"\",\"\",,,\n\"ASSET\",\"\",\"REMVE\",\"METER\",\"\",\"\",\"\",\"\",,\"00393435\",\"00\",\"\",\"RE\"\n\"REGST\",\"\",\"METER\",,\"\",\n\"READG\",20241111,0,\"1016\"\n\"ASSET\",\"\",\"INSTL\",\"METER\",\"\",\"CR\",\"E6VG470\",\"LPG\",2024,\"E6S14082562462\",\"09\",\"\",\"LI\"\n\"METER\",\"\",\"U\",\"S2\",6.0000,\"\",\"\",,\"S\",,\n\"REGST\",\"\",\"METER\",5,\"SCMH\",1.000\n\"READG\",20241111,0,\"00000\"\n\"MKPRT\",\"ASSPR\",\"SSL\"\n\"APPNT\",\"\",20241111,,\"\",\"154900\",\"\""
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Gopal.Bhardwaj@ovo.com",
+      "timestamp": "19 Feb 2026 11:25",
+      "content": "Hi, we lost this MPRN 1838673906 to FUR on 26/09/2025. We have an incorrect CoS read 373 as a meter exchange occurred during our supply and Xoserve wasn't updated. The MEX was from 00393435 to E6S14082562462. Can you please process the meter exchange on CoS day +1 using the read 550 as the OPNX and Incorrect transfer read as the FINX."
+    }
+  ],
+  "communication_id": "1750741",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1838673906",
+  "bucket": "Current"
+}

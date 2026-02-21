@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745581",
+  "subject": "Incorrect closing read",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "REC - Ecotricity - Supplier",
+  "meter_point_number": "2553074509",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "kabir.bedi@fuseenergy.com",
+      "timestamp": "14 Feb 2026 09:26",
+      "content": "Hi Team,\n\nCustomer has contacted and shared a bill that shows you're using an estimate rather than the URN of 2529m3. Please reissue the customer's final bill accordingly. \nPlease find raw file: \n\n\"U03\",2553074509,20260127,\"A\",\"O\",\"E6S11623102061\",\"       02529\",\"\",\"\",\"\",\"0\",\"\",\"\""
+    }
+  ],
+  "communication_id": "1745581",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2553074509",
+  "bucket": "Current"
+}

@@ -1,0 +1,20 @@
+{
+  "reference": "SC01732817",
+  "subject": "1300007184278",
+  "escalation_level": "",
+  "from": "EDFE - EDF Energy - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1300007184278",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Kunal.Das@edfenergy.com",
+      "timestamp": "03 Feb 2026 08:11",
+      "content": "Hi team , can we make a verbal agreement over 3550 backed by 29th Dec 2025-3535, 30th Nov 2025-3323 for Meter: 23E6050681cos date 31st Dec 2025 please validate and get back us ,Regards"
+    }
+  ],
+  "communication_id": "1732817",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300007184278",
+  "bucket": "Current"
+}

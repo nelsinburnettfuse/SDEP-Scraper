@@ -1,0 +1,27 @@
+{
+  "reference": "",
+  "subject": "",
+  "escalation_level": "",
+  "from": "",
+  "to": "",
+  "last_escalation": "",
+  "owner": "",
+  "meter_point_number": "2059379605",
+  "messages": [
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "Message(s)British Gas - SupplierBGFFuse Energy Supply - SupplierFURHi Team, we contacted the customer if they have requested an ET and will await on their response.mahdi.mohamed@fuseenergy.com20 Feb 2026 10:27Hi Rachel, that's correct, the customer want to be switched back to us, please could you either resend the RET flow, or provide the flatfile on here, so we can verbally agree?zahid.khan@britishgas.co.uk20 Feb 2026 09:21if you are unable to send us your response through RET flow, you can send your response through Flat file, or you can mention your verbal agreement through SDEP communication as well thanku.Nilesh.Bhaisade@britishgas.co.uk14 Feb 2026 05:37Hi team, could I have confirmation that customer wants their gas supply back to British Gas?rachel.tcheng@fuseenergy.com12 Feb 2026 15:24Please could we have a response? if possible, provide the flow details, so we can verbally agree on here? we've not received a RET responsezahid.khan@britishgas.co.uk12 Feb 2026 13:58Communication escalated to:Final Escalationzahid.khan@britishgas.co.uk12 Feb 2026 13:55Hi Team, we didn't find your response in RET flow, please check & revert ASAP to avoid further escalations, Thanku.Nilesh.Bhaisade@britishgas.co.uk03 Feb 2026 14:13Hi, response has already been provided so archivingbianca.myers@fuseenergy.com29 Jan 2026 10:07Hi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups.Nilesh.Bhaisade@britishgas.co.uk13 Jan 2026 11:39"
+    },
+    {
+      "message_type": "other",
+      "sender_email": "",
+      "timestamp": "",
+      "content": "British Gas - SupplierBGFFuse Energy Supply - SupplierFURHi Team, we contacted the customer if they have requested an ET and will await on their response.mahdi.mohamed@fuseenergy.com20 Feb 2026 10:27Hi Rachel, that's correct, the customer want to be switched back to us, please could you either resend the RET flow, or provide the flatfile on here, so we can verbally agree?zahid.khan@britishgas.co.uk20 Feb 2026 09:21if you are unable to send us your response through RET flow, you can send your response through Flat file, or you can mention your verbal agreement through SDEP communication as well thanku.Nilesh.Bhaisade@britishgas.co.uk14 Feb 2026 05:37Hi team, could I have confirmation that customer wants their gas supply back to British Gas?rachel.tcheng@fuseenergy.com12 Feb 2026 15:24Please could we have a response? if possible, provide the flow details, so we can verbally agree on here? we've not received a RET responsezahid.khan@britishgas.co.uk12 Feb 2026 13:58Communication escalated to:Final Escalationzahid.khan@britishgas.co.uk12 Feb 2026 13:55Hi Team, we didn't find your response in RET flow, please check & revert ASAP to avoid further escalations, Thanku.Nilesh.Bhaisade@britishgas.co.uk03 Feb 2026 14:13Hi, response has already been provided so archivingbianca.myers@fuseenergy.com29 Jan 2026 10:07Hi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups.Nilesh.Bhaisade@britishgas.co.uk13 Jan 2026 11:39"
+    }
+  ],
+  "communication_id": "1710158",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2059379605"
+}

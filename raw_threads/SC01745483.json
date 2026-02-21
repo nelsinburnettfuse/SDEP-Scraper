@@ -1,0 +1,20 @@
+{
+  "reference": "SC01745483",
+  "subject": "Warm Home Discount \u2013 Customer MPAN - 1300053007873",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "BNRG - Utility Warehouse - Supplier",
+  "meter_point_number": "1300053007873",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "neil.bouguerra@fuseenergy.com",
+      "timestamp": "13 Feb 2026 18:28",
+      "content": "Hi Utility Warehouse team,\n\nA customer for MPAN 1300053007873 has come to us regarding their Warm Home discount however I can see you were the supplier on the qualifying date. I have relayed to the customer that they will need to request their Warm Home discount from yourselves.\n\nPlease do assist this customer to get their credit when they reach out.\n\nKind regards,\nFuse Energy team"
+    }
+  ],
+  "communication_id": "1745483",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1300053007873",
+  "bucket": "Current"
+}

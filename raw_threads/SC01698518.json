@@ -1,0 +1,68 @@
+{
+  "reference": "SC01698518",
+  "subject": "First Escalation",
+  "escalation_level": "Final Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "7410293605",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Haldavanekar@ovoenergy.com",
+      "timestamp": "16 Feb 2026 10:55",
+      "content": "Hi, we have already agreed the read via flow OVO01.PN000630.SAR - \"SAR\",\"FUR\",\"020 3951 1052\",431872,7410293605,\"G4K00146211914\",\"160\",\"NN17 5FT\",20250930,1981,\"E\",\"B\",1635,\"E\",,\"Y\",\"OVO\",\"AR Team\",\"00\",\"Agreed\"  Request to send revised URN for 1635. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "halley.kucirka@fuseenergy.com",
+      "timestamp": "09 Feb 2026 09:42",
+      "content": "hello can you please accept the y-flow in order to issue this"
+    },
+    {
+      "message_type": "system",
+      "sender_email": "Faizan.Shakir@ovo.com",
+      "timestamp": "09 Feb 2026 09:26",
+      "content": "Communication escalated to:Final Escalation"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Prasad.Haldavanekar@ovoenergy.com",
+      "timestamp": "06 Feb 2026 14:25",
+      "content": "Hi, Xoserve is still showing read 01981 of 30/09/2025. Request to send revised URN \nfor agreed COS read 1635. Thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Faizan.Shakir@ovo.com",
+      "timestamp": "03 Feb 2026 06:54",
+      "content": "Hello, kindly update on this"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "adeeba.khalidshaikh@fuseenergy.com",
+      "timestamp": "25 Jan 2026 13:56",
+      "content": "Hi team, \nWe had sent the agreed COS read to our data collector but did not receive a response yet, hence we have re-sent it. We shall update you at the earliest."
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Faizan.Shakir@ovo.com",
+      "timestamp": "23 Jan 2026 06:57",
+      "content": "Hi, kindly update on this"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "dany.dbaibo@fuseenergy.com",
+      "timestamp": "06 Jan 2026 16:11",
+      "content": "Hi team,\n\nY flow from both parties have been sent, Archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Prashant.Kumar1@ovo.com",
+      "timestamp": "02 Jan 2026 12:56",
+      "content": "Hello, due to no response on communication with reference number SC01687628. We have escalated."
+    }
+  ],
+  "communication_id": "1698518",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7410293605",
+  "bucket": "Current"
+}

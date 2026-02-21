@@ -1,0 +1,26 @@
+{
+  "reference": "SC01750509",
+  "subject": "2433007205",
+  "escalation_level": "",
+  "from": "OCT - Octopus Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2433007205",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "xav.wilkinson@octopus.energy",
+      "timestamp": "19 Feb 2026 10:00",
+      "content": "1000039941.pdf"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "xav.wilkinson@octopus.energy",
+      "timestamp": "19 Feb 2026 09:59",
+      "content": "Hi Team, I hope you're well.\n\nPlease accept our COS dispute proposal for MPRN: 2433007205.\nCOS read submitted on 13/11/25 was 3218.\nOur proposal is 3187.\nAttached is a reading taken on 16/02/26 of 3200.\nPlease accept our proposal of 3187.\nBest,\nXav,\nOE,"
+    }
+  ],
+  "communication_id": "1750509",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "2433007205",
+  "bucket": "Current"
+}

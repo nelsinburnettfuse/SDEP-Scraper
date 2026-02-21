@@ -1,0 +1,20 @@
+{
+  "reference": "SC01738756",
+  "subject": "Disputed read",
+  "escalation_level": "",
+  "from": "GNRG - 100Green - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1100020945400",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "olena@100green.com",
+      "timestamp": "09 Feb 2026 09:28",
+      "content": "Hi Team. Please accept our dispute raised on 30/01/2026 and issue amended D086. Flat file below. Thank you\n\nFile Id 100743765\nZHV|100743765|D0300001|X|GNRG|X|FUSE|20260130113235||||OPER|\n58C|1100020945400|D|20260116||4 High Street|Kettering|||||||NN14 1RQ|Please accept read 3987. Back ups are 3798 from 11/12/25 and 3929 from 06/01/26||\n59C|23M0104989|1|\n60C|1|3246.0|A|01|3987.0|P|\nZPT|100743765|3||1|20260130113235|"
+    }
+  ],
+  "communication_id": "1738756",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100020945400",
+  "bucket": "Current"
+}

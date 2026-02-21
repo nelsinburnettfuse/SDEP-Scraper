@@ -1,0 +1,38 @@
+{
+  "reference": "SC01725870",
+  "subject": "Seeking Response",
+  "escalation_level": "First Escalation",
+  "from": "TILL - British Gas - Supplier",
+  "to": "FUSE - Fuse Energy Supply - Supplier",
+  "meter_point_number": "2336032721718",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "07 Feb 2026 12:35",
+      "content": "Hi Team, so please close ET related task & send us respond of d0301 in flow viewer, thanku"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "29 Jan 2026 05:42",
+      "content": "Hi Team, so please close ET related task & send us respond of d0301 in flow viewer, thanku"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "bianca.myers@fuseenergy.com",
+      "timestamp": "28 Jan 2026 23:54",
+      "content": "Hi team, switch was cancelled so ET not necessary. archiving"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Nilesh.Bhaisade@britishgas.co.uk",
+      "timestamp": "28 Jan 2026 12:17",
+      "content": "Hi, please send outstanding ET response. Kindly send the response ASAP to avoid any further follow ups."
+    }
+  ],
+  "communication_id": "1725870",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "2336032721718",
+  "bucket": "Current"
+}

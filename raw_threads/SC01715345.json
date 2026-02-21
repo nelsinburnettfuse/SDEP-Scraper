@@ -1,0 +1,32 @@
+{
+  "reference": "SC01715345",
+  "subject": "Opening Read 15/01",
+  "escalation_level": "",
+  "from": "FUSE - Fuse Energy Supply - Supplier",
+  "to": "MRCY - Octopus Energy - Supplier",
+  "meter_point_number": "1100050925993",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Lisa.King@octoenergy.com",
+      "timestamp": "20 Jan 2026 14:26",
+      "content": "hi team sorry ignore below, we have D10 as follows:\nFrom: Fuse Energy Supply Limited (FUSE) (Supplier)\n\nTo: Octopus Energy Limited (MRCY) (Supplier)\n\nCreated: 10:01 AM, 17th Jan 2026\n\nIdentifier: Ea5e65a7a\n\nArchive: flows/2026/01/17/40607280-FUSE_X_MRCY_X_2601190911483505930O.D0010\n\nRaw file:\n\n026|1100050925993|U|\n028|21S0019102|I|\n030|1|20260115000000|38533.9||||N|"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "norma.dlamini@octoenergy.com",
+      "timestamp": "19 Jan 2026 14:44",
+      "content": "Hi there customer has a single rate meter and the final reading on the account is 20944.2 17th Nov 2025"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "ricardo@fuseenergy.com",
+      "timestamp": "18 Jan 2026 11:23",
+      "content": "Hello Team, I hope you are well. Please may you close this customers account, we have sent you an opening read of 38533.931 kWh. This customer is on a single rate tariff so this is their reading of register 1. If required here is the full amount:\nR1: 38533.931 kWh 15/01\nR2: 2110.433 kWh on 15/01\nPlease may you close this customers account"
+    }
+  ],
+  "communication_id": "1715345",
+  "mpxn_type": "MPAN",
+  "mpxn_value": "1100050925993",
+  "bucket": "Current"
+}

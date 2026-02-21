@@ -1,0 +1,38 @@
+{
+  "reference": "SC01722500",
+  "subject": "1457915703 - disputed D86",
+  "escalation_level": "",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "STL - So Energy - Supplier",
+  "meter_point_number": "1457915703",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "oliver.garland@fuseenergy.com",
+      "timestamp": "30 Jan 2026 11:37",
+      "content": "Hi team,\n\nThe cust is on call with you currently. Please could we action this?\n\nThanks,\nOliver"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "william.ciptonugroho@fuseenergy.com",
+      "timestamp": "28 Jan 2026 12:42",
+      "content": "Hey team, can you chase the up please? The customer is concerned. Thanks!"
+    },
+    {
+      "message_type": "attachment",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "24 Jan 2026 23:08",
+      "content": "Screenshot 2026-01-24 at 23.01.33.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "andrew.lai@fuseenergy.com",
+      "timestamp": "24 Jan 2026 23:07",
+      "content": "Hey team, we have an active dispute open for customer. \nPlease see attached image of customer submission of reading of 17335 on  21/10/2025, hence your current closing read of 17450 is incorrect. Please correct customer final bill with yourselves please."
+    }
+  ],
+  "communication_id": "1722500",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1457915703",
+  "bucket": "Current"
+}

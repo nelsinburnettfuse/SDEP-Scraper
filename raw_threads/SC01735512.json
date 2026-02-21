@@ -1,0 +1,38 @@
+{
+  "reference": "SC01735512",
+  "subject": "sar response",
+  "escalation_level": "First Escalation",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1072717107",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "sabah.said@fuseenergy.com",
+      "timestamp": "19 Feb 2026 12:32",
+      "content": "Hi team, please can you send a dispute and then we will accept the read"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "19 Feb 2026 09:42",
+      "content": "Hi team, please response can you stick GT read 697 for COS date 13/01/2026, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "12 Feb 2026 08:57",
+      "content": "Hi team, please ignore previous proposal because we hold BOL read 676 date 06/01/2026, and GT read 697 date 13/01/2026, is going inline so can you stick GT read 697, thanks"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "05 Feb 2026 07:10",
+      "content": "Good day,\n\n\nWe\u2019ve raised a read dispute proposing 536 backed by 507.0 2025/08/12 and 503.0 2025/07/22 for the transfer date of \t13/01/2026.\nPlease can you take a look at our proposal and respond to our proposal.\nThanks\nThe OVO Energy Team"
+    }
+  ],
+  "communication_id": "1735512",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1072717107",
+  "bucket": "Current"
+}

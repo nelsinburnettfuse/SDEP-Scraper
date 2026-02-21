@@ -1,0 +1,20 @@
+{
+  "reference": "SC01752682",
+  "subject": "sar response",
+  "escalation_level": "",
+  "from": "OVO - OVO Energy - Supplier",
+  "to": "FUR - Fuse Energy Supply - Supplier",
+  "meter_point_number": "1028367903",
+  "messages": [
+    {
+      "message_type": "message",
+      "sender_email": "Shadab.Khan@ovo.com",
+      "timestamp": "20 Feb 2026 13:42",
+      "content": "Hi team, please ignore previous proposal, because we hold BOL read 6642 date 29/01/2026, so we have again calculated new proposal estimated read 6648 for COS date 30/01/2026 back by 6642 date 29/01/2026 and 6466 date 01/01/2026, so can you verbal agreement on our proposal, thanks"
+    }
+  ],
+  "communication_id": "1752682",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "1028367903",
+  "bucket": "Current"
+}

@@ -1,0 +1,32 @@
+{
+  "reference": "SC01742445",
+  "subject": "7639201410",
+  "escalation_level": "First Escalation",
+  "from": "FUR - Fuse Energy Supply - Supplier",
+  "to": "OCT - Octopus Energy - Supplier",
+  "meter_point_number": "7639201410",
+  "messages": [
+    {
+      "message_type": "attachment",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "11 Feb 2026 19:03",
+      "content": "Screenshot 2026-02-11 at 19.02.30.png"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "marine.rebolledo@octoenergy.com",
+      "timestamp": "11 Feb 2026 19:02",
+      "content": "Hello, here is Xoserve screenshot"
+    },
+    {
+      "message_type": "message",
+      "sender_email": "siddharth.shewale@fuseenergy.com",
+      "timestamp": "11 Feb 2026 13:45",
+      "content": "Hi Team, can you please provide meter model and capacity please? Send screenshot of GES. Thanks"
+    }
+  ],
+  "communication_id": "1742445",
+  "mpxn_type": "MPRN",
+  "mpxn_value": "7639201410",
+  "bucket": "Current"
+}
