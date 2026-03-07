@@ -51,6 +51,35 @@ COMM_ID_RE = re.compile(r"communicationId=(\d+)")
 _MSG_TS_FMTS = ("%d %b %Y %H:%M", "%d %b %Y")
 
 
+def _parse_date_str_to_date(date_str: str) -> datetime | None:
+    """Parse ECOES date string to datetime; returns None if unparseable."""
+    s = (date_str or "").strip()
+    if not s:
+        return None
+    for fmt in _MSG_TS_FMTS:
+        try:
+            return datetime.strptime(s, fmt)
+        except ValueError:
+            continue
+    return None
+
+def _date_str_to_iso(date_str: str) -> str:
+    """Convert ECOES date string to ISO 8601 for CSV so Metabase (and text sort) orders correctly. Returns original if unparseable."""
+    dt = _parse_date_str_to_date(date_str)
+    if dt is None:
+        return (date_str or "").strip()
+    return dt.strftime("%Y-%m-%d %H:%M:%S")
+
+
+def _updated_date_year(updated_date_str: str) -> int | None:
+    """
+    Parse last-edited/updated date from list row (e.g. "20 Feb 2026" or "15 Dec 2024 10:30").
+    Returns the year, or None if unparseable. Used to stop archived pass when last edited < 2025.
+    """
+    dt = _parse_date_str_to_date(updated_date_str)
+    return dt.year if dt else None
+
+
 def _last_message_year(thread_data: dict) -> int | None:
     """
     Return the year of the latest message in the thread, or None if we can't parse.
@@ -85,7 +114,7 @@ def ensure_filters_include_all(page: Page) -> None:
                 loc.check(force=True)
             except Exception:
                 pass
-    page.wait_for_timeout(500)
+    page.wait_for_timeout(200)
 
 
 def _archived_checkbox_checked(page: Page) -> bool | None:
@@ -117,7 +146,7 @@ def set_archived(page: Page, want_archived: bool) -> bool:
     # Scroll the left panel so Archived item is visible (panel may be scrollable)
     try:
         page.locator(config.ARCHIVED_ITEM_SEL).first.scroll_into_view_if_needed(timeout=2000)
-        page.wait_for_timeout(300)
+        page.wait_for_timeout(150)
     except Exception:
         pass
 
@@ -139,8 +168,8 @@ def set_archived(page: Page, want_archived: bool) -> bool:
                     loc.click(timeout=2500, force=True)
                 except Exception:
                     continue
-            for _ in range(15):
-                page.wait_for_timeout(200)
+            for _ in range(8):
+                page.wait_for_timeout(100)
                 if _archived_checkbox_checked(page) == want_archived:
                     break
             if _archived_checkbox_checked(page) == want_archived:
@@ -160,7 +189,7 @@ def set_archived(page: Page, want_archived: bool) -> bool:
                 }""",
                 want_archived,
             )
-            page.wait_for_timeout(400)
+            page.wait_for_timeout(200)
         except Exception:
             pass
 
@@ -172,7 +201,7 @@ def set_archived(page: Page, want_archived: bool) -> bool:
                 break
         except Exception:
             pass
-    page.wait_for_timeout(1500)
+    page.wait_for_timeout(600)
     return _archived_checkbox_checked(page) == want_archived
 
 
@@ -183,7 +212,7 @@ def wait_list_after_scope_change(page: Page, timeout_ms: int = 20000) -> None:
             page.locator(".infinite-scroll-load").first.wait_for(state="hidden", timeout=timeout_ms)
     except Exception:
         pass
-    page.wait_for_timeout(1000)
+    page.wait_for_timeout(400)
 
 
 def wait_list_ready(page: Page, timeout_ms: int = 60000) -> None:
@@ -275,10 +304,149 @@ def get_communication_id_from_row(row_locator) -> str:
         return ""
 
 
+def _date_from_icon_in_row(row_locator, data_original_title: str) -> str:
+    """
+    Extract date from the thread list row next to an icon with the given data-original-title.
+    Tries parent text, following sibling, then title attribute. Used for both created and updated.
+    """
+    try:
+        icon = row_locator.locator(f'span[data-original-title="{data_original_title}"]').first
+        if not icon.count():
+            return ""
+        parent = icon.locator("xpath=..")
+        if parent.count():
+            text = (parent.first.inner_text() or "").strip()
+            for label in (data_original_title, data_original_title.lower()):
+                if label and text.lower().startswith(label.lower()):
+                    text = text[len(label) :].strip()
+                    break
+            if text and re.search(r"\d", text):
+                return text
+        sibling = icon.locator("xpath=following-sibling::*").first
+        if sibling.count():
+            text = (sibling.inner_text() or "").strip()
+            if text and re.search(r"\d", text):
+                return text
+        title = (icon.get_attribute("title") or "").strip()
+        if title and re.search(r"\d", title):
+            return title
+    except Exception:
+        pass
+    return ""
+
+
+# Match ECOES date in text: "19 Feb 2026" or "19 Feb 2026 14:30"
+_DATE_IN_TEXT_RE = re.compile(
+    r"\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}(?:\s+\d{1,2}:\d{2})?"
+)
+
+
+def _dates_from_row_by_regex(row_locator) -> list[str]:
+    """
+    Get all ECOES-format dates from this row only: row_locator.inner_text() is taken from
+    the single element (one div.communication-row), then we findall(_DATE_IN_TEXT_RE).
+    Returns them in the order they appear. Used as:
+      - When 2 dates: position 0 = created_at, position 1 = updated_at.
+      - When 3+ dates: position 0 is often subject/preview; we use position 1 = created_at, position 2 = updated_at.
+    """
+    try:
+        text = (row_locator.inner_text() or "").strip()
+        if not text:
+            return []
+        return _DATE_IN_TEXT_RE.findall(text)
+    except Exception:
+        return []
+
+
+def _all_dates_from_row_in_order(row_locator) -> list[str]:
+    """
+    Find all spans in the row with data-original-title (date tooltips) and extract date text
+    in DOM order. Each icon should yield one date: we use the icon's following-sibling first
+    (so we don't take the same parent text for both). If parent has both dates, we split by
+    regex and assign by icon index. Returns list of date strings; first=created, second=updated.
+    """
+    out: list[str] = []
+    try:
+        icons = row_locator.locator("span[data-original-title]")
+        n = icons.count()
+        for i in range(n):
+            icon = icons.nth(i)
+            text = ""
+            # Prefer following-sibling: usually the date for this icon only
+            sibling = icon.locator("xpath=following-sibling::*").first
+            if sibling.count():
+                text = (sibling.inner_text() or "").strip()
+            if not text or not re.search(r"\d", text):
+                parent = icon.locator("xpath=..")
+                if parent.count():
+                    text = (parent.first.inner_text() or "").strip()
+            if not text or not re.search(r"\d", text):
+                text = (icon.get_attribute("title") or "").strip()
+            if not text or not re.search(r"\d", text):
+                continue
+            # Strip label prefixes
+            for prefix in ("Updated Date", "Created Date", "Modified Date", "Last Updated", "Updated", "Created", "Modified"):
+                if text.lower().startswith(prefix.lower()):
+                    text = text[len(prefix) :].strip()
+                    break
+            # If text has multiple dates (e.g. "19 Feb 2026 24 Feb 2026"), take the i-th one
+            dates_in_text = _DATE_IN_TEXT_RE.findall(text)
+            if len(dates_in_text) > i:
+                out.append(dates_in_text[i])
+            elif dates_in_text:
+                out.append(dates_in_text[0])
+            elif re.search(r"\d", text):
+                out.append(text)
+    except Exception:
+        pass
+    return out
+
+
+def get_created_and_updated_date_from_row(row_locator) -> tuple[str, str, str]:
+    """
+    Extract created_at and updated_at from this list row. Returns (created_at, updated_at, source).
+    source describes what was used so logs/UI can show exactly what was picked off the page.
+
+    - Primary: regex on this row's inner_text(); we take the 1st match as created_at, 2nd as updated_at.
+    - Fallback: icon-based (span[data-original-title]) in DOM order.
+    """
+    # Primary: from this row's text. When 3+ dates, 1st is often subject/preview so use 2nd=created_at, 3rd=updated_at. When 2 dates, use 1st=created_at, 2nd=updated_at.
+    by_regex = _dates_from_row_by_regex(row_locator)
+    if len(by_regex) >= 3:
+        return (by_regex[1], by_regex[2], f"row text: 2nd date={by_regex[1]!r}, 3rd date={by_regex[2]!r} ({len(by_regex)} dates in row, 1st ignored)")
+    if len(by_regex) == 2:
+        return (by_regex[0], by_regex[1], f"row text: 1st date={by_regex[0]!r}, 2nd date={by_regex[1]!r} (2 dates in row)")
+    if len(by_regex) == 1:
+        return (by_regex[0], "", f"row text: 1st date={by_regex[0]!r} (only 1 date in row)")
+
+    all_dates = _all_dates_from_row_in_order(row_locator)
+    if len(all_dates) >= 2:
+        return (all_dates[0], all_dates[1], f"row icons: 1st={all_dates[0]!r}, 2nd={all_dates[1]!r}")
+    if len(all_dates) == 1:
+        return (all_dates[0], "", "row icons: 1 date")
+    # Fallback: try title-based matching
+    created = ""
+    titles_created = getattr(config, "CREATED_DATE_TITLES", ("Updated Date",))
+    for title in titles_created:
+        created = _date_from_icon_in_row(row_locator, title)
+        if created:
+            break
+    updated = ""
+    if not created:
+        return ("", "", "none")
+    titles_updated = getattr(config, "UPDATED_DATE_TITLES", ("Modified Date", "Last Updated", "Updated"))
+    for title in titles_updated:
+        val = _date_from_icon_in_row(row_locator, title)
+        if val and val != created:
+            updated = val
+            break
+    return (created, updated, "row icons by title")
+
+
 def get_thread_rows(page: Page) -> list[dict]:
     """
-    Collect all thread rows. Each item: index, locator, communication_id.
-    Uses same row selector and communication_id extraction as Original Script.
+    Collect all thread rows. Each item: index, locator, communication_id, created_at, updated_at, dates_source.
+    dates_source says exactly what was picked (e.g. "row text: 1st date=..., 2nd date=... (2 dates in row)").
     """
     rows = page.locator(config.ROW_SEL)
     n = rows.count()
@@ -286,7 +454,15 @@ def get_thread_rows(page: Page) -> list[dict]:
     for i in range(n):
         loc = rows.nth(i)
         comm_id = get_communication_id_from_row(loc)
-        out.append({"index": i, "locator": loc, "communication_id": comm_id})
+        created_at, updated_at, dates_source = get_created_and_updated_date_from_row(loc)
+        out.append({
+            "index": i,
+            "locator": loc,
+            "communication_id": comm_id,
+            "created_at": created_at,
+            "updated_at": updated_at,
+            "dates_source": dates_source,
+        })
     return out
 
 
@@ -403,6 +579,27 @@ def parse_detail_panel_html(html: str) -> dict:
             if ":" in full:
                 return full.split(":", 1)[-1].strip()
         return ""
+
+    # Inbox/thread title at top of detail (e.g. "PT0033 - Disputed Meter Readings (Gas.) - Escalation")
+    # ECOES uses <h4 class=""> for this title; exclude label-like lines (Last Escalated, Owner, Reference, etc.)
+    _reject_title = re.compile(
+        r"^(Reference|Subject|Escalation Level|From|To|Last Escalated|Owner\s*\(.*\)):\s*",
+        re.I,
+    )
+    inbox_title = ""
+    for sel in ("h4", "h1", "h2", "h3", ".panel-title", ".detail-title", ".sec-comms-detail-header h4", ".sec-comms-detail-header h1", ".sec-comms-detail-header h2"):
+        el = soup.select_one(sel)
+        if el:
+            t = (el.get_text(strip=True) or "").strip()
+            if t and len(t) > 2 and not _reject_title.match(t):
+                inbox_title = t
+                break
+    if not inbox_title:
+        for p in soup.select(".sec-comms-detail-header p"):
+            full = (p.get_text(strip=True) or "").strip()
+            if full and not _reject_title.match(full):
+                inbox_title = full
+                break
 
     # Detail header: same logic as escalation – .sec-comms-detail-header p, get_text(strip=True), regex "Label:\s*(.+)$"
     ref = subject = from_ = to_ = escalation = ""
@@ -533,6 +730,7 @@ def parse_detail_panel_html(html: str) -> dict:
     messages = expanded
 
     return {
+        "inbox_title": inbox_title,
         "reference": ref,
         "subject": subject,
         "escalation_level": escalation,
@@ -598,14 +796,17 @@ def open_thread_and_parse(page: Page, row_info: dict) -> dict | None:
     data["mpxn_type"] = mpxn_type
     data["mpxn_value"] = mpxn_value
     data["meter_point_number"] = mpxn_value or data.get("meter_point_number", "")
+    data["created_at"] = row_info.get("created_at", "")
+    data["updated_at"] = row_info.get("updated_at", "")
     return data
 
 
 def _close_detail(page: Page) -> None:
-    """Close detail panel (Original uses Escape)."""
+    """Close detail panel (Original uses Escape). Uses CLOSE_DETAIL_MS from config when set (e.g. in fast mode)."""
     try:
         page.keyboard.press("Escape")
-        page.wait_for_timeout(200)
+        wait_ms = getattr(config, "CLOSE_DETAIL_MS", 200)
+        page.wait_for_timeout(wait_ms)
     except Exception:
         pass
 
@@ -614,6 +815,7 @@ def _thread_data_from_row_only(row_info: dict, mpxn_type: str, mpxn_value: str) 
     """Minimal thread data when detail HTML cannot be parsed."""
     return {
         "communication_id": row_info.get("communication_id", ""),
+        "inbox_title": "",
         "reference": "",
         "subject": "",
         "escalation_level": "",
@@ -622,6 +824,8 @@ def _thread_data_from_row_only(row_info: dict, mpxn_type: str, mpxn_value: str) 
         "meter_point_number": mpxn_value,
         "mpxn_type": mpxn_type,
         "mpxn_value": mpxn_value,
+        "created_at": row_info.get("created_at", ""),
+        "updated_at": row_info.get("updated_at", ""),
         "messages": [],
     }
 
@@ -636,9 +840,10 @@ def _message_direction(sender_email: str, outbound_domains: set[str] | None = No
 
 
 def _base_row(thread_data: dict) -> dict:
-    """One message row's thread-level fields (including communication_id, mpxn)."""
+    """One message row's thread-level fields (including communication_id, mpxn, created_at, updated_at)."""
     return {
         "communication_id": thread_data.get("communication_id", ""),
+        "inbox_title": thread_data.get("inbox_title", ""),
         "reference": thread_data.get("reference", ""),
         "subject": thread_data.get("subject", ""),
         "escalation_level": thread_data.get("escalation_level", ""),
@@ -648,6 +853,8 @@ def _base_row(thread_data: dict) -> dict:
         "mpxn_type": thread_data.get("mpxn_type", ""),
         "mpxn_value": thread_data.get("mpxn_value", ""),
         "meter_point_number": thread_data.get("meter_point_number", "") or thread_data.get("mpxn_value", ""),
+        "created_at": _date_str_to_iso(thread_data.get("created_at", "")),
+        "updated_at": _date_str_to_iso(thread_data.get("updated_at", "")),
     }
 
 
@@ -663,7 +870,7 @@ def message_rows_from_thread(thread_data: dict) -> list[dict]:
             "message_index": i + 1,
             "message_type": msg.get("message_type", ""),
             "sender_email": sender,
-            "message_timestamp": msg.get("timestamp", ""),
+            "message_timestamp": _date_str_to_iso(msg.get("timestamp", "")),
             "message_content": msg.get("content", ""),
             "direction": _message_direction(sender, outbound_domains),
         })
@@ -706,6 +913,9 @@ def _scrape_scope(
             open_thread_and_parse._debug_save_dom_path = None
         if data:
             data["bucket"] = bucket
+            title = data.get("inbox_title") or ""
+            if title:
+                print(f"    → {title}")
             for row in message_rows_from_thread(data):
                 all_rows.append(row)
             if save_raw_dir:
@@ -723,13 +933,23 @@ def _scrape_archived_until_new_year(
     max_archived: int | None,
     save_raw_dir: str | None,
     all_rows: list[dict],
+    stop_year: int | None = None,
+    stop_before_date: str | None = None,
 ) -> None:
     """
-    Archived pass: interleave scrolling and opening threads. Stop when we hit a thread
-    whose last message is in 2025 (or before ARCHIVED_STOP_YEAR), so we only process
-    "archived in 2026" for agent accountability and don't grind through all history.
+    Archived pass: scroll to load list, open each thread. Stop when:
+    - updated_at year <= stop_year (e.g. stop_year=2025 → stop when we hit a thread updated in 2025 or earlier), or
+    - updated_at date is on or before stop_before_date (e.g. "2025-12-31").
+    Uses updated_at from the list row; falls back to created_at if updated_at is missing.
     """
-    stop_year = getattr(config, "ARCHIVED_STOP_YEAR", 2026)
+    stop_year = stop_year if stop_year is not None else getattr(config, "ARCHIVED_STOP_YEAR", 2026)
+    stop_before_dt: datetime | None = None
+    if stop_before_date:
+        try:
+            stop_before_dt = datetime.strptime(stop_before_date.strip()[:10], "%Y-%m-%d")
+        except ValueError:
+            pass
+
     processed_ids: set[str] = set()
     prev_count = 0
 
@@ -737,27 +957,54 @@ def _scrape_archived_until_new_year(
         thread_rows = get_thread_rows(page)
         to_process = [r for r in thread_rows if r.get("communication_id") and r["communication_id"] not in processed_ids]
         if not to_process:
-            # Load more rows with a limited scroll (don't load entire list)
+            # Load more rows (infinite scroll)
             new_count = scroll_to_load_more_threads(page)
             if new_count <= prev_count:
                 break
             prev_count = new_count
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(200)
             continue
         prev_count = len(thread_rows)
 
         for row_info in to_process:
             comm_id = row_info.get("communication_id", "")
+            updated_at = row_info.get("updated_at", "").strip()
+            created_at = row_info.get("created_at", "").strip()
+            date_for_stop = updated_at or created_at
+
             if max_archived is not None and len(processed_ids) >= max_archived:
                 print(f"  [Archived] Reached --max-archived={max_archived}; stopping.")
                 return
             if not comm_id or comm_id in processed_ids:
                 continue
-            print(f"  [Archived] Thread id={comm_id} (processed {len(processed_ids) + 1} so far)")
+
+            # Stop when updated_at (or created_at fallback) meets a stop condition
+            should_stop = False
+            reason = ""
+            if date_for_stop:
+                edited_year = _updated_date_year(date_for_stop)
+                # stop_year: stop when year < stop_year (e.g. 2026 → process 2026, stop at 2025)
+                if stop_year is not None and edited_year is not None and edited_year < stop_year:
+                    should_stop = True
+                    reason = f"updated_at year {edited_year} < stop_year {stop_year}"
+                if not should_stop and stop_before_dt is not None:
+                    row_dt = _parse_date_str_to_date(date_for_stop)
+                    if row_dt is not None and row_dt.date() <= stop_before_dt.date():
+                        should_stop = True
+                        reason = f"updated_at {date_for_stop!r} is on or before {stop_before_date}"
+            if should_stop:
+                print(f"  [Archived] Stopping: {reason}")
+                return
+
+            dates_source = row_info.get("dates_source", "")
+            print(f"  [Archived] Thread id={comm_id} | created_at={created_at or '(none)'} | updated_at={updated_at or '(none)'} | picked: {dates_source} | (processed {len(processed_ids) + 1} so far)")
             data = open_thread_and_parse(page, row_info)
             processed_ids.add(comm_id)
             if data:
                 data["bucket"] = "Archived"
+                title = data.get("inbox_title") or ""
+                if title:
+                    print(f"    → {title}")
                 for row in message_rows_from_thread(data):
                     all_rows.append(row)
                 if save_raw_dir:
@@ -767,13 +1014,9 @@ def _scrape_archived_until_new_year(
                     Path(save_raw_dir).joinpath(f"{safe_ref}.json").write_text(
                         json.dumps(data, indent=2), encoding="utf-8"
                     )
-                last_year = _last_message_year(data)
-                if last_year is not None and last_year < stop_year:
-                    print(f"  [Archived] Reached thread with last message in {last_year} (before {stop_year}); stopping archived pass.")
-                    return
             page.wait_for_timeout(config.BETWEEN_THREADS_MS)
 
-        # Load more rows for next iteration
+        # Load more rows for next iteration (infinite scroll)
         scroll_to_load_more_threads(page)
         page.wait_for_timeout(400)
 
@@ -782,15 +1025,24 @@ def run_scraper(
     use_storage_state: bool = True,
     max_current: int | None = None,
     max_archived: int | None = None,
+    archived_only: bool = False,
+    fast: bool = False,
+    stop_year: int | None = None,
+    stop_before_date: str | None = None,
     output_csv: str | None = None,
+    max_rows_per_csv: int | None = None,
     save_raw_dir: str | None = None,
     save_dom_path: str | None = None,
+    save_row_dom_path: str | None = None,
 ) -> str:
     """
     Run the full scrape: first Current (non-archived) inbox, then Archived inbox.
     Each row gets a "bucket" column: "Current" or "Archived".
+    With archived_only=True, skip Current and scrape only the Archived inbox.
     Archived: we stop when we hit a thread whose last message is before ARCHIVED_STOP_YEAR
     (default 2026, i.e. last message in 2025), and we interleave scroll with opening threads.
+    If max_rows_per_csv is set (e.g. 2000), output is split into multiple CSV files
+    (e.g. base_001.csv, base_002.csv) so each can be uploaded to Metabase separately.
     """
     output_csv = output_csv or config.OUTPUT_CSV
     save_raw_dir = save_raw_dir or config.OUTPUT_RAW_DIR
@@ -799,79 +1051,150 @@ def run_scraper(
 
     all_rows: list[dict] = []
     fieldnames = [
-        "communication_id", "reference", "subject", "escalation_level", "from", "to",
-        "bucket", "mpxn_type", "mpxn_value", "meter_point_number",
+        "communication_id", "inbox_title", "reference", "subject", "escalation_level", "from", "to",
+        "bucket", "mpxn_type", "mpxn_value", "meter_point_number", "created_at", "updated_at",
         "message_index", "message_type", "sender_email", "message_timestamp", "message_content",
         "direction",
     ]
 
     browser = None
-    with sync_playwright() as p:
-        if config.USE_PERSISTENT_CONTEXT and config.SESSION_DIR:
-            Path(config.SESSION_DIR).mkdir(parents=True, exist_ok=True)
-            context = p.chromium.launch_persistent_context(
-                user_data_dir=config.SESSION_DIR,
-                headless=config.HEADLESS,
-                args=["--no-sandbox", "--disable-dev-shm-usage"],
-            )
-            page = context.new_page()
-        else:
-            browser = p[config.BROWSER].launch(headless=config.HEADLESS)
-            context_options = {}
-            if use_storage_state and Path(config.STORAGE_STATE_PATH).exists():
-                context_options["storage_state"] = config.STORAGE_STATE_PATH
-            context = browser.new_context(**context_options)
-            page = context.new_page()
-        page.set_default_timeout(30000)
-
-        try:
-            page.goto(config.APP_URL, wait_until="domcontentloaded")
-            if not config.HEADLESS:
-                print("A browser window should have opened. Log in there if you see a login page.")
+    try:
+        with sync_playwright() as p:
+            if config.USE_PERSISTENT_CONTEXT and config.SESSION_DIR:
+                Path(config.SESSION_DIR).mkdir(parents=True, exist_ok=True)
+                context = p.chromium.launch_persistent_context(
+                    user_data_dir=config.SESSION_DIR,
+                    headless=config.HEADLESS,
+                    args=["--no-sandbox", "--disable-dev-shm-usage"],
+                )
+                page = context.new_page()
             else:
-                print("Running headless (no window). To log in, run with: ECOES_HEADLESS=false")
-            print("Waiting for the communication list to load (up to 2 minutes). Make sure you're on the Secure Communications list view (Processes → Secure Communications).")
-            if not wait_list_ready_with_feedback(page, timeout_ms=120000):
-                print("The list did not appear. Check that you're logged in and on the Secure Communications page with the list of threads visible.")
+                browser = p[config.BROWSER].launch(headless=config.HEADLESS)
+                context_options = {}
+                if use_storage_state and Path(config.STORAGE_STATE_PATH).exists():
+                    context_options["storage_state"] = config.STORAGE_STATE_PATH
+                context = browser.new_context(**context_options)
+                page = context.new_page()
+            page.set_default_timeout(30000)
+
+            try:
+                page.goto(config.APP_URL, wait_until="domcontentloaded")
+                if not config.HEADLESS:
+                    print("A browser window should have opened. Log in there if you see a login page.")
+                else:
+                    print("Running headless (no window). To log in, run with: ECOES_HEADLESS=false")
+                print("Waiting for the communication list to load (up to 2 minutes). Make sure you're on the Secure Communications list view (Processes → Secure Communications).")
+                if not wait_list_ready_with_feedback(page, timeout_ms=120000):
+                    print("The list did not appear. Check that you're logged in and on the Secure Communications page with the list of threads visible.")
+                    context.close()
+                    if browser is not None:
+                        try:
+                            browser.close()
+                        except Exception:
+                            pass
+                    print("No data saved.")
+                    return output_csv
+                ensure_filters_include_all(page)
+                page.wait_for_timeout(1000)
+
+                # Save first list row HTML (for debugging created_at / updated_at selectors)
+                if save_row_dom_path:
+                    set_archived(page, archived_only)
+                    page.wait_for_timeout(200)
+                    if archived_only:
+                        wait_list_after_scope_change(page)
+                    first_row = page.locator(config.ROW_SEL).first
+                    if first_row.count():
+                        Path(save_row_dom_path).write_text(first_row.evaluate("el => el.outerHTML"), encoding="utf-8")
+                        print(f"  [debug] Wrote first list row DOM to {save_row_dom_path}")
+                    else:
+                        print("  [debug] No row found for --save-row-dom")
+
+                # Apply fast pacing for full scrapes (e.g. all of 2025)
+                if fast:
+                    config.BETWEEN_THREADS_MS = getattr(config, "FAST_BETWEEN_THREADS_MS", 80)
+                    config.CLICK_WAIT_MS = getattr(config, "FAST_CLICK_WAIT_MS", 400)
+                    config.WAIT_MPAN_MPRN_TIMEOUT_MS = getattr(config, "FAST_WAIT_MPAN_MPRN_TIMEOUT_MS", 4000)
+                    config.CLOSE_DETAIL_MS = getattr(config, "FAST_CLOSE_DETAIL_MS", 80)
+                    config.SCROLL_PAUSE_SEC = getattr(config, "FAST_SCROLL_PAUSE_SEC", 0.12)
+                    config.ARCHIVED_SCROLL_STEPS = getattr(config, "FAST_ARCHIVED_SCROLL_STEPS", 8)
+                    print("  ⚡ Fast mode: reduced waits (between threads, after open, close, panel timeout).")
+
+                if not archived_only:
+                    # Pass 1: Current (non-archived) inbox
+                    print("\n📥 Current inbox (non-archived)")
+                    set_archived(page, False)
+                    page.wait_for_timeout(200)
+                    _scrape_scope(page, "Current", max_current, save_raw_dir, save_dom_path, all_rows)
+
+                # Pass 2: Archived inbox (stop by stop_year and/or stop_before_date)
+                stop_yr = stop_year if stop_year is not None else getattr(config, "ARCHIVED_STOP_YEAR", 2026)
+                msg = f"\n📦 Archived inbox (stop when updated_at year < {stop_yr}"
+                if stop_before_date:
+                    msg += f" or on/before {stop_before_date}"
+                msg += ")"
+                print(msg)
+                if set_archived(page, True):
+                    wait_list_after_scope_change(page)
+                    _scrape_archived_until_new_year(
+                        page, max_archived, save_raw_dir, all_rows,
+                        stop_year=stop_year,
+                        stop_before_date=stop_before_date,
+                    )
+                else:
+                    print("  ⚠️ Could not switch to Archived; skipping archived pass.")
+            finally:
                 context.close()
                 if browser is not None:
                     try:
                         browser.close()
                     except Exception:
                         pass
-                print("No data saved.")
-                return output_csv
-            ensure_filters_include_all(page)
-            page.wait_for_timeout(1000)
+    except KeyboardInterrupt:
+        print("\n\nInterrupted (Ctrl+C). Saving scraped data so far...")
 
-            # Pass 1: Current (non-archived) inbox
-            print("\n📥 Current inbox (non-archived)")
-            set_archived(page, False)
-            page.wait_for_timeout(500)
-            _scrape_scope(page, "Current", max_current, save_raw_dir, save_dom_path, all_rows)
+    # Deduplicate by (communication_id, message_index) – same message in same thread = duplicate
+    seen: set[tuple[str, str | int]] = set()
+    deduped: list[dict] = []
+    dup_count = 0
+    for row in all_rows:
+        key = (str(row.get("communication_id", "")), row.get("message_index", ""))
+        if key in seen:
+            dup_count += 1
+            continue
+        seen.add(key)
+        deduped.append(row)
+    if dup_count:
+        print(f"Skipped {dup_count} duplicate message(s) (same communication_id + message_index).")
 
-            # Pass 2: Archived inbox (stop when we hit a thread last active in 2025)
-            print("\n📦 Archived inbox (stopping when last message is before start of year)")
-            if set_archived(page, True):
-                wait_list_after_scope_change(page)
-                _scrape_archived_until_new_year(page, max_archived, save_raw_dir, all_rows)
-            else:
-                print("  ⚠️ Could not switch to Archived; skipping archived pass.")
-        finally:
-            context.close()
-            if browser is not None:
-                try:
-                    browser.close()
-                except Exception:
-                    pass
+    path = Path(output_csv)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    chunk_size = max_rows_per_csv if max_rows_per_csv is not None and max_rows_per_csv > 0 else None
 
-    Path(output_csv).parent.mkdir(parents=True, exist_ok=True)
-    with open(output_csv, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
-        w.writeheader()
-        w.writerows(all_rows)
-    print(f"\nWrote {len(all_rows)} message rows to {output_csv}")
-    return output_csv
+    if chunk_size is None:
+        with open(output_csv, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(deduped)
+        print(f"Wrote {len(deduped)} message rows to {output_csv}")
+        return output_csv
+
+    # Split into multiple CSVs (e.g. base_001.csv, base_002.csv) for Metabase upload
+    stem, suffix = path.stem, path.suffix
+    if not suffix or suffix.lower() != ".csv":
+        suffix = ".csv"
+    written: list[str] = []
+    for i in range(0, len(deduped), chunk_size):
+        chunk = deduped[i : i + chunk_size]
+        part = (path.parent / f"{stem}_{(i // chunk_size) + 1:03d}{suffix}").as_posix()
+        with open(part, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(chunk)
+        written.append(part)
+        print(f"Wrote {len(chunk)} rows to {part}")
+    print(f"Wrote {len(deduped)} message rows total in {len(written)} file(s).")
+    return written[0] if written else output_csv
 
 
 if __name__ == "__main__":
@@ -894,7 +1217,38 @@ if __name__ == "__main__":
         metavar="N",
         help="Hard cap on archived threads to open. Archived pass also stops when a thread's last message is in 2025.",
     )
-    parser.add_argument("--output", default=None, help="Output CSV path")
+    parser.add_argument(
+        "--archived-only",
+        action="store_true",
+        help="Skip Current inbox and scrape only the Archived inbox.",
+    )
+    parser.add_argument(
+        "--fast",
+        action="store_true",
+        help="Faster pacing (lower waits) for full scrapes e.g. all of 2025. Uses config FAST_* values.",
+    )
+    parser.add_argument(
+        "--stop-year",
+        type=int,
+        default=None,
+        metavar="YYYY",
+        help="Archived: stop when updated_at year < YYYY (e.g. 2026 → process 2026, stop at 2025). Default from config ARCHIVED_STOP_YEAR.",
+    )
+    parser.add_argument(
+        "--stop-before",
+        type=str,
+        default=None,
+        metavar="YYYY-MM-DD",
+        help="Archived: stop when updated_at is on or before this date (e.g. 2025-12-31).",
+    )
+    parser.add_argument("--output", default=None, help="Output CSV path (base name when using --max-rows-per-csv)")
+    parser.add_argument(
+        "--max-rows-per-csv",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Split output into multiple CSV files with at most N rows each (e.g. 2000 for Metabase).",
+    )
     parser.add_argument("--save-raw", default=None, help="Directory to save per-thread JSON")
     parser.add_argument(
         "--save-dom",
@@ -902,12 +1256,24 @@ if __name__ == "__main__":
         default=None,
         help="Save the first thread's detail panel HTML to FILE (for debugging reference/subject/from/to parsing).",
     )
+    parser.add_argument(
+        "--save-row-dom",
+        metavar="FILE",
+        default=None,
+        help="Save the first list row's HTML to FILE (for debugging created_at/updated_at selectors). Use with --archived-only to capture an archived row.",
+    )
     args = parser.parse_args()
     run_scraper(
         use_storage_state=not args.no_session,
         max_current=args.max_current,
         max_archived=args.max_archived,
+        archived_only=args.archived_only,
+        fast=args.fast,
+        stop_year=args.stop_year,
+        stop_before_date=args.stop_before,
         output_csv=args.output,
+        max_rows_per_csv=args.max_rows_per_csv,
         save_raw_dir=args.save_raw,
         save_dom_path=args.save_dom,
+        save_row_dom_path=args.save_row_dom,
     )

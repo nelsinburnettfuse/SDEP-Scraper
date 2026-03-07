@@ -1,0 +1,12 @@
+[project]
+name = "ecoes-secure-comms-scraper"
+version = "0.1.0"
+description = "ECOES Secure Communications full-data scraper (all threads, all messages)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.40.0",
+    "pandas>=2.0.0",
+    "beautifulsoup4>=4.12.0",
+]
+
