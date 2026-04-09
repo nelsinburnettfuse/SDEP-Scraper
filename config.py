@@ -23,12 +23,14 @@ USE_PERSISTENT_CONTEXT = os.environ.get("ECOES_USE_PERSISTENT_CONTEXT", "true").
 # Output paths
 OUTPUT_CSV = os.environ.get("ECOES_OUTPUT_CSV", "secure_comms_messages.csv")
 OUTPUT_RAW_DIR = os.environ.get("ECOES_OUTPUT_RAW_DIR", "raw_threads")
+MANIFEST_DIR = os.environ.get("ECOES_MANIFEST_DIR", "manifests")
+LAST_RUN_FILE = os.environ.get("ECOES_LAST_RUN_FILE", "last_run.json")
 
 # Scrolling / pacing (aligned with Original)
 SCROLL_PAUSE_SEC = 0.25
 SCROLL_STAGNANT_MAX = 6
 SCROLL_MAX_LOOPS = 250
-# Archived pass: scroll in chunks so we can stop when we hit 2025 (don't load entire list at once)
+# Archived pass: scroll steps per batch (used by scroll_to_load_more_threads when called directly)
 ARCHIVED_SCROLL_STEPS = 12
 ARCHIVED_STOP_YEAR = 2026  # stop when we see a thread whose last message is before this year (e.g. 2025)
 CLICK_WAIT_MS = 2000

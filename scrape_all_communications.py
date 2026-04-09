@@ -43,12 +43,52 @@ except ImportError:
     ) from None
 
 import config
+from thread_manifest import load_previous_manifest, save_manifest, compare_manifests
 
 # Regex for communication_id from a[data-ajax-url] (same as Original Script)
 COMM_ID_RE = re.compile(r"communicationId=(\d+)")
 
 # ECOES message timestamp format e.g. "20 Feb 2026 17:07"
 _MSG_TS_FMTS = ("%d %b %Y %H:%M", "%d %b %Y")
+
+
+def _load_last_run() -> dict | None:
+    """Load the last run state from disk. Returns None if no previous run."""
+    p = Path(config.LAST_RUN_FILE)
+    if not p.exists():
+        return None
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) and "scraped_at" in data else None
+    except (json.JSONDecodeError, KeyError):
+        return None
+
+
+def _save_last_run(output_csv: str) -> None:
+    """Save current run state so the next incremental run knows where to stop."""
+    Path(config.LAST_RUN_FILE).write_text(
+        json.dumps({"scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "output_csv": output_csv}, indent=2),
+        encoding="utf-8",
+    )
+
+
+def _load_previous_csv(csv_path: str) -> list[dict]:
+    """Load rows from a previous CSV for incremental merge."""
+    p = Path(csv_path)
+    if not p.exists():
+        return []
+    with open(p, newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def _merge_csv_rows(previous_rows: list[dict], new_rows: list[dict]) -> list[dict]:
+    """
+    Merge new scraped rows into previous data.
+    For any communication_id that was re-scraped, replace all its old rows with the new ones.
+    """
+    re_scraped_ids = {str(r.get("communication_id", "")) for r in new_rows if r.get("communication_id")}
+    kept = [r for r in previous_rows if str(r.get("communication_id", "")) not in re_scraped_ids]
+    return kept + new_rows
 
 
 def _parse_date_str_to_date(date_str: str) -> datetime | None:
@@ -464,6 +504,72 @@ def get_thread_rows(page: Page) -> list[dict]:
             "dates_source": dates_source,
         })
     return out
+
+
+def collect_thread_manifest(page: Page, scroll_fn=None, incremental_since_dt: datetime | None = None) -> list[dict]:
+    """
+    Pass 1: scroll to load all threads and collect metadata without clicking.
+    Returns a list of dicts with communication_id, created_at, updated_at, dates_source.
+    No locators are stored (they go stale after DOM changes).
+    In incremental mode, stops when a thread's updated_at is before the last run.
+    """
+    if scroll_fn is None:
+        scroll_to_load_all_threads(page)
+    else:
+        scroll_fn()
+    thread_rows = get_thread_rows(page)
+    manifest = []
+    seen_ids: set[str] = set()
+    for row in thread_rows:
+        comm_id = row.get("communication_id", "")
+        if not comm_id or comm_id in seen_ids:
+            continue
+        if incremental_since_dt is not None:
+            date_str = (row.get("updated_at") or row.get("created_at") or "").strip()
+            row_dt = _parse_date_str_to_date(date_str) if date_str else None
+            if row_dt is not None and row_dt < incremental_since_dt:
+                print(f"  [Current] Incremental stop: thread {comm_id} updated_at {date_str!r} is before last run ({incremental_since_dt.strftime('%Y-%m-%d %H:%M')})")
+                break
+        seen_ids.add(comm_id)
+        manifest.append({
+            "communication_id": comm_id,
+            "created_at": row.get("created_at", ""),
+            "updated_at": row.get("updated_at", ""),
+            "dates_source": row.get("dates_source", ""),
+        })
+    return manifest
+
+
+def find_thread_in_dom(page: Page, comm_id: str):
+    """Locate a thread row by communication_id in the current DOM. Returns a row_info dict or None."""
+    link = page.locator(f'a[data-ajax-url*="communicationId={comm_id}"]').first
+    if not link.count():
+        return None
+    row_loc = link.locator("xpath=ancestor::div[contains(@class, 'communication-row')]").first
+    if not row_loc.count():
+        row_loc = link.locator("xpath=..").first
+    created_at, updated_at, dates_source = get_created_and_updated_date_from_row(row_loc)
+    return {
+        "locator": row_loc,
+        "communication_id": comm_id,
+        "created_at": created_at,
+        "updated_at": updated_at,
+        "dates_source": dates_source,
+    }
+
+
+def find_thread_with_scroll(page: Page, comm_id: str, max_scroll_attempts: int = 50):
+    """Find a thread by scrolling through the list. Returns row_info dict or None."""
+    row_info = find_thread_in_dom(page, comm_id)
+    if row_info:
+        return row_info
+    for _ in range(max_scroll_attempts):
+        page.mouse.wheel(0, 4000)
+        time.sleep(config.SCROLL_PAUSE_SEC)
+        row_info = find_thread_in_dom(page, comm_id)
+        if row_info:
+            return row_info
+    return None
 
 
 def read_mpxn(page: Page) -> tuple[str, str]:
@@ -887,6 +993,117 @@ def message_rows_from_thread(thread_data: dict) -> list[dict]:
     return rows
 
 
+MAX_RETRY_PASSES = 3
+
+
+def _process_thread_entry(
+    page: Page, entry: dict, bucket: str, save_raw_dir: str | None,
+    save_dom_path: str | None, all_rows: list[dict],
+    label: str,
+) -> bool:
+    """Try to find, open, and extract a single thread. Returns True if successful."""
+    comm_id = entry["communication_id"]
+    row_info = find_thread_with_scroll(page, comm_id)
+    if not row_info and bucket == "Archived":
+        print(f"  [{bucket}] ⚠️ Thread {comm_id} not found — recovering (re-navigate + re-toggle Archived)...")
+        page.goto(config.APP_URL)
+        if wait_list_ready_with_feedback(page) and set_archived(page, True):
+            wait_list_after_scope_change(page)
+            scroll_to_load_all_threads(page)
+            row_info = find_thread_with_scroll(page, comm_id)
+    if not row_info:
+        print(f"  [{bucket}] ⚠️ Could not find thread {comm_id} in DOM ({label}).")
+        return False
+    row_info["created_at"] = entry.get("created_at", row_info.get("created_at", ""))
+    row_info["updated_at"] = entry.get("updated_at", row_info.get("updated_at", ""))
+    if save_dom_path:
+        open_thread_and_parse._debug_save_dom_path = save_dom_path
+    data = open_thread_and_parse(page, row_info)
+    if save_dom_path:
+        open_thread_and_parse._debug_save_dom_path = None
+    if data:
+        data["bucket"] = bucket
+        title = data.get("inbox_title") or ""
+        if title:
+            print(f"    → {title}")
+        for row in message_rows_from_thread(data):
+            all_rows.append(row)
+        if save_raw_dir:
+            ref = (data.get("reference") or data.get("communication_id") or "unknown").strip()
+            safe_ref = re.sub(r"[^\w\-]", "_", ref)[:80]
+            Path(save_raw_dir).mkdir(parents=True, exist_ok=True)
+            Path(save_raw_dir).joinpath(f"{safe_ref}.json").write_text(
+                json.dumps(data, indent=2), encoding="utf-8"
+            )
+    page.wait_for_timeout(config.BETWEEN_THREADS_MS)
+    return True
+
+
+def _retry_missed_threads(
+    page: Page, missed_ids: list[str], manifest: list[dict], bucket: str,
+    save_raw_dir: str | None, all_rows: list[dict],
+    processed: set[str],
+) -> list[str]:
+    """
+    Retry threads that were missed during the main pass.
+    Scrolls back to the top and re-loads the list before each retry pass.
+    Returns IDs that are still unprocessed after all retries.
+    """
+    still_missed = list(missed_ids)
+    manifest_by_id = {e["communication_id"]: e for e in manifest}
+
+    for attempt in range(1, MAX_RETRY_PASSES + 1):
+        if not still_missed:
+            break
+        print(f"\n  [{bucket}] Retry pass {attempt}/{MAX_RETRY_PASSES}: {len(still_missed)} thread(s) to retry...")
+
+        if bucket == "Archived":
+            print(f"  [{bucket}] Re-navigating and re-toggling Archived before retry...")
+            page.goto(config.APP_URL)
+            if not wait_list_ready_with_feedback(page):
+                print(f"  [{bucket}] ⚠️ Page reload failed during retry; aborting retries.")
+                break
+            if set_archived(page, True):
+                wait_list_after_scope_change(page)
+            else:
+                print(f"  [{bucket}] ⚠️ Could not toggle Archived; aborting retries.")
+                break
+
+        page.evaluate("window.scrollTo(0, 0)")
+        page.wait_for_timeout(500)
+        scroll_to_load_all_threads(page)
+
+        remaining: list[str] = []
+        for comm_id in still_missed:
+            entry = manifest_by_id.get(comm_id, {"communication_id": comm_id})
+            created_at = entry.get("created_at", "")
+            updated_at = entry.get("updated_at", "")
+            print(f"  [{bucket}] Retry {attempt} | id={comm_id} | created_at={created_at or '(none)'} | updated_at={updated_at or '(none)'}")
+            ok = _process_thread_entry(page, entry, bucket, save_raw_dir, None, all_rows, f"retry {attempt}")
+            if ok:
+                processed.add(comm_id)
+            else:
+                remaining.append(comm_id)
+        still_missed = remaining
+        if not still_missed:
+            print(f"  [{bucket}] Retry pass {attempt}: all missed threads recovered.")
+
+    return still_missed
+
+
+def _report_scrape_results(bucket: str, manifest: list[dict], processed: set[str], missed: list[str]) -> None:
+    """Print a summary of the two-pass scrape results."""
+    total = len(manifest)
+    ok = len(processed)
+    print(f"\n  [{bucket}] Scrape complete: {ok}/{total} thread(s) processed.")
+    if missed:
+        print(f"  [{bucket}] ⚠️ {len(missed)} thread(s) could not be found after retries:")
+        for cid in missed[:20]:
+            print(f"     - {cid}")
+        if len(missed) > 20:
+            print(f"     ... and {len(missed) - 20} more")
+
+
 def _scrape_scope(
     page: Page,
     bucket: str,
@@ -894,38 +1111,99 @@ def _scrape_scope(
     save_raw_dir: str | None,
     save_dom_path: str | None,
     all_rows: list[dict],
+    incremental_since_dt: datetime | None = None,
 ) -> None:
-    """Scroll list, collect thread rows, open each and append message rows with bucket set."""
-    scroll_to_load_all_threads(page)
-    thread_rows = get_thread_rows(page)
-    total = len(thread_rows)
+    """Two-pass scrape: first collect all thread IDs by scrolling, then click into each."""
+    # Pass 1: collect full manifest without clicking
+    print(f"  [{bucket}] Pass 1: scrolling to collect thread manifest...")
+    manifest = collect_thread_manifest(page, incremental_since_dt=incremental_since_dt)
+    total = len(manifest)
+    print(f"  [{bucket}] Pass 1 complete: {total} thread(s) found.")
     if max_threads is not None:
-        thread_rows = thread_rows[:max_threads]
-    for i, row_info in enumerate(thread_rows):
-        if not row_info.get("communication_id"):
-            print(f"  [{bucket}] Thread {i + 1}/{len(thread_rows)} ⏭️ Skip (no communication_id)")
+        manifest = manifest[:max_threads]
+
+    # Pass 2: click into each thread by communication_id
+    print(f"  [{bucket}] Pass 2: opening {len(manifest)} thread(s)...")
+    processed: set[str] = set()
+    missed: list[str] = []
+    for i, entry in enumerate(manifest):
+        comm_id = entry["communication_id"]
+        created_at = entry.get("created_at", "")
+        updated_at = entry.get("updated_at", "")
+        print(f"  [{bucket}] Thread {i + 1}/{len(manifest)} (of {total} total) id={comm_id} | created_at={created_at or '(none)'} | updated_at={updated_at or '(none)'}")
+        dom_path = save_dom_path if i == 0 else None
+        ok = _process_thread_entry(page, entry, bucket, save_raw_dir, dom_path, all_rows, "pass 2")
+        if ok:
+            processed.add(comm_id)
+        else:
+            missed.append(comm_id)
+
+    # Retry pass: scroll back to top, re-load list, and try missed threads again
+    if missed:
+        missed = _retry_missed_threads(page, missed, manifest, bucket, save_raw_dir, all_rows, processed)
+
+    _report_scrape_results(bucket, manifest, processed, missed)
+
+
+def _should_stop_archived(entry: dict, stop_year: int | None, stop_before_dt: datetime | None, stop_before_date: str | None, incremental_since_dt: datetime | None = None) -> tuple[bool, str]:
+    """Check whether an archived thread entry meets the stop condition."""
+    date_for_stop = (entry.get("updated_at") or entry.get("created_at") or "").strip()
+    if not date_for_stop:
+        return False, ""
+    edited_year = _updated_date_year(date_for_stop)
+    if stop_year is not None and edited_year is not None and edited_year < stop_year:
+        return True, f"updated_at year {edited_year} < stop_year {stop_year}"
+    if stop_before_dt is not None:
+        row_dt = _parse_date_str_to_date(date_for_stop)
+        if row_dt is not None and row_dt.date() <= stop_before_dt.date():
+            return True, f"updated_at {date_for_stop!r} is on or before {stop_before_date}"
+    if incremental_since_dt is not None:
+        row_dt = _parse_date_str_to_date(date_for_stop)
+        if row_dt is not None and row_dt < incremental_since_dt:
+            return True, f"updated_at {date_for_stop!r} is before last run ({incremental_since_dt.strftime('%Y-%m-%d %H:%M')})"
+    return False, ""
+
+
+def _collect_archived_manifest(
+    page: Page,
+    stop_year: int | None,
+    stop_before_dt: datetime | None,
+    stop_before_date: str | None,
+    max_archived: int | None,
+    incremental_since_dt: datetime | None = None,
+) -> list[dict]:
+    """
+    Pass 1 for archived: scroll to load the full list (like Current inbox),
+    then collect thread metadata. Stops collecting when a thread's date meets
+    the stop condition (including incremental cutoff).
+    """
+    scroll_to_load_all_threads(page)
+
+    manifest: list[dict] = []
+    seen_ids: set[str] = set()
+    thread_rows = get_thread_rows(page)
+
+    for row in thread_rows:
+        comm_id = row.get("communication_id", "")
+        if not comm_id or comm_id in seen_ids:
             continue
-        print(f"  [{bucket}] Thread {i + 1}/{len(thread_rows)} (of {total} total) id={row_info['communication_id']}")
-        if save_dom_path:
-            open_thread_and_parse._debug_save_dom_path = save_dom_path
-        data = open_thread_and_parse(page, row_info)
-        if save_dom_path:
-            open_thread_and_parse._debug_save_dom_path = None
-        if data:
-            data["bucket"] = bucket
-            title = data.get("inbox_title") or ""
-            if title:
-                print(f"    → {title}")
-            for row in message_rows_from_thread(data):
-                all_rows.append(row)
-            if save_raw_dir:
-                ref = (data.get("reference") or data.get("communication_id") or "unknown").strip()
-                safe_ref = re.sub(r"[^\w\-]", "_", ref)[:80]
-                Path(save_raw_dir).mkdir(parents=True, exist_ok=True)
-                Path(save_raw_dir).joinpath(f"{safe_ref}.json").write_text(
-                    json.dumps(data, indent=2), encoding="utf-8"
-                )
-        page.wait_for_timeout(config.BETWEEN_THREADS_MS)
+        entry = {
+            "communication_id": comm_id,
+            "created_at": row.get("created_at", ""),
+            "updated_at": row.get("updated_at", ""),
+            "dates_source": row.get("dates_source", ""),
+        }
+        should_stop, reason = _should_stop_archived(entry, stop_year, stop_before_dt, stop_before_date, incremental_since_dt)
+        if should_stop:
+            print(f"  [Archived] Pass 1 stopping: {reason}")
+            return manifest
+        seen_ids.add(comm_id)
+        manifest.append(entry)
+        if max_archived is not None and len(manifest) >= max_archived:
+            print(f"  [Archived] Pass 1: reached --max-archived={max_archived}.")
+            return manifest
+
+    return manifest
 
 
 def _scrape_archived_until_new_year(
@@ -935,12 +1213,11 @@ def _scrape_archived_until_new_year(
     all_rows: list[dict],
     stop_year: int | None = None,
     stop_before_date: str | None = None,
+    incremental_since_dt: datetime | None = None,
 ) -> None:
     """
-    Archived pass: scroll to load list, open each thread. Stop when:
-    - updated_at year <= stop_year (e.g. stop_year=2025 → stop when we hit a thread updated in 2025 or earlier), or
-    - updated_at date is on or before stop_before_date (e.g. "2025-12-31").
-    Uses updated_at from the list row; falls back to created_at if updated_at is missing.
+    Two-pass archived scrape. Pass 1 scrolls to collect the manifest with stop conditions.
+    Pass 2 clicks into each thread.
     """
     stop_year = stop_year if stop_year is not None else getattr(config, "ARCHIVED_STOP_YEAR", 2026)
     stop_before_dt: datetime | None = None
@@ -950,75 +1227,32 @@ def _scrape_archived_until_new_year(
         except ValueError:
             pass
 
-    processed_ids: set[str] = set()
-    prev_count = 0
+    # Pass 1: collect manifest
+    print("  [Archived] Pass 1: scrolling to collect thread manifest...")
+    manifest = _collect_archived_manifest(page, stop_year, stop_before_dt, stop_before_date, max_archived, incremental_since_dt)
+    print(f"  [Archived] Pass 1 complete: {len(manifest)} thread(s) to process.")
 
-    while True:
-        thread_rows = get_thread_rows(page)
-        to_process = [r for r in thread_rows if r.get("communication_id") and r["communication_id"] not in processed_ids]
-        if not to_process:
-            # Load more rows (infinite scroll)
-            new_count = scroll_to_load_more_threads(page)
-            if new_count <= prev_count:
-                break
-            prev_count = new_count
-            page.wait_for_timeout(200)
-            continue
-        prev_count = len(thread_rows)
+    # Pass 2: click into each thread
+    print(f"  [Archived] Pass 2: opening {len(manifest)} thread(s)...")
+    processed: set[str] = set()
+    missed: list[str] = []
+    for i, entry in enumerate(manifest):
+        comm_id = entry["communication_id"]
+        created_at = entry.get("created_at", "")
+        updated_at = entry.get("updated_at", "")
+        dates_source = entry.get("dates_source", "")
+        print(f"  [Archived] Thread {i + 1}/{len(manifest)} id={comm_id} | created_at={created_at or '(none)'} | updated_at={updated_at or '(none)'} | picked: {dates_source}")
+        ok = _process_thread_entry(page, entry, "Archived", save_raw_dir, None, all_rows, "pass 2")
+        if ok:
+            processed.add(comm_id)
+        else:
+            missed.append(comm_id)
 
-        for row_info in to_process:
-            comm_id = row_info.get("communication_id", "")
-            updated_at = row_info.get("updated_at", "").strip()
-            created_at = row_info.get("created_at", "").strip()
-            date_for_stop = updated_at or created_at
+    # Retry pass: scroll back to top, re-load list, and try missed threads again
+    if missed:
+        missed = _retry_missed_threads(page, missed, manifest, "Archived", save_raw_dir, all_rows, processed)
 
-            if max_archived is not None and len(processed_ids) >= max_archived:
-                print(f"  [Archived] Reached --max-archived={max_archived}; stopping.")
-                return
-            if not comm_id or comm_id in processed_ids:
-                continue
-
-            # Stop when updated_at (or created_at fallback) meets a stop condition
-            should_stop = False
-            reason = ""
-            if date_for_stop:
-                edited_year = _updated_date_year(date_for_stop)
-                # stop_year: stop when year < stop_year (e.g. 2026 → process 2026, stop at 2025)
-                if stop_year is not None and edited_year is not None and edited_year < stop_year:
-                    should_stop = True
-                    reason = f"updated_at year {edited_year} < stop_year {stop_year}"
-                if not should_stop and stop_before_dt is not None:
-                    row_dt = _parse_date_str_to_date(date_for_stop)
-                    if row_dt is not None and row_dt.date() <= stop_before_dt.date():
-                        should_stop = True
-                        reason = f"updated_at {date_for_stop!r} is on or before {stop_before_date}"
-            if should_stop:
-                print(f"  [Archived] Stopping: {reason}")
-                return
-
-            dates_source = row_info.get("dates_source", "")
-            print(f"  [Archived] Thread id={comm_id} | created_at={created_at or '(none)'} | updated_at={updated_at or '(none)'} | picked: {dates_source} | (processed {len(processed_ids) + 1} so far)")
-            data = open_thread_and_parse(page, row_info)
-            processed_ids.add(comm_id)
-            if data:
-                data["bucket"] = "Archived"
-                title = data.get("inbox_title") or ""
-                if title:
-                    print(f"    → {title}")
-                for row in message_rows_from_thread(data):
-                    all_rows.append(row)
-                if save_raw_dir:
-                    ref = (data.get("reference") or data.get("communication_id") or "unknown").strip()
-                    safe_ref = re.sub(r"[^\w\-]", "_", ref)[:80]
-                    Path(save_raw_dir).mkdir(parents=True, exist_ok=True)
-                    Path(save_raw_dir).joinpath(f"{safe_ref}.json").write_text(
-                        json.dumps(data, indent=2), encoding="utf-8"
-                    )
-            page.wait_for_timeout(config.BETWEEN_THREADS_MS)
-
-        # Load more rows for next iteration (infinite scroll)
-        scroll_to_load_more_threads(page)
-        page.wait_for_timeout(400)
+    _report_scrape_results("Archived", manifest, processed, missed)
 
 
 def run_scraper(
@@ -1034,11 +1268,14 @@ def run_scraper(
     save_raw_dir: str | None = None,
     save_dom_path: str | None = None,
     save_row_dom_path: str | None = None,
+    incremental: bool = False,
 ) -> str:
     """
     Run the full scrape: first Current (non-archived) inbox, then Archived inbox.
     Each row gets a "bucket" column: "Current" or "Archived".
     With archived_only=True, skip Current and scrape only the Archived inbox.
+    With incremental=True, only scrape threads updated since the last run,
+    then merge new data with the previous CSV.
     Archived: we stop when we hit a thread whose last message is before ARCHIVED_STOP_YEAR
     (default 2026, i.e. last message in 2025), and we interleave scroll with opening threads.
     If max_rows_per_csv is set (e.g. 2000), output is split into multiple CSV files
@@ -1046,6 +1283,28 @@ def run_scraper(
     """
     output_csv = output_csv or config.OUTPUT_CSV
     save_raw_dir = save_raw_dir or config.OUTPUT_RAW_DIR
+
+    incremental_since_dt: datetime | None = None
+    previous_csv_path: str | None = None
+    if incremental:
+        last_run = _load_last_run()
+        if last_run is None:
+            print("⚠️ No previous run found (last_run.json missing). Falling back to full scrape.")
+            incremental = False
+        else:
+            try:
+                incremental_since_dt = datetime.strptime(last_run["scraped_at"], "%Y-%m-%d %H:%M:%S")
+            except (ValueError, KeyError):
+                print("⚠️ Could not parse last run timestamp. Falling back to full scrape.")
+                incremental = False
+            else:
+                previous_csv_path = last_run.get("output_csv")
+                print(f"📈 Incremental mode: only scraping threads updated since {incremental_since_dt.strftime('%Y-%m-%d %H:%M')}")
+                if previous_csv_path and Path(previous_csv_path).exists():
+                    print(f"   Will merge with previous CSV: {previous_csv_path}")
+                else:
+                    print(f"   ⚠️ Previous CSV not found at {previous_csv_path!r}; incremental data only (no merge).")
+                    previous_csv_path = None
     if save_raw_dir:
         Path(save_raw_dir).mkdir(parents=True, exist_ok=True)
 
@@ -1125,13 +1384,22 @@ def run_scraper(
                     print("\n📥 Current inbox (non-archived)")
                     set_archived(page, False)
                     page.wait_for_timeout(200)
-                    _scrape_scope(page, "Current", max_current, save_raw_dir, save_dom_path, all_rows)
+                    _scrape_scope(page, "Current", max_current, save_raw_dir, save_dom_path, all_rows, incremental_since_dt=incremental_since_dt)
+
+                    # Full page reload to reset DOM/scroll state before switching to Archived
+                    print("\n🔄 Reloading page before Archived pass...")
+                    page.goto(config.APP_URL)
+                    if not wait_list_ready_with_feedback(page):
+                        print("  ⚠️ Page reload failed; skipping archived pass.")
+                        raise KeyboardInterrupt
 
                 # Pass 2: Archived inbox (stop by stop_year and/or stop_before_date)
                 stop_yr = stop_year if stop_year is not None else getattr(config, "ARCHIVED_STOP_YEAR", 2026)
                 msg = f"\n📦 Archived inbox (stop when updated_at year < {stop_yr}"
                 if stop_before_date:
                     msg += f" or on/before {stop_before_date}"
+                if incremental_since_dt:
+                    msg += f" or before last run {incremental_since_dt.strftime('%Y-%m-%d %H:%M')}"
                 msg += ")"
                 print(msg)
                 if set_archived(page, True):
@@ -1140,6 +1408,7 @@ def run_scraper(
                         page, max_archived, save_raw_dir, all_rows,
                         stop_year=stop_year,
                         stop_before_date=stop_before_date,
+                        incremental_since_dt=incremental_since_dt,
                     )
                 else:
                     print("  ⚠️ Could not switch to Archived; skipping archived pass.")
@@ -1167,6 +1436,45 @@ def run_scraper(
     if dup_count:
         print(f"Skipped {dup_count} duplicate message(s) (same communication_id + message_index).")
 
+    # Incremental merge: combine new rows with previous CSV
+    if incremental and previous_csv_path:
+        new_thread_count = len({str(r.get("communication_id", "")) for r in deduped if r.get("communication_id")})
+        print(f"\n📈 Incremental merge: {len(deduped)} new rows from {new_thread_count} thread(s)")
+        previous_rows = _load_previous_csv(previous_csv_path)
+        if previous_rows:
+            print(f"   Loaded {len(previous_rows)} rows from previous CSV ({previous_csv_path})")
+            deduped = _merge_csv_rows(previous_rows, deduped)
+            print(f"   Merged total: {len(deduped)} rows")
+        else:
+            print(f"   No previous rows loaded; using new data only.")
+
+    # Thread manifest (skip for incremental since we only scraped a subset)
+    if not incremental:
+        current_thread_ids = {str(r["communication_id"]) for r in deduped if r.get("communication_id")}
+        previous = load_previous_manifest(config.MANIFEST_DIR)
+        diff = compare_manifests(current_thread_ids, previous)
+
+        if diff["first_run"]:
+            print(f"\n📋 First run — recorded {diff['current_count']} thread(s) in manifest.")
+        else:
+            print(f"\n📋 Thread manifest comparison (vs {diff['previous_scraped_at']}):")
+            print(f"   Previous: {diff['previous_count']} threads")
+            print(f"   Current:  {diff['current_count']} threads")
+            print(f"   New:      {diff['new_count']}")
+            print(f"   Gone:     {diff['disappeared_count']}")
+            if diff["new_count"] > 0:
+                ids_preview = ", ".join(diff["new_threads"][:20])
+                print(f"   New IDs:  {ids_preview}")
+                if diff["new_count"] > 20:
+                    print(f"             ... and {diff['new_count'] - 20} more")
+            if diff["disappeared_count"] > 0:
+                ids_preview = ", ".join(diff["disappeared_threads"][:20])
+                print(f"   Gone IDs: {ids_preview}")
+                if diff["disappeared_count"] > 20:
+                    print(f"             ... and {diff['disappeared_count'] - 20} more")
+
+        save_manifest(current_thread_ids, config.MANIFEST_DIR)
+
     path = Path(output_csv)
     path.parent.mkdir(parents=True, exist_ok=True)
     chunk_size = max_rows_per_csv if max_rows_per_csv is not None and max_rows_per_csv > 0 else None
@@ -1177,6 +1485,7 @@ def run_scraper(
             w.writeheader()
             w.writerows(deduped)
         print(f"Wrote {len(deduped)} message rows to {output_csv}")
+        _save_last_run(output_csv)
         return output_csv
 
     # Split into multiple CSVs (e.g. base_001.csv, base_002.csv) for Metabase upload
@@ -1194,6 +1503,7 @@ def run_scraper(
         written.append(part)
         print(f"Wrote {len(chunk)} rows to {part}")
     print(f"Wrote {len(deduped)} message rows total in {len(written)} file(s).")
+    _save_last_run(written[0] if written else output_csv)
     return written[0] if written else output_csv
 
 
@@ -1221,6 +1531,11 @@ if __name__ == "__main__":
         "--archived-only",
         action="store_true",
         help="Skip Current inbox and scrape only the Archived inbox.",
+    )
+    parser.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Only scrape threads updated since the last run, then merge with previous CSV. Requires a prior full run.",
     )
     parser.add_argument(
         "--fast",
@@ -1268,6 +1583,7 @@ if __name__ == "__main__":
         max_current=args.max_current,
         max_archived=args.max_archived,
         archived_only=args.archived_only,
+        incremental=args.incremental,
         fast=args.fast,
         stop_year=args.stop_year,
         stop_before_date=args.stop_before,
