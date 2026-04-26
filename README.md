@@ -1,140 +1,172 @@
-# ECOES Secure Communications – full-data scraper
+# ECOES Secure Communications scraper
 
-Scrapes **all** Secure Communications threads (Initiated + Recipient), opens each thread, and extracts every message plus thread-level fields. Output is one CSV row per message so you can filter and run statistics on the ground data.
+Scrapes every Secure Communications thread on `www.ecoes.co.uk` (Initiated + Recipient, Current + Archived), opens each thread, and writes one CSV row per message. Built on Playwright + a persistent browser profile so login carries over across runs.
 
-**Logic is aligned with Original Script.py:** same URL (`www.ecoes.co.uk`), row selector (`div.communication-row`), scroll behaviour (mouse wheel + `.infinite-scroll-load`), opening threads via `a[data-ajax-url]` and `GetCommunication` response, `communication_id` from the link, and MPAN/MPRN read from `input[placeholder='MPAN']` / `input[placeholder='MPRN']` (digits-only, same as Original). Session uses a **persistent browser context** (`ecoes_session/`) by default so you log in once like the Original.
+The output is designed to be uploaded straight into an analytics tool (e.g. Metabase) — `bucket`, `direction`, `created_at`, `updated_at` and `message_timestamp` are all populated so backlog / response-rate / agent-activity queries can be written downstream.
 
-## What it does
+## What the script does, end to end
 
-1. Opens the Secure Communications index page (`https://www.ecoes.co.uk/SecureCommunications/Index`).
-2. Waits for the list (`div.communication-row`), then ensures **Initiated** and **Recipient** are selected.
-3. Scrolls with mouse wheel until the list is fully loaded (waits for `.infinite-scroll-load` to hide, same as Original).
-4. For each row: gets `communication_id` from `a[data-ajax-url]`, clicks that link, waits for the detail panel (and optionally the GetCommunication response), reads **MPAN/MPRN** from the page (same as Original), parses `#communication-detail` for Reference, Subject, From, To, messages, etc., then closes the panel with Escape.
-5. Writes a CSV with **one row per message** and optional per-thread JSON under `raw_threads/`.
+1. **Launches Playwright Chromium** against `https://www.ecoes.co.uk/SecureCommunications/Index` using a persistent browser profile (`ecoes_session/`). First run is interactive (log in once); subsequent runs reuse the profile.
+2. **Ensures both inboxes** (`Initiated` + `Recipient`) are selected so all communications are visible.
+3. **Pass 1 — Current inbox.** Scrolls the list with mouse-wheel events until `.infinite-scroll-load` clears, then for each `div.communication-row`:
+   - reads `communication_id` from `a[data-ajax-url]`,
+   - reads `created_at` / `updated_at` from the row icons,
+   - clicks to open `#communication-detail`, waits for `GetCommunication`,
+   - reads MPAN / MPRN from the panel,
+   - parses Reference, Subject, Escalation Level, From, To, and every message in the thread,
+   - closes the panel with Escape.
+4. **Pass 2 — Archived inbox.** Reloads, toggles the Archived folder, and repeats the above. Stops as soon as a thread's `updated_at` year is below `ARCHIVED_STOP_YEAR` (default `2026`, i.e. stops at 2025) or before `--stop-before YYYY-MM-DD`. Scroll and open are interleaved to avoid loading the entire archive.
+5. **Deduplicates** by `(communication_id, message_index)`.
+6. **Incremental merge** (if `--incremental`): only scrapes threads updated since the last run (with a 2-day safety buffer), verifies that threads in the day-2 → day-1 buffer zone match the previous CSV (consistency check; warns if not), then merges new rows over old ones in `secure_comms_messages.csv`.
+7. **Thread manifest** (`manifests/latest_manifest.json`): records the full set of `communication_id`s for this run and prints a diff against the previous manifest (new threads, disappeared threads). Previous manifest is archived locally as `manifests/manifest_<timestamp>.json` for audit (gitignored).
+8. **Data quality report** (`dq_report.json`, gitignored): runs structured checks and prints a summary. Flags include:
+   - `empty_detail` — thread has no messages (panel likely failed to load)
+   - `missing_metadata` — no `inbox_title` or `reference`
+   - `missing_mpxn` — no MPAN/MPRN
+   - `date_inversion` — `created_at > updated_at`
+   - `dual_bucket` — same thread appears in both Current and Archived
+   - `empty_content` — message row with empty body
+   - `missing_sender` — message row with no sender email
+9. **Writes the CSV** (`secure_comms_messages.csv`), or splits it into `*_001.csv`, `*_002.csv`, … chunks with `--max-rows-per-csv` (handy for Metabase upload limits).
+10. **Stamps `last_run.json`** with the run timestamp + output path so the next `--incremental` run knows where to pick up.
+
+## Repo layout
+
+| File | Role |
+|------|------|
+| `scrape_all_communications.py` | Main scraper (Playwright). All the orchestration, scrolling, parsing, dedup, merging. |
+| `config.py` | URLs, selectors, pacing, fast-mode constants, env-var overrides. |
+| `data_quality.py` | Post-scrape consistency checks → `dq_report.json`. Also runnable standalone on any CSV. |
+| `thread_manifest.py` | Cross-run consistency: persists thread IDs and diffs vs previous run. |
+| `login_and_save_session.py` | Optional one-off helper to save a `storage_state` JSON instead of using the persistent profile. |
+| `pyproject.toml` / `requirements.txt` / `uv.lock` | Dependencies (`playwright`, `beautifulsoup4`). |
+| `manifests/latest_manifest.json` | Source of truth for the new-vs-disappeared-thread diff. |
+
+Generated at runtime, gitignored: `secure_comms_messages*.csv`, `raw_threads/`, `ecoes_session/`, `dq_report.json`, `last_run.json`, archived `manifests/manifest_*.json`.
 
 ## Setup
 
-Using **uv** (recommended):
+With **uv** (recommended):
 
 ```bash
-cd ecoes_secure_comms_scraper
 uv sync
 uv run playwright install chromium
 ```
 
-Or with **pip**:
+With **pip**:
 
 ```bash
-cd ecoes_secure_comms_scraper
 pip install -r requirements.txt
 playwright install chromium
 ```
 
-- `uv sync` creates a virtual environment (if needed), installs dependencies from `pyproject.toml`, and locks them. Run the scraper with `uv run python scrape_all_communications.py` so it uses that environment.
-- To install from `requirements.txt` with uv instead: `uv pip install -r requirements.txt`, then `uv run python scrape_all_communications.py`.
+## First-time login
 
-## Login (required)
-
-The site requires authentication. By default the scraper uses a **persistent context** (browser profile in `ecoes_session/`), same as Original Script:
-
-1. Run with the browser visible so you can log in the first time:
-   ```bash
-   ECOES_HEADLESS=false uv run python scrape_all_communications.py --max-threads 2
-   ```
-   (Omit `uv run` if you're using pip and an activated venv.)
-2. Log in when prompted. Once the list appears, the run continues; future runs will reuse the same profile and stay logged in.
-
-To use a saved JSON session instead (e.g. from `login_and_save_session.py`), set `ECOES_USE_PERSISTENT_CONTEXT=false` and ensure `ecoes_session.json` exists.
-
-## Running the scraper
-
-If you used **uv** for setup, prefix with `uv run`:
+The site requires auth. The default flow is a persistent browser profile (`ecoes_session/`):
 
 ```bash
-# Use persistent context (ecoes_session/) and scrape all threads
-uv run python scrape_all_communications.py
-
-# Limit to 10 threads (e.g. for testing)
-uv run python scrape_all_communications.py --max-threads 10
-
-# Custom output and raw JSON directory
-uv run python scrape_all_communications.py --output my_export.csv --save-raw ./raw_threads
-
-# Fresh run without saved session
-uv run python scrape_all_communications.py --no-session
+ECOES_HEADLESS=false uv run python scrape_all_communications.py --max-current 2
 ```
 
-With **pip** and an activated venv, run the same commands without `uv run` (e.g. `python scrape_all_communications.py`).
+Log in when the window opens. Once the list appears, the run continues. Future runs reuse the same profile and stay logged in (run them headless if you like).
 
-## Configuration
+To use a saved JSON session instead of a persistent profile, run `python login_and_save_session.py` once and then set `ECOES_USE_PERSISTENT_CONTEXT=false`.
 
-Edit `config.py` or use environment variables:
+## Running
 
-- `ECOES_BASE_URL` – base URL (default `https://www.ecoes.co.uk`, same as Original)
-- `ECOES_HEADLESS` – `true` / `false`
-- `ECOES_SESSION_DIR` – persistent context directory (default `ecoes_session/`)
-- `ECOES_USE_PERSISTENT_CONTEXT` – `true` to use persistent context (default), `false` to use storage_state JSON
-- `ECOES_STORAGE_STATE` – path to saved session JSON when not using persistent context
-- `ECOES_OUTPUT_CSV`, `ECOES_OUTPUT_RAW_DIR` – output paths
+```bash
+# Default: Current then Archived, stopping when archived hits 2025
+uv run python scrape_all_communications.py
 
-## Selectors (aligned with Original Script)
+# Smoke test: only the first 5 Current threads
+uv run python scrape_all_communications.py --max-current 5
 
-- **Row:** `div.communication-row` (`config.ROW_SEL`)
-- **Open thread:** `a[data-ajax-url]` on each row (URL contains `communicationId=`)
-- **Detail panel:** `#communication-detail`
-- **MPAN/MPRN:** `input[placeholder='MPAN']`, `input[placeholder='MPRN']` in the open panel
+# Only the Archived pass
+uv run python scrape_all_communications.py --archived-only
 
-Parsing of the detail panel (Reference, Subject, messages, etc.) is in `parse_detail_panel_html()`. If the site’s HTML structure changes, adjust the `label_value()` calls and message selectors there.
+# Fast pacing for a full scrape (lower per-thread waits)
+uv run python scrape_all_communications.py --fast
+
+# Incremental: only scrape what's changed since last run, merge into previous CSV
+uv run python scrape_all_communications.py --incremental
+
+# Cap archived depth + custom stop boundary
+uv run python scrape_all_communications.py --max-archived 200 --stop-before 2025-12-31
+
+# Split output for Metabase upload limits
+uv run python scrape_all_communications.py --max-rows-per-csv 2000
+
+# Debugging selectors
+uv run python scrape_all_communications.py --save-dom debug_panel.html --max-current 1
+uv run python scrape_all_communications.py --save-row-dom debug_row.html --archived-only
+```
+
+All flags:
+
+| Flag | Purpose |
+|------|---------|
+| `--no-session` | Don't use saved session (fresh login). |
+| `--max-current N` | Cap threads opened in the Current pass. |
+| `--max-archived N` | Cap threads opened in the Archived pass. |
+| `--archived-only` | Skip Current; scrape only Archived. |
+| `--incremental` | Only re-scrape threads updated since the last run (2-day buffer) and merge. |
+| `--fast` | Use `FAST_*` config values for lower per-thread waits. |
+| `--stop-year YYYY` | Archived: stop when `updated_at` year < YYYY. |
+| `--stop-before YYYY-MM-DD` | Archived: stop when `updated_at` ≤ this date. |
+| `--output PATH` | Output CSV path (base name when chunking). |
+| `--max-rows-per-csv N` | Split output into `_001.csv`, `_002.csv`, … with at most N rows each. |
+| `--save-raw DIR` | Save per-thread JSON dumps under `DIR/`. |
+| `--save-dom FILE` | Dump the first thread's `#communication-detail` HTML for debugging. |
+| `--save-row-dom FILE` | Dump the first list row's HTML for debugging date selectors. |
+
+## Configuration (env vars / `config.py`)
+
+| Variable | Default | What it does |
+|----------|---------|--------------|
+| `ECOES_BASE_URL` | `https://www.ecoes.co.uk` | Site base URL. |
+| `ECOES_HEADLESS` | `false` | `true` for unattended runs. |
+| `ECOES_BROWSER` | `chromium` | Playwright browser. |
+| `ECOES_SESSION_DIR` | `ecoes_session/` | Persistent browser profile dir. |
+| `ECOES_USE_PERSISTENT_CONTEXT` | `true` | Set `false` to use a `storage_state` JSON instead. |
+| `ECOES_STORAGE_STATE` | `ecoes_session.json` | JSON session file when not using persistent context. |
+| `ECOES_OUTPUT_CSV` | `secure_comms_messages.csv` | Output path. |
+| `ECOES_OUTPUT_RAW_DIR` | `raw_threads` | Per-thread JSON dump dir. |
+| `ECOES_MANIFEST_DIR` | `manifests` | Where thread manifests are stored. |
+| `ECOES_LAST_RUN_FILE` | `last_run.json` | Tracks last-run timestamp for `--incremental`. |
+| `ECOES_DQ_REPORT_FILE` | `dq_report.json` | Where the data-quality report is written. |
+
+Pacing (`SCROLL_PAUSE_SEC`, `BETWEEN_THREADS_MS`, `CLICK_WAIT_MS`, `WAIT_MPAN_MPRN_TIMEOUT_MS`, …) and selectors (`ROW_SEL`, `SELECTOR_DETAIL_PANEL`, `SELECTOR_THREAD_LINK`, `ARCHIVED_*`) live in `config.py` — adjust there when ECOES changes its DOM.
 
 ## Output CSV columns
 
 | Column | Description |
 |--------|-------------|
-| communication_id | From row link `data-ajax-url` (same as Original) |
-| reference | Thread reference (e.g. SC01706124) |
-| subject | Thread subject |
-| escalation_level | e.g. Final Escalation |
-| from | Sender party |
-| to | Recipient party |
-| last_escalation | Last escalated date |
-| owner | Owner (FUSE) if present |
-| mpxn_type | MPAN or MPRN (same as Original, text) |
-| mpxn_value | Digits-only meter number (same as Original) |
-| meter_point_number | Same as mpxn_value for compatibility |
-| message_index | 1-based index of message in thread |
-| message_type | e.g. reply, escalation |
-| sender_email | Sender email for this message |
-| message_timestamp | Message date/time |
-| message_content | Message body (truncated if very long) |
+| `communication_id` | From row link `data-ajax-url` (`communicationId=...`). |
+| `inbox_title` | `Initiated` / `Recipient` from the inbox header. |
+| `reference` | Thread reference (e.g. `SC01706124`). |
+| `subject` | Thread subject. |
+| `escalation_level` | E.g. `Final Escalation`. |
+| `from`, `to` | Sender / recipient parties. |
+| `bucket` | `Current` or `Archived` — which pass scraped this row. |
+| `mpxn_type`, `mpxn_value` | `MPAN` / `MPRN` and digits-only meter number. |
+| `meter_point_number` | Same as `mpxn_value`, kept for downstream compatibility. |
+| `created_at`, `updated_at` | ISO datetimes parsed from the row's pencil/clock icons. |
+| `message_index` | 1-based index of the message within the thread. |
+| `message_type` | E.g. `reply`, `escalation`. |
+| `sender_email` | Sender email for this message. |
+| `message_timestamp` | ISO datetime of the message. |
+| `message_content` | Body text (truncated for very long messages). |
+| `direction` | `outbound` if `sender_email` domain ∈ `OUTBOUND_EMAIL_DOMAINS` (default `fuseenergy.com`), else `inbound`. |
 
-## Statistics on the ground data
+## Consistency checks (built into every run)
 
-Use the message-level CSV for:
+- **Dedup** by `(communication_id, message_index)`.
+- **Buffer-zone verification** (`--incremental` only): threads in the day-2 → day-1 window are re-scraped and compared message-for-message with the previous CSV; mismatches print a warning telling you to widen the buffer.
+- **Thread manifest diff** (`manifests/latest_manifest.json`): new and disappeared `communication_id`s vs the previous run.
+- **Data quality report** (`dq_report.json`): `empty_detail`, `missing_metadata`, `missing_mpxn`, `date_inversion`, `dual_bucket`, `empty_content`, `missing_sender`.
 
-- **Responses per day** – count rows where `sender_email` is your domain (e.g. `@fuseenergy.com`) and group by date.
-- **Backlog over time** – define “open” threads (e.g. no reply from us after `last_escalation`) and count by day.
-- **Agent activity** – group by `sender_email` or `owner` to see who is replying most.
-
-Example script:
+To re-run the data quality checks against an existing CSV without scraping:
 
 ```bash
-python stats_from_ground_data.py secure_comms_messages.csv --our-domain fuseenergy.com
+uv run python data_quality.py secure_comms_messages.csv --output dq_report.json
 ```
-
-You can extend `stats_from_ground_data.py` with pandas to add more metrics (e.g. escalation level distribution, time-to-reply per thread).
-
-## Hosting on GitHub
-
-1. **Create a new repository** on GitHub (e.g. `ecoes_secure_comms_scraper`). Do *not* add a README, .gitignore, or license yet if you want to push this existing repo.
-
-2. **Add the remote and push** (replace `YOUR_USERNAME` and `REPO_NAME` with your GitHub user and repo name):
-
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. **Session and secrets**: `.gitignore` is set so `ecoes_session/`, `ecoes_session.json`, `*.csv`, and `raw_threads/` are not committed. Never add real session files or credentials to the repo.
