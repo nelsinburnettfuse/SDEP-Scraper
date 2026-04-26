@@ -16,3 +16,11 @@ ecoes_session.json
 # Scraped output (optional: remove *.csv if you want to track sample data)
 *.csv
 raw_threads/
+
+# Scraper runtime artefacts (regenerated each run)
+dq_report.json
+last_run.json
+manifests/manifest_*.json
+
+# macOS
+.DS_Store
