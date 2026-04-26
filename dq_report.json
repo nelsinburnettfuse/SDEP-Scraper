@@ -1,0 +1,712 @@
+{
+  "generated_at": "2026-04-24T01:09:53.035487+00:00",
+  "total_rows": 14666,
+  "total_threads": 3479,
+  "flagged_thread_count": 75,
+  "flagged_threads": [
+    "1554681",
+    "1598803",
+    "1618220",
+    "1635414",
+    "1635846",
+    "1636180",
+    "1647495",
+    "1649127",
+    "1650677",
+    "1662065",
+    "1663481",
+    "1663836",
+    "1664064",
+    "1664228",
+    "1675870",
+    "1679972",
+    "1682632",
+    "1683700",
+    "1686634",
+    "1690533",
+    "1694850",
+    "1697427",
+    "1697706",
+    "1704067",
+    "1704301",
+    "1704984",
+    "1710257",
+    "1711826",
+    "1714381",
+    "1717576",
+    "1719496",
+    "1722472",
+    "1726002",
+    "1728198",
+    "1728393",
+    "1735218",
+    "1736180",
+    "1736726",
+    "1738346",
+    "1741586",
+    "1742699",
+    "1747247",
+    "1747434",
+    "1749207",
+    "1750624",
+    "1753265",
+    "1753420",
+    "1753755",
+    "1754800",
+    "1759577",
+    "1762760",
+    "1764379",
+    "1766692",
+    "1767988",
+    "1768823",
+    "1770421",
+    "1770580",
+    "1772170",
+    "1773052",
+    "1773173",
+    "1778685",
+    "1783385",
+    "1784325",
+    "1785880",
+    "1785921",
+    "1788509",
+    "1790602",
+    "1791275",
+    "1792815",
+    "1793758",
+    "1796217",
+    "1804240",
+    "1813924",
+    "1816402",
+    "1817774"
+  ],
+  "summary": {
+    "by_check": {
+      "missing_mpxn": 73,
+      "empty_detail": 1,
+      "missing_metadata": 1,
+      "date_inversion": 1,
+      "empty_content": 1
+    },
+    "by_severity": {
+      "medium": 75,
+      "high": 2
+    }
+  },
+  "flags": [
+    {
+      "check": "empty_detail",
+      "severity": "high",
+      "communication_id": "1704301",
+      "detail": "Thread has no messages \u2014 detail panel likely failed to load",
+      "bucket": "Archived",
+      "created_at": "2026-01-07 00:00:00",
+      "updated_at": "2026-02-06 00:00:00"
+    },
+    {
+      "check": "missing_metadata",
+      "severity": "high",
+      "communication_id": "1704301",
+      "detail": "Missing: inbox_title, reference",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1762760",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1790602",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0069 - Missing Read (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1636180",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0069 - Missing Read (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1738346",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1683700",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1728393",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1796217",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0043 - Contract Manager Query (Gas) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1772170",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0031 - Contract Manager Query (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1759577",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1793758",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1788509",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0031 - Contract Manager Query (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1770421",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0030 - Address Management (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1736726",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1773173",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1785880",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0031 - Contract Manager Query (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1783385",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0071 - Missing Read (Elec.) - Escalation",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1749207",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1773052",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1770580",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1767988",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0020 - Erroneous Transfer Re-registration (Elec.) - Escalation",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1768823",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1741586",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0069 - Missing Read (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1753420",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0077 - Crossed Meters (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1742699",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1747247",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1754800",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0069 - Missing Read (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1735218",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1711826",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1722472",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1714381",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0070 - Missing Read (Gas) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1686634",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0074 - Address Management (Elec.) - Escalation",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1618220",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0043 - Contract Manager Query (Gas) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1791275",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1697706",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1697427",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1778685",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0013 - Erroneous Transfers (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1664064",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1663836",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1649127",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1764379",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0013 - Erroneous Transfers (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1785921",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0071 - Missing Read (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1753755",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0031 - Contract Manager Query (Elec.) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1750624",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1704067",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0047 - Erroneous Transfers (Elec.) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1728198",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0013 - Erroneous Transfers (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1719496",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0071 - Missing Read (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1747434",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0013 - Erroneous Transfers (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1736180",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1635414",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1675870",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1766692",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0013 - Erroneous Transfers (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1647495",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0066 - Crossed Meters (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1753265",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0071 - Missing Read (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1704984",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0020 - Erroneous Transfer Re-registration (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1704301",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1690533",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1554681",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1682632",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0012 - Disputed Meter Readings (Elec.) \u2013 Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1650677",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0071 - Missing Read (Elec.) - Escalation",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1710257",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1726002",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0069 - Missing Read (Elec.) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1679972",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0046 - Disputed Meter Readings (Gas) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1813924",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0078 - Missing MTDs (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1817774",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1804240",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0078 - Missing MTDs (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1717576",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1662065",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0046 - Disputed Meter Readings (Gas) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1816402",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0078 - Missing MTDs (Elec.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1784325",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0055 - Crossed Meters (Gas.) - General Query",
+      "bucket": "Current"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1663481",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1635846",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0070 - Missing Read (Gas) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1694850",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0045 - Disputed Meter Readings (Elec.) \u2013 General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "missing_mpxn",
+      "severity": "medium",
+      "communication_id": "1598803",
+      "detail": "No MPAN/MPRN value",
+      "inbox_title": "PT0046 - Disputed Meter Readings (Gas) - General Query",
+      "bucket": "Archived"
+    },
+    {
+      "check": "date_inversion",
+      "severity": "medium",
+      "communication_id": "1792815",
+      "detail": "created_at (2026-03-02 00:00:00) > updated_at (2026-03-01 00:00:00)",
+      "bucket": "Archived"
+    },
+    {
+      "check": "empty_content",
+      "severity": "medium",
+      "communication_id": "1664228",
+      "detail": "message_index 1 has no content",
+      "bucket": "Current"
+    }
+  ]
+}

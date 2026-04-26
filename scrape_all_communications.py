@@ -30,7 +30,7 @@ import csv
 import json
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright, Page, TimeoutError as PlaywrightTimeout
@@ -44,6 +44,7 @@ except ImportError:
 
 import config
 from thread_manifest import load_previous_manifest, save_manifest, compare_manifests
+from data_quality import run_quality_checks, print_report, save_report
 
 # Regex for communication_id from a[data-ajax-url] (same as Original Script)
 COMM_ID_RE = re.compile(r"communicationId=(\d+)")
@@ -67,7 +68,7 @@ def _load_last_run() -> dict | None:
 def _save_last_run(output_csv: str) -> None:
     """Save current run state so the next incremental run knows where to stop."""
     Path(config.LAST_RUN_FILE).write_text(
-        json.dumps({"scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "output_csv": output_csv}, indent=2),
+        json.dumps({"scraped_at": datetime.now(timezone.utc).isoformat(), "output_csv": output_csv}, indent=2),
         encoding="utf-8",
     )
 
@@ -89,6 +90,67 @@ def _merge_csv_rows(previous_rows: list[dict], new_rows: list[dict]) -> list[dic
     re_scraped_ids = {str(r.get("communication_id", "")) for r in new_rows if r.get("communication_id")}
     kept = [r for r in previous_rows if str(r.get("communication_id", "")) not in re_scraped_ids]
     return kept + new_rows
+
+
+def _rows_for_thread(rows: list[dict], comm_id: str) -> list[tuple[str, str]]:
+    """Return sorted (message_index, message_content) pairs for a thread."""
+    return sorted(
+        (str(r.get("message_index", "")), str(r.get("message_content", "")))
+        for r in rows
+        if str(r.get("communication_id", "")) == comm_id
+    )
+
+
+def _verify_buffer_zone(
+    new_rows: list[dict],
+    previous_rows: list[dict],
+    scrape_cutoff_dt: datetime,
+    verify_cutoff_dt: datetime,
+) -> None:
+    """
+    Check that threads in the verification zone (scrape_cutoff → verify_cutoff)
+    have no content changes compared to the previous CSV. These are threads from
+    the 2nd buffer day that we already scraped last time -- if they changed, it
+    means the 1-day buffer wasn't sufficient.
+    """
+    new_by_id: dict[str, list[dict]] = {}
+    for r in new_rows:
+        cid = str(r.get("communication_id", ""))
+        if cid:
+            new_by_id.setdefault(cid, []).append(r)
+
+    verify_ids: set[str] = set()
+    for cid, rows in new_by_id.items():
+        date_str = (rows[0].get("updated_at") or rows[0].get("created_at") or "").strip()
+        row_dt = _parse_date_str_to_date(date_str)
+        if row_dt is not None and scrape_cutoff_dt <= row_dt < verify_cutoff_dt:
+            verify_ids.add(cid)
+
+    if not verify_ids:
+        print(f"\n🔍 Verification zone: no threads to verify (none in day-2 → day-1 window)")
+        return
+
+    changed_ids: list[str] = []
+    new_only_ids: list[str] = []
+    for cid in sorted(verify_ids):
+        old_messages = _rows_for_thread(previous_rows, cid)
+        new_messages = _rows_for_thread(new_rows, cid)
+        if not old_messages:
+            new_only_ids.append(cid)
+        elif old_messages != new_messages:
+            changed_ids.append(cid)
+
+    total_checked = len(verify_ids)
+    print(f"\n🔍 Verification zone ({scrape_cutoff_dt.strftime('%Y-%m-%d')} → {verify_cutoff_dt.strftime('%Y-%m-%d')}): checked {total_checked} thread(s)")
+
+    if not changed_ids and not new_only_ids:
+        print(f"   ✅ All {total_checked} thread(s) match previous data — buffer is sufficient")
+    else:
+        if changed_ids:
+            print(f"   ⚠️  {len(changed_ids)} thread(s) had content changes: {', '.join(changed_ids)}")
+        if new_only_ids:
+            print(f"   ⚠️  {len(new_only_ids)} thread(s) are new (not in previous CSV): {', '.join(new_only_ids)}")
+        print(f"   ⚠️  Consider increasing the buffer if this recurs")
 
 
 def _parse_date_str_to_date(date_str: str) -> datetime | None:
@@ -1285,6 +1347,8 @@ def run_scraper(
     save_raw_dir = save_raw_dir or config.OUTPUT_RAW_DIR
 
     incremental_since_dt: datetime | None = None
+    incremental_original_dt: datetime | None = None
+    incremental_verify_dt: datetime | None = None
     previous_csv_path: str | None = None
     if incremental:
         last_run = _load_last_run()
@@ -1293,13 +1357,21 @@ def run_scraper(
             incremental = False
         else:
             try:
-                incremental_since_dt = datetime.strptime(last_run["scraped_at"], "%Y-%m-%d %H:%M:%S")
+                raw_ts = last_run["scraped_at"]
+                try:
+                    incremental_original_dt = datetime.fromisoformat(raw_ts).replace(tzinfo=None)
+                except ValueError:
+                    incremental_original_dt = datetime.strptime(raw_ts, "%Y-%m-%d %H:%M:%S")
             except (ValueError, KeyError):
                 print("⚠️ Could not parse last run timestamp. Falling back to full scrape.")
                 incremental = False
             else:
+                incremental_verify_dt = incremental_original_dt - timedelta(days=1)
+                incremental_since_dt = incremental_original_dt - timedelta(days=2)
                 previous_csv_path = last_run.get("output_csv")
-                print(f"📈 Incremental mode: only scraping threads updated since {incremental_since_dt.strftime('%Y-%m-%d %H:%M')}")
+                print(f"📈 Incremental mode: last run at {incremental_original_dt.strftime('%Y-%m-%d %H:%M')}")
+                print(f"   Scraping back to {incremental_since_dt.strftime('%Y-%m-%d %H:%M')} (2-day buffer)")
+                print(f"   Verification zone: {incremental_since_dt.strftime('%Y-%m-%d %H:%M')} → {incremental_verify_dt.strftime('%Y-%m-%d %H:%M')} (expect 0 changes)")
                 if previous_csv_path and Path(previous_csv_path).exists():
                     print(f"   Will merge with previous CSV: {previous_csv_path}")
                 else:
@@ -1443,6 +1515,11 @@ def run_scraper(
         previous_rows = _load_previous_csv(previous_csv_path)
         if previous_rows:
             print(f"   Loaded {len(previous_rows)} rows from previous CSV ({previous_csv_path})")
+
+            # Verification: threads in day-2 → day-1 zone should have no content changes
+            if incremental_verify_dt and incremental_since_dt:
+                _verify_buffer_zone(deduped, previous_rows, incremental_since_dt, incremental_verify_dt)
+
             deduped = _merge_csv_rows(previous_rows, deduped)
             print(f"   Merged total: {len(deduped)} rows")
         else:
@@ -1474,6 +1551,12 @@ def run_scraper(
                     print(f"             ... and {diff['disappeared_count'] - 20} more")
 
         save_manifest(current_thread_ids, config.MANIFEST_DIR)
+
+    # Data quality checks
+    dq_report = run_quality_checks(deduped)
+    print_report(dq_report)
+    save_report(dq_report, config.DQ_REPORT_FILE)
+    print(f"\n   Full report saved to {config.DQ_REPORT_FILE}")
 
     path = Path(output_csv)
     path.parent.mkdir(parents=True, exist_ok=True)

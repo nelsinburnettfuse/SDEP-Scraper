@@ -25,6 +25,7 @@ OUTPUT_CSV = os.environ.get("ECOES_OUTPUT_CSV", "secure_comms_messages.csv")
 OUTPUT_RAW_DIR = os.environ.get("ECOES_OUTPUT_RAW_DIR", "raw_threads")
 MANIFEST_DIR = os.environ.get("ECOES_MANIFEST_DIR", "manifests")
 LAST_RUN_FILE = os.environ.get("ECOES_LAST_RUN_FILE", "last_run.json")
+DQ_REPORT_FILE = os.environ.get("ECOES_DQ_REPORT_FILE", "dq_report.json")
 
 # Scrolling / pacing (aligned with Original)
 SCROLL_PAUSE_SEC = 0.25
